@@ -1,1 +1,0 @@
-/Users/gaogao/Documents/Hermes/design-atlas/.agents/skills/design-atlas/SKILL.md
