@@ -134,7 +134,9 @@
       "tokens": "systems/rds-01-mac-system-7/tokens.css",
       "style_md": "systems/rds-01-mac-system-7/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/01-mac-system-7/",
-      "preview": "systems/rds-01-mac-system-7/preview.png"
+      "preview": "systems/rds-01-mac-system-7/preview.png",
+      "one_liner": "黑白灰的企鹅蛋时代。每个像素都经过手工调校的 bevel 和 dither。",
+      "best_for": "复古 Mac 应用、极简工具类 UI、pixel-perfect 设计致敬"
     },
     {
       "id": "rds-02-windows-95",
@@ -166,7 +168,9 @@
       "tokens": "systems/rds-02-windows-95/tokens.css",
       "style_md": "systems/rds-02-windows-95/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/02-windows-95/",
-      "preview": "systems/rds-02-windows-95/preview.png"
+      "preview": "systems/rds-02-windows-95/preview.png",
+      "one_liner": "3D 凸起边框 + Teal 桌面背景——定义了整个 90 年代的桌面计算体验。",
+      "best_for": "复古软件 UI、Retro web 游戏、怀旧主题 landing page、Y2K 复古项目\n    42|\n    43|## 参考\n    44|\n    45|- 原仓库：https://github.com/novusgfx/retro-design-system\n    46|- 在线预览：https://novusgfx.github.io/retro-design-system/styles/02-windows-95/\n    47|"
     },
     {
       "id": "rds-03-windows-xp-luna",
@@ -199,7 +203,9 @@
       "tokens": "systems/rds-03-windows-xp-luna/tokens.css",
       "style_md": "systems/rds-03-windows-xp-luna/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/03-windows-xp-luna/",
-      "preview": "systems/rds-03-windows-xp-luna/preview.png"
+      "preview": "systems/rds-03-windows-xp-luna/preview.png",
+      "one_liner": "蓝天白云草地。千禧年后的乐观主义，用塑料质感包裹一切。",
+      "best_for": "怀旧主题、Y2K 复古设计、over-the-top 的装饰风格"
     },
     {
       "id": "rds-04-aqua-osx",
@@ -232,7 +238,9 @@
       "tokens": "systems/rds-04-aqua-osx/tokens.css",
       "style_md": "systems/rds-04-aqua-osx/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/04-aqua-osx/",
-      "preview": "systems/rds-04-aqua-osx/preview.png"
+      "preview": "systems/rds-04-aqua-osx/preview.png",
+      "one_liner": "水滴、凝胶、条纹。苹果把'lickable'变成设计语言。",
+      "best_for": "macOS 怀旧、拟物化 UI、高品质工具栏设计"
     },
     {
       "id": "rds-05-amiga-workbench",
@@ -262,7 +270,9 @@
       "tokens": "systems/rds-05-amiga-workbench/tokens.css",
       "style_md": "systems/rds-05-amiga-workbench/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/05-amiga-workbench/",
-      "preview": "systems/rds-05-amiga-workbench/preview.png"
+      "preview": "systems/rds-05-amiga-workbench/preview.png",
+      "one_liner": "四个色块就能构建一个操作系统。Amiga 的限制即美学。",
+      "best_for": "极客工具、复古计算致敬、限制色板挑战"
     },
     {
       "id": "rds-06-nextstep",
@@ -295,7 +305,9 @@
       "tokens": "systems/rds-06-nextstep/tokens.css",
       "style_md": "systems/rds-06-nextstep/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/06-nextstep/",
-      "preview": "systems/rds-06-nextstep/preview.png"
+      "preview": "systems/rds-06-nextstep/preview.png",
+      "one_liner": "NeXT 灰 + 排版网格。Tim Berners-Lee 写第一个浏览器的界面。",
+      "best_for": "开发工具 IDE、专业软件界面、极简灰色调设计"
     },
     {
       "id": "rds-07-beos",
@@ -328,7 +340,9 @@
       "tokens": "systems/rds-07-beos/tokens.css",
       "style_md": "systems/rds-07-beos/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/07-beos/",
-      "preview": "systems/rds-07-beos/preview.png"
+      "preview": "systems/rds-07-beos/preview.png",
+      "one_liner": "Be 灰 + 黄色标签栏。被 Apple 拒绝的操作系统，却有着最优雅的 tab。",
+      "best_for": "多媒体工具、专业编辑器、信息密集型界面"
     },
     {
       "id": "rds-08-teletext",
@@ -361,7 +375,9 @@
       "tokens": "systems/rds-08-teletext/tokens.css",
       "style_md": "systems/rds-08-teletext/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/08-teletext/",
-      "preview": "systems/rds-08-teletext/preview.png"
+      "preview": "systems/rds-08-teletext/preview.png",
+      "one_liner": "7 色 + 块状光标。1974 年的信息高速公路。",
+      "best_for": "复古信息看板、新闻 Ticker、数字遗产致敬"
     },
     {
       "id": "rds-09-crt-phosphor",
@@ -391,7 +407,9 @@
       "tokens": "systems/rds-09-crt-phosphor/tokens.css",
       "style_md": "systems/rds-09-crt-phosphor/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/09-crt-phosphor/",
-      "preview": "systems/rds-09-crt-phosphor/preview.png"
+      "preview": "systems/rds-09-crt-phosphor/preview.png",
+      "one_liner": "荧光绿在黑暗中发光——早期 CRT 显示器的磷光美学。",
+      "best_for": "终端模拟器 UI、黑客/安全主题界面、监控/日志 dashboard、复古科技产品页\n    42|\n    43|## 参考\n    44|\n    45|- 原仓库：https://github.com/novusgfx/retro-design-system\n    46|- 在线预览：https://novusgfx.github.io/retro-design-system/styles/09-crt-phosphor/\n    47|"
     },
     {
       "id": "rds-10-dos-cga",
@@ -424,7 +442,9 @@
       "tokens": "systems/rds-10-dos-cga/tokens.css",
       "style_md": "systems/rds-10-dos-cga/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/10-dos-cga/",
-      "preview": "systems/rds-10-dos-cga/preview.png"
+      "preview": "systems/rds-10-dos-cga/preview.png",
+      "one_liner": "4 色的地狱。青色、品红、白色、黑色——这就是你能用的全部。",
+      "best_for": "极限制色挑战、复古游戏、像素艺术"
     },
     {
       "id": "rds-11-8bit-arcade",
@@ -457,7 +477,9 @@
       "tokens": "systems/rds-11-8bit-arcade/tokens.css",
       "style_md": "systems/rds-11-8bit-arcade/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/11-8bit-arcade/",
-      "preview": "systems/rds-11-8bit-arcade/preview.png"
+      "preview": "systems/rds-11-8bit-arcade/preview.png",
+      "one_liner": "INSERT COIN。霓虹和像素，街机厅的视觉记忆。",
+      "best_for": "游戏 UI、复古主题、互动娱乐项目"
     },
     {
       "id": "rds-12-frutiger-aero",
@@ -488,7 +510,9 @@
       "tokens": "systems/rds-12-frutiger-aero/tokens.css",
       "style_md": "systems/rds-12-frutiger-aero/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/12-frutiger-aero/",
-      "preview": "systems/rds-12-frutiger-aero/preview.png"
+      "preview": "systems/rds-12-frutiger-aero/preview.png",
+      "one_liner": "水滴、泡泡、蓝天草地。2007 年的乐观主义视觉宣言。",
+      "best_for": "怀旧 Web 2.0、积极向上的品牌设计、bubble/emoji 风格 UI"
     },
     {
       "id": "rds-13-winamp-skin",
@@ -521,7 +545,9 @@
       "tokens": "systems/rds-13-winamp-skin/tokens.css",
       "style_md": "systems/rds-13-winamp-skin/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/13-winamp-skin/",
-      "preview": "systems/rds-13-winamp-skin/preview.png"
+      "preview": "systems/rds-13-winamp-skin/preview.png",
+      "one_liner": "It really whips the llama's ass! 千禧年的皮肤文化。",
+      "best_for": "音乐播放器、多媒体工具、千禧年怀旧主题"
     },
     {
       "id": "rds-14-geocities-web10",
@@ -554,7 +580,9 @@
       "tokens": "systems/rds-14-geocities-web10/tokens.css",
       "style_md": "systems/rds-14-geocities-web10/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/14-geocities-web10/",
-      "preview": "systems/rds-14-geocities-web10/preview.png"
+      "preview": "systems/rds-14-geocities-web10/preview.png",
+      "one_liner": "会动的 GIF、midi 背景音乐、visitor counter。互联网的野生时代。",
+      "best_for": "复古网页、互联网考古、反设计实验"
     },
     {
       "id": "rds-15-cassette-futurism",
@@ -587,7 +615,9 @@
       "tokens": "systems/rds-15-cassette-futurism/tokens.css",
       "style_md": "systems/rds-15-cassette-futurism/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/15-cassette-futurism/",
-      "preview": "systems/rds-15-cassette-futurism/preview.png"
+      "preview": "systems/rds-15-cassette-futurism/preview.png",
+      "one_liner": "磁带、Walkman、CRT。70-80 年代对未来科技的想象。",
+      "best_for": "科幻设定、复古未来主义项目、音乐硬件 UI"
     },
     {
       "id": "rds-16-vaporwave",
@@ -620,7 +650,9 @@
       "tokens": "systems/rds-16-vaporwave/tokens.css",
       "style_md": "systems/rds-16-vaporwave/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/16-vaporwave/",
-      "preview": "systems/rds-16-vaporwave/preview.png"
+      "preview": "systems/rds-16-vaporwave/preview.png",
+      "one_liner": "粉紫青 + 罗马柱 + Windows 95。消费主义的赛博废墟。",
+      "best_for": "音乐封面、艺术项目、赛博朋克美学、反讽设计"
     },
     {
       "id": "rds-17-memphis",
@@ -652,7 +684,9 @@
       "tokens": "systems/rds-17-memphis/tokens.css",
       "style_md": "systems/rds-17-memphis/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/17-memphis/",
-      "preview": "systems/rds-17-memphis/preview.png"
+      "preview": "systems/rds-17-memphis/preview.png",
+      "one_liner": "撒一把彩色几何形状。80 年代孟菲斯设计集团的派对。",
+      "best_for": "派对海报、时尚品牌、80 年代复古、Playful landing page"
     },
     {
       "id": "rds-18-ps1-tech",
@@ -685,7 +719,9 @@
       "tokens": "systems/rds-18-ps1-tech/tokens.css",
       "style_md": "systems/rds-18-ps1-tech/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/18-ps1-tech/",
-      "preview": "systems/rds-18-ps1-tech/preview.png"
+      "preview": "systems/rds-18-ps1-tech/preview.png",
+      "one_liner": "低多边形 + 抖动纹理。PS1 时代的 3D 启蒙。",
+      "best_for": "游戏 UI、复古 3D 项目、PS1 风格致敬"
     },
     {
       "id": "rds-19-os2-warp",
@@ -718,7 +754,9 @@
       "tokens": "systems/rds-19-os2-warp/tokens.css",
       "style_md": "systems/rds-19-os2-warp/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/19-os2-warp/",
-      "preview": "systems/rds-19-os2-warp/preview.png"
+      "preview": "systems/rds-19-os2-warp/preview.png",
+      "one_liner": "IBM 蓝 + 深色 3D 控件。企业级桌面的最后荣光。",
+      "best_for": "企业级软件、系统工具、90 年代桌面模拟"
     },
     {
       "id": "rds-20-macos9-platinum",
@@ -751,7 +789,9 @@
       "tokens": "systems/rds-20-macos9-platinum/tokens.css",
       "style_md": "systems/rds-20-macos9-platinum/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/20-macos9-platinum/",
-      "preview": "systems/rds-20-macos9-platinum/preview.png"
+      "preview": "systems/rds-20-macos9-platinum/preview.png",
+      "one_liner": "铂金灰 + 条纹纹理。Mac OS 经典时代的终章。",
+      "best_for": "Mac 经典致敬、极简灰色工具、精致 UI 细节研究"
     },
     {
       "id": "rds-21-web20-glossy",
@@ -784,7 +824,9 @@
       "tokens": "systems/rds-21-web20-glossy/tokens.css",
       "style_md": "systems/rds-21-web20-glossy/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/21-web20-glossy/",
-      "preview": "systems/rds-21-web20-glossy/preview.png"
+      "preview": "systems/rds-21-web20-glossy/preview.png",
+      "one_liner": "beta 标签 + 巨大 glossy 按钮 + AJAX 加载动画。",
+      "best_for": "Web 2.0 怀旧、SaaS 产品致敬、千禧年风格 UI"
     },
     {
       "id": "rds-22-gameboy-dmg",
@@ -817,7 +859,9 @@
       "tokens": "systems/rds-22-gameboy-dmg/tokens.css",
       "style_md": "systems/rds-22-gameboy-dmg/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/22-gameboy-dmg/",
-      "preview": "systems/rds-22-gameboy-dmg/preview.png"
+      "preview": "systems/rds-22-gameboy-dmg/preview.png",
+      "one_liner": "四色绿。口袋妖怪的故乡，限制即创意。",
+      "best_for": "像素游戏、极简设计、限制色板创意"
     },
     {
       "id": "rds-23-braun-rams",
@@ -850,7 +894,9 @@
       "tokens": "systems/rds-23-braun-rams/tokens.css",
       "style_md": "systems/rds-23-braun-rams/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/23-braun-rams/",
-      "preview": "systems/rds-23-braun-rams/preview.png"
+      "preview": "systems/rds-23-braun-rams/preview.png",
+      "one_liner": "Less, but better。Dieter Rams 的十个原则，影响了 Jonathan Ive。",
+      "best_for": "工业设计、极简工具、高端品牌"
     },
     {
       "id": "rds-24-tron-vector",
@@ -882,7 +928,9 @@
       "tokens": "systems/rds-24-tron-vector/tokens.css",
       "style_md": "systems/rds-24-tron-vector/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/24-tron-vector/",
-      "preview": "systems/rds-24-tron-vector/preview.png"
+      "preview": "systems/rds-24-tron-vector/preview.png",
+      "one_liner": "霓虹线框 + 纯黑背景。把世界简化为 wireframe。",
+      "best_for": "科技/科幻主题、游戏 UI、未来主义设计"
     },
     {
       "id": "rds-25-vhs-tracking",
@@ -915,7 +963,9 @@
       "tokens": "systems/rds-25-vhs-tracking/tokens.css",
       "style_md": "systems/rds-25-vhs-tracking/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/25-vhs-tracking/",
-      "preview": "systems/rds-25-vhs-tracking/preview.png"
+      "preview": "systems/rds-25-vhs-tracking/preview.png",
+      "one_liner": "录像带追踪错位 + 色彩偏移。模拟时代的故障美学。",
+      "best_for": "恐怖/惊悚主题、复古记忆项目、音乐 MV、Found footage 风格"
     },
     {
       "id": "rds-26-risograph",
@@ -948,7 +998,9 @@
       "tokens": "systems/rds-26-risograph/tokens.css",
       "style_md": "systems/rds-26-risograph/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/26-risograph/",
-      "preview": "systems/rds-26-risograph/preview.png"
+      "preview": "systems/rds-26-risograph/preview.png",
+      "one_liner": "双孔版印刷。颜色对不齐才是味道。",
+      "best_for": "独立出版、海报设计、艺术 zine、手工感品牌"
     },
     {
       "id": "rds-27-ibm-3270",
@@ -981,7 +1033,9 @@
       "tokens": "systems/rds-27-ibm-3270/tokens.css",
       "style_md": "systems/rds-27-ibm-3270/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/27-ibm-3270/",
-      "preview": "systems/rds-27-ibm-3270/preview.png"
+      "preview": "systems/rds-27-ibm-3270/preview.png",
+      "one_liner": "绿色字 + 黑底。半个世纪的企业计算，一屏搞定。",
+      "best_for": "企业级终端界面、TUI 应用、高密度信息展示"
     },
     {
       "id": "rds-28-nethack-ascii",
@@ -1014,7 +1068,9 @@
       "tokens": "systems/rds-28-nethack-ascii/tokens.css",
       "style_md": "systems/rds-28-nethack-ascii/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/28-nethack-ascii/",
-      "preview": "systems/rds-28-nethack-ascii/preview.png"
+      "preview": "systems/rds-28-nethack-ascii/preview.png",
+      "one_liner": "ASCII 字符就是整个世界。@ 是你，d 是狗，D 是龙。",
+      "best_for": "Roguelike 游戏、终端 UI、ASCII 艺术项目"
     },
     {
       "id": "rds-29-templeos",
@@ -1047,7 +1103,9 @@
       "tokens": "systems/rds-29-templeos/tokens.css",
       "style_md": "systems/rds-29-templeos/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/29-templeos/",
-      "preview": "systems/rds-29-templeos/preview.png"
+      "preview": "systems/rds-29-templeos/preview.png",
+      "one_liner": "上帝的操作系统。16 色 VGA + 神谕文字。",
+      "best_for": "极客艺术、实验性界面、反主流设计"
     },
     {
       "id": "rds-30-bbs-ansi",
@@ -1080,7 +1138,9 @@
       "tokens": "systems/rds-30-bbs-ansi/tokens.css",
       "style_md": "systems/rds-30-bbs-ansi/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/30-bbs-ansi/",
-      "preview": "systems/rds-30-bbs-ansi/preview.png"
+      "preview": "systems/rds-30-bbs-ansi/preview.png",
+      "one_liner": "16 色 ANSI 艺术。拨号上网时代的赛博朋克。",
+      "best_for": "复古赛博文化、终端欢迎画面、ASCII 艺术"
     },
     {
       "id": "rds-31-midnight-commander",
@@ -1113,7 +1173,9 @@
       "tokens": "systems/rds-31-midnight-commander/tokens.css",
       "style_md": "systems/rds-31-midnight-commander/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/31-midnight-commander/",
-      "preview": "systems/rds-31-midnight-commander/preview.png"
+      "preview": "systems/rds-31-midnight-commander/preview.png",
+      "one_liner": "双面板文件管理。键盘飞人的效率美学。",
+      "best_for": "文件管理器、TUI 应用、键盘驱动的工具界面"
     },
     {
       "id": "rds-32-matrix-rain",
@@ -1144,7 +1206,9 @@
       "tokens": "systems/rds-32-matrix-rain/tokens.css",
       "style_md": "systems/rds-32-matrix-rain/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/32-matrix-rain/",
-      "preview": "systems/rds-32-matrix-rain/preview.png"
+      "preview": "systems/rds-32-matrix-rain/preview.png",
+      "one_liner": "绿色数字雨。The Matrix 的视觉标志，黑客美学的代名词。",
+      "best_for": "黑客主题、代码动画、赛博朋克背景"
     },
     {
       "id": "rds-33-btop-meters",
@@ -1177,7 +1241,9 @@
       "tokens": "systems/rds-33-btop-meters/tokens.css",
       "style_md": "systems/rds-33-btop-meters/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/33-btop-meters/",
-      "preview": "systems/rds-33-btop-meters/preview.png"
+      "preview": "systems/rds-33-btop-meters/preview.png",
+      "one_liner": "现代终端仪表盘。系统监控也能赏心悦目。",
+      "best_for": "系统监控仪表盘、CLI 数据可视化、现代终端工具"
     },
     {
       "id": "rds-34-c64-basic",
@@ -1210,7 +1276,9 @@
       "tokens": "systems/rds-34-c64-basic/tokens.css",
       "style_md": "systems/rds-34-c64-basic/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/34-c64-basic/",
-      "preview": "systems/rds-34-c64-basic/preview.png"
+      "preview": "systems/rds-34-c64-basic/preview.png",
+      "one_liner": "READY. 光标在闪烁。8 位色的童年。",
+      "best_for": "8 位致敬、编程教育、复古计算演示"
     },
     {
       "id": "rds-35-flat-2013",
@@ -1243,7 +1311,9 @@
       "tokens": "systems/rds-35-flat-2013/tokens.css",
       "style_md": "systems/rds-35-flat-2013/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/35-flat-2013/",
-      "preview": "systems/rds-35-flat-2013/preview.png"
+      "preview": "systems/rds-35-flat-2013/preview.png",
+      "one_liner": "一切都是 flat。Windows 8 和 iOS 7 的设计革命。",
+      "best_for": "现代 Web 应用、内容平台、极简工具 UI"
     },
     {
       "id": "rds-36-glassmorphism",
@@ -1271,7 +1341,9 @@
       "tokens": "systems/rds-36-glassmorphism/tokens.css",
       "style_md": "systems/rds-36-glassmorphism/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/36-glassmorphism/",
-      "preview": "systems/rds-36-glassmorphism/preview.png"
+      "preview": "systems/rds-36-glassmorphism/preview.png",
+      "one_liner": "磨砂玻璃 + 模糊背景。Apple 和微软都在追的未来感。",
+      "best_for": "现代 SaaS 仪表盘、iOS/macOS 风格 UI、浮层和弹窗"
     },
     {
       "id": "rds-37-neumorphism",
@@ -1302,7 +1374,9 @@
       "tokens": "systems/rds-37-neumorphism/tokens.css",
       "style_md": "systems/rds-37-neumorphism/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/37-neumorphism/",
-      "preview": "systems/rds-37-neumorphism/preview.png"
+      "preview": "systems/rds-37-neumorphism/preview.png",
+      "one_liner": "软 UI。光从四面八方来，按钮从背景里'长'出来。",
+      "best_for": "设置面板、计算器、智能家居控制、安静的工具类 UI"
     },
     {
       "id": "rds-38-blueprint-cad",
@@ -1334,7 +1408,9 @@
       "tokens": "systems/rds-38-blueprint-cad/tokens.css",
       "style_md": "systems/rds-38-blueprint-cad/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/38-blueprint-cad/",
-      "preview": "systems/rds-38-blueprint-cad/preview.png"
+      "preview": "systems/rds-38-blueprint-cad/preview.png",
+      "one_liner": "蓝底白线。工程师的浪漫。",
+      "best_for": "技术文档、建筑/工程主题、蓝图风格信息图"
     },
     {
       "id": "rds-39-claymorphism",
@@ -1367,7 +1443,9 @@
       "tokens": "systems/rds-39-claymorphism/tokens.css",
       "style_md": "systems/rds-39-claymorphism/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/39-claymorphism/",
-      "preview": "systems/rds-39-claymorphism/preview.png"
+      "preview": "systems/rds-39-claymorphism/preview.png",
+      "one_liner": "黏土 UI。圆润、膨膨的、让人想捏一下。",
+      "best_for": "儿童应用、友好型 SaaS、Playful 产品页面"
     },
     {
       "id": "rds-40-brutalist-web",
@@ -1400,7 +1478,9 @@
       "tokens": "systems/rds-40-brutalist-web/tokens.css",
       "style_md": "systems/rds-40-brutalist-web/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/40-brutalist-web/",
-      "preview": "systems/rds-40-brutalist-web/preview.png"
+      "preview": "systems/rds-40-brutalist-web/preview.png",
+      "one_liner": "Times New Roman + 系统蓝链接 + 零 CSS。你的浏览器就是画布。",
+      "best_for": "个人博客、宣言页面、反设计实验、学术内容"
     },
     {
       "id": "rds-41-swiss-intl",
@@ -1429,7 +1509,9 @@
       "tokens": "systems/rds-41-swiss-intl/tokens.css",
       "style_md": "systems/rds-41-swiss-intl/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/41-swiss-intl/",
-      "preview": "systems/rds-41-swiss-intl/preview.png"
+      "preview": "systems/rds-41-swiss-intl/preview.png",
+      "one_liner": "网格 + Helvetica + 红色。现代主义设计的圣经。",
+      "best_for": "企业品牌、设计作品集、博物馆、学术期刊"
     },
     {
       "id": "rds-42-bauhaus",
@@ -1459,7 +1541,9 @@
       "tokens": "systems/rds-42-bauhaus/tokens.css",
       "style_md": "systems/rds-42-bauhaus/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/42-bauhaus/",
-      "preview": "systems/rds-42-bauhaus/preview.png"
+      "preview": "systems/rds-42-bauhaus/preview.png",
+      "one_liner": "形式追随功能。三原色 + 三原形，消灭一切多余装饰。",
+      "best_for": "海报设计、品牌 landing page、艺术展览页面\n    42|\n    43|## 参考\n    44|\n    45|- 原仓库：https://github.com/novusgfx/retro-design-system\n    46|- 在线预览：https://novusgfx.github.io/retro-design-system/styles/42-bauhaus/\n    47|"
     },
     {
       "id": "rds-43-pop-art-lichtenstein",
@@ -1490,7 +1574,9 @@
       "tokens": "systems/rds-43-pop-art-lichtenstein/tokens.css",
       "style_md": "systems/rds-43-pop-art-lichtenstein/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/43-pop-art-lichtenstein/",
-      "preview": "systems/rds-43-pop-art-lichtenstein/preview.png"
+      "preview": "systems/rds-43-pop-art-lichtenstein/preview.png",
+      "one_liner": "Ben-Day 圆点 + 粗黑线框。把漫画变成高级艺术。",
+      "best_for": "创意海报、漫画风格 UI、波普艺术致敬"
     },
     {
       "id": "rds-44-op-art",
@@ -1518,7 +1604,9 @@
       "tokens": "systems/rds-44-op-art/tokens.css",
       "style_md": "systems/rds-44-op-art/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/44-op-art/",
-      "preview": "systems/rds-44-op-art/preview.png"
+      "preview": "systems/rds-44-op-art/preview.png",
+      "one_liner": "眼睛在骗你。光学艺术，高对比几何产生运动幻觉。",
+      "best_for": "创意设计、艺术展览、时尚品牌、视觉实验"
     },
     {
       "id": "rds-45-hypnagogic",
@@ -1551,7 +1639,9 @@
       "tokens": "systems/rds-45-hypnagogic/tokens.css",
       "style_md": "systems/rds-45-hypnagogic/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/45-hypnagogic/",
-      "preview": "systems/rds-45-hypnagogic/preview.png"
+      "preview": "systems/rds-45-hypnagogic/preview.png",
+      "one_liner": "入睡幻觉。半梦半醒之间的几何图案和色彩漩涡。",
+      "best_for": "音乐可视化、冥想应用、艺术实验"
     },
     {
       "id": "rds-46-monochrome-zen",
@@ -1578,7 +1668,9 @@
       "tokens": "systems/rds-46-monochrome-zen/tokens.css",
       "style_md": "systems/rds-46-monochrome-zen/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/46-monochrome-zen/",
-      "preview": "systems/rds-46-monochrome-zen/preview.png"
+      "preview": "systems/rds-46-monochrome-zen/preview.png",
+      "one_liner": "只有黑白灰。禅意设计，少即是多。",
+      "best_for": "摄影集、文学作品、高端品牌、冥想/禅意应用"
     },
     {
       "id": "rds-47-default-browser",
@@ -1602,7 +1694,9 @@
       "tokens": "systems/rds-47-default-browser/tokens.css",
       "style_md": "systems/rds-47-default-browser/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/47-default-browser/",
-      "preview": "systems/rds-47-default-browser/preview.png"
+      "preview": "systems/rds-47-default-browser/preview.png",
+      "one_liner": "1994 年的 Mosaic。蓝色下划线链接，灰色背景，这就是 Web。",
+      "best_for": "互联网考古、学术内容、极简博客、Web 起源致敬"
     },
     {
       "id": "rds-48-wireframe-sketch",
@@ -1632,7 +1726,9 @@
       "tokens": "systems/rds-48-wireframe-sketch/tokens.css",
       "style_md": "systems/rds-48-wireframe-sketch/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/48-wireframe-sketch/",
-      "preview": "systems/rds-48-wireframe-sketch/preview.png"
+      "preview": "systems/rds-48-wireframe-sketch/preview.png",
+      "one_liner": "手绘线框图。Lo-Fi 的设计过程美学。",
+      "best_for": "设计文档、原型展示、创意过程的展示"
     },
     {
       "id": "rds-49-glitch-databend",
@@ -1664,7 +1760,9 @@
       "tokens": "systems/rds-49-glitch-databend/tokens.css",
       "style_md": "systems/rds-49-glitch-databend/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/49-glitch-databend/",
-      "preview": "systems/rds-49-glitch-databend/preview.png"
+      "preview": "systems/rds-49-glitch-databend/preview.png",
+      "one_liner": "像素错位 + 数据损坏。数字时代的'撕裂'美学。",
+      "best_for": "实验艺术、音乐封面、赛博朋克、反主流设计"
     },
     {
       "id": "rds-50-y2k-chrome",
@@ -1697,7 +1795,9 @@
       "tokens": "systems/rds-50-y2k-chrome/tokens.css",
       "style_md": "systems/rds-50-y2k-chrome/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/50-y2k-chrome/",
-      "preview": "systems/rds-50-y2k-chrome/preview.png"
+      "preview": "systems/rds-50-y2k-chrome/preview.png",
+      "one_liner": "铬金属 + 气泡 + 半透明。千禧年对 2000 的幻想。",
+      "best_for": "千禧年怀旧、时尚品牌、Y2K 美学项目"
     },
     {
       "id": "rds-51-duotone-poster",
@@ -1725,7 +1825,9 @@
       "tokens": "systems/rds-51-duotone-poster/tokens.css",
       "style_md": "systems/rds-51-duotone-poster/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/51-duotone-poster/",
-      "preview": "systems/rds-51-duotone-poster/preview.png"
+      "preview": "systems/rds-51-duotone-poster/preview.png",
+      "one_liner": "双色调。一个暗色 + 一个亮色，搞定一切。",
+      "best_for": "海报设计、音乐封面、编辑设计、品牌视觉"
     },
     {
       "id": "rds-52-grid-paper",
@@ -1755,7 +1857,9 @@
       "tokens": "systems/rds-52-grid-paper/tokens.css",
       "style_md": "systems/rds-52-grid-paper/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/52-grid-paper/",
-      "preview": "systems/rds-52-grid-paper/preview.png"
+      "preview": "systems/rds-52-grid-paper/preview.png",
+      "one_liner": "方格纸上的笔迹。数学课笔记本的数字版。",
+      "best_for": "教育应用、数学/科学主题、笔记类工具"
     },
     {
       "id": "rds-53-maximalist-banners",
@@ -1784,7 +1888,9 @@
       "tokens": "systems/rds-53-maximalist-banners/tokens.css",
       "style_md": "systems/rds-53-maximalist-banners/STYLE.md",
       "demo_url": "https://novusgfx.github.io/retro-design-system/styles/53-maximalist-banners/",
-      "preview": "systems/rds-53-maximalist-banners/preview.png"
+      "preview": "systems/rds-53-maximalist-banners/preview.png",
+      "one_liner": "越多越好。拥挤、大声、不留空白的横幅设计。",
+      "best_for": "促销横幅、广告页面、电商活动页、大字报风格"
     }
   ]
 }

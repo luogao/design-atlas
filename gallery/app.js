@@ -117,6 +117,14 @@
     name.textContent = s.name;
     body.appendChild(name);
 
+    // One-liner description
+    if (s.one_liner) {
+      var desc = document.createElement('p');
+      desc.className = 'card-desc';
+      desc.textContent = s.one_liner;
+      body.appendChild(desc);
+    }
+
     // Meta line
     var meta = document.createElement('div');
     meta.className = 'card-meta';
@@ -183,6 +191,24 @@
     subtitle.className = 'modal-subtitle';
     subtitle.textContent = s.year ? String(s.year) + ' \u00b7 ' + getCategoryName(s) : getCategoryName(s);
     info.appendChild(subtitle);
+
+    // One-liner
+    if (s.one_liner) {
+      var tagline = document.createElement('p');
+      tagline.className = 'modal-tagline';
+      tagline.textContent = s.one_liner;
+      info.appendChild(tagline);
+    }
+
+    // Best for
+    if (s.best_for) {
+      var bestSection = makeSection('Best For');
+      var bestText = document.createElement('p');
+      bestText.className = 'modal-best-for';
+      bestText.textContent = s.best_for;
+      bestSection.appendChild(bestText);
+      info.appendChild(bestSection);
+    }
 
     // Palette
     if (s.palette && s.palette.length > 0) {
