@@ -21,5 +21,6 @@ node_modules/
 tmp/
 *.tmp
 
-# Cursor symlinks (break wrangler asset scan)
+# Cursor + Claude symlinks (break wrangler asset scan)
 .cursor/
+.claude/
