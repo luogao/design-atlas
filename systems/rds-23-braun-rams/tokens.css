@@ -1,0 +1,13 @@
+:root {
+--paper: #f4f3f0;
+    --white: #ffffff;
+    --ink: #1a1a1a;
+    --gray-1: #e4e3e0;
+    --gray-2: #b8b7b3;
+    --gray-3: #6a6965;
+    --gray-4: #2a2a28;
+    --orange: #f2642a;
+    --green: #3a7a5a;
+    --font: "Akzidenz-Grotesk", "Helvetica Neue", Helvetica, "Arial", sans-serif;
+    --font-mono: "IBM Plex Mono", "Courier New", monospace;
+}

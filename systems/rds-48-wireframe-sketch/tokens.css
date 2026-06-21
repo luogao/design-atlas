@@ -1,0 +1,9 @@
+:root {
+--paper: #fbfaf4;
+    --ink: #2a2a2a;
+    --light: #b0b0b0;
+    --muted: #8a8a8a;
+    --hi: #d4d1c4;
+    --font-hand: "Kalam", "Comic Sans MS", "Marker Felt", cursive;
+    --font: "Kalam", "Comic Sans MS", cursive;
+}

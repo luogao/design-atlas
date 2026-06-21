@@ -1,0 +1,12 @@
+/* Brutalist Web — 反规范设计，故意不使用 CSS 变量体系。
+   这本身就是 Brutalist 的设计哲学：拒绝美化，赤裸呈现。
+   以下 token 从内联样式逆向提取。 */
+:root {
+  --bg: #ffffff;
+  --ink: #000000;
+  --link: #0000ee;
+  --link-visited: #551a8b;
+  --font: "Times New Roman", Times, serif;
+  --font-size: 16px;
+  --border: 2px solid #000;
+}

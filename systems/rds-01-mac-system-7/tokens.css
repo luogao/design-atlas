@@ -1,0 +1,10 @@
+:root {
+--bg: #a8a8a8;
+    --desktop: #888;
+    --paper: #ffffff;
+    --ink: #000000;
+    --chrome: #dddddd;
+    --shadow: #000;
+    --font-sys: "Chicago", "Charcoal", "Geneva", Tahoma, sans-serif;
+    --font-body: "Geneva", "Helvetica", sans-serif;
+}

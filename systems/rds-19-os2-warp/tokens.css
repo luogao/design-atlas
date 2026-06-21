@@ -1,0 +1,14 @@
+:root {
+--desktop: #2d7a7a;
+    --chrome: #c0c0c0;
+    --chrome-light: #dfdfdf;
+    --chrome-dark: #808080;
+    --chrome-darker: #404040;
+    --titlebar: #00007f;
+    --titlebar-2: #1084d0;
+    --ink: #000000;
+    --warp-red: #c41e3a;
+    --warp-blue: #003d99;
+    --font: "Helvetica", "WarpSans", "Arial", sans-serif;
+    --font-mono: "System Monospaced", "Courier New", monospace;
+}

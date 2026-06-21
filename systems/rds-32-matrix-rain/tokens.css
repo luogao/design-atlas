@@ -1,0 +1,9 @@
+:root {
+--bg: #000000;
+    --mx-dim: #003b00;
+    --mx: #00a830;
+    --mx-hi: #62ff9d;
+    --mx-white: #ccffcc;
+    --warn: #ff3860;
+    --font: "Matrix Code NFI", "MS Mincho", "MS Gothic", "Courier New", monospace;
+}

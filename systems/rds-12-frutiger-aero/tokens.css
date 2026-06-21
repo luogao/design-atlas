@@ -1,0 +1,10 @@
+:root {
+--sky-top: #7fcfff;
+    --sky-bot: #c7f0ff;
+    --grass: #6ec86e;
+    --aero-blue: #0ea5ff;
+    --aero-green: #3dd36b;
+    --glass: rgba(255,255,255,0.35);
+    --ink: #0b2a3c;
+    --font: "Frutiger", "Segoe UI", "Myriad Pro", "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,13 @@
+:root {
+--paper: #fafaf0;
+    --grid: rgba(64, 100, 160, 0.15);
+    --grid-major: rgba(64, 100, 160, 0.3);
+    --margin-red: rgba(200, 80, 80, 0.5);
+    --ink: #1a2847;
+    --pencil: #4a5a6e;
+    --red-ink: #c83030;
+    --green-ink: #2a7a3a;
+    --highlighter: rgba(255, 230, 100, 0.5);
+    --font: "Shadows Into Light", "Architects Daughter", "Comic Sans MS", cursive;
+    --font-neat: "Patrick Hand", "Kalam", cursive;
+}

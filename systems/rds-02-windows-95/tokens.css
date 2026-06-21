@@ -1,0 +1,13 @@
+:root {
+--bg: #008080;
+    --chrome: #c0c0c0;
+    --chrome-light: #dfdfdf;
+    --chrome-lighter: #ffffff;
+    --chrome-dark: #808080;
+    --chrome-darker: #000000;
+    --ink: #000;
+    --title: #000080;
+    --title-text: #fff;
+    --select: #000080;
+    --font: "MS Sans Serif", "Pixelated MS Sans Serif", Tahoma, sans-serif;
+}

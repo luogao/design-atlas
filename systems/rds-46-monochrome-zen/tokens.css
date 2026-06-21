@@ -1,0 +1,7 @@
+:root {
+--paper: #fafaf7;
+    --ink: #0a0a0a;
+    --rule: rgba(10,10,10,0.15);
+    --font: "Söhne", "Inter", "Helvetica Neue", sans-serif;
+    --font-serif: "Lyon", "Times New Roman", Garamond, serif;
+}
