@@ -482,7 +482,7 @@ def ingest_source(repo_url, demo_url=None, output_dir=None):
     
     # Phase 1: Clone or use existing
     repo_name = repo_url.rstrip('/').split('/')[-1]
-    temp_dir = tempfile.mkdtemp(prefix='design-atlas-')
+    temp_dir = Path(tempfile.mkdtemp(prefix='design-atlas-'))
     
     try:
         # Clone

@@ -1,0 +1,75 @@
+/* Animal Island UI — Design Tokens */
+/* 手工提取自 src/styles/variables.less */
+/* 源：https://github.com/guokaigdg/animal-island-ui */
+
+:root {
+  /* ── 色彩 ── */
+  /* 主色（薄荷青绿） */
+  --ai-primary: #19c8b9;
+  --ai-primary-hover: #3dd4c6;
+  --ai-primary-active: #50b9ab;
+  --ai-primary-bg: #e6f9f6;
+
+  /* 功能色 */
+  --ai-success: #6fba2c;
+  --ai-success-hover: #85cc45;
+  --ai-success-active: #5a9e1e;
+  --ai-warning: #f5c31c;
+  --ai-warning-hover: #f7d04a;
+  --ai-warning-active: #dba90e;
+  --ai-error: #e05a5a;
+  --ai-error-hover: #e87878;
+  --ai-error-active: #c94444;
+
+  /* 中性色（温暖棕色系） */
+  --ai-text: #794f27;
+  --ai-text-secondary: #9f927d;
+  --ai-text-disabled: #c4b89e;
+  --ai-border: #aaa69d;
+  --ai-border-hover: #827157;
+  --ai-border-light: #e8e2d6;
+  --ai-shadow-light: rgba(61, 52, 40, 0.08);
+
+  /* 背景 */
+  --ai-bg: #f8f8f0;
+  --ai-bg-secondary: #f0e8d8;
+  --ai-bg-disabled: #f0ece2;
+  --ai-mask: rgba(0, 0, 0, 0.35);
+
+  /* ── 字体 ── */
+  --ai-font-family: 'Nunito', 'Noto Sans SC', -apple-system, 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  --ai-font-size-sm: 12px;
+  --ai-font-size-base: 14px;
+  --ai-font-size-lg: 16px;
+  --ai-line-height: 1.5715;
+
+  /* ── 间距 ── */
+  --ai-spacing-xs: 4px;
+  --ai-spacing-sm: 8px;
+  --ai-spacing-md: 12px;
+  --ai-spacing-lg: 16px;
+  --ai-spacing-xl: 24px;
+
+  /* ── 圆角（偏大圆角 pill 形） ── */
+  --ai-radius-sm: 16px;
+  --ai-radius-base: 18px;
+  --ai-radius-lg: 24px;
+  --ai-border-width: 2px;
+
+  /* ── 阴影（柔和） ── */
+  --ai-shadow-sm: 0 2px 4px 0 rgba(61, 52, 40, 0.06);
+  --ai-shadow-base: 0 3px 10px 0 rgba(61, 52, 40, 0.1);
+  --ai-shadow-lg: 0 8px 24px 0 rgba(61, 52, 40, 0.14);
+
+  /* ── 动效 ── */
+  --ai-motion-fast: 0.15s;
+  --ai-motion-base: 0.25s;
+  --ai-motion-slow: 0.35s;
+  --ai-motion-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── 尺寸 ── */
+  --ai-height-sm: 32px;
+  --ai-height-base: 40px;
+  --ai-height-lg: 48px;
+}

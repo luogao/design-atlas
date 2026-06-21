@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 59,
+  "count": 60,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2081,6 +2081,38 @@
       "preview": "systems/cyberpunk-css/preview.png",
       "one_liner": "赛博朋克 2077 风格 CSS，霓虹黄 + 锯齿字体 + 未来主义界面",
       "best_for": "赛博朋克主题游戏、科幻产品发布页、未来主义 Dashboard、电子音乐活动页"
+    },
+    {
+      "id": "animal-island-ui",
+      "name": "Animal Island UI",
+      "category": "gaming",
+      "tags": [
+        "playful",
+        "earth-tones",
+        "organic",
+        "pastoral",
+        "animal-crossing"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/guokaigdg/animal-island-ui",
+        "author": "guokaigdg",
+        "license": "MIT"
+      },
+      "palette": [
+        "#19c8b9",
+        "#794f27",
+        "#f8f8f0",
+        "#f0e8d8",
+        "#9f927d",
+        "#e6f9f6"
+      ],
+      "tokens": "systems/animal-island-ui/tokens.css",
+      "style_md": "systems/animal-island-ui/STYLE.md",
+      "demo_url": "https://guokaigdg.github.io/animal-island-ui/#/",
+      "preview": "systems/animal-island-ui/preview.png",
+      "one_liner": "动物森友会风格 React 组件库 — 温暖大地色 + 大圆角 pill 形 + 游戏按键立体感",
+      "best_for": "游戏风格 UI、可爱/温馨主题、社交/生活类 Web App、产品展示"
     }
   ],
   "sources": [
@@ -2158,6 +2190,17 @@
       "license": "MIT",
       "description": "赛博朋克 2077 风格纯 CSS 主题（84 ⭐），霓虹黄底 + 锯齿字体 + 不规则形状，提供按钮、表单、标题等组件样式。",
       "url": "https://alddesign.github.io/cyberpunk-css/demo/",
+      "count": 1
+    },
+    {
+      "id": "animal-island-ui",
+      "name": "Animal Island UI",
+      "repo": "https://github.com/guokaigdg/animal-island-ui",
+      "author": "guokaigdg",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "动物森友会风格 React + TypeScript 组件库（24 个组件），薄荷青绿主色 + 温暖棕调 + 超级大圆角",
+      "url": "https://guokaigdg.github.io/animal-island-ui/#/",
       "count": 1
     }
   ]
