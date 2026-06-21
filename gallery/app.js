@@ -5,8 +5,27 @@
   var searchQuery = '';
 
   function init() {
-    fetch('../manifest.json')
-      .then(function(r) { return r.json(); })
+    loadManifest();
+  }
+
+  function loadManifest(attempt) {
+    attempt = attempt || 0;
+    var paths = [
+      getManifestUrl(),           // 智能路径
+      './manifest.json',          // gallery 同目录（manifest 被复制到 gallery 时）
+      '/manifest.json',           // 绝对根路径
+      '../manifest.json'          // 原始相对路径 fallback
+    ];
+    if (attempt >= paths.length) {
+      document.getElementById('gallery').innerHTML = '<p class="loading-msg">Failed to load manifest.json. Check deployment path.</p>';
+      document.getElementById('stats').textContent = '';
+      return;
+    }
+    fetch(paths[attempt])
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
       .then(function(data) {
         manifest = data;
         renderStats();
@@ -14,8 +33,14 @@
         renderGallery();
       })
       .catch(function(err) {
-        document.getElementById('gallery').innerHTML = '<p class="loading-msg">Failed to load manifest.json. Run from project root: python3 -m http.server</p>';
+        loadManifest(attempt + 1);  // 试下一个路径
       });
+  }
+
+  function getManifestUrl() {
+    var base = getBaseUrl();
+    // getBaseUrl 返回不含 /gallery 的根，直接拼 /manifest.json
+    return base + '/manifest.json';
   }
 
   function renderStats() {
