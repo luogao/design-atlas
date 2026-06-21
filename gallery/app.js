@@ -67,6 +67,21 @@
     });
   }
 
+  function getSourceInfo(s) {
+    var repo = (s.source && s.source.repo) || 'unknown';
+    var src = manifest.sources.find(function(x) { return x.repo === repo; });
+    if (src) return src;
+    // Fallback: build from system data
+    return {
+      name: repo !== 'unknown' ? repo.split('/').pop() : 'Unknown',
+      author: (s.source && s.source.author) || '',
+      type: (s.source && s.source.type) || '',
+      license: (s.source && s.source.license) || '',
+      repo: repo,
+      description: ''
+    };
+  }
+
   function renderGallery() {
     var container = document.getElementById('gallery');
     container.innerHTML = '';
@@ -77,9 +92,100 @@
       return;
     }
 
+    // Group by source repo (preserve first-appearance order)
+    var groups = [];
+    var groupMap = {};
     systems.forEach(function(s) {
-      container.appendChild(makeCard(s));
+      var repo = (s.source && s.source.repo) || 'unknown';
+      if (!groupMap[repo]) {
+        groupMap[repo] = [];
+        groups.push(repo);
+      }
+      groupMap[repo].push(s);
     });
+
+    // Render each source group
+    groups.forEach(function(repo) {
+      var groupSystems = groupMap[repo];
+      var srcInfo = getSourceInfo(groupSystems[0]);
+      container.appendChild(makeSourceHeader(srcInfo, groupSystems.length));
+      
+      var grid = document.createElement('div');
+      grid.className = 'card-grid';
+      groupSystems.forEach(function(s) {
+        grid.appendChild(makeCard(s));
+      });
+      container.appendChild(grid);
+    });
+  }
+
+  function makeSourceHeader(src, count) {
+    var header = document.createElement('div');
+    header.className = 'source-header';
+
+    var left = document.createElement('div');
+    left.className = 'source-header-left';
+
+    var name = document.createElement('h2');
+    name.className = 'source-name';
+    name.textContent = src.name;
+    left.appendChild(name);
+
+    if (src.description) {
+      var desc = document.createElement('p');
+      desc.className = 'source-desc';
+      desc.textContent = src.description;
+      left.appendChild(desc);
+    }
+
+    var meta = document.createElement('div');
+    meta.className = 'source-meta';
+    
+    if (src.author) {
+      var author = document.createElement('span');
+      author.textContent = src.author;
+      meta.appendChild(author);
+    }
+    if (src.type) {
+      var sep = document.createElement('span');
+      sep.textContent = '\u00b7';
+      sep.className = 'source-meta-sep';
+      meta.appendChild(sep);
+      var typeBadge = document.createElement('span');
+      typeBadge.className = 'source-type-badge';
+      typeBadge.textContent = src.type;
+      meta.appendChild(typeBadge);
+    }
+    if (src.license) {
+      var sep2 = document.createElement('span');
+      sep2.textContent = '\u00b7';
+      sep2.className = 'source-meta-sep';
+      meta.appendChild(sep2);
+      var lic = document.createElement('span');
+      lic.textContent = src.license;
+      meta.appendChild(lic);
+    }
+    var sep3 = document.createElement('span');
+    sep3.textContent = '\u00b7';
+    sep3.className = 'source-meta-sep';
+    meta.appendChild(sep3);
+    var countEl = document.createElement('span');
+    countEl.textContent = count + ' styles';
+    meta.appendChild(countEl);
+
+    left.appendChild(meta);
+    header.appendChild(left);
+
+    if (src.repo && src.repo !== 'unknown') {
+      var link = document.createElement('a');
+      link.className = 'source-link';
+      link.href = src.repo;
+      link.target = '_blank';
+      link.textContent = 'GitHub \u2197';
+      header.appendChild(link);
+    }
+
+    return header;
   }
 
   function makeCard(s) {

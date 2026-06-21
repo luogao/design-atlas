@@ -1892,5 +1892,17 @@
       "one_liner": "越多越好。拥挤、大声、不留空白的横幅设计。",
       "best_for": "促销横幅、广告页面、电商活动页、大字报风格"
     }
+  ],
+  "sources": [
+    {
+      "id": "retro_design_system",
+      "name": "Retro Design System",
+      "repo": "https://github.com/novusgfx/retro-design-system",
+      "author": "NovusGFX",
+      "type": "aggregator",
+      "license": "MIT",
+      "description": "53 套复古/怀旧设计系统聚合，从 System 7 到 Vaporwave，从终端到游戏机",
+      "count": 53
+    }
   ]
 }
