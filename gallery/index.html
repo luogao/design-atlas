@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <h1 class="logo">Design Atlas</h1>
+    <p class="tagline">视觉设计风格聚合库</p>
+    <p class="stats" id="stats">Loading...</p>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="filter-tabs" id="filterTabs"></div>
+  <input type="text" class="search-box" id="searchBox" placeholder="Search styles or tags..." autocomplete="off">
+</div>
+
+<main class="gallery" id="gallery">
+  <p class="loading-msg">Loading design systems...</p>
+</main>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" title="Close">&times;</button>
+    <div class="modal-body">
+      <div class="modal-left">
+        <iframe id="modalFrame" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-right" id="modalInfo"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Design Atlas &mdash; Collections of beautiful CSS design tokens and visual style systems</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
