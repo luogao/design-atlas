@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (collector)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (gallery dev, if needed later)
+node_modules/
+
+# Temp
+tmp/
+*.tmp

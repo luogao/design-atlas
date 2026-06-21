@@ -1,0 +1,72 @@
+{
+  "$schema": "./manifest.schema.json",
+  "version": "1.0.0",
+  "updated": "2026-06-21",
+  "count": 0,
+  "categories": [
+    {
+      "id": "os-interfaces",
+      "name": "OS Interfaces",
+      "name_cn": "操作系统界面",
+      "description": "操作系统界面美学 — 从 Mac System 7 到 Windows XP 到 macOS Aqua",
+      "icon": "desktop"
+    },
+    {
+      "id": "terminal-tui",
+      "name": "Terminal & TUI",
+      "name_cn": "终端美学",
+      "description": "终端/命令行美学 — CRT 荧光屏、DOS、IBM 大型机、TUI 工具",
+      "icon": "terminal"
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "name_cn": "游戏 UI",
+      "description": "游戏/游戏机界面 — 8-bit 街机、Game Boy、PS1、复古游戏 HUD",
+      "icon": "gamepad"
+    },
+    {
+      "id": "design-movements",
+      "name": "Design Movements",
+      "name_cn": "设计运动",
+      "description": "经典设计运动 — Bauhaus、Swiss International、Memphis、Braun/Rams",
+      "icon": "shapes"
+    },
+    {
+      "id": "web-eras",
+      "name": "Web Eras",
+      "name_cn": "Web 时代",
+      "description": "Web 设计时代演进 — GeoCities、Web 2.0、Flat、Brutalist、Glassmorphism",
+      "icon": "globe"
+    },
+    {
+      "id": "retro-futurism",
+      "name": "Retro-Futurism",
+      "name_cn": "复古未来",
+      "description": "复古未来主义/赛博美学 — Vaporwave、Y2K、Cassette Futurism、Tron、Matrix",
+      "icon": "rocket"
+    },
+    {
+      "id": "print-craft",
+      "name": "Print & Craft",
+      "name_cn": "印刷工艺",
+      "description": "印刷工艺/技术绘图 — Risograph、Duotone、Blueprint/CAD、Grid Paper",
+      "icon": "newspaper"
+    },
+    {
+      "id": "art",
+      "name": "Art",
+      "name_cn": "艺术风格",
+      "description": "艺术风格转译 — Pop Art、Op Art 等纯艺术运动的 UI 转译",
+      "icon": "palette"
+    }
+  ],
+  "tag_dimensions": {
+    "mood": ["minimal", "bold", "playful", "dark", "warm", "futuristic", "nostalgic", "elegant", "raw"],
+    "palette": ["monochrome", "duotone", "neon", "primary-colors", "earth-tones", "pastel", "high-contrast"],
+    "typography": ["serif", "sans-serif", "monospace", "display", "handwritten", "pixel"],
+    "density": ["dense", "spacious", "information-rich"],
+    "best_for": ["dashboard", "landing-page", "portfolio", "blog", "game", "tool", "poster"]
+  },
+  "systems": []
+}
