@@ -8,7 +8,6 @@ the Design Atlas repository.
 Usage:
   python3 collector/ingest.py --repo https://github.com/user/repo
   python3 collector/ingest.py --repo https://github.com/user/repo --demo https://user.github.io/repo/
-  python3 collector/ingest.py --aggregator https://github.com/user/collection-repo
 
 Phases:
   1. SOURCE DETECTION — Determine source type (aggregator, component-lib, theme-css)
