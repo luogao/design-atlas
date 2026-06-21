@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 53,
+  "count": 59,
   "categories": [
     {
       "id": "os-interfaces",
@@ -1891,6 +1891,196 @@
       "preview": "systems/rds-53-maximalist-banners/preview.png",
       "one_liner": "越多越好。拥挤、大声、不留空白的横幅设计。",
       "best_for": "促销横幅、广告页面、电商活动页、大字报风格"
+    },
+    {
+      "id": "ext-nes-css",
+      "name": "NES.css",
+      "category": "gaming",
+      "tags": [
+        "playful",
+        "8bit",
+        "pixel",
+        "spacious",
+        "game-ui"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/nostalgic-css/NES.css",
+        "author": "B.C.Rikko",
+        "license": "MIT"
+      },
+      "palette": [
+        "#209cee",
+        "#92cc41",
+        "#f7d51d",
+        "#e76e55",
+        "#212529",
+        "#ffffff"
+      ],
+      "tokens": "systems/nes-css/tokens.css",
+      "style_md": "systems/nes-css/STYLE.md",
+      "demo_url": "https://nostalgic-css.github.io/NES.css/",
+      "preview": "systems/nes-css/preview.png",
+      "one_liner": "8-bit 像素风 CSS 框架，复古任天堂美学",
+      "best_for": "游戏界面、复古主题活动页、怀旧风个人博客、像素艺术社区"
+    },
+    {
+      "id": "ext-98css",
+      "name": "98.css",
+      "category": "os-interfaces",
+      "tags": [
+        "nostalgic",
+        "gray",
+        "sans",
+        "compact",
+        "win98-ui"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/jdan/98.css",
+        "author": "Jordan Scales",
+        "license": "MIT"
+      },
+      "palette": [
+        "#c0c0c0",
+        "#000080",
+        "#ffffff",
+        "#808080",
+        "#000000",
+        "#0000ff"
+      ],
+      "tokens": "systems/98css/tokens.css",
+      "style_md": "systems/98css/STYLE.md",
+      "demo_url": "https://jdan.github.io/98.css/",
+      "preview": "systems/98css/preview.png",
+      "one_liner": "Windows 98 风格 CSS 设计系统，忠于原版的 UI 复刻",
+      "best_for": "Windows 98 复古应用、怀旧管理面板、复古创意项目、Y2K 主题活动"
+    },
+    {
+      "id": "ext-xp-css",
+      "name": "XP.css",
+      "category": "os-interfaces",
+      "tags": [
+        "nostalgic",
+        "blue-green",
+        "sans",
+        "comfortable",
+        "winxp-ui"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/botoxparty/XP.css",
+        "author": "Adam Hammad",
+        "license": "MIT"
+      },
+      "palette": [
+        "#ece9d8",
+        "#2267cb",
+        "#1084d0",
+        "#ffffff",
+        "#0000ff"
+      ],
+      "tokens": "systems/xp-css/tokens.css",
+      "style_md": "systems/xp-css/STYLE.md",
+      "demo_url": "https://botoxparty.github.io/XP.css/",
+      "preview": "systems/xp-css/preview.png",
+      "one_liner": "Windows XP Luna 主题 CSS，蓝色渐变 + 圆角的千禧年美学",
+      "best_for": "Windows XP 复古应用、千禧年美学项目、多媒体播放器界面、学校管理系统复刻"
+    },
+    {
+      "id": "ext-7-css",
+      "name": "7.css",
+      "category": "os-interfaces",
+      "tags": [
+        "clean",
+        "aero-blue",
+        "segoe",
+        "comfortable",
+        "win7-ui"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/khang-nd/7.css",
+        "author": "Khang Nguyen",
+        "license": "MIT"
+      },
+      "palette": [
+        "#f0f0f0",
+        "#cce8ff",
+        "#8e8f8f",
+        "#3a6ea5",
+        "#000000"
+      ],
+      "tokens": "systems/7-css/tokens.css",
+      "style_md": "systems/7-css/STYLE.md",
+      "demo_url": "https://khang-nd.github.io/7.css/",
+      "preview": "systems/7-css/preview.png",
+      "one_liner": "Windows 7 Aero Glass 风格 CSS，毛玻璃 + 渐变的现代桌面美学起点",
+      "best_for": "Windows 7 风格应用、Aero Glass 主题项目、桌面软件 Web UI、操作系统模拟器"
+    },
+    {
+      "id": "ext-neobrutalism-css",
+      "name": "NeoBrutalismCSS",
+      "category": "design-movements",
+      "tags": [
+        "bold",
+        "high-contrast",
+        "bold-sans",
+        "airy",
+        "landing-page"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/matifandy8/NeoBrutalismCSS",
+        "author": "Matias Fandiño",
+        "license": "MIT"
+      },
+      "palette": [
+        "#000000",
+        "#ffffff",
+        "#dc341e",
+        "#ff5733",
+        "#0077b6",
+        "#40d39c",
+        "#fdfd96"
+      ],
+      "tokens": "systems/neobrutalism-css/tokens.css",
+      "style_md": "systems/neobrutalism-css/STYLE.md",
+      "demo_url": "https://matifandy8.github.io/NeoBrutalismCSS/",
+      "preview": "systems/neobrutalism-css/preview.png",
+      "one_liner": "新粗野主义 CSS 框架，粗黑边框 + 硬阴影 + 高饱和色块",
+      "best_for": "创意工作室作品集、独立产品 Landing Page、Z 世代社区平台、艺术展览页面"
+    },
+    {
+      "id": "ext-cyberpunk-css",
+      "name": "cyberpunk-css",
+      "category": "retro-futurism",
+      "tags": [
+        "edgy",
+        "neon-yellow",
+        "tech",
+        "compact",
+        "cyberpunk-ui"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/alddesign/cyberpunk-css",
+        "author": "alddesign",
+        "license": "MIT"
+      },
+      "palette": [
+        "#fcee0a",
+        "#000000",
+        "#00f0ff",
+        "#ff003c",
+        "#1a1a2e"
+      ],
+      "tokens": "systems/cyberpunk-css/tokens.css",
+      "style_md": "systems/cyberpunk-css/STYLE.md",
+      "demo_url": "https://alddesign.github.io/cyberpunk-css/demo/",
+      "preview": "systems/cyberpunk-css/preview.png",
+      "one_liner": "赛博朋克 2077 风格 CSS，霓虹黄 + 锯齿字体 + 未来主义界面",
+      "best_for": "赛博朋克主题游戏、科幻产品发布页、未来主义 Dashboard、电子音乐活动页"
     }
   ],
   "sources": [
@@ -1903,6 +2093,72 @@
       "license": "MIT",
       "description": "53 套复古/怀旧设计系统聚合，从 System 7 到 Vaporwave，从终端到游戏机",
       "count": 53
+    },
+    {
+      "id": "nes_css",
+      "name": "NES.css",
+      "repo": "https://github.com/nostalgic-css/NES.css",
+      "author": "B.C.Rikko",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "8-bit 像素风 CSS 框架（21.8k ⭐），提供按钮、容器、对话框等组件，无 JS 依赖。SCSS 源码，Press Start 2P 像素字体。",
+      "url": "https://nostalgic-css.github.io/NES.css/",
+      "count": 1
+    },
+    {
+      "id": "98css",
+      "name": "98.css",
+      "repo": "https://github.com/jdan/98.css",
+      "author": "Jordan Scales",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "Windows 98 风格 CSS 设计系统（11.1k ⭐），纯 CSS + 语义化 HTML，用 box-shadow 模拟 3D 凸起边框。",
+      "url": "https://jdan.github.io/98.css/",
+      "count": 1
+    },
+    {
+      "id": "xp_css",
+      "name": "XP.css",
+      "repo": "https://github.com/botoxparty/XP.css",
+      "author": "Adam Hammad",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "Windows XP Luna 主题 CSS（3k ⭐），在 98.css 基础上增加圆角、渐变和 Luna 主题。支持 XP/98 双主题切换。",
+      "url": "https://botoxparty.github.io/XP.css/",
+      "count": 1
+    },
+    {
+      "id": "7_css",
+      "name": "7.css",
+      "repo": "https://github.com/khang-nd/7.css",
+      "author": "Khang Nguyen",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "Windows 7 Aero Glass 风格 CSS（2.4k ⭐），基于 XP.css 构建，提供最完整的 --w7-* 设计 token 体系、scoped 变体和 tree-shaking 支持。",
+      "url": "https://khang-nd.github.io/7.css/",
+      "count": 1
+    },
+    {
+      "id": "neobrutalism_css",
+      "name": "NeoBrutalismCSS",
+      "repo": "https://github.com/matifandy8/NeoBrutalismCSS",
+      "author": "Matias Fandiño",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "新粗野主义 CSS 框架（181 ⭐），粗黑边框 + 硬偏移阴影 + 高饱和色块。提供按钮、卡片、表单、导航等组件。",
+      "url": "https://matifandy8.github.io/NeoBrutalismCSS/",
+      "count": 1
+    },
+    {
+      "id": "cyberpunk_css",
+      "name": "cyberpunk-css",
+      "repo": "https://github.com/alddesign/cyberpunk-css",
+      "author": "alddesign",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "赛博朋克 2077 风格纯 CSS 主题（84 ⭐），霓虹黄底 + 锯齿字体 + 不规则形状，提供按钮、表单、标题等组件样式。",
+      "url": "https://alddesign.github.io/cyberpunk-css/demo/",
+      "count": 1
     }
   ]
 }

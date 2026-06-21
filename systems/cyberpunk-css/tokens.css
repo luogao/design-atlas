@@ -1,0 +1,35 @@
+/* cyberpunk-css — Design Tokens */
+/* Auto-extracted from source */
+:root {
+  --ac: var(--black);
+  --banner-color1: var(--purple);
+  --banner-color2: var(--red);
+  --banner-color3: var(--yellow);
+  --banner-color4: var(--cyan);
+  --banner-gradient-stop: 405px;
+  --bg: transparent;
+  --black: #000;
+  --blue: #136377;
+  --checkbox-inner-size: 16px;
+  --checkbox-size: 28px;
+  --cyan: #00ffd2;
+  --cyan-cyberpunk-font1: #46dffb;
+  --cyan-cyberpunk-font2: #45aefb;
+  --dark: #333;
+  --fg: var(--black);
+  --green: #446d44;
+  --input-font-size: 1.2rem;
+  --input-padding-bot: 0.2rem;
+  --input-padding-left: 1rem;
+  --input-padding-right: 2rem;
+  --input-padding-top: 0px;
+  --input-width: 240px;
+  --purple: purple;
+  --radio-inner-size: 16px;
+  --radio-size: 28px;
+  --red: #ff003c;
+  --root-font-size: 14px;
+  --white: #fff;
+  --yellow: #f8ef02;
+  --yellow-cyberpunk-font: #feef00;
+}
