@@ -429,6 +429,107 @@ body {
 }
 .modal-source strong { color: var(--text); font-weight: 500; }
 
+/* ===== Agent Integration Guide ===== */
+.agent-guide {
+  margin-top: 28px;
+  padding: 20px;
+  background: rgba(232, 162, 48, 0.06);
+  border: 1px solid rgba(232, 162, 48, 0.2);
+  border-radius: var(--radius);
+}
+.agent-guide-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.agent-guide-intro {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.agent-step { margin-bottom: 12px; }
+.agent-step:last-child { margin-bottom: 0; }
+.agent-step-num {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+.agent-step-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.agent-download-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 9px 14px;
+  font-size: 12px;
+  font-family: var(--sans);
+  font-weight: 500;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent-dim);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.agent-download-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+.agent-divider {
+  height: 1px;
+  background: rgba(232, 162, 48, 0.15);
+  margin: 14px 0;
+}
+.agent-code-wrap {
+  position: relative;
+}
+.agent-code {
+  font-size: 11px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--border-bright);
+  border-radius: 6px;
+  padding: 12px 44px 12px 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+.agent-copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-family: var(--sans);
+  font-weight: 500;
+  color: var(--text-dim);
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-bright);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.agent-copy-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent-dim);
+}
+.agent-copy-btn.copied {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* ===== Footer ===== */
 .footer {
   text-align: center;

@@ -1,11 +1,11 @@
 # Design Atlas
 
 > 视觉设计风格聚合库 — 收录、分类、展示好看的 CSS 设计 token 和视觉设计系统。
-> **AI Agent 友好** — 支持 Claude Code / Cursor / Codex 等 AI 编码工具接入。
+> **AI Agent 友好** — 纯 Skill 方案，无需启动服务，Agent 直接读文件即可。
 
 ## 这是什么
 
-Design Atlas 是一个设计风格的聚合收藏库。在 vibecoding 的浪潮下，AI 能写出代码，但往往不知道什么是"好看的"。这个库收集各种好看的设计风格，做好分类，并通过 **MCP Server** 和 **Agent Skill** 让 AI 编码工具可以直接搜索和应用这些设计指引。
+Design Atlas 是一个设计风格的聚合收藏库。在 vibecoding 的浪潮下，AI 能写出代码，但往往不知道什么是"好看的"。这个库收集各种好看的设计风格，做好分类，并通过 **Agent Skill** 让 AI 编码工具可以直接搜索和应用这些设计指引。
 
 ### 核心理念
 
@@ -17,18 +17,16 @@ Vibecoding 的瓶颈不在"AI 写不出代码"，而在"AI 不知道什么是好
 
 | 方式 | 说明 | 适用工具 |
 |------|------|---------|
-| **MCP Server** | 6 个实时查询工具：搜索风格、获取 Token、智能推荐 | Claude Code, Cursor, Codex |
-| **Agent Skill** | `.agents/skills/design-atlas/` 三端通用 SKILL.md | Claude Code, Cursor, Codex |
-| **静态阅读** | 本 README + Gallery 页面浏览 | 人类用户 |
+| **Agent Skill（推荐）** | Agent 读 manifest.json + STYLE.md + tokens.css | 所有工具（Claude Code / Cursor / Codex 等） |
 
-详细设置指南: [server/SETUP.md](./server/SETUP.md)
+零基础设施，无需启动服务。详见 [server/SETUP.md](./server/SETUP.md)。
 
 ### 核心能力
 
 1. **收录** — 收集各种好看的设计风格（从复古 OS 界面到当代 Web 设计）
 2. **分类** — 按视觉来源分类，8 大类 + 多维标签交叉筛选
-3. **展示** — 暗色美术馆风格的 Gallery
-4. **接入** — MCP Server + Agent Skill 双通道 Agent 接入
+3. **展示** — 暗色美术馆风格的 Gallery（人类浏览用）
+4. **接入** — Agent Skill 方案，Agent 通过读文件即可使用
 
 ### 当前收录统计
 
@@ -37,8 +35,6 @@ Vibecoding 的瓶颈不在"AI 写不出代码"，而在"AI 不知道什么是好
 - 最新收录: NES.css (21.8k⭐) / 98.css (11.1k⭐) / XP.css (3k⭐) / 7.css (2.4k⭐) / NeoBrutalismCSS / cyberpunk-css
 
 ### 收录来源类型
-
-收录 Agent 会自动探测以下 4 种来源类型：
 
 | 类型 | 说明 | 示例 | Token 存储方式 |
 |------|------|------|--------------|
@@ -72,53 +68,43 @@ Vibecoding 的瓶颈不在"AI 写不出代码"，而在"AI 不知道什么是好
 
 ```
 design-atlas/
-├── server/                    ← Agent 接入层
-│   ├── mcp_server.py          ← MCP Server（6 个 tools）
-│   ├── SETUP.md               ← 三端配置指南
-│   └── mcp.json.template      ← Claude Code MCP 配置模板
-├── .agents/skills/            ← Agent Skill（三端通用）
+├── .agents/skills/            ← Agent Skill 入口（核心！）
 │   └── design-atlas/
-│       ├── SKILL.md           ← 设计风格指引
-│       └── references/        ← 详细参考文档
-├── .claude/skills/            ← Claude Code 兼容
-├── .cursor/skills/            ← Cursor 兼容
-├── manifest.json              ← 全局索引（所有系统的元数据）
+│       ├── SKILL.md           ← 快速指引 + 工作流程
+│       └── references/        ← 参考文档
+├── server/
+│   └── SETUP.md               ← Agent 接入设置指南
+├── manifest.json              ← 全局索引（所有系统的元数据 + tag + 分类）
 ├── categories.md              ← 分类体系说明
 ├── sources.md                 ← 来源仓库记录
 ├── systems/                   ← 所有收录的设计系统
 │   └── {id}/
-│       ├── STYLE.md           ← 设计语言描述 + 学习笔记 + Do/Don't
+│       ├── STYLE.md           ← 设计语言描述 + Do/Don't
 │       ├── tokens.css         ← CSS 变量（可直接 @import）
 │       └── preview.png        ← 预览截图
-├── gallery/                   ← 广场页面（暗色美术馆）
+├── gallery/                   ← 广场页面（暗色美术馆，人类浏览用）
 │   ├── index.html
 │   ├── style.css
-│   └── app.js                 ← 读 manifest.json 渲染网格 + 筛选
+│   └── app.js
 ├── collector/                 ← 收录 Agent & 工具
 │   ├── ingest.py              ← 自动收录 pipeline
 │   ├── screenshot-all.js      ← Playwright 批量截图脚本
-│   ├── screenshot-sources.js  ← 新来源截图工具
-│   └── style_descriptions.json
+│   └── screenshot-sources.js  ← 新来源截图工具
 └── _templates/                ← 模板
     └── STYLE.template.md
 ```
 
 ## 使用
 
-### AI Agent：通过 MCP Server 查询
+### AI Agent：通过 Skill 查询
 
-```bash
-# 启动 MCP Server（stdio 模式，实时 JSON-RPC）
-python3 server/mcp_server.py
+Agent 会在上下文中自动加载 SKILL.md，按以下方式获取设计信息：
 
-# Agent 可以调用：
-# - search_styles(query, category, tags) → 搜索设计风格
-# - get_style_detail(id) → 获取设计哲学 + Do/Don't + Token
-# - get_guidance(task_description) → 智能推荐（不知道用什么风格时）
-# - list_categories() → 浏览所有分类
-# - get_tokens(id) → 获取 CSS 变量
-# - apply_style(id) → 一键应用（含 Token 注入 + 使用准则）
-```
+1. **读 manifest.json** → 搜索风格、分类、标签
+2. **读 systems/{id}/STYLE.md** → 获取设计哲学 + Do/Don't
+3. **读 systems/{id}/tokens.css** → 获取 CSS 变量
+
+无需启动任何后台服务。
 
 ### 人类：浏览 Gallery 页面
 
@@ -149,5 +135,5 @@ python3 collector/ingest.py --repo https://github.com/user/cool-css --demo https
 
 ## License
 
-- 本仓库自身的内容（分类体系、广场页面、收录工具、MCP Server）：MIT
+- 本仓库自身的内容（分类体系、广场页面、收录工具）：MIT
 - 收录的设计系统：版权归各自作者所有，详见每个系统的 `source` 字段

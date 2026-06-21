@@ -386,6 +386,9 @@
       info.appendChild(demoSection);
     }
 
+    // ===== Agent Integration Guide =====
+    info.appendChild(makeAgentGuide(s));
+
     overlay.classList.add('active');
   }
 
@@ -396,6 +399,161 @@
     t.className = 'modal-section-title';
     t.textContent = title;
     section.appendChild(t);
+    return section;
+  }
+
+  // ===== Agent Integration =====
+  function getBaseUrl() {
+    var path = window.location.pathname;
+    var idx = path.lastIndexOf('/gallery/');
+    if (idx !== -1) return window.location.origin + path.substring(0, idx);
+    return window.location.origin;
+  }
+
+  function generateSkillMd(baseUrl) {
+    return [
+      '---',
+      'name: design-atlas',
+      'description: Design Atlas 设计风格知识库——AI Agent 可搜索、引用和应用的设计风格集合',
+      'type: knowledge-base',
+      'cost: low',
+      '---',
+      '',
+      '# Design Atlas — 设计风格知识库',
+      '',
+      'Design Atlas 是一个收录了 **59 个设计系统**（来自 7 个来源）的设计风格聚合库。',
+      '包含从 Mac System 7 到赛博朋克 2077 的完整视觉指引。',
+      '',
+      '## 数据地址（线上）',
+      '',
+      'Base URL: `' + baseUrl + '`',
+      '',
+      '```',
+      baseUrl + '/',
+      '├── manifest.json              ← 全局索引',
+      '├── systems/',
+      '│   └── {id}/',
+      '│       ├── STYLE.md           ← 设计语言 + Do/Don\'t',
+      '│       └── tokens.css         ← CSS 变量',
+      '└── gallery/                   ← 在线预览',
+      '```',
+      '',
+      '## 工作流程',
+      '',
+      '当被要求"根据某个风格做 UI"时：',
+      '',
+      '1. **获取索引** → fetch `' + baseUrl + '/manifest.json`，搜索 category、tags、name',
+      '2. **获取设计指引** → fetch `' + baseUrl + '/systems/{id}/STYLE.md`',
+      '3. **获取 CSS Token** → fetch `' + baseUrl + '/systems/{id}/tokens.css`',
+      '4. **应用** → 将 CSS 变量注入 :root，严格遵循 STYLE.md 的 Do/Don\'t',
+      '',
+      '## tags 标签体系',
+      '',
+      'manifest.json 中每个风格有 tags 数组，支持多维筛选：',
+      '',
+      '- **mood**：minimal, bold, playful, dark, warm, futuristic, nostalgic, elegant, raw',
+      '- **palette**：monochrome, duotone, neon, primary-colors, pastel, earth-tone, 8bit',
+      '- **typography**：serif, sans, pixel, mono, script, display',
+      '- **era**：1970s, 1980s, 1990s, 2000s, 2010s, 2020s',
+      '- **best_for**：app-ui, game-ui, data-viz, landing-page, portfolio, blog, tool, poster',
+      ''
+    ].join('\n');
+  }
+
+  function makeAgentGuide(s) {
+    var section = document.createElement('div');
+    section.className = 'agent-guide';
+
+    var title = document.createElement('p');
+    title.className = 'agent-guide-title';
+    title.textContent = 'Use with AI Agent';
+    section.appendChild(title);
+
+    var intro = document.createElement('p');
+    intro.className = 'agent-guide-intro';
+    intro.textContent = '让你的 AI Agent（Claude / Cursor / Copilot 等）自动应用这个设计风格';
+    section.appendChild(intro);
+
+    // Step 1
+    var step1 = document.createElement('div');
+    step1.className = 'agent-step';
+
+    var step1Label = document.createElement('p');
+    step1Label.className = 'agent-step-num';
+    step1Label.textContent = 'Step 1';
+    step1.appendChild(step1Label);
+
+    var step1Desc = document.createElement('p');
+    step1Desc.className = 'agent-step-desc';
+    step1Desc.textContent = '下载 SKILL.md，放到你项目根目录下（Agent 会自动读取）：';
+    step1.appendChild(step1Desc);
+
+    var downloadBtn = document.createElement('button');
+    downloadBtn.className = 'agent-download-btn';
+    downloadBtn.textContent = '⬇ 下载 SKILL.md';
+    downloadBtn.onclick = function() {
+      var md = generateSkillMd(getBaseUrl());
+      var blob = new Blob([md], { type: 'text/markdown' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'SKILL.md';
+      a.click();
+      URL.revokeObjectURL(url);
+      downloadBtn.textContent = '✓ 已下载';
+      setTimeout(function() { downloadBtn.textContent = '⬇ 下载 SKILL.md'; }, 2000);
+    };
+    step1.appendChild(downloadBtn);
+    section.appendChild(step1);
+
+    var divider = document.createElement('div');
+    divider.className = 'agent-divider';
+    section.appendChild(divider);
+
+    // Step 2
+    var step2 = document.createElement('div');
+    step2.className = 'agent-step';
+
+    var step2Label = document.createElement('p');
+    step2Label.className = 'agent-step-num';
+    step2Label.textContent = 'Step 2';
+    step2.appendChild(step2Label);
+
+    var step2Desc = document.createElement('p');
+    step2Desc.className = 'agent-step-desc';
+    step2Desc.textContent = '安装完成后，复制以下提示词发给你的 Agent：';
+    step2.appendChild(step2Desc);
+
+    var promptText = '我已经安装了 design-atlas skill。\n' +
+      '请帮我使用其中的 "' + s.name + '" 风格（ID: ' + s.id + '），\n' +
+      '读取对应的 STYLE.md 和 tokens.css，\n' +
+      '按照其设计规范帮我实现界面。';
+
+    var codeWrap = document.createElement('div');
+    codeWrap.className = 'agent-code-wrap';
+
+    var code = document.createElement('pre');
+    code.className = 'agent-code';
+    code.textContent = promptText;
+    codeWrap.appendChild(code);
+
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'agent-copy-btn';
+    copyBtn.textContent = '复制';
+    copyBtn.onclick = function() {
+      navigator.clipboard.writeText(promptText).then(function() {
+        copyBtn.textContent = '✓ 已复制';
+        copyBtn.classList.add('copied');
+        setTimeout(function() {
+          copyBtn.textContent = '复制';
+          copyBtn.classList.remove('copied');
+        }, 2000);
+      });
+    };
+    codeWrap.appendChild(copyBtn);
+    step2.appendChild(codeWrap);
+    section.appendChild(step2);
+
     return section;
   }
 
