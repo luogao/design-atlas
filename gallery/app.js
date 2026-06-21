@@ -87,17 +87,25 @@
     card.className = 'card';
     card.onclick = function() { openModal(s); };
 
-    // Preview (palette bands)
+    // Preview (screenshot or palette fallback)
     var preview = document.createElement('div');
     preview.className = 'card-preview';
-    var palette = s.palette || ['#333'];
-    palette.forEach(function(color) {
-      var band = document.createElement('div');
-      band.className = 'preview-band';
-      band.style.background = color;
-      if (s.year) band.setAttribute('data-year', s.year);
-      preview.appendChild(band);
-    });
+    if (s.preview) {
+      var img = document.createElement('img');
+      img.className = 'preview-img';
+      img.src = '../' + s.preview;
+      img.alt = s.name;
+      img.loading = 'lazy';
+      preview.appendChild(img);
+    } else {
+      var palette = s.palette || ['#333'];
+      palette.forEach(function(color) {
+        var band = document.createElement('div');
+        band.className = 'preview-band';
+        band.style.background = color;
+        preview.appendChild(band);
+      });
+    }
     card.appendChild(preview);
 
     // Body

@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "rds-01-mac-system-7",
+    "name": "Mac System 7",
+    "category": "os-interfaces",
+    "year": 1991,
+    "tags": [
+      "mac",
+      "monochrome",
+      "bevel",
+      "classic"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导",
+    "token_analysis": [
+      "使用阴影",
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-02-windows-95",
+    "name": "Windows 95",
+    "category": "os-interfaces",
+    "year": 1995,
+    "tags": [
+      "windows",
+      "bevel",
+      "chrome",
+      "classic"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-03-windows-xp-luna",
+    "name": "Windows XP Luna",
+    "category": "os-interfaces",
+    "year": 2001,
+    "tags": [
+      "windows",
+      "glossy",
+      "blue",
+      "luna"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体",
+      "使用渐变"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-04-aqua-osx",
+    "name": "Mac OS X Aqua",
+    "category": "os-interfaces",
+    "year": 2001,
+    "tags": [
+      "mac",
+      "glossy",
+      "gel",
+      "aqua"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体",
+      "使用渐变"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-05-amiga-workbench",
+    "name": "Amiga Workbench",
+    "category": "os-interfaces",
+    "year": 1985,
+    "tags": [
+      "amiga",
+      "retro",
+      "orange",
+      "blue"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-06-nextstep",
+    "name": "NeXTSTEP",
+    "category": "os-interfaces",
+    "year": 1989,
+    "tags": [
+      "next",
+      "greyscale",
+      "unix",
+      "chiseled"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-07-beos",
+    "name": "BeOS",
+    "category": "os-interfaces",
+    "year": 1996,
+    "tags": [
+      "beos",
+      "yellow",
+      "tab",
+      "media"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-08-teletext",
+    "name": "Teletext",
+    "category": "retro-futurism",
+    "year": 1974,
+    "tags": [
+      "teletext",
+      "blocky",
+      "primary",
+      "tv"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-09-crt-phosphor",
+    "name": "CRT Phosphor Terminal",
+    "category": "terminal-tui",
+    "year": 1980,
+    "tags": [
+      "terminal",
+      "green",
+      "scanline",
+      "phosphor"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-10-dos-cga",
+    "name": "DOS CGA",
+    "category": "terminal-tui",
+    "year": 1981,
+    "tags": [
+      "dos",
+      "cyan",
+      "magenta",
+      "4-color"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、深色主导、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-11-8bit-arcade",
+    "name": "8-Bit Arcade",
+    "category": "gaming",
+    "year": 1983,
+    "tags": [
+      "arcade",
+      "pixel",
+      "neon",
+      "8-bit"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-12-frutiger-aero",
+    "name": "Frutiger Aero",
+    "category": "web-eras",
+    "year": 2007,
+    "tags": [
+      "aero",
+      "glossy",
+      "nature",
+      "glass"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-13-winamp-skin",
+    "name": "Winamp Skin",
+    "category": "gaming",
+    "year": 1997,
+    "tags": [
+      "winamp",
+      "media",
+      "skin",
+      "lcd"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-14-geocities-web10",
+    "name": "GeoCities Web 1.0",
+    "category": "web-eras",
+    "year": 1996,
+    "tags": [
+      "web1.0",
+      "kitsch",
+      "gif",
+      "tiled"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-15-cassette-futurism",
+    "name": "Cassette Futurism",
+    "category": "retro-futurism",
+    "year": 1979,
+    "tags": [
+      "scifi",
+      "control-panel",
+      "amber",
+      "analog"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-16-vaporwave",
+    "name": "Vaporwave",
+    "category": "retro-futurism",
+    "year": 2011,
+    "tags": [
+      "vaporwave",
+      "pastel",
+      "synth",
+      "neon"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-17-memphis",
+    "name": "Memphis",
+    "category": "design-movements",
+    "year": 1981,
+    "tags": [
+      "memphis",
+      "postmodern",
+      "primary",
+      "squiggle"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-18-ps1-tech",
+    "name": "PS1 Tech",
+    "category": "gaming",
+    "year": 1994,
+    "tags": [
+      "playstation",
+      "low-poly",
+      "tech",
+      "gradient"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-19-os2-warp",
+    "name": "OS/2 Warp",
+    "category": "os-interfaces",
+    "year": 1994,
+    "tags": [
+      "os2",
+      "ibm",
+      "bevel",
+      "blue"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、深色主导、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-20-macos9-platinum",
+    "name": "Mac OS 9 Platinum",
+    "category": "os-interfaces",
+    "year": 1999,
+    "tags": [
+      "mac",
+      "platinum",
+      "pinstripe",
+      "grey"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-21-web20-glossy",
+    "name": "Web 2.0 Glossy",
+    "category": "web-eras",
+    "year": 2005,
+    "tags": [
+      "web2.0",
+      "glossy",
+      "reflection",
+      "rounded"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-22-gameboy-dmg",
+    "name": "Game Boy DMG",
+    "category": "gaming",
+    "year": 1989,
+    "tags": [
+      "gameboy",
+      "green",
+      "lcd",
+      "4-shade"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-23-braun-rams",
+    "name": "Braun / Dieter Rams",
+    "category": "design-movements",
+    "year": 1960,
+    "tags": [
+      "braun",
+      "functional",
+      "minimal",
+      "industrial"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-24-tron-vector",
+    "name": "Tron Vector",
+    "category": "retro-futurism",
+    "year": 1982,
+    "tags": [
+      "tron",
+      "vector",
+      "cyan",
+      "grid"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-25-vhs-tracking",
+    "name": "VHS Tracking",
+    "category": "retro-futurism",
+    "year": 1980,
+    "tags": [
+      "vhs",
+      "glitch",
+      "scanline",
+      "analog"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-26-risograph",
+    "name": "Risograph",
+    "category": "print-craft",
+    "year": 1986,
+    "tags": [
+      "riso",
+      "print",
+      "duotone",
+      "grain"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-27-ibm-3270",
+    "name": "IBM 3270 Mainframe",
+    "category": "terminal-tui",
+    "year": 1971,
+    "tags": [
+      "ibm",
+      "mainframe",
+      "terminal",
+      "cics"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-28-nethack-ascii",
+    "name": "NetHack ASCII",
+    "category": "terminal-tui",
+    "year": 1987,
+    "tags": [
+      "ascii",
+      "roguelike",
+      "terminal",
+      "mono"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-29-templeos",
+    "name": "TempleOS",
+    "category": "os-interfaces",
+    "year": 2013,
+    "tags": [
+      "templeos",
+      "16-color",
+      "vga",
+      "mono"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-30-bbs-ansi",
+    "name": "BBS ANSI Art",
+    "category": "terminal-tui",
+    "year": 1989,
+    "tags": [
+      "bbs",
+      "ansi",
+      "block",
+      "16-color"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-31-midnight-commander",
+    "name": "Midnight Commander",
+    "category": "terminal-tui",
+    "year": 1994,
+    "tags": [
+      "tui",
+      "blue",
+      "filemanager",
+      "ncurses"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-32-matrix-rain",
+    "name": "Matrix Rain",
+    "category": "retro-futurism",
+    "year": 1999,
+    "tags": [
+      "matrix",
+      "green",
+      "code",
+      "rain"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-33-btop-meters",
+    "name": "btop Meters",
+    "category": "terminal-tui",
+    "year": 2021,
+    "tags": [
+      "tui",
+      "monitor",
+      "gradient",
+      "meters"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-34-c64-basic",
+    "name": "Commodore 64 BASIC",
+    "category": "terminal-tui",
+    "year": 1982,
+    "tags": [
+      "c64",
+      "blue",
+      "petscii",
+      "basic"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-35-flat-2013",
+    "name": "Flat Design 2013",
+    "category": "web-eras",
+    "year": 2013,
+    "tags": [
+      "flat",
+      "ios7",
+      "minimal",
+      "bright"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-36-glassmorphism",
+    "name": "Glassmorphism",
+    "category": "web-eras",
+    "year": 2020,
+    "tags": [
+      "glass",
+      "blur",
+      "frosted",
+      "modern"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "克制配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-37-neumorphism",
+    "name": "Neumorphism",
+    "category": "web-eras",
+    "year": 2020,
+    "tags": [
+      "neumorph",
+      "soft",
+      "shadow",
+      "mono"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "使用阴影",
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-38-blueprint-cad",
+    "name": "Blueprint / CAD",
+    "category": "print-craft",
+    "year": 1980,
+    "tags": [
+      "blueprint",
+      "cad",
+      "grid",
+      "cyan"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-39-claymorphism",
+    "name": "Claymorphism",
+    "category": "web-eras",
+    "year": 2021,
+    "tags": [
+      "clay",
+      "3d",
+      "soft",
+      "playful"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-40-brutalist-web",
+    "name": "Brutalist Web",
+    "category": "web-eras",
+    "year": 2016,
+    "tags": [
+      "brutalist",
+      "raw",
+      "mono",
+      "highcontrast"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-41-swiss-intl",
+    "name": "Swiss Style",
+    "category": "design-movements",
+    "year": 1950,
+    "tags": [
+      "swiss",
+      "grid",
+      "helvetica",
+      "minimal"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "克制配色、深色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-42-bauhaus",
+    "name": "Bauhaus",
+    "category": "design-movements",
+    "year": 1919,
+    "tags": [
+      "bauhaus",
+      "primary",
+      "geometric",
+      "modernist"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-43-pop-art-lichtenstein",
+    "name": "Pop Art",
+    "category": "art",
+    "year": 1960,
+    "tags": [
+      "popart",
+      "halftone",
+      "primary",
+      "comic"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-44-op-art",
+    "name": "Op Art",
+    "category": "art",
+    "year": 1964,
+    "tags": [
+      "opart",
+      "bw",
+      "illusion",
+      "pattern"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "克制配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-45-hypnagogic",
+    "name": "Hypnagogic",
+    "category": "retro-futurism",
+    "year": 2015,
+    "tags": [
+      "dreamy",
+      "gradient",
+      "surreal",
+      "soft"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "使用阴影",
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-46-monochrome-zen",
+    "name": "Monochrome Zen",
+    "category": "design-movements",
+    "year": 2010,
+    "tags": [
+      "mono",
+      "zen",
+      "minimal",
+      "calm"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "极简配色、明暗平衡",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-47-default-browser",
+    "name": "Default Browser",
+    "category": "web-eras",
+    "year": 1994,
+    "tags": [
+      "html",
+      "unstyled",
+      "timesnewroman",
+      "default"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "No palette defined",
+    "token_analysis": [
+      "无 token 定义"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-48-wireframe-sketch",
+    "name": "Wireframe Sketch",
+    "category": "print-craft",
+    "year": 2010,
+    "tags": [
+      "wireframe",
+      "sketch",
+      "lofi",
+      "grey"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导",
+    "token_analysis": [
+      "基础 token"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-49-glitch-databend",
+    "name": "Glitch Databend",
+    "category": "retro-futurism",
+    "year": 2010,
+    "tags": [
+      "glitch",
+      "databend",
+      "rgb",
+      "corrupt"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "等宽字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-50-y2k-chrome",
+    "name": "Y2K Chrome",
+    "category": "retro-futurism",
+    "year": 2000,
+    "tags": [
+      "y2k",
+      "chrome",
+      "metallic",
+      "bubble"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、浅色主导、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-51-duotone-poster",
+    "name": "Duotone Poster",
+    "category": "print-craft",
+    "year": 2015,
+    "tags": [
+      "duotone",
+      "poster",
+      "highcontrast",
+      "bold"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "克制配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-52-grid-paper",
+    "name": "Grid Paper",
+    "category": "print-craft",
+    "year": 1980,
+    "tags": [
+      "grid",
+      "paper",
+      "graph",
+      "engineering"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "丰富配色、深色主导、含高饱和色",
+    "token_analysis": [
+      "基础 token"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  },
+  {
+    "id": "rds-53-maximalist-banners",
+    "name": "Maximalist 90s Banner",
+    "category": "web-eras",
+    "year": 1997,
+    "tags": [
+      "maximalist",
+      "banner",
+      "loud",
+      "90s"
+    ],
+    "one_liner": "",
+    "philosophy": "",
+    "color_analysis": "克制配色、明暗平衡、含高饱和色",
+    "token_analysis": [
+      "衬线字体"
+    ],
+    "do_list": [],
+    "dont_list": [],
+    "best_for": []
+  }
+]

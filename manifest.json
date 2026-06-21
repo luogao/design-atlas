@@ -133,7 +133,8 @@
       ],
       "tokens": "systems/rds-01-mac-system-7/tokens.css",
       "style_md": "systems/rds-01-mac-system-7/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/01-mac-system-7/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/01-mac-system-7/",
+      "preview": "systems/rds-01-mac-system-7/preview.png"
     },
     {
       "id": "rds-02-windows-95",
@@ -164,7 +165,8 @@
       ],
       "tokens": "systems/rds-02-windows-95/tokens.css",
       "style_md": "systems/rds-02-windows-95/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/02-windows-95/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/02-windows-95/",
+      "preview": "systems/rds-02-windows-95/preview.png"
     },
     {
       "id": "rds-03-windows-xp-luna",
@@ -196,7 +198,8 @@
       ],
       "tokens": "systems/rds-03-windows-xp-luna/tokens.css",
       "style_md": "systems/rds-03-windows-xp-luna/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/03-windows-xp-luna/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/03-windows-xp-luna/",
+      "preview": "systems/rds-03-windows-xp-luna/preview.png"
     },
     {
       "id": "rds-04-aqua-osx",
@@ -228,7 +231,8 @@
       ],
       "tokens": "systems/rds-04-aqua-osx/tokens.css",
       "style_md": "systems/rds-04-aqua-osx/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/04-aqua-osx/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/04-aqua-osx/",
+      "preview": "systems/rds-04-aqua-osx/preview.png"
     },
     {
       "id": "rds-05-amiga-workbench",
@@ -257,7 +261,8 @@
       ],
       "tokens": "systems/rds-05-amiga-workbench/tokens.css",
       "style_md": "systems/rds-05-amiga-workbench/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/05-amiga-workbench/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/05-amiga-workbench/",
+      "preview": "systems/rds-05-amiga-workbench/preview.png"
     },
     {
       "id": "rds-06-nextstep",
@@ -289,7 +294,8 @@
       ],
       "tokens": "systems/rds-06-nextstep/tokens.css",
       "style_md": "systems/rds-06-nextstep/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/06-nextstep/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/06-nextstep/",
+      "preview": "systems/rds-06-nextstep/preview.png"
     },
     {
       "id": "rds-07-beos",
@@ -321,7 +327,8 @@
       ],
       "tokens": "systems/rds-07-beos/tokens.css",
       "style_md": "systems/rds-07-beos/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/07-beos/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/07-beos/",
+      "preview": "systems/rds-07-beos/preview.png"
     },
     {
       "id": "rds-08-teletext",
@@ -353,7 +360,8 @@
       ],
       "tokens": "systems/rds-08-teletext/tokens.css",
       "style_md": "systems/rds-08-teletext/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/08-teletext/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/08-teletext/",
+      "preview": "systems/rds-08-teletext/preview.png"
     },
     {
       "id": "rds-09-crt-phosphor",
@@ -382,7 +390,8 @@
       ],
       "tokens": "systems/rds-09-crt-phosphor/tokens.css",
       "style_md": "systems/rds-09-crt-phosphor/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/09-crt-phosphor/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/09-crt-phosphor/",
+      "preview": "systems/rds-09-crt-phosphor/preview.png"
     },
     {
       "id": "rds-10-dos-cga",
@@ -414,7 +423,8 @@
       ],
       "tokens": "systems/rds-10-dos-cga/tokens.css",
       "style_md": "systems/rds-10-dos-cga/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/10-dos-cga/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/10-dos-cga/",
+      "preview": "systems/rds-10-dos-cga/preview.png"
     },
     {
       "id": "rds-11-8bit-arcade",
@@ -446,7 +456,8 @@
       ],
       "tokens": "systems/rds-11-8bit-arcade/tokens.css",
       "style_md": "systems/rds-11-8bit-arcade/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/11-8bit-arcade/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/11-8bit-arcade/",
+      "preview": "systems/rds-11-8bit-arcade/preview.png"
     },
     {
       "id": "rds-12-frutiger-aero",
@@ -476,7 +487,8 @@
       ],
       "tokens": "systems/rds-12-frutiger-aero/tokens.css",
       "style_md": "systems/rds-12-frutiger-aero/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/12-frutiger-aero/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/12-frutiger-aero/",
+      "preview": "systems/rds-12-frutiger-aero/preview.png"
     },
     {
       "id": "rds-13-winamp-skin",
@@ -508,7 +520,8 @@
       ],
       "tokens": "systems/rds-13-winamp-skin/tokens.css",
       "style_md": "systems/rds-13-winamp-skin/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/13-winamp-skin/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/13-winamp-skin/",
+      "preview": "systems/rds-13-winamp-skin/preview.png"
     },
     {
       "id": "rds-14-geocities-web10",
@@ -540,7 +553,8 @@
       ],
       "tokens": "systems/rds-14-geocities-web10/tokens.css",
       "style_md": "systems/rds-14-geocities-web10/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/14-geocities-web10/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/14-geocities-web10/",
+      "preview": "systems/rds-14-geocities-web10/preview.png"
     },
     {
       "id": "rds-15-cassette-futurism",
@@ -572,7 +586,8 @@
       ],
       "tokens": "systems/rds-15-cassette-futurism/tokens.css",
       "style_md": "systems/rds-15-cassette-futurism/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/15-cassette-futurism/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/15-cassette-futurism/",
+      "preview": "systems/rds-15-cassette-futurism/preview.png"
     },
     {
       "id": "rds-16-vaporwave",
@@ -604,7 +619,8 @@
       ],
       "tokens": "systems/rds-16-vaporwave/tokens.css",
       "style_md": "systems/rds-16-vaporwave/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/16-vaporwave/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/16-vaporwave/",
+      "preview": "systems/rds-16-vaporwave/preview.png"
     },
     {
       "id": "rds-17-memphis",
@@ -635,7 +651,8 @@
       ],
       "tokens": "systems/rds-17-memphis/tokens.css",
       "style_md": "systems/rds-17-memphis/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/17-memphis/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/17-memphis/",
+      "preview": "systems/rds-17-memphis/preview.png"
     },
     {
       "id": "rds-18-ps1-tech",
@@ -667,7 +684,8 @@
       ],
       "tokens": "systems/rds-18-ps1-tech/tokens.css",
       "style_md": "systems/rds-18-ps1-tech/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/18-ps1-tech/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/18-ps1-tech/",
+      "preview": "systems/rds-18-ps1-tech/preview.png"
     },
     {
       "id": "rds-19-os2-warp",
@@ -699,7 +717,8 @@
       ],
       "tokens": "systems/rds-19-os2-warp/tokens.css",
       "style_md": "systems/rds-19-os2-warp/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/19-os2-warp/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/19-os2-warp/",
+      "preview": "systems/rds-19-os2-warp/preview.png"
     },
     {
       "id": "rds-20-macos9-platinum",
@@ -731,7 +750,8 @@
       ],
       "tokens": "systems/rds-20-macos9-platinum/tokens.css",
       "style_md": "systems/rds-20-macos9-platinum/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/20-macos9-platinum/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/20-macos9-platinum/",
+      "preview": "systems/rds-20-macos9-platinum/preview.png"
     },
     {
       "id": "rds-21-web20-glossy",
@@ -763,7 +783,8 @@
       ],
       "tokens": "systems/rds-21-web20-glossy/tokens.css",
       "style_md": "systems/rds-21-web20-glossy/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/21-web20-glossy/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/21-web20-glossy/",
+      "preview": "systems/rds-21-web20-glossy/preview.png"
     },
     {
       "id": "rds-22-gameboy-dmg",
@@ -795,7 +816,8 @@
       ],
       "tokens": "systems/rds-22-gameboy-dmg/tokens.css",
       "style_md": "systems/rds-22-gameboy-dmg/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/22-gameboy-dmg/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/22-gameboy-dmg/",
+      "preview": "systems/rds-22-gameboy-dmg/preview.png"
     },
     {
       "id": "rds-23-braun-rams",
@@ -827,7 +849,8 @@
       ],
       "tokens": "systems/rds-23-braun-rams/tokens.css",
       "style_md": "systems/rds-23-braun-rams/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/23-braun-rams/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/23-braun-rams/",
+      "preview": "systems/rds-23-braun-rams/preview.png"
     },
     {
       "id": "rds-24-tron-vector",
@@ -858,7 +881,8 @@
       ],
       "tokens": "systems/rds-24-tron-vector/tokens.css",
       "style_md": "systems/rds-24-tron-vector/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/24-tron-vector/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/24-tron-vector/",
+      "preview": "systems/rds-24-tron-vector/preview.png"
     },
     {
       "id": "rds-25-vhs-tracking",
@@ -890,7 +914,8 @@
       ],
       "tokens": "systems/rds-25-vhs-tracking/tokens.css",
       "style_md": "systems/rds-25-vhs-tracking/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/25-vhs-tracking/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/25-vhs-tracking/",
+      "preview": "systems/rds-25-vhs-tracking/preview.png"
     },
     {
       "id": "rds-26-risograph",
@@ -922,7 +947,8 @@
       ],
       "tokens": "systems/rds-26-risograph/tokens.css",
       "style_md": "systems/rds-26-risograph/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/26-risograph/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/26-risograph/",
+      "preview": "systems/rds-26-risograph/preview.png"
     },
     {
       "id": "rds-27-ibm-3270",
@@ -954,7 +980,8 @@
       ],
       "tokens": "systems/rds-27-ibm-3270/tokens.css",
       "style_md": "systems/rds-27-ibm-3270/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/27-ibm-3270/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/27-ibm-3270/",
+      "preview": "systems/rds-27-ibm-3270/preview.png"
     },
     {
       "id": "rds-28-nethack-ascii",
@@ -986,7 +1013,8 @@
       ],
       "tokens": "systems/rds-28-nethack-ascii/tokens.css",
       "style_md": "systems/rds-28-nethack-ascii/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/28-nethack-ascii/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/28-nethack-ascii/",
+      "preview": "systems/rds-28-nethack-ascii/preview.png"
     },
     {
       "id": "rds-29-templeos",
@@ -1018,7 +1046,8 @@
       ],
       "tokens": "systems/rds-29-templeos/tokens.css",
       "style_md": "systems/rds-29-templeos/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/29-templeos/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/29-templeos/",
+      "preview": "systems/rds-29-templeos/preview.png"
     },
     {
       "id": "rds-30-bbs-ansi",
@@ -1050,7 +1079,8 @@
       ],
       "tokens": "systems/rds-30-bbs-ansi/tokens.css",
       "style_md": "systems/rds-30-bbs-ansi/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/30-bbs-ansi/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/30-bbs-ansi/",
+      "preview": "systems/rds-30-bbs-ansi/preview.png"
     },
     {
       "id": "rds-31-midnight-commander",
@@ -1082,7 +1112,8 @@
       ],
       "tokens": "systems/rds-31-midnight-commander/tokens.css",
       "style_md": "systems/rds-31-midnight-commander/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/31-midnight-commander/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/31-midnight-commander/",
+      "preview": "systems/rds-31-midnight-commander/preview.png"
     },
     {
       "id": "rds-32-matrix-rain",
@@ -1112,7 +1143,8 @@
       ],
       "tokens": "systems/rds-32-matrix-rain/tokens.css",
       "style_md": "systems/rds-32-matrix-rain/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/32-matrix-rain/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/32-matrix-rain/",
+      "preview": "systems/rds-32-matrix-rain/preview.png"
     },
     {
       "id": "rds-33-btop-meters",
@@ -1144,7 +1176,8 @@
       ],
       "tokens": "systems/rds-33-btop-meters/tokens.css",
       "style_md": "systems/rds-33-btop-meters/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/33-btop-meters/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/33-btop-meters/",
+      "preview": "systems/rds-33-btop-meters/preview.png"
     },
     {
       "id": "rds-34-c64-basic",
@@ -1176,7 +1209,8 @@
       ],
       "tokens": "systems/rds-34-c64-basic/tokens.css",
       "style_md": "systems/rds-34-c64-basic/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/34-c64-basic/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/34-c64-basic/",
+      "preview": "systems/rds-34-c64-basic/preview.png"
     },
     {
       "id": "rds-35-flat-2013",
@@ -1208,7 +1242,8 @@
       ],
       "tokens": "systems/rds-35-flat-2013/tokens.css",
       "style_md": "systems/rds-35-flat-2013/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/35-flat-2013/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/35-flat-2013/",
+      "preview": "systems/rds-35-flat-2013/preview.png"
     },
     {
       "id": "rds-36-glassmorphism",
@@ -1235,7 +1270,8 @@
       ],
       "tokens": "systems/rds-36-glassmorphism/tokens.css",
       "style_md": "systems/rds-36-glassmorphism/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/36-glassmorphism/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/36-glassmorphism/",
+      "preview": "systems/rds-36-glassmorphism/preview.png"
     },
     {
       "id": "rds-37-neumorphism",
@@ -1265,7 +1301,8 @@
       ],
       "tokens": "systems/rds-37-neumorphism/tokens.css",
       "style_md": "systems/rds-37-neumorphism/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/37-neumorphism/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/37-neumorphism/",
+      "preview": "systems/rds-37-neumorphism/preview.png"
     },
     {
       "id": "rds-38-blueprint-cad",
@@ -1296,7 +1333,8 @@
       ],
       "tokens": "systems/rds-38-blueprint-cad/tokens.css",
       "style_md": "systems/rds-38-blueprint-cad/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/38-blueprint-cad/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/38-blueprint-cad/",
+      "preview": "systems/rds-38-blueprint-cad/preview.png"
     },
     {
       "id": "rds-39-claymorphism",
@@ -1328,7 +1366,8 @@
       ],
       "tokens": "systems/rds-39-claymorphism/tokens.css",
       "style_md": "systems/rds-39-claymorphism/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/39-claymorphism/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/39-claymorphism/",
+      "preview": "systems/rds-39-claymorphism/preview.png"
     },
     {
       "id": "rds-40-brutalist-web",
@@ -1360,7 +1399,8 @@
       ],
       "tokens": "systems/rds-40-brutalist-web/tokens.css",
       "style_md": "systems/rds-40-brutalist-web/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/40-brutalist-web/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/40-brutalist-web/",
+      "preview": "systems/rds-40-brutalist-web/preview.png"
     },
     {
       "id": "rds-41-swiss-intl",
@@ -1388,7 +1428,8 @@
       ],
       "tokens": "systems/rds-41-swiss-intl/tokens.css",
       "style_md": "systems/rds-41-swiss-intl/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/41-swiss-intl/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/41-swiss-intl/",
+      "preview": "systems/rds-41-swiss-intl/preview.png"
     },
     {
       "id": "rds-42-bauhaus",
@@ -1417,7 +1458,8 @@
       ],
       "tokens": "systems/rds-42-bauhaus/tokens.css",
       "style_md": "systems/rds-42-bauhaus/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/42-bauhaus/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/42-bauhaus/",
+      "preview": "systems/rds-42-bauhaus/preview.png"
     },
     {
       "id": "rds-43-pop-art-lichtenstein",
@@ -1447,7 +1489,8 @@
       ],
       "tokens": "systems/rds-43-pop-art-lichtenstein/tokens.css",
       "style_md": "systems/rds-43-pop-art-lichtenstein/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/43-pop-art-lichtenstein/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/43-pop-art-lichtenstein/",
+      "preview": "systems/rds-43-pop-art-lichtenstein/preview.png"
     },
     {
       "id": "rds-44-op-art",
@@ -1474,7 +1517,8 @@
       ],
       "tokens": "systems/rds-44-op-art/tokens.css",
       "style_md": "systems/rds-44-op-art/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/44-op-art/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/44-op-art/",
+      "preview": "systems/rds-44-op-art/preview.png"
     },
     {
       "id": "rds-45-hypnagogic",
@@ -1506,7 +1550,8 @@
       ],
       "tokens": "systems/rds-45-hypnagogic/tokens.css",
       "style_md": "systems/rds-45-hypnagogic/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/45-hypnagogic/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/45-hypnagogic/",
+      "preview": "systems/rds-45-hypnagogic/preview.png"
     },
     {
       "id": "rds-46-monochrome-zen",
@@ -1532,7 +1577,8 @@
       ],
       "tokens": "systems/rds-46-monochrome-zen/tokens.css",
       "style_md": "systems/rds-46-monochrome-zen/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/46-monochrome-zen/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/46-monochrome-zen/",
+      "preview": "systems/rds-46-monochrome-zen/preview.png"
     },
     {
       "id": "rds-47-default-browser",
@@ -1555,7 +1601,8 @@
       "palette": [],
       "tokens": "systems/rds-47-default-browser/tokens.css",
       "style_md": "systems/rds-47-default-browser/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/47-default-browser/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/47-default-browser/",
+      "preview": "systems/rds-47-default-browser/preview.png"
     },
     {
       "id": "rds-48-wireframe-sketch",
@@ -1584,7 +1631,8 @@
       ],
       "tokens": "systems/rds-48-wireframe-sketch/tokens.css",
       "style_md": "systems/rds-48-wireframe-sketch/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/48-wireframe-sketch/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/48-wireframe-sketch/",
+      "preview": "systems/rds-48-wireframe-sketch/preview.png"
     },
     {
       "id": "rds-49-glitch-databend",
@@ -1615,7 +1663,8 @@
       ],
       "tokens": "systems/rds-49-glitch-databend/tokens.css",
       "style_md": "systems/rds-49-glitch-databend/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/49-glitch-databend/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/49-glitch-databend/",
+      "preview": "systems/rds-49-glitch-databend/preview.png"
     },
     {
       "id": "rds-50-y2k-chrome",
@@ -1647,7 +1696,8 @@
       ],
       "tokens": "systems/rds-50-y2k-chrome/tokens.css",
       "style_md": "systems/rds-50-y2k-chrome/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/50-y2k-chrome/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/50-y2k-chrome/",
+      "preview": "systems/rds-50-y2k-chrome/preview.png"
     },
     {
       "id": "rds-51-duotone-poster",
@@ -1674,7 +1724,8 @@
       ],
       "tokens": "systems/rds-51-duotone-poster/tokens.css",
       "style_md": "systems/rds-51-duotone-poster/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/51-duotone-poster/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/51-duotone-poster/",
+      "preview": "systems/rds-51-duotone-poster/preview.png"
     },
     {
       "id": "rds-52-grid-paper",
@@ -1703,7 +1754,8 @@
       ],
       "tokens": "systems/rds-52-grid-paper/tokens.css",
       "style_md": "systems/rds-52-grid-paper/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/52-grid-paper/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/52-grid-paper/",
+      "preview": "systems/rds-52-grid-paper/preview.png"
     },
     {
       "id": "rds-53-maximalist-banners",
@@ -1731,7 +1783,8 @@
       ],
       "tokens": "systems/rds-53-maximalist-banners/tokens.css",
       "style_md": "systems/rds-53-maximalist-banners/STYLE.md",
-      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/53-maximalist-banners/"
+      "demo_url": "https://novusgfx.github.io/retro-design-system/styles/53-maximalist-banners/",
+      "preview": "systems/rds-53-maximalist-banners/preview.png"
     }
   ]
 }
