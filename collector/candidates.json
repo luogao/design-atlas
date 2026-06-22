@@ -1,0 +1,56 @@
+[
+  {
+    "name": "vinibiavatti1/TuiCss",
+    "url": "https://github.com/vinibiavatti1/TuiCss",
+    "stars": 1947,
+    "description": "Text-based user interface CSS library",
+    "topics": [
+      "ascii",
+      "css",
+      "curses",
+      "framework",
+      "framework-css",
+      "html5",
+      "layout",
+      "msdos",
+      "ncurses",
+      "terminal",
+      "text-based",
+      "tui",
+      "turbo-vision",
+      "window"
+    ],
+    "demo": ""
+  },
+  {
+    "name": "Gioni06/terminal.css",
+    "url": "https://github.com/Gioni06/terminal.css",
+    "stars": 1424,
+    "description": "Modern and minimalistic CSS framework for terminal enthusiasts",
+    "topics": [],
+    "demo": "https://terminalcss.xyz"
+  },
+  {
+    "name": "RonenNess/RPGUI",
+    "url": "https://github.com/RonenNess/RPGUI",
+    "stars": 944,
+    "description": "Lightweight framework for old-school RPG GUI in web!",
+    "topics": [
+      "css",
+      "game-development",
+      "gamedev",
+      "html",
+      "javascript",
+      "ui"
+    ],
+    "demo": "http://ronenness.github.io/RPGUI/"
+  },
+  {
+    "name": "pinecreativelabs/Brutalist-Framework",
+    "url": "https://github.com/pinecreativelabs/Brutalist-Framework",
+    "stars": 436,
+    "description": "A framework for the brutalist web design trend. Build Brutality.",
+    "topics": [],
+    "demo": "https://www.brutalistframework.com"
+  }
+]

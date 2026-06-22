@@ -126,11 +126,40 @@ def scrape_github_search():
     """GitHub Search: 视觉风格化 CSS 项目"""
     log("🔄 Searching GitHub CSS repos...")
     queries = [
+        # Retro / 复古
         "retro css framework design-system",
-        "classless css framework",
-        "aesthetic css framework",
         "retro design-system css",
         "css framework 8bit pixel nostalgic",
+        # Game / 游戏
+        "game ui css framework",
+        "arcade css retro",
+        "rpg ui css",
+        # 极客 / 终端
+        "terminal css framework",
+        "monospace css framework",
+        # 自然 / 手绘
+        "hand-drawn css framework",
+        "sketchy css framework",
+        # 印刷/纸张
+        "newspaper css framework",
+        "zine css style",
+        # 粗野/建筑
+        "brutalist web design",
+        "geometry css framework",
+        # 玻璃态/新拟态
+        "glassmorphism css",
+        "neumorphism css",
+        # 科幻/赛博
+        "cyberpunk css framework",
+        "scifi css design",
+        # 极简/排版
+        "classless css framework",
+        "minimal design system",
+        "pure css art grid",
+        # 设计系统/设计Token
+        "design system css retro",
+        "design token css theme",
+        "retro design tokens",
     ]
     all_repos = []
     seen_urls = set()
@@ -189,30 +218,49 @@ def scrape_niche_css_list():
 
 def is_visual_repo(repo_info):
     """判断是否视觉风格化系统（vs 普通 UI 框架/工具库）"""
-    text = (repo_info.get('description', '') or '') + ' ' + ' '.join(repo_info.get('topics', []))
-    text_lower = text.lower()
+    desc = (repo_info.get('description', '') or '')
+    topics = ' '.join(repo_info.get('topics', []))
+    text = desc + ' ' + topics
+    name = repo_info.get('name', '')
+    text_lower = (desc + ' ' + topics + ' ' + name).lower()
 
-    # Skip: generic UI libs, utilities
+    # ❌ 硬排除：非设计类 repo
+    hard_skip = [
+        '反中共', '政治', 'propaganda', 'dictatorship',
+        'github topic', 'awesome list', 'curated list',
+        '动漫', 'discord', '.github community',
+    ]
+    if any(s in text_lower for s in hard_skip):
+        return False
+
+    # ❌ 跳过：通用 UI 框架/工具
     skip_patterns = [
-        'ui library', 'ui component', 'component library', 'ui framework',
-        'utility-first', 'utility class', 'responsive grid', 'css-in-js',
-        'css framework', 'admin template', 'admin panel',
+        'ui library', 'ui component', 'component library',
+        'utility-first', 'utility class', 'responsive grid',
+        'admin template', 'admin panel',
         'wordpress', 'jekyll', 'hugo', 'gatsby', 'next.js', 'react',
-        'tailwind plugin', 'bootstrap theme', 'design token',
-        'starter', 'boilerplate', 'kit ', 'scss framework', 'sass',
+        'tailwind plugin', 'bootstrap theme',
+        'starter', 'boilerplate',
         'atomic css', 'design system implementation',
     ]
 
+    # ✅ 视觉风格关键词
     vision_signals = [
-        'retro', 'vintage', 'pixel', '8-bit', '8bit', 'nes', 'vaporwave',
-        'cyberpunk', 'brutalist', 'neon', 'glitch', 'hand-drawn', 'handdrawn',
-        'sketchy', 'wobble', 'cartoon', 'game', 'arcade', 'terminal',
-        'rough', 'paper', 'glassmorphism', 'neumorphism', 'clay', 'y2k',
-        'aesthetic', 'nostalgic', 'chunky', 'dot matrix', 'typewriter',
-        'wireframe', 'sketch', 'pop art', 'bauhaus', 'swiss',
-        'no class', 'classless', 'minimal', 'serif', 'typography',
-        'gradient', 'duotone', 'monochrome', 'glossy', 'strikethrough',
+        'retro', 'vintage', 'pixel', '8-bit', '8bit', 'nes',
+        'vaporwave', 'cyberpunk', 'brutalist', 'neon', 'glitch',
+        'hand-drawn', 'handdrawn', 'sketchy', 'wobble', 'cartoon',
+        'game ui', 'arcade', 'rpg', 'terminal ui', 'terminal theme',
+        'tui', 'text-based ui', 'old-school', 'old school rpg',
+        'rough', 'paper', 'glassmorphism', 'neumorphism', 'clay',
+        'y2k', 'aesthetic', 'nostalgic', 'chunky', 'dot matrix',
+        'typewriter', 'wireframe', 'sketch', 'pop art',
+        'bauhaus', 'swiss', 'geometry',
+        'no class', 'classless', 'minimal', 'minimalist',
+        'serif', 'typography', 'monospace',
+        'gradient', 'duotone', 'monochrome', 'glossy',
         'win95', 'win98', 'winxp', 'mac os', 'crt', 'phosphor',
+        'zine', 'newspaper', 'print style',
+        'pure css', 'css art',
     ]
 
     has_vision = any(s in text_lower for s in vision_signals)
