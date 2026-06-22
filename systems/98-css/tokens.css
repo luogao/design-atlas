@@ -1,0 +1,60 @@
+/* 98.css — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --border-field: inset -1px -1px var(--button-highlight),
+    inset 1px 1px var(--button-shadow), inset -2px -2px var(--button-face),
+    inset 2px 2px var(--window-frame);
+  --border-raised-inner: inset -2px -2px var(--button-shadow),
+    inset 2px 2px var(--button-face);
+  --border-raised-outer: inset -1px -1px var(--window-frame),
+    inset 1px 1px var(--button-highlight);
+  --border-status-field: inset -1px -1px var(--button-face), inset 1px 1px var(--button-shadow);
+  --border-sunken-inner: inset -2px -2px var(--button-face),
+    inset 2px 2px var(--button-shadow);
+  --border-sunken-outer: inset -1px -1px var(--button-highlight),
+    inset 1px 1px var(--window-frame);
+  --border-width: 1px;
+  --border-window-inner: inset -2px -2px var(--button-shadow),
+    inset 2px 2px var(--button-highlight);
+  --border-window-outer: inset -1px -1px var(--window-frame),
+    inset 1px 1px var(--button-face);
+  --button-face: #dfdfdf;
+  --button-highlight: #ffffff;
+  --button-shadow: #808080;
+  --checkbox-left: calc(-1 * var(--checkbox-total-width-precalc));
+  --checkbox-total-width: calc(var(--checkbox-total-width-precalc));
+  --checkbox-total-width-precalc: var(--checkbox-width) +
+    var(--radio-label-spacing);
+  --checkbox-width: 13px;
+  --checkmark-left: 3px;
+  --checkmark-width: 7px;
+  --default-button-border-raised-inner: inset 2px 2px var(--button-highlight), inset -3px -3px var(--button-shadow), inset 3px 3px var(--button-face);
+  --default-button-border-raised-outer: inset -2px -2px var(--window-frame), inset 1px 1px var(--window-frame);
+  --default-button-border-sunken-inner: inset -2px -2px var(--button-highlight), inset 3px 3px var(--button-shadow), inset -3px -3px var(--button-face);
+  --default-button-border-sunken-outer: inset 2px 2px var(--window-frame), inset -1px -1px var(--window-frame);
+  --dialog-blue: #000080;
+  --dialog-blue-light: #1084d0;
+  --dialog-gray: #808080;
+  --dialog-gray-light: #b5b5b5;
+  --element-spacing: 8px;
+  --grouped-button-spacing: 4px;
+  --grouped-element-spacing: 6px;
+  --link-blue: #0000ff;
+  --radio-dot-left: calc(
+    -1 * (var(--radio-total-width-precalc)) + var(--radio-width) / 2 - var(
+        --radio-dot-width
+      ) / 2
+  );
+  --radio-dot-top: calc(var(--radio-width) / 2 - var(--radio-dot-width) / 2);
+  --radio-dot-width: 4px;
+  --radio-label-spacing: 6px;
+  --radio-left: calc(-1 * var(--radio-total-width-precalc));
+  --radio-total-width: calc(var(--radio-total-width-precalc));
+  --radio-total-width-precalc: var(--radio-width) + var(--radio-label-spacing);
+  --radio-width: 12px;
+  --range-spacing: 10px;
+  --range-track-height: 4px;
+  --surface: #c0c0c0;
+  --text-color: #222222;
+  --window-frame: #0a0a0a;
+}

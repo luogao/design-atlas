@@ -1,0 +1,49 @@
+/* Water.css — Design Tokens */
+/* 来源：classless CSS framework，语义 HTML 自动美化 */
+/* https://github.com/kognise/water.css */
+
+:root {
+  /* 背景 */
+  --water-bg-body: #ffffff;
+  --water-bg: #efefef;
+  --water-bg-alt: #f7f7f7;
+
+  /* 文字 */
+  --water-text-main: #363636;
+  --water-text-bright: #000000;
+  --water-text-muted: #70777f;
+
+  /* 链接 */
+  --water-links: #0076d1;
+  --water-focus: #0096bfab;
+
+  /* 边框 */
+  --water-border: #dbdbdb;
+
+  /* 代码 */
+  --water-code: #000000;
+
+  /* 按钮 */
+  --water-button-base: #d0cfcf;
+  --water-button-hover: #9b9b9b;
+
+  /* 表单 */
+  --water-form-placeholder: #949494;
+  --water-form-text: #1d1d1d;
+
+  /* 高亮 */
+  --water-highlight: #ffff00;
+  --water-variable: #39a33c;
+
+  /* 动效 */
+  --water-animation-duration: 0.1s;
+
+  /* 暗色模式（-dark/自动） */
+  --water-dark-bg-body: #1b1b1b;
+  --water-dark-bg: #252525;
+  --water-dark-bg-alt: #1f1f1f;
+  --water-dark-text-main: #c8c8c8;
+  --water-dark-text-bright: #ffffff;
+  --water-dark-links: #41adff;
+  --water-dark-border: #526980;
+}

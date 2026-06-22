@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 60,
+  "count": 67,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2113,6 +2113,216 @@
       "preview": "systems/animal-island-ui/preview.png",
       "one_liner": "动物森友会风格 React 组件库 — 温暖大地色 + 大圆角 pill 形 + 游戏按键立体感",
       "best_for": "游戏风格 UI、可爱/温馨主题、社交/生活类 Web App、产品展示"
+    },
+    {
+      "id": "system-css",
+      "name": "system.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/sakofchit/system.css",
+        "author": "sakofchit",
+        "license": "MIT"
+      },
+      "palette": [
+        "2px 2px",
+        "8px",
+        "6px",
+        "12px",
+        "13px",
+        "6px"
+      ],
+      "tokens": "systems/system-css/tokens.css",
+      "style_md": "systems/system-css/STYLE.md",
+      "demo_url": "https://sakofchit.github.io/system.css/",
+      "preview": "systems/system-css/preview.png",
+      "one_liner": "system.css — 设计系统",
+      "best_for": "多种场景"
+    },
+    {
+      "id": "98-css",
+      "name": "98.css",
+      "category": "os-interfaces",
+      "tags": [
+        "nostalgic",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/jdan/98.css",
+        "author": "jdan",
+        "license": "MIT"
+      },
+      "palette": [
+        "#222222",
+        "#c0c0c0",
+        "#ffffff",
+        "#dfdfdf",
+        "#808080",
+        "#0a0a0a"
+      ],
+      "tokens": "systems/98-css/tokens.css",
+      "style_md": "systems/98-css/STYLE.md",
+      "demo_url": "https://jdan.github.io/98.css/",
+      "preview": "systems/98-css/preview.png",
+      "one_liner": "98.css — 设计系统",
+      "best_for": "多种场景"
+    },
+    {
+      "id": "xp.css-98",
+      "name": "XP.css (98)",
+      "category": "os-interfaces",
+      "tags": [
+        "nostalgic",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/botoxparty/XP.css",
+        "author": "botoxparty",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/xp.css-98/tokens.css",
+      "style_md": "systems/xp.css-98/STYLE.md",
+      "demo_url": "https://botoxparty.github.io/XP.css/",
+      "preview": "systems/xp.css-98/preview.png",
+      "one_liner": "XP.css — 设计系统",
+      "best_for": "多种场景"
+    },
+    {
+      "id": "xp.css-XP",
+      "name": "XP.css (XP)",
+      "category": "os-interfaces",
+      "tags": [
+        "nostalgic",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/botoxparty/XP.css",
+        "author": "botoxparty",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/xp.css-XP/tokens.css",
+      "style_md": "systems/xp.css-XP/STYLE.md",
+      "demo_url": "https://botoxparty.github.io/XP.css/",
+      "preview": "systems/xp.css-XP/preview.png",
+      "one_liner": "XP.css (XP) — 设计风格",
+      "best_for": "多种场景"
+    },
+    {
+      "id": "water-css",
+      "name": "Water.css",
+      "category": "web-eras",
+      "tags": [
+        "minimal",
+        "elegant",
+        "documentation",
+        "sans-serif",
+        "spacious"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/kognise/water.css",
+        "author": "kognise",
+        "license": "MIT"
+      },
+      "palette": [
+        "#ffffff",
+        "#efefef",
+        "#363636",
+        "#0076d1",
+        "#d0cfcf",
+        "#dbdbdb"
+      ],
+      "tokens": "systems/water-css/tokens.css",
+      "style_md": "systems/water-css/STYLE.md",
+      "demo_url": "https://watercss.kognise.dev/",
+      "preview": "systems/water-css/preview.png",
+      "one_liner": "Classless CSS 框架 — 纯语义 HTML → 干净现代文档风格，零 class 写入",
+      "best_for": "文档站、个人博客、快速原型、README 风格页面"
+    },
+    {
+      "id": "nes-css",
+      "name": "NES.css",
+      "category": "gaming",
+      "tags": [
+        "playful",
+        "8bit",
+        "pixel",
+        "classic",
+        "game-ui"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/nostalgic-css/NES.css",
+        "author": "nostalgic-css",
+        "license": "MIT"
+      },
+      "palette": [
+        "#209cee",
+        "#92cc41",
+        "#f7d51d",
+        "#e76e55",
+        "#212529",
+        "#ffffff"
+      ],
+      "tokens": "systems/nes-css/tokens.css",
+      "style_md": "systems/nes-css/STYLE.md",
+      "demo_url": "https://nostalgic-css.github.io/NES.css/",
+      "preview": "systems/nes-css/preview.png",
+      "one_liner": "8-bit 像素风 CSS 框架，复古任天堂 FC/NES 美学，用 CSS 还原红白机界面",
+      "best_for": "游戏风格官网、复古 UI、retro game 项目、8-bit 主题页面"
+    },
+    {
+      "id": "sakura",
+      "name": "Sakura",
+      "category": "design-movements",
+      "tags": [
+        "minimal",
+        "elegant",
+        "playful",
+        "serif",
+        "blog"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/oxalorg/sakura",
+        "author": "oxalorg",
+        "license": "MIT"
+      },
+      "palette": [
+        "#111111",
+        "#f7f7f7",
+        "#DA4453",
+        "#1d7484",
+        "#982c61",
+        "#da4453"
+      ],
+      "tokens": "systems/sakura/tokens.css",
+      "style_md": "systems/sakura/STYLE.md",
+      "demo_url": "https://oxal.org/projects/sakura/",
+      "preview": "systems/sakura/preview.png",
+      "one_liner": "极简 classless CSS 框架 — 樱花般细腻的排版，专注阅读体验的语义 HTML 主题",
+      "best_for": "个人博客、写作平台、阅读类网站、极简文字站点"
     }
   ],
   "sources": [
@@ -2201,6 +2411,39 @@
       "license": "MIT",
       "description": "动物森友会风格 React + TypeScript 组件库（24 个组件），薄荷青绿主色 + 温暖棕调 + 超级大圆角",
       "url": "https://guokaigdg.github.io/animal-island-ui/#/",
+      "count": 1
+    },
+    {
+      "id": "system-css",
+      "name": "system.css",
+      "repo": "https://github.com/sakofchit/system.css",
+      "author": "sakofchit",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://sakofchit.github.io/system.css/",
+      "count": 1
+    },
+    {
+      "id": "water-css",
+      "name": "water.css",
+      "repo": "https://github.com/kognise/water.css",
+      "author": "kognise",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://watercss.kognise.dev/",
+      "count": 1
+    },
+    {
+      "id": "sakura",
+      "name": "sakura",
+      "repo": "https://github.com/oxalorg/sakura",
+      "author": "oxalorg",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://oxal.org/projects/sakura/",
       "count": 1
     }
   ]

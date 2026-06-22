@@ -1,0 +1,35 @@
+/* system.css — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --box-shadow: 2px 2px;
+  --checkbox-left: calc(-1 * var(--checkbox-total-width-precalc));
+  --checkbox-total-width: calc(var(--checkbox-total-width-precalc));
+  --checkbox-total-width-precalc: var(--checkbox-width) +
+    var(--radio-label-spacing);
+  --checkbox-width: 13px;
+  --checkmark-left: 2px;
+  --checkmark-top: 2px;
+  --checkmark-width: 12px;
+  --disabled: var(--sys-color-darkgrey);
+  --element-spacing: 8px;
+  --grouped-element-spacing: 6px;
+  --primary: var(--sys-color-white);
+  --radio-dot-left: calc(
+    -1 * (var(--radio-total-width-precalc)) + var(--radio-width) / 2 - var(
+        --radio-dot-width
+      ) / 2
+  );
+  --radio-dot-top: calc(var(--radio-width) / 2 - var(--radio-dot-width) / 2);
+  --radio-dot-width: 6px;
+  --radio-label-spacing: 6px;
+  --radio-left: calc(-1 * var(--radio-total-width-precalc));
+  --radio-total-width: calc(var(--radio-total-width-precalc));
+  --radio-total-width-precalc: var(--radio-width) + var(--radio-label-spacing);
+  --radio-width: 12px;
+  --secondary: var(--sys-color-black);
+  --sys-color-black: #000000;
+  --sys-color-darkgrey: #B6B7B8;
+  --sys-color-grey: #A5A5A5;
+  --sys-color-white: #FFFFFF;
+  --tertiary: var(--sys-color-grey);
+}
