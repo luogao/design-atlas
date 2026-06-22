@@ -538,6 +538,24 @@ body {
   color: var(--text-faint);
   font-size: 12px;
 }
+.footer p {
+  margin: 4px 0;
+}
+.footer-link a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.footer-link a::before {
+  content: "↗";
+  font-size: 11px;
+}
+.footer-link a:hover {
+  color: var(--accent);
+}
 
 /* ===== Scrollbar ===== */
 ::-webkit-scrollbar { width: 8px; }
