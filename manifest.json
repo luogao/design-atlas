@@ -2165,10 +2165,10 @@
         "#808080",
         "#0a0a0a"
       ],
-      "tokens": "systems/98-css/tokens.css",
-      "style_md": "systems/98-css/STYLE.md",
+      "tokens": "systems/98css/tokens.css",
+      "style_md": "systems/98css/STYLE.md",
       "demo_url": "https://jdan.github.io/98.css/",
-      "preview": "systems/98-css/preview.png",
+      "preview": "systems/98css/preview.png",
       "one_liner": "98.css — 设计系统",
       "best_for": "多种场景"
     },
@@ -2193,12 +2193,12 @@
         "#ccc",
         "#fff"
       ],
-      "tokens": "systems/xp.css-98/tokens.css",
-      "style_md": "systems/xp.css-98/STYLE.md",
+      "tokens": "systems/xp-css/tokens.css",
+      "style_md": "systems/xp-css/STYLE.md",
       "demo_url": "https://botoxparty.github.io/XP.css/",
       "preview": "systems/xp.css-98/preview.png",
-      "one_liner": "XP.css — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "Windows 经典复古 CSS 框架（98 主题）— botoxparty/XP.css 的双主题之一",
+      "best_for": "98 主题风网站、复古 UI 演示"
     },
     {
       "id": "xp.css-XP",
@@ -2221,12 +2221,12 @@
         "#ccc",
         "#fff"
       ],
-      "tokens": "systems/xp.css-XP/tokens.css",
-      "style_md": "systems/xp.css-XP/STYLE.md",
+      "tokens": "systems/xp-css/tokens.css",
+      "style_md": "systems/xp-css/STYLE.md",
       "demo_url": "https://botoxparty.github.io/XP.css/",
       "preview": "systems/xp.css-XP/preview.png",
-      "one_liner": "XP.css (XP) — 设计风格",
-      "best_for": "多种场景"
+      "one_liner": "Windows XP Luna 蓝绿经典主题 — botoxparty/XP.css 的 XP 主题 tab",
+      "best_for": "XP 怀旧风网站、2000s 复古 UI"
     },
     {
       "id": "water-css",
