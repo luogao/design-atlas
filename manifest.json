@@ -2141,7 +2141,7 @@
       "demo_url": "https://sakofchit.github.io/system.css/",
       "preview": "systems/system-css/preview.png",
       "one_liner": "system.css — 设计系统",
-      "best_for": "多种场景"
+      "best_for": "CLI 工具文档页、开发者博客、终端风格展示页面"
     },
     {
       "id": "water-css",
@@ -2234,7 +2234,7 @@
       "demo_url": "https://vinibiavatti1.github.io/TuiCss/",
       "preview": "systems/tuicss/preview.png",
       "one_liner": "TuiCss — 设计系统",
-      "best_for": "多种场景"
+      "best_for": "CLI 工具文档页、开发者博客、终端风格展示页面"
     },
     {
       "id": "terminal-css",
@@ -2262,7 +2262,7 @@
       "demo_url": "https://terminalcss.xyz",
       "preview": "systems/terminal-css/preview.png",
       "one_liner": "terminal.css — 设计系统",
-      "best_for": "多种场景"
+      "best_for": "CLI 工具文档页、开发者博客、终端风格展示页面"
     },
     {
       "id": "rpgui",
@@ -2290,7 +2290,7 @@
       "demo_url": "http://ronenness.github.io/RPGUI/",
       "preview": "systems/rpgui/preview.png",
       "one_liner": "RPGUI — 设计系统",
-      "best_for": "多种场景"
+      "best_for": "CLI 工具文档页、开发者博客、终端风格展示页面"
     }
   ],
   "sources": [
