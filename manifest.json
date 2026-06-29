@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 64,
+  "count": 65,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2235,6 +2235,34 @@
       "preview": "systems/tuicss/preview.png",
       "one_liner": "TuiCss — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "terminal-css",
+      "name": "terminal.css",
+      "category": "terminal-tui",
+      "tags": [
+        "dry",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/Gioni06/terminal.css",
+        "author": "Gioni06",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/terminal-css/tokens.css",
+      "style_md": "systems/terminal-css/STYLE.md",
+      "demo_url": "https://terminalcss.xyz",
+      "preview": "systems/terminal-css/preview.png",
+      "one_liner": "terminal.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2367,6 +2395,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://vinibiavatti1.github.io/TuiCss/",
+      "count": 1
+    },
+    {
+      "id": "terminal-css",
+      "name": "terminal.css",
+      "repo": "https://github.com/Gioni06/terminal.css",
+      "author": "Gioni06",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://terminalcss.xyz",
       "count": 1
     }
   ]
