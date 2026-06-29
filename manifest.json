@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 63,
+  "count": 64,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2206,6 +2206,35 @@
       "preview": "systems/sakura/preview.png",
       "one_liner": "极简 classless CSS 框架 — 樱花般细腻的排版，专注阅读体验的语义 HTML 主题",
       "best_for": "个人博客、写作平台、阅读类网站、极简文字站点"
+    },
+    {
+      "id": "tuicss",
+      "name": "TuiCss",
+      "category": "terminal-tui",
+      "tags": [
+        "dry",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/vinibiavatti1/TuiCss",
+        "author": "vinibiavatti1",
+        "license": "MIT"
+      },
+      "palette": [
+        "'Lucida Console'",
+        "18px",
+        "'[√]'",
+        "'[\\00a0]'",
+        "'(•)'",
+        "'(\\00a0)'"
+      ],
+      "tokens": "systems/tuicss/tokens.css",
+      "style_md": "systems/tuicss/STYLE.md",
+      "demo_url": "https://vinibiavatti1.github.io/TuiCss/",
+      "preview": "systems/tuicss/preview.png",
+      "one_liner": "TuiCss — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2327,6 +2356,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://oxal.org/projects/sakura/",
+      "count": 1
+    },
+    {
+      "id": "tuicss",
+      "name": "TuiCss",
+      "repo": "https://github.com/vinibiavatti1/TuiCss",
+      "author": "vinibiavatti1",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://vinibiavatti1.github.io/TuiCss/",
       "count": 1
     }
   ]

@@ -2,7 +2,7 @@
   {
     "name": "vinibiavatti1/TuiCss",
     "url": "https://github.com/vinibiavatti1/TuiCss",
-    "stars": 1947,
+    "stars": 1948,
     "description": "Text-based user interface CSS library",
     "topics": [
       "ascii",
@@ -25,7 +25,7 @@
   {
     "name": "Gioni06/terminal.css",
     "url": "https://github.com/Gioni06/terminal.css",
-    "stars": 1424,
+    "stars": 1427,
     "description": "Modern and minimalistic CSS framework for terminal enthusiasts",
     "topics": [],
     "demo": "https://terminalcss.xyz"
@@ -33,7 +33,7 @@
   {
     "name": "RonenNess/RPGUI",
     "url": "https://github.com/RonenNess/RPGUI",
-    "stars": 944,
+    "stars": 946,
     "description": "Lightweight framework for old-school RPG GUI in web!",
     "topics": [
       "css",
@@ -46,11 +46,18 @@
     "demo": "http://ronenness.github.io/RPGUI/"
   },
   {
-    "name": "pinecreativelabs/Brutalist-Framework",
-    "url": "https://github.com/pinecreativelabs/Brutalist-Framework",
-    "stars": 436,
-    "description": "A framework for the brutalist web design trend. Build Brutality.",
-    "topics": [],
-    "demo": "https://www.brutalistframework.com"
+    "name": "matt-auckland/retro-css",
+    "url": "https://github.com/matt-auckland/retro-css",
+    "stars": 924,
+    "description": "A list of retro-inspired CSS frameworks and design systems",
+    "topics": [
+      "css",
+      "css-frameworks",
+      "design-systems",
+      "nes",
+      "retro",
+      "retro-css"
+    ],
+    "demo": ""
   }
 ]

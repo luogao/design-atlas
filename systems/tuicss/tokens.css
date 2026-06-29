@@ -1,0 +1,27 @@
+/* TuiCss — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  $checkbox-off: '[\00a0]';
+  $checkbox-on: '[√]';
+  $danger: rgb(168, 0, 0);
+  $font: 'Lucida Console';
+  $font-size: 18px;
+  $gutter-width: 1.5rem;
+  $info: rgb(0, 168, 168);
+  $large-screen: 1200px;
+  $large-screen-up: 1201px;
+  $medium-screen: 992px;
+  $medium-screen-up: 993px;
+  $num-cols: 12;
+  $primary: rgb(0, 0, 168);
+  $radio-off: '(\00a0)';
+  $radio-on: '(•)';
+  $scroll-default-color: rgb(0, 168, 168);
+  $scroll-default-image: url(images/scroll-cyan.png);
+  $scroll-default-tui: true;
+  $secondary: rgb(168, 168, 168);
+  $small-screen: 600px;
+  $small-screen-up: 601px;
+  $success: rgb(0, 168, 0);
+  $warning: rgb(168, 168, 0);
+}
