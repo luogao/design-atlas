@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 65,
+  "count": 66,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2263,6 +2263,34 @@
       "preview": "systems/terminal-css/preview.png",
       "one_liner": "terminal.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "rpgui",
+      "name": "RPGUI",
+      "category": "gaming",
+      "tags": [
+        "playful",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/RonenNess/RPGUI",
+        "author": "RonenNess",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/rpgui/tokens.css",
+      "style_md": "systems/rpgui/STYLE.md",
+      "demo_url": "http://ronenness.github.io/RPGUI/",
+      "preview": "systems/rpgui/preview.png",
+      "one_liner": "RPGUI — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2406,6 +2434,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://terminalcss.xyz",
+      "count": 1
+    },
+    {
+      "id": "rpgui",
+      "name": "RPGUI",
+      "repo": "https://github.com/RonenNess/RPGUI",
+      "author": "RonenNess",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "http://ronenness.github.io/RPGUI/",
       "count": 1
     }
   ]
