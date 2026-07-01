@@ -1,12 +1,12 @@
-/* Cinema Palette — Dune: Part Two */
+/* Cinema Palette — dune2-arrakis-fire */
 /* Auto-extracted from movie frame, color-only overlay */
 /* Apply by overriding :root color variables */
 
 :root {
-  --cinema-bg: #493427;  /* 37% */
-  --cinema-surface: #6D4B32;  /* 34% */
-  --cinema-accent: #181311;  /* 22% */
-  --cinema-text: #F5CB7E;  /* 3% */
-  --cinema-muted: #B97831;  /* 3% */
+  --cinema-bg: #81705B;  /* 29% */
+  --cinema-surface: #5F4F3D;  /* 25% */
+  --cinema-accent: #A5927A;  /* 20% */
+  --cinema-text: #352D25;  /* 16% */
+  --cinema-muted: #CFBCA5;  /* 10% */
   /* scheme: monochromatic, temp: warm, brightness: mid */
 }

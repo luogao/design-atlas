@@ -1,12 +1,12 @@
-/* Cinema Palette — Spider-Man: Into the Spider-Verse */
+/* Cinema Palette — spiderverse-neon-lottery */
 /* Auto-extracted from movie frame, color-only overlay */
 /* Apply by overriding :root color variables */
 
 :root {
-  --cinema-bg: #319C9C;  /* 36% */
-  --cinema-surface: #060607;  /* 22% */
-  --cinema-accent: #A8B37C;  /* 16% */
-  --cinema-text: #73D4E0;  /* 14% */
-  --cinema-muted: #9A5B78;  /* 11% */
+  --cinema-bg: #1A1626;  /* 44% */
+  --cinema-surface: #372B41;  /* 30% */
+  --cinema-accent: #6E3644;  /* 15% */
+  --cinema-text: #526185;  /* 6% */
+  --cinema-muted: #B9757B;  /* 6% */
   /* scheme: monochromatic, temp: balanced, brightness: mid */
 }

@@ -1,24 +1,24 @@
 {
   "palette": [
     {
-      "hex": "#493427",
-      "ratio": 0.3744
+      "hex": "#81705B",
+      "ratio": 0.286
     },
     {
-      "hex": "#6D4B32",
-      "ratio": 0.3422
+      "hex": "#5F4F3D",
+      "ratio": 0.2481
     },
     {
-      "hex": "#181311",
-      "ratio": 0.2194
+      "hex": "#A5927A",
+      "ratio": 0.2046
     },
     {
-      "hex": "#F5CB7E",
-      "ratio": 0.032
+      "hex": "#352D25",
+      "ratio": 0.1649
     },
     {
-      "hex": "#B97831",
-      "ratio": 0.0319
+      "hex": "#CFBCA5",
+      "ratio": 0.0964
     }
   ],
   "analysis": {

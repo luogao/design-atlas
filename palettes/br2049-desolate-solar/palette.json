@@ -1,29 +1,29 @@
 {
   "palette": [
     {
-      "hex": "#4E6866",
-      "ratio": 0.2696
+      "hex": "#0D1715",
+      "ratio": 0.5222
     },
     {
-      "hex": "#5E7773",
-      "ratio": 0.2384
+      "hex": "#182A2A",
+      "ratio": 0.2884
     },
     {
-      "hex": "#6F867D",
-      "ratio": 0.2292
+      "hex": "#2E4241",
+      "ratio": 0.0971
     },
     {
-      "hex": "#3E5855",
-      "ratio": 0.1735
+      "hex": "#586D67",
+      "ratio": 0.0577
     },
     {
-      "hex": "#80968B",
-      "ratio": 0.0893
+      "hex": "#798D85",
+      "ratio": 0.0346
     }
   ],
   "analysis": {
     "scheme": "monochromatic",
     "temperature": "balanced",
-    "brightness": "mid"
+    "brightness": "dark"
   }
 }
