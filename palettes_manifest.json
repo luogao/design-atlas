@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-01",
+  "count": 3,
+  "categories": [
+    {
+      "id": "monochromatic",
+      "name": "Monochromatic",
+      "name_cn": "单色系",
+      "description": "单一色相的明度梯度，克制而统一"
+    },
+    {
+      "id": "complementary",
+      "name": "Complementary",
+      "name_cn": "互补色",
+      "description": "色环对极的碰撞，最大张力"
+    },
+    {
+      "id": "split-complementary",
+      "name": "Split-Complementary",
+      "name_cn": "分裂互补",
+      "description": "主色 + 对极两侧，张力中有平衡"
+    },
+    {
+      "id": "analogous",
+      "name": "Analogous",
+      "name_cn": "类比色",
+      "description": "色环相邻色的和谐过渡"
+    }
+  ],
+  "mood_tags": [
+    "孤独", "末日", "壮丽", "粗犷", "原始", "灼热",
+    "跃动", "超现实", "温暖", "冰冷", "神秘", "史诗"
+  ],
+  "palettes": [
+    {
+      "id": "br2049-desolate-solar",
+      "title": "Blade Runner 2049",
+      "scene": "荒芜太阳能场",
+      "director": "Denis Villeneuve",
+      "director_cn": "丹尼斯·维伦纽瓦",
+      "cinematographer": "Roger Deakins",
+      "year": 2017,
+      "category": "monochromatic",
+      "mood": ["孤独", "末日", "冰冷"],
+      "scheme": "monochromatic",
+      "temperature": "cool",
+      "best_for": ["dashboard", "data-viz", "dark-tool"],
+      "one_liner": "灰绿单色调，雾霾中的机械废墟",
+      "scene_desc_cn": "K 乘 Spinner 飞行器俯瞰废弃的圣地亚哥太阳能阵列，巨大的圆形反射镜阵列在雾霾中延伸到地平线。",
+      "palette": [
+        { "hex": "#4E6866", "name": "雾松绿", "ratio": 0.27 },
+        { "hex": "#5E7773", "name": "灰青绿", "ratio": 0.24 },
+        { "hex": "#6F867D", "name": "苔绿灰", "ratio": 0.23 },
+        { "hex": "#3E5855", "name": "深松石", "ratio": 0.17 },
+        { "hex": "#80968B", "name": "浅灰绿", "ratio": 0.09 }
+      ],
+      "scene_png": "palettes/br2049-desolate-solar/scene.png",
+      "tokens": "palettes/br2049-desolate-solar/tokens.css",
+      "color_story": "palettes/br2049-desolate-solar/COLOR_STORY.md"
+    },
+    {
+      "id": "dune2-arrakis-fire",
+      "title": "Dune: Part Two",
+      "scene": "Arrakis 夜火",
+      "director": "Denis Villeneuve",
+      "director_cn": "丹尼斯·维伦纽瓦",
+      "cinematographer": "Greig Fraser",
+      "year": 2024,
+      "category": "monochromatic",
+      "mood": ["粗犷", "灼热", "史诗", "原始"],
+      "scheme": "monochromatic",
+      "temperature": "warm",
+      "best_for": ["landing-page", "portfolio", "game-ui"],
+      "one_liner": "97%暗棕 + 3%火焰金，黑暗中的光源",
+      "scene_desc_cn": "弗里曼人在沙漠夜色中点燃香料采集车残骸，橙红火光映照在尘土与面孔上，远处是无尽的黑暗沙海。",
+      "palette": [
+        { "hex": "#493427", "name": "烧焦棕", "ratio": 0.37 },
+        { "hex": "#6D4B32", "name": "沙岩褐", "ratio": 0.34 },
+        { "hex": "#181311", "name": "熄灭黑", "ratio": 0.22 },
+        { "hex": "#F5CB7E", "name": "火焰金", "ratio": 0.03 },
+        { "hex": "#B97831", "name": "铜橙", "ratio": 0.03 }
+      ],
+      "scene_png": "palettes/dune2-arrakis-fire/scene.png",
+      "tokens": "palettes/dune2-arrakis-fire/tokens.css",
+      "color_story": "palettes/dune2-arrakis-fire/COLOR_STORY.md"
+    },
+    {
+      "id": "spiderverse-neon-lottery",
+      "title": "Spider-Man: Into the Spider-Verse",
+      "scene": "量子彩票球",
+      "director": "Bob Persichetti",
+      "director_cn": "鲍勃·佩尔西凯蒂",
+      "cinematographer": "Sony Pictures Imageworks",
+      "year": 2018,
+      "category": "split-complementary",
+      "mood": ["跃动", "超现实", "温暖"],
+      "scheme": "split-complementary",
+      "temperature": "balanced",
+      "best_for": ["creative-agency", "game-ui", "event-page", "app-home"],
+      "one_liner": "CMYK印刷美学，青色与紫粉的分裂互补",
+      "scene_desc_cn": "量子纠缠的视觉隐喻：巨大的发光球体悬浮在黑暗中，周围散布着彩色光球，CMYK 印刷色点风格。",
+      "palette": [
+        { "hex": "#319C9C", "name": "量子青", "ratio": 0.36 },
+        { "hex": "#060607", "name": "墨黑", "ratio": 0.22 },
+        { "hex": "#A8B37C", "name": "青柠", "ratio": 0.16 },
+        { "hex": "#73D4E0", "name": "冰蓝", "ratio": 0.14 },
+        { "hex": "#9A5B78", "name": "紫粉", "ratio": 0.11 }
+      ],
+      "scene_png": "palettes/spiderverse-neon-lottery/scene.png",
+      "tokens": "palettes/spiderverse-neon-lottery/tokens.css",
+      "color_story": "palettes/spiderverse-neon-lottery/COLOR_STORY.md"
+    }
+  ]
+}

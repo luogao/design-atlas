@@ -1,0 +1,12 @@
+/* Cinema Palette — Spider-Man: Into the Spider-Verse */
+/* Auto-extracted from movie frame, color-only overlay */
+/* Apply by overriding :root color variables */
+
+:root {
+  --cinema-bg: #319C9C;  /* 36% */
+  --cinema-surface: #060607;  /* 22% */
+  --cinema-accent: #A8B37C;  /* 16% */
+  --cinema-text: #73D4E0;  /* 14% */
+  --cinema-muted: #9A5B78;  /* 11% */
+  /* scheme: monochromatic, temp: balanced, brightness: mid */
+}

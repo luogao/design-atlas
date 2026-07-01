@@ -1,0 +1,12 @@
+/* Cinema Palette — Dune: Part Two */
+/* Auto-extracted from movie frame, color-only overlay */
+/* Apply by overriding :root color variables */
+
+:root {
+  --cinema-bg: #493427;  /* 37% */
+  --cinema-surface: #6D4B32;  /* 34% */
+  --cinema-accent: #181311;  /* 22% */
+  --cinema-text: #F5CB7E;  /* 3% */
+  --cinema-muted: #B97831;  /* 3% */
+  /* scheme: monochromatic, temp: warm, brightness: mid */
+}

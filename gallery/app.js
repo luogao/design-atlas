@@ -602,6 +602,479 @@
     renderGallery();
   };
 
+  // ===== Cinema Palettes Mode =====
+  var paletteManifest = null;
+  var activeMode = 'styles';
+  var activePaletteCategory = 'all';
+  var paletteSearchQuery = '';
+
+  function loadPaletteManifest(attempt) {
+    attempt = attempt || 0;
+    var base = getBaseUrl();
+    var paths = [
+      base + '/palettes_manifest.json',
+      './palettes_manifest.json',
+      '../palettes_manifest.json',
+      '/palettes_manifest.json'
+    ];
+    if (attempt >= paths.length) {
+      console.error('Failed to load palettes_manifest.json');
+      return;
+    }
+    fetch(paths[attempt])
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function(data) {
+        paletteManifest = data;
+        renderPaletteFilters();
+        if (activeMode === 'palettes') renderPaletteGallery();
+      })
+      .catch(function() {
+        loadPaletteManifest(attempt + 1);
+      });
+  }
+
+  function renderPaletteFilters() {
+    if (!paletteManifest) return;
+    var container = document.getElementById('filterPaletteTabs');
+    if (!container) return;
+    container.innerHTML = '';
+    container.appendChild(makePaletteTab('All', 'all'));
+    paletteManifest.categories.forEach(function(cat) {
+      var count = paletteManifest.palettes.filter(function(p) {
+        return p.category === cat.id;
+      }).length;
+      container.appendChild(makePaletteTab(cat.name + ' (' + count + ')', cat.id));
+    });
+  }
+
+  function makePaletteTab(label, catId) {
+    var btn = document.createElement('button');
+    btn.className = 'filter-tab' + (catId === activePaletteCategory ? ' active' : '');
+    btn.textContent = label;
+    btn.onclick = function() {
+      activePaletteCategory = catId;
+      renderPaletteFilters();
+      renderPaletteGallery();
+    };
+    return btn;
+  }
+
+  function getFilteredPalettes() {
+    if (!paletteManifest) return [];
+    return paletteManifest.palettes.filter(function(p) {
+      if (activePaletteCategory !== 'all' && p.category !== activePaletteCategory) return false;
+      if (paletteSearchQuery) {
+        var q = paletteSearchQuery.toLowerCase();
+        var haystack = (p.title + ' ' + p.scene + ' ' + p.director + ' ' +
+          (p.mood || []).join(' ') + ' ' + (p.one_liner || '')).toLowerCase();
+        if (haystack.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderPaletteGallery() {
+    var container = document.getElementById('gallery');
+    container.innerHTML = '';
+    var palettes = getFilteredPalettes();
+
+    if (palettes.length === 0) {
+      container.innerHTML = '<p class="loading-msg">No palettes found.</p>';
+      return;
+    }
+
+    var grid = document.createElement('div');
+    grid.className = 'card-grid';
+    palettes.forEach(function(p) {
+      grid.appendChild(makeCinemaCard(p));
+    });
+    container.appendChild(grid);
+
+    // Update stats
+    var statsEl = document.getElementById('stats');
+    if (statsEl && paletteManifest) {
+      statsEl.textContent = paletteManifest.palettes.length + ' cinema palettes from film & animation';
+    }
+  }
+
+  function makeCinemaCard(p) {
+    var card = document.createElement('div');
+    card.className = 'cinema-card';
+    card.onclick = function() { openCinemaModal(p); };
+
+    // Preview image
+    var preview = document.createElement('div');
+    preview.className = 'cinema-preview';
+    var img = document.createElement('img');
+    img.className = 'cinema-preview-img';
+    img.src = '../' + p.scene_png;
+    img.alt = p.title + ' — ' + p.scene;
+    img.loading = 'lazy';
+    preview.appendChild(img);
+
+    // Palette bar overlay
+    var bar = document.createElement('div');
+    bar.className = 'cinema-palette-bar';
+    p.palette.forEach(function(c) {
+      var sw = document.createElement('div');
+      sw.className = 'cinema-palette-swatch';
+      sw.style.background = c.hex;
+      sw.style.flex = String(c.ratio);
+      bar.appendChild(sw);
+    });
+    preview.appendChild(bar);
+    card.appendChild(preview);
+
+    // Body
+    var body = document.createElement('div');
+    body.className = 'cinema-card-body';
+
+    var title = document.createElement('div');
+    title.className = 'cinema-card-title';
+    title.textContent = p.title;
+    body.appendChild(title);
+
+    var scene = document.createElement('div');
+    scene.className = 'cinema-card-scene';
+    scene.textContent = p.scene;
+    body.appendChild(scene);
+
+    if (p.one_liner) {
+      var desc = document.createElement('p');
+      desc.className = 'cinema-card-desc';
+      desc.textContent = p.one_liner;
+      body.appendChild(desc);
+    }
+
+    var meta = document.createElement('div');
+    meta.className = 'cinema-card-meta';
+    meta.textContent = p.director_cn + ' · ' + p.year + ' · ' + p.scheme;
+    body.appendChild(meta);
+
+    if (p.mood && p.mood.length > 0) {
+      var mood = document.createElement('div');
+      mood.className = 'cinema-card-mood';
+      p.mood.forEach(function(m) {
+        var chip = document.createElement('span');
+        chip.className = 'cinema-mood-chip';
+        chip.textContent = m;
+        mood.appendChild(chip);
+      });
+      body.appendChild(mood);
+    }
+
+    card.appendChild(body);
+    return card;
+  }
+
+  function openCinemaModal(p) {
+    var overlay = document.getElementById('modalOverlay');
+    var modal = overlay.querySelector('.modal');
+    var info = document.getElementById('modalInfo');
+
+    // Hide iframe, show image in modal-left
+    var frame = document.getElementById('modalFrame');
+    frame.style.display = 'none';
+
+    // Check if cinema modal image already exists
+    var modalLeft = overlay.querySelector('.modal-left');
+    var cinImg = modalLeft.querySelector('.cinema-modal-left-img');
+    if (!cinImg) {
+      cinImg = document.createElement('img');
+      cinImg.className = 'cinema-modal-left-img';
+      modalLeft.appendChild(cinImg);
+    }
+    cinImg.src = '../' + p.scene_png;
+    cinImg.style.display = 'block';
+
+    // Build info panel
+    info.innerHTML = '';
+
+    var title = document.createElement('h2');
+    title.className = 'cinema-modal-title';
+    title.textContent = p.title;
+    info.appendChild(title);
+
+    var sceneEl = document.createElement('p');
+    sceneEl.className = 'cinema-modal-scene';
+    sceneEl.textContent = p.scene;
+    info.appendChild(sceneEl);
+
+    var credits = document.createElement('p');
+    credits.className = 'cinema-modal-credits';
+    credits.textContent = p.director_cn + ' · ' + p.year +
+      (p.cinematographer ? ' · 摄影 ' + p.cinematographer : '');
+    info.appendChild(credits);
+
+    // Scene description from palette manifest
+    if (p.scene_desc_cn) {
+      var desc = document.createElement('p');
+      desc.className = 'cinema-modal-desc';
+      desc.textContent = p.scene_desc_cn;
+      info.appendChild(desc);
+    }
+
+    // Palette visualization
+    var palSection = makeSection('Palette');
+    var vis = document.createElement('div');
+    vis.className = 'cinema-palette-vis';
+    p.palette.forEach(function(c) {
+      var row = document.createElement('div');
+      row.className = 'cinema-palette-row';
+
+      var swatch = document.createElement('span');
+      swatch.className = 'cinema-palette-swatch-block';
+      swatch.style.background = c.hex;
+      row.appendChild(swatch);
+
+      var label = document.createElement('span');
+      label.className = 'cinema-palette-label';
+      label.textContent = c.name + ' ' + c.hex + ' (' + Math.round(c.ratio * 100) + '%)';
+      row.appendChild(label);
+
+      var ratioBar = document.createElement('div');
+      ratioBar.className = 'cinema-palette-ratio-bar';
+      var fill = document.createElement('div');
+      fill.className = 'cinema-palette-ratio-fill';
+      fill.style.width = Math.round(c.ratio * 100) + '%';
+      fill.style.background = c.hex;
+      ratioBar.appendChild(fill);
+      row.appendChild(ratioBar);
+
+      vis.appendChild(row);
+    });
+    palSection.appendChild(vis);
+    info.appendChild(palSection);
+
+    // Analysis
+    var analysisSection = makeSection('Color Analysis');
+    var analysis = document.createElement('div');
+    analysis.className = 'cinema-analysis';
+    var lines = [
+      ['配色类型', p.scheme],
+      ['色温倾向', p.temperature === 'warm' ? '暖调' : p.temperature === 'cool' ? '冷调' : '冷暖平衡'],
+      ['情绪', (p.mood || []).join(' · ')]
+    ];
+    lines.forEach(function(line) {
+      var lineEl = document.createElement('div');
+      lineEl.className = 'cinema-analysis-line';
+      lineEl.innerHTML = '<strong>' + line[0] + '</strong> ' + line[1];
+      analysis.appendChild(lineEl);
+    });
+    analysisSection.appendChild(analysis);
+    info.appendChild(analysisSection);
+
+    // Best for
+    if (p.best_for && p.best_for.length > 0) {
+      var bestSection = makeSection('Best For');
+      var tags = document.createElement('div');
+      tags.className = 'cinema-best-for-tags';
+      p.best_for.forEach(function(b) {
+        var tag = document.createElement('span');
+        tag.className = 'cinema-best-tag';
+        tag.textContent = b;
+        tags.appendChild(tag);
+      });
+      bestSection.appendChild(tags);
+      info.appendChild(bestSection);
+    }
+
+    // Agent guide
+    info.appendChild(makeCinemaAgentGuide(p));
+
+    overlay.classList.add('active');
+  }
+
+  function makeCinemaAgentGuide(p) {
+    var section = document.createElement('div');
+    section.className = 'agent-guide';
+
+    var title = document.createElement('p');
+    title.className = 'agent-guide-title';
+    title.textContent = 'Use with AI Agent';
+    section.appendChild(title);
+
+    var intro = document.createElement('p');
+    intro.className = 'agent-guide-intro';
+    intro.textContent = '把这个配色方案应用到你的项目中（只覆盖颜色，不影响布局）';
+    section.appendChild(intro);
+
+    // Step 1
+    var step1 = document.createElement('div');
+    step1.className = 'agent-step';
+
+    var s1Label = document.createElement('p');
+    s1Label.className = 'agent-step-num';
+    s1Label.textContent = 'Step 1';
+    step1.appendChild(s1Label);
+
+    var s1Desc = document.createElement('p');
+    s1Desc.className = 'agent-step-desc';
+    s1Desc.textContent = '下载配色 SKILL.md（纯颜色层，可叠加任何 Style System）：';
+    step1.appendChild(s1Desc);
+
+    var dlBtn = document.createElement('button');
+    dlBtn.className = 'agent-download-btn';
+    dlBtn.textContent = '\u2b3d 下载 Cinema Palette SKILL.md';
+    dlBtn.onclick = function() {
+      var md = generateCinemaSkillMd(p);
+      var blob = new Blob([md], { type: 'text/markdown' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'SKILL.md';
+      a.click();
+      URL.revokeObjectURL(url);
+      dlBtn.textContent = '\u2713 已下载';
+      setTimeout(function() { dlBtn.textContent = '\u2b3d 下载 Cinema Palette SKILL.md'; }, 2000);
+    };
+    step1.appendChild(dlBtn);
+    section.appendChild(step1);
+
+    var divider = document.createElement('div');
+    divider.className = 'agent-divider';
+    section.appendChild(divider);
+
+    // Step 2
+    var step2 = document.createElement('div');
+    step2.className = 'agent-step';
+
+    var s2Label = document.createElement('p');
+    s2Label.className = 'agent-step-num';
+    s2Label.textContent = 'Step 2';
+    step2.appendChild(s2Label);
+
+    var s2Desc = document.createElement('p');
+    s2Desc.className = 'agent-step-desc';
+    s2Desc.textContent = '复制以下提示词发给你的 Agent：';
+    step2.appendChild(s2Desc);
+
+    var promptText = '我已经安装了 Cinema Palette skill。\n' +
+      '请使用电影《' + p.title + '》"' + p.scene + '"的配色方案（ID: ' + p.id + '），\n' +
+      '读取对应的 tokens.css，\n' +
+      '将颜色变量注入 :root。\n' +
+      '这是纯颜色覆盖层——保持现有布局和字体不变。';
+
+    var codeWrap = document.createElement('div');
+    codeWrap.className = 'agent-code-wrap';
+
+    var code = document.createElement('pre');
+    code.className = 'agent-code';
+    code.textContent = promptText;
+    codeWrap.appendChild(code);
+
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'agent-copy-btn';
+    copyBtn.textContent = '复制';
+    copyBtn.onclick = function() {
+      navigator.clipboard.writeText(promptText).then(function() {
+        copyBtn.textContent = '\u2713 已复制';
+        copyBtn.classList.add('copied');
+        setTimeout(function() {
+          copyBtn.textContent = '复制';
+          copyBtn.classList.remove('copied');
+        }, 2000);
+      });
+    };
+    codeWrap.appendChild(copyBtn);
+    step2.appendChild(codeWrap);
+    section.appendChild(step2);
+
+    return section;
+  }
+
+  function generateCinemaSkillMd(p) {
+    var roles = ['bg', 'surface', 'accent', 'text', 'muted'];
+    var lines = [
+      '---',
+      'name: cinema-palette',
+      'description: "' + p.title + ' — ' + p.scene + ' 电影配色方案"',
+      'type: color-overlay',
+      'cost: low',
+      '---',
+      '',
+      '# Cinema Palette — ' + p.title + ' · ' + p.scene,
+      '',
+      '> 纯颜色层，覆盖 :root 颜色变量即可。可和 Design Atlas 的任何 Style System 组合使用。',
+      '',
+      '## 颜色变量',
+      '',
+      '```css',
+      ':root {'
+    ];
+    p.palette.forEach(function(c, i) {
+      var role = roles[i] || ('extra-' + i);
+      lines.push('  --cinema-' + role + ': ' + c.hex + ';  /* ' + c.name + ' ' + Math.round(c.ratio * 100) + '% */');
+    });
+    lines.push('}');
+    lines.push('```');
+    lines.push('');
+    lines.push('## 配色分析');
+    lines.push('- 类型: ' + p.scheme);
+    lines.push('- 色温: ' + (p.temperature === 'warm' ? '暖调' : p.temperature === 'cool' ? '冷调' : '冷暖平衡'));
+    lines.push('- 情绪: ' + (p.mood || []).join(' · '));
+    lines.push('- Base URL: ' + getBaseUrl());
+    lines.push('- tokens.css: ' + getBaseUrl() + '/' + p.tokens);
+    lines.push('- COLOR_STORY: ' + getBaseUrl() + '/' + p.color_story);
+    lines.push('');
+    lines.push('## 工作流');
+    lines.push('');
+    lines.push('1. fetch tokens.css 获取颜色变量');
+    lines.push('2. fetch COLOR_STORY.md 获取配色解读和 Do/Don\'t');
+    lines.push('3. 将 --cinema-* 变量映射到项目的 --bg/--surface/--accent/--text/--muted');
+    lines.push('4. 严格遵循 COLOR_STORY.md 中的 Do/Don\'t');
+    return lines.join('\n');
+  }
+
+  // ===== Mode Toggle =====
+  function switchMode(mode) {
+    activeMode = mode;
+
+    // Update toggle buttons
+    document.querySelectorAll('.mode-btn').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.mode === mode);
+    });
+
+    // Toggle toolbars
+    var tbStyles = document.getElementById('toolbarStyles');
+    var tbPalettes = document.getElementById('toolbarPalettes');
+    if (mode === 'styles') {
+      tbStyles.style.display = 'flex';
+      tbPalettes.style.display = 'none';
+      // Reset modal
+      var frame = document.getElementById('modalFrame');
+      frame.style.display = '';
+      var cinImg = document.querySelector('.cinema-modal-left-img');
+      if (cinImg) cinImg.style.display = 'none';
+      renderGallery();
+      var statsEl = document.getElementById('stats');
+      if (statsEl && manifest) {
+        statsEl.textContent = manifest.systems.length + ' design systems in ' + manifest.categories.length + ' categories';
+      }
+    } else {
+      tbStyles.style.display = 'none';
+      tbPalettes.style.display = 'flex';
+      renderPaletteGallery();
+    }
+  }
+
+  document.querySelectorAll('.mode-btn').forEach(function(btn) {
+    btn.onclick = function() { switchMode(btn.dataset.mode); };
+  });
+
+  // Palette search
+  var searchPaletteBox = document.getElementById('searchPaletteBox');
+  if (searchPaletteBox) {
+    searchPaletteBox.oninput = function(e) {
+      paletteSearchQuery = e.target.value;
+      renderPaletteGallery();
+    };
+  }
+
   // Init
   init();
+  loadPaletteManifest();
 })();

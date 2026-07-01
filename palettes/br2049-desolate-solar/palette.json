@@ -1,0 +1,29 @@
+{
+  "palette": [
+    {
+      "hex": "#4E6866",
+      "ratio": 0.2696
+    },
+    {
+      "hex": "#5E7773",
+      "ratio": 0.2384
+    },
+    {
+      "hex": "#6F867D",
+      "ratio": 0.2292
+    },
+    {
+      "hex": "#3E5855",
+      "ratio": 0.1735
+    },
+    {
+      "hex": "#80968B",
+      "ratio": 0.0893
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "mid"
+  }
+}

@@ -25,9 +25,18 @@
   </div>
 </header>
 
-<div class="toolbar">
+<div class="mode-toggle" id="modeToggle">
+  <button class="mode-btn active" data-mode="styles">Style Systems</button>
+  <button class="mode-btn" data-mode="palettes">Cinema Palettes</button>
+</div>
+
+<div class="toolbar" id="toolbarStyles" style="display: flex;">
   <div class="filter-tabs" id="filterTabs"></div>
   <input type="text" class="search-box" id="searchBox" placeholder="Search styles or tags..." autocomplete="off">
+</div>
+<div class="toolbar" id="toolbarPalettes" style="display: none;">
+  <div class="filter-tabs" id="filterPaletteTabs"></div>
+  <input type="text" class="search-box" id="searchPaletteBox" placeholder="Search palettes or moods..." autocomplete="off">
 </div>
 
 <main class="gallery" id="gallery">

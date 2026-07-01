@@ -1,0 +1,12 @@
+/* Cinema Palette — Blade Runner 2049 */
+/* Auto-extracted from movie frame, color-only overlay */
+/* Apply by overriding :root color variables */
+
+:root {
+  --cinema-bg: #4E6866;  /* 27% */
+  --cinema-surface: #5E7773;  /* 24% */
+  --cinema-accent: #6F867D;  /* 23% */
+  --cinema-text: #3E5855;  /* 17% */
+  --cinema-muted: #80968B;  /* 9% */
+  /* scheme: monochromatic, temp: balanced, brightness: mid */
+}
