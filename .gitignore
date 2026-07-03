@@ -24,3 +24,4 @@ tmp/
 # Cursor + Claude symlinks (break wrangler asset scan)
 .cursor/
 .claude/
+v2ex-promo/
