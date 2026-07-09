@@ -498,6 +498,51 @@ body.modal-open {
 }
 .agent-step { margin-bottom: 12px; }
 .agent-step:last-child { margin-bottom: 0; }
+
+/* Install method tabs */
+.agent-method-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border-bright);
+}
+.agent-method-tab {
+  padding: 6px 14px;
+  font-size: 11px;
+  font-family: var(--sans);
+  font-weight: 500;
+  color: var(--text-faint);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: -1px;
+}
+.agent-method-tab:hover { color: var(--text-dim); }
+.agent-method-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.agent-method-content { display: none; }
+.agent-method-content.active { display: block; }
+.agent-cli-cmd {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.agent-cli-cmd code {
+  flex: 1;
+  font-size: 11px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--border-bright);
+  border-radius: 6px;
+  padding: 9px 12px;
+  line-height: 1.6;
+  word-break: break-all;
+}
 .agent-step-num {
   font-size: 10px;
   font-weight: 600;

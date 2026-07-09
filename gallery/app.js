@@ -504,19 +504,65 @@
     intro.textContent = '让你的 AI Agent（Claude / Cursor / Copilot 等）自动应用这个设计风格';
     section.appendChild(intro);
 
-    // Step 1
+    // Step 1 — Install method tabs (CLI / Manual)
     var step1 = document.createElement('div');
     step1.className = 'agent-step';
 
     var step1Label = document.createElement('p');
     step1Label.className = 'agent-step-num';
-    step1Label.textContent = 'Step 1';
+    step1Label.textContent = 'Step 1 · 安装 Skill';
     step1.appendChild(step1Label);
 
-    var step1Desc = document.createElement('p');
-    step1Desc.className = 'agent-step-desc';
-    step1Desc.textContent = '下载 SKILL.md，放到你项目根目录下（Agent 会自动读取）：';
-    step1.appendChild(step1Desc);
+    // Method tabs
+    var methodTabs = document.createElement('div');
+    methodTabs.className = 'agent-method-tabs';
+
+    var tabCli = document.createElement('button');
+    tabCli.className = 'agent-method-tab active';
+    tabCli.textContent = 'CLI 安装';
+    methodTabs.appendChild(tabCli);
+
+    var tabManual = document.createElement('button');
+    tabManual.className = 'agent-method-tab';
+    tabManual.textContent = '手动下载';
+    methodTabs.appendChild(tabManual);
+
+    step1.appendChild(methodTabs);
+
+    // CLI content
+    var cliContent = document.createElement('div');
+    cliContent.className = 'agent-method-content active';
+
+    var cliCmdWrap = document.createElement('div');
+    cliCmdWrap.className = 'agent-cli-cmd';
+    var cliCode = document.createElement('code');
+    cliCode.textContent = 'npx skills add luogao/design-atlas';
+    cliCmdWrap.appendChild(cliCode);
+
+    var cliCopyBtn = document.createElement('button');
+    cliCopyBtn.className = 'agent-copy-btn';
+    cliCopyBtn.style.cssText = 'position:relative;top:0;right:0;flex-shrink:0;';
+    cliCopyBtn.textContent = '复制';
+    cliCopyBtn.onclick = function() {
+      navigator.clipboard.writeText('npx skills add luogao/design-atlas').then(function() {
+        cliCopyBtn.textContent = '✓';
+        setTimeout(function() { cliCopyBtn.textContent = '复制'; }, 1500);
+      });
+    };
+    cliCmdWrap.appendChild(cliCopyBtn);
+    cliContent.appendChild(cliCmdWrap);
+
+    var cliHint = document.createElement('p');
+    cliHint.className = 'agent-step-desc';
+    cliHint.style.marginTop = '6px';
+    cliHint.textContent = '在项目目录执行，自动安装全部 59 个设计系统 + 53 个电影配色。';
+    cliContent.appendChild(cliHint);
+
+    step1.appendChild(cliContent);
+
+    // Manual content
+    var manualContent = document.createElement('div');
+    manualContent.className = 'agent-method-content';
 
     var downloadBtn = document.createElement('button');
     downloadBtn.className = 'agent-download-btn';
@@ -533,7 +579,24 @@
       downloadBtn.textContent = '✓ 已下载';
       setTimeout(function() { downloadBtn.textContent = '⬇ 下载 SKILL.md'; }, 2000);
     };
-    step1.appendChild(downloadBtn);
+    manualContent.appendChild(downloadBtn);
+
+    step1.appendChild(manualContent);
+
+    // Tab switching
+    tabCli.onclick = function() {
+      tabCli.classList.add('active');
+      tabManual.classList.remove('active');
+      cliContent.classList.add('active');
+      manualContent.classList.remove('active');
+    };
+    tabManual.onclick = function() {
+      tabManual.classList.add('active');
+      tabCli.classList.remove('active');
+      manualContent.classList.add('active');
+      cliContent.classList.remove('active');
+    };
+
     section.appendChild(step1);
 
     var divider = document.createElement('div');
@@ -987,19 +1050,65 @@
     intro.textContent = '把这个配色方案应用到你的项目中（只覆盖颜色，不影响布局）';
     section.appendChild(intro);
 
-    // Step 1
+    // Step 1 — Install method tabs (CLI / Manual)
     var step1 = document.createElement('div');
     step1.className = 'agent-step';
 
     var s1Label = document.createElement('p');
     s1Label.className = 'agent-step-num';
-    s1Label.textContent = 'Step 1';
+    s1Label.textContent = 'Step 1 · 安装 Skill';
     step1.appendChild(s1Label);
 
-    var s1Desc = document.createElement('p');
-    s1Desc.className = 'agent-step-desc';
-    s1Desc.textContent = '下载配色 SKILL.md（纯颜色层，可叠加任何 Style System）：';
-    step1.appendChild(s1Desc);
+    // Method tabs
+    var methodTabs = document.createElement('div');
+    methodTabs.className = 'agent-method-tabs';
+
+    var tabCli = document.createElement('button');
+    tabCli.className = 'agent-method-tab active';
+    tabCli.textContent = 'CLI 安装';
+    methodTabs.appendChild(tabCli);
+
+    var tabManual = document.createElement('button');
+    tabManual.className = 'agent-method-tab';
+    tabManual.textContent = '手动下载';
+    methodTabs.appendChild(tabManual);
+
+    step1.appendChild(methodTabs);
+
+    // CLI content
+    var cliContent = document.createElement('div');
+    cliContent.className = 'agent-method-content active';
+
+    var cliCmdWrap = document.createElement('div');
+    cliCmdWrap.className = 'agent-cli-cmd';
+    var cliCode = document.createElement('code');
+    cliCode.textContent = 'npx skills add luogao/design-atlas';
+    cliCmdWrap.appendChild(cliCode);
+
+    var cliCopyBtn = document.createElement('button');
+    cliCopyBtn.className = 'agent-copy-btn';
+    cliCopyBtn.style.cssText = 'position:relative;top:0;right:0;flex-shrink:0;';
+    cliCopyBtn.textContent = '复制';
+    cliCopyBtn.onclick = function() {
+      navigator.clipboard.writeText('npx skills add luogao/design-atlas').then(function() {
+        cliCopyBtn.textContent = '✓';
+        setTimeout(function() { cliCopyBtn.textContent = '复制'; }, 1500);
+      });
+    };
+    cliCmdWrap.appendChild(cliCopyBtn);
+    cliContent.appendChild(cliCmdWrap);
+
+    var cliHint = document.createElement('p');
+    cliHint.className = 'agent-step-desc';
+    cliHint.style.marginTop = '6px';
+    cliHint.textContent = '在项目目录执行，安装完整库（含此配色）。';
+    cliContent.appendChild(cliHint);
+
+    step1.appendChild(cliContent);
+
+    // Manual content
+    var manualContent = document.createElement('div');
+    manualContent.className = 'agent-method-content';
 
     var dlBtn = document.createElement('button');
     dlBtn.className = 'agent-download-btn';
@@ -1016,7 +1125,24 @@
       dlBtn.textContent = '\u2713 已下载';
       setTimeout(function() { dlBtn.textContent = '\u2b3d 下载 Cinema Palette SKILL.md'; }, 2000);
     };
-    step1.appendChild(dlBtn);
+    manualContent.appendChild(dlBtn);
+
+    step1.appendChild(manualContent);
+
+    // Tab switching
+    tabCli.onclick = function() {
+      tabCli.classList.add('active');
+      tabManual.classList.remove('active');
+      cliContent.classList.add('active');
+      manualContent.classList.remove('active');
+    };
+    tabManual.onclick = function() {
+      tabManual.classList.add('active');
+      tabCli.classList.remove('active');
+      manualContent.classList.add('active');
+      cliContent.classList.remove('active');
+    };
+
     section.appendChild(step1);
 
     var divider = document.createElement('div');
