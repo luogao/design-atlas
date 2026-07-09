@@ -68,9 +68,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/肖申克的救赎-9d4a5b/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "霸王别姬-ac9a0b",
@@ -114,9 +113,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "split-complementary",
-      "scene_png": "palettes/霸王别姬-ac9a0b/scene.png"
+      "has_scene": false,
+      "scheme": "split-complementary"
     },
     {
       "id": "泰坦尼克号-a8928a",
@@ -160,9 +158,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/泰坦尼克号-a8928a/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "阿甘正传-5e7de6",
@@ -206,9 +203,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/阿甘正传-5e7de6/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "千与千寻-14bf3b",
@@ -252,9 +248,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/千与千寻-14bf3b/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "星际穿越-810e13",
@@ -298,9 +293,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "split-complementary",
-      "scene_png": "palettes/星际穿越-810e13/scene.png"
+      "has_scene": false,
+      "scheme": "split-complementary"
     },
     {
       "id": "美丽人生-98aab2",
@@ -344,9 +338,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/美丽人生-98aab2/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "这个杀手不太冷-c118cd",
@@ -390,9 +383,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/这个杀手不太冷-c118cd/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "盗梦空间-f58c27",
@@ -436,9 +428,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "split-complementary",
-      "scene_png": "palettes/盗梦空间-f58c27/scene.png"
+      "has_scene": false,
+      "scheme": "split-complementary"
     },
     {
       "id": "楚门的世界-59fde8",
@@ -482,9 +473,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/楚门的世界-59fde8/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "辛德勒的名单-d32c44",
@@ -528,9 +518,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/辛德勒的名单-d32c44/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "忠犬八公的故事-b1dd4a",
@@ -574,9 +563,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "split-complementary",
-      "scene_png": "palettes/忠犬八公的故事-b1dd4a/scene.png"
+      "has_scene": false,
+      "scheme": "split-complementary"
     },
     {
       "id": "海上钢琴师-1fcf7e",
@@ -620,9 +608,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "analogous",
-      "scene_png": "palettes/海上钢琴师-1fcf7e/scene.png"
+      "has_scene": false,
+      "scheme": "analogous"
     },
     {
       "id": "疯狂动物城-b3742d",
@@ -666,9 +653,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/疯狂动物城-b3742d/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "三傻大闹宝莱坞-7be123",
@@ -712,9 +698,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/三傻大闹宝莱坞-7be123/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "机器人总动员-fd9e71",
@@ -758,9 +743,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/机器人总动员-fd9e71/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "放牛班的春天-6ed46c",
@@ -804,9 +788,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/放牛班的春天-6ed46c/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "无间道-5ee6f9",
@@ -850,9 +833,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/无间道-5ee6f9/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "控方证人-a219af",
@@ -896,9 +878,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/控方证人-a219af/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "寻梦环游记-925611",
@@ -942,9 +923,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/寻梦环游记-925611/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "大话西游之大圣娶亲-4f7d08",
@@ -988,9 +968,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "analogous",
-      "scene_png": "palettes/大话西游之大圣娶亲-4f7d08/scene.png"
+      "has_scene": false,
+      "scheme": "analogous"
     },
     {
       "id": "熔炉-1b4cda",
@@ -1034,9 +1013,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "analogous",
-      "scene_png": "palettes/熔炉-1b4cda/scene.png"
+      "has_scene": false,
+      "scheme": "analogous"
     },
     {
       "id": "触不可及-cce34d",
@@ -1080,9 +1058,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "analogous",
-      "scene_png": "palettes/触不可及-cce34d/scene.png"
+      "has_scene": false,
+      "scheme": "analogous"
     },
     {
       "id": "教父-d22975",
@@ -1126,9 +1103,8 @@
         "brightness": "dark"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/教父-d22975/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "末代皇帝-89d2e6",
@@ -1172,9 +1148,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "analogous",
-      "scene_png": "palettes/末代皇帝-89d2e6/scene.png"
+      "has_scene": false,
+      "scheme": "analogous"
     },
     {
       "id": "哈利波特与魔法石-bb4f95",
@@ -1218,9 +1193,8 @@
         "brightness": "dark"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/哈利波特与魔法石-bb4f95/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "当幸福来敲门-96a658",
@@ -1264,9 +1238,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/当幸福来敲门-96a658/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "龙猫-e9c356",
@@ -1310,9 +1283,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/龙猫-e9c356/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "活着-a17f0b",
@@ -1356,9 +1328,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/活着-a17f0b/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "怦然心动-e38552",
@@ -1402,9 +1373,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/怦然心动-e38552/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "蝙蝠侠黑暗骑士-17869d",
@@ -1448,9 +1418,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/蝙蝠侠黑暗骑士-17869d/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "指环王3王者无敌-1db3f9",
@@ -1494,9 +1463,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "split-complementary",
-      "scene_png": "palettes/指环王3王者无敌-1db3f9/scene.png"
+      "has_scene": false,
+      "scheme": "split-complementary"
     },
     {
       "id": "我不是药神-a21976",
@@ -1540,9 +1508,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/我不是药神-a21976/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "乱世佳人-ecf8dc",
@@ -1586,9 +1553,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/乱世佳人-ecf8dc/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "让子弹飞-82ccad",
@@ -1632,9 +1598,8 @@
         "brightness": "dark"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/让子弹飞-82ccad/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "飞屋环游记-e36dd7",
@@ -1678,9 +1643,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/飞屋环游记-e36dd7/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "哈尔的移动城堡-0dcd24",
@@ -1724,9 +1688,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/哈尔的移动城堡-0dcd24/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "十二怒汉-52d3ca",
@@ -1770,9 +1733,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/十二怒汉-52d3ca/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "海蒂和爷爷-c5becd",
@@ -1816,9 +1778,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/海蒂和爷爷-c5becd/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "素媛-b3a8c8",
@@ -1862,9 +1823,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/素媛-b3a8c8/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "猫鼠游戏-4f1a84",
@@ -1908,9 +1868,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/猫鼠游戏-4f1a84/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "天空之城-3ad3ce",
@@ -1954,9 +1913,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/天空之城-3ad3ce/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "鬼子来了-dc522b",
@@ -2000,9 +1958,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/鬼子来了-dc522b/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "摔跤吧爸爸-b5db4b",
@@ -2046,9 +2003,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/摔跤吧爸爸-b5db4b/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "少年派的奇幻漂流-a987dc",
@@ -2092,9 +2048,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/少年派的奇幻漂流-a987dc/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "钢琴家-9f01b3",
@@ -2138,9 +2093,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "complementary",
-      "scene_png": "palettes/钢琴家-9f01b3/scene.png"
+      "has_scene": false,
+      "scheme": "complementary"
     },
     {
       "id": "死亡诗社-d28e07",
@@ -2184,9 +2138,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/死亡诗社-d28e07/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "指环王2双塔奇兵-834ece",
@@ -2230,9 +2183,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "split-complementary",
-      "scene_png": "palettes/指环王2双塔奇兵-834ece/scene.png"
+      "has_scene": false,
+      "scheme": "split-complementary"
     },
     {
       "id": "大话西游之月光宝盒-ed8d99",
@@ -2276,9 +2228,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/大话西游之月光宝盒-ed8d99/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "绿皮书-64b274",
@@ -2322,9 +2273,8 @@
         "brightness": "medium"
       },
       "source": "douban_top50",
-      "has_scene": true,
-      "scheme": "monochromatic",
-      "scene_png": "palettes/绿皮书-64b274/scene.png"
+      "has_scene": false,
+      "scheme": "monochromatic"
     },
     {
       "id": "br2049-desolate-solar",
@@ -2366,8 +2316,7 @@
         "brightness": "dark"
       },
       "source": "curated",
-      "scene_png": "palettes/br2049-desolate-solar/scene.png",
-      "has_scene": true,
+      "has_scene": false,
       "scheme": "monochromatic"
     },
     {
@@ -2410,8 +2359,7 @@
         "brightness": "mid"
       },
       "source": "curated",
-      "scene_png": "palettes/dune2-arrakis-fire/scene.png",
-      "has_scene": true,
+      "has_scene": false,
       "scheme": "monochromatic"
     },
     {
@@ -2454,8 +2402,7 @@
         "brightness": "mid"
       },
       "source": "curated",
-      "scene_png": "palettes/spiderverse-neon-lottery/scene.png",
-      "has_scene": true,
+      "has_scene": false,
       "scheme": "monochromatic"
     }
   ]
