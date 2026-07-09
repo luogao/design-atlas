@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ATLAS = path.resolve(__dirname, '..');
-const RDS = '/Users/gaogao/Documents/projects/retro-design-system';
+const RDS = '../retro-design-system';
 const manifest = JSON.parse(fs.readFileSync(path.join(ATLAS, 'manifest.json'), 'utf8'));
 
 async function main() {

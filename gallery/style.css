@@ -338,6 +338,11 @@ body {
   border-radius: 10px;
 }
 
+/* ===== Scroll Lock ===== */
+body.modal-open {
+  overflow: hidden;
+}
+
 /* ===== Modal ===== */
 .modal-overlay {
   display: none;

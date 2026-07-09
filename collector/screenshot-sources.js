@@ -41,7 +41,7 @@ const targets = [
   }
 ];
 
-const OUT_DIR = '/Users/gaogao/Documents/Hermes/design-atlas/_vendor/screenshots';
+const OUT_DIR = './_vendor/screenshots';
 
 (async () => {
   const fs = require('fs');

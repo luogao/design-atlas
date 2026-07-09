@@ -5,7 +5,7 @@
 
 ## 前置条件
 
-- 已 clone `design-atlas` 仓库到本地（`~/Documents/Hermes/design-atlas/`）
+- 已 clone `design-atlas` 仓库到本地
 
 ## 接入方式
 

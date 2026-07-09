@@ -31,6 +31,8 @@
         renderStats();
         renderFilters();
         renderGallery();
+        // Handle initial route after data loads
+        if (window.location.hash) handleRoute();
       })
       .catch(function(err) {
         loadManifest(attempt + 1);  // 试下一个路径
@@ -216,7 +218,7 @@
   function makeCard(s) {
     var card = document.createElement('div');
     card.className = 'card';
-    card.onclick = function() { openModal(s); };
+    card.onclick = function() { navigateTo('styles/' + s.id); };
 
     // Preview (screenshot or palette fallback)
     var preview = document.createElement('div');
@@ -306,6 +308,9 @@
     var overlay = document.getElementById('modalOverlay');
     var frame = document.getElementById('modalFrame');
     var info = document.getElementById('modalInfo');
+
+    // Scroll lock
+    document.body.classList.add('modal-open');
 
     // Set iframe
     frame.src = s.demo_url || '';
@@ -585,15 +590,18 @@
   function closeModal() {
     document.getElementById('modalOverlay').classList.remove('active');
     document.getElementById('modalFrame').src = '';
+    document.body.classList.remove('modal-open');
   }
 
   // ===== Event Bindings =====
-  document.getElementById('modalClose').onclick = closeModal;
+  document.getElementById('modalClose').onclick = function() {
+    navigateTo(activeMode);
+  };
   document.getElementById('modalOverlay').onclick = function(e) {
-    if (e.target === this) closeModal();
+    if (e.target === this) navigateTo(activeMode);
   };
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeModal();
+    if (e.key === 'Escape') navigateTo(activeMode);
   });
 
   // Search
@@ -630,6 +638,8 @@
         paletteManifest = data;
         renderPaletteFilters();
         if (activeMode === 'palettes') renderPaletteGallery();
+        // Handle initial route after palette data loads
+        if (window.location.hash) handleRoute();
       })
       .catch(function() {
         loadPaletteManifest(attempt + 1);
@@ -706,7 +716,7 @@
   function makeCinemaCard(p) {
     var card = document.createElement('div');
     card.className = 'cinema-card';
-    card.onclick = function() { openCinemaModal(p); };
+    card.onclick = function() { navigateTo('palettes/' + p.id); };
 
     // Preview: image or gradient
     var preview = document.createElement('div');
@@ -809,6 +819,9 @@
     var overlay = document.getElementById('modalOverlay');
     var modal = overlay.querySelector('.modal');
     var info = document.getElementById('modalInfo');
+
+    // Scroll lock
+    document.body.classList.add('modal-open');
 
     // Hide iframe, show image in modal-left
     var frame = document.getElementById('modalFrame');
@@ -1132,7 +1145,7 @@
   }
 
   document.querySelectorAll('.mode-btn').forEach(function(btn) {
-    btn.onclick = function() { switchMode(btn.dataset.mode); };
+    btn.onclick = function() { navigateTo(btn.dataset.mode); };
   });
 
   // Palette search
@@ -1143,6 +1156,83 @@
       renderPaletteGallery();
     };
   }
+
+
+  // ===== Router =====
+  var isHandlingRoute = false;
+
+  function navigateTo(route) {
+    var hash = '#' + route;
+    if (window.location.hash === hash) {
+      // Same hash — manually handle (e.g. close modal)
+      handleRoute();
+    } else {
+      window.location.hash = hash;
+      // hashchange will call handleRoute
+    }
+  }
+
+  function handleRoute() {
+    if (isHandlingRoute) return;
+    isHandlingRoute = true;
+
+    var hash = decodeURIComponent(window.location.hash.slice(1)); // remove # + decode Chinese
+    var parts = hash.split('/').filter(Boolean);
+    var mode = parts[0] || 'styles';
+    var itemId = parts[1] || null;
+
+    // Switch mode if different
+    if (mode !== activeMode) {
+      activeMode = mode;
+      document.querySelectorAll('.mode-btn').forEach(function(btn) {
+        btn.classList.toggle('active', btn.dataset.mode === mode);
+      });
+      var tbStyles = document.getElementById('toolbarStyles');
+      var tbPalettes = document.getElementById('toolbarPalettes');
+      if (mode === 'styles') {
+        if (tbStyles) tbStyles.style.display = 'flex';
+        if (tbPalettes) tbPalettes.style.display = 'none';
+        var frame = document.getElementById('modalFrame');
+        if (frame) frame.style.display = '';
+        var cinImg = document.querySelector('.cinema-modal-left-img');
+        if (cinImg) cinImg.style.display = 'none';
+        renderGallery();
+        var statsEl = document.getElementById('stats');
+        if (statsEl && manifest) {
+          statsEl.textContent = manifest.systems.length + ' design systems in ' + manifest.categories.length + ' categories';
+        }
+      } else {
+        if (tbStyles) tbStyles.style.display = 'none';
+        if (tbPalettes) tbPalettes.style.display = 'flex';
+        renderPaletteGallery();
+      }
+    }
+
+    // Handle modal open/close
+    if (itemId) {
+      if (mode === 'styles' && manifest) {
+        var sys = manifest.systems.find(function(s) { return s.id === itemId; });
+        if (sys) {
+          openModal(sys);
+        }
+      } else if (mode === 'palettes' && paletteManifest) {
+        var pal = paletteManifest.palettes.find(function(p) { return p.id === itemId; });
+        if (pal) {
+          openCinemaModal(pal);
+        }
+      }
+    } else {
+      // No item — close modal if open
+      var overlay = document.getElementById('modalOverlay');
+      if (overlay.classList.contains('active')) {
+        closeModal();
+      }
+    }
+
+    isHandlingRoute = false;
+  }
+
+  window.addEventListener('hashchange', handleRoute);
 
   // Init
   init();
