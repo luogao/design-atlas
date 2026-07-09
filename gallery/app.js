@@ -591,17 +591,19 @@
     document.getElementById('modalOverlay').classList.remove('active');
     document.getElementById('modalFrame').src = '';
     document.body.classList.remove('modal-open');
+    // Clear hash without triggering hashchange
+    if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
   }
 
   // ===== Event Bindings =====
-  document.getElementById('modalClose').onclick = function() {
-    navigateTo(activeMode);
-  };
+  document.getElementById('modalClose').onclick = closeModal;
   document.getElementById('modalOverlay').onclick = function(e) {
-    if (e.target === this) navigateTo(activeMode);
+    if (e.target === this) closeModal();
   };
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') navigateTo(activeMode);
+    if (e.key === 'Escape') closeModal();
   });
 
   // Search
@@ -1114,6 +1116,17 @@
 
   // ===== Mode Toggle =====
   function switchMode(mode) {
+    // Close modal if open
+    var overlay = document.getElementById('modalOverlay');
+    if (overlay.classList.contains('active')) {
+      overlay.classList.remove('active');
+      document.getElementById('modalFrame').src = '';
+      document.body.classList.remove('modal-open');
+    }
+    // Clear hash
+    if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
     activeMode = mode;
 
     // Update toggle buttons
@@ -1145,7 +1158,7 @@
   }
 
   document.querySelectorAll('.mode-btn').forEach(function(btn) {
-    btn.onclick = function() { navigateTo(btn.dataset.mode); };
+    btn.onclick = function() { switchMode(btn.dataset.mode); };
   });
 
   // Palette search
@@ -1181,8 +1194,9 @@
     var mode = parts[0] || 'styles';
     var itemId = parts[1] || null;
 
-    // Switch mode if different
-    if (mode !== activeMode) {
+    // Only switch mode when there's an item (deep link like #palettes/xxx)
+    // Bare #styles or #palettes alone won't change tabs
+    if (itemId && mode !== activeMode) {
       activeMode = mode;
       document.querySelectorAll('.mode-btn').forEach(function(btn) {
         btn.classList.toggle('active', btn.dataset.mode === mode);
