@@ -30,7 +30,13 @@
         manifest = data;
         renderStats();
         renderFilters();
-        renderGallery();
+        // Check ?tab= query param for initial tab
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('tab') === 'palettes') {
+          switchMode('palettes', true);
+        } else {
+          renderGallery();
+        }
         // Handle initial route after data loads
         if (window.location.hash) handleRoute();
       })
@@ -702,6 +708,11 @@
       .then(function(data) {
         paletteManifest = data;
         renderPaletteFilters();
+        // Check ?tab= query param for initial tab
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('tab') === 'palettes' && activeMode !== 'palettes') {
+          switchMode('palettes', true);
+        }
         if (activeMode === 'palettes') renderPaletteGallery();
         // Handle initial route after palette data loads
         if (window.location.hash) handleRoute();
@@ -1241,7 +1252,7 @@
   }
 
   // ===== Mode Toggle =====
-  function switchMode(mode) {
+  function switchMode(mode, fromPopState) {
     // Close modal if open
     var overlay = document.getElementById('modalOverlay');
     if (overlay.classList.contains('active')) {
@@ -1249,9 +1260,12 @@
       document.getElementById('modalFrame').src = '';
       document.body.classList.remove('modal-open');
     }
-    // Clear hash
-    if (window.location.hash) {
-      history.replaceState(null, '', window.location.pathname + window.location.search);
+    // Update URL with query param ?tab= (not hash)
+    if (!fromPopState) {
+      var url = new URL(window.location.href);
+      url.searchParams.set('tab', mode);
+      url.hash = '';
+      history.pushState({ mode: mode }, '', url.toString());
     }
     activeMode = mode;
 
@@ -1373,6 +1387,15 @@
   }
 
   window.addEventListener('hashchange', handleRoute);
+
+  // Handle back/forward for tab switching (pushState based)
+  window.addEventListener('popstate', function() {
+    var params = new URLSearchParams(window.location.search);
+    var mode = params.get('tab') || 'styles';
+    if (mode !== activeMode) {
+      switchMode(mode, true);
+    }
+  });
 
   // Init
   init();
