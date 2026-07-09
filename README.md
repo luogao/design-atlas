@@ -1,5 +1,7 @@
 # Design Atlas
 
+[![skills.sh](https://skills.sh/b/luogao/design-atlas)](https://skills.sh/luogao/design-atlas)
+
 > 视觉设计风格聚合库 — 收录、分类、展示好看的 CSS 设计 token 和视觉设计系统。
 > **AI Agent 友好** — 纯 Skill 方案，无需启动服务，Agent 直接读文件即可。
 
