@@ -1,0 +1,12 @@
+/* Cinema Palette — 哈尔的移动城堡-0dcd24 */
+/* 哈尔的移动城堡 (Howl's Moving Castle, 2004) — 豆瓣 #37 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #242933;  /* 33% */
+  --cinema-surface: #866D5A;  /* 20% */
+  --cinema-accent: #C7AC90;  /* 17% */
+  --cinema-text: #E1DED5;  /* 17% */
+  --cinema-muted: #2D8FBA;  /* 10% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

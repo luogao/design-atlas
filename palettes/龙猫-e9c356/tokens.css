@@ -1,0 +1,12 @@
+/* Cinema Palette — 龙猫-e9c356 */
+/* 龙猫 (My Neighbor Totoro, 1988) — 豆瓣 #28 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0F1615;  /* 40% */
+  --cinema-surface: #525B3E;  /* 20% */
+  --cinema-accent: #5B76AA;  /* 15% */
+  --cinema-text: #A69F5D;  /* 13% */
+  --cinema-muted: #C4DBE4;  /* 11% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

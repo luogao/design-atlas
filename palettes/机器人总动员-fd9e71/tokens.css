@@ -1,0 +1,12 @@
+/* Cinema Palette — 机器人总动员-fd9e71 */
+/* 机器人总动员 (WALL·E, 2008) — 豆瓣 #16 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #19181C;  /* 30% */
+  --cinema-surface: #63372D;  /* 20% */
+  --cinema-accent: #183D60;  /* 19% */
+  --cinema-text: #97CAE0;  /* 16% */
+  --cinema-muted: #AD8468;  /* 13% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

@@ -1,0 +1,12 @@
+/* Cinema Palette — 无间道-5ee6f9 */
+/* 无间道 (Infernal Affairs, 2002) — 豆瓣 #18 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0C100D;  /* 38% */
+  --cinema-surface: #243B46;  /* 32% */
+  --cinema-accent: #EDF1F2;  /* 11% */
+  --cinema-text: #BEC6C9;  /* 9% */
+  --cinema-muted: #8A7D55;  /* 7% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

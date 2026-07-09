@@ -1,0 +1,12 @@
+/* Cinema Palette — 摔跤吧爸爸-b5db4b */
+/* 摔跤吧！爸爸 (Dangal, 2016) — 豆瓣 #44 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #623E24;  /* 27% */
+  --cinema-surface: #976847;  /* 23% */
+  --cinema-accent: #BE997A;  /* 19% */
+  --cinema-text: #21160C;  /* 19% */
+  --cinema-muted: #E0DACB;  /* 10% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

@@ -668,8 +668,11 @@
       if (activePaletteCategory !== 'all' && p.category !== activePaletteCategory) return false;
       if (paletteSearchQuery) {
         var q = paletteSearchQuery.toLowerCase();
-        var haystack = (p.title + ' ' + p.scene + ' ' + p.director + ' ' +
-          (p.mood || []).join(' ') + ' ' + (p.one_liner || '')).toLowerCase();
+        var haystack = (p.title + ' ' + (p.title_en||'') + ' ' + p.scene + ' ' +
+          (p.director || p.director_cn || '') + ' ' +
+          (p.mood || []).join(' ') + ' ' + (p.one_liner || '') +
+          ' ' + (p.rank ? 'top'+p.rank+' '+p.rank : '') + ' ' +
+          (p.year ? String(p.year) : '')).toLowerCase();
         if (haystack.indexOf(q) === -1) return false;
       }
       return true;
@@ -705,15 +708,32 @@
     card.className = 'cinema-card';
     card.onclick = function() { openCinemaModal(p); };
 
-    // Preview image
+    // Preview: image or gradient
     var preview = document.createElement('div');
     preview.className = 'cinema-preview';
-    var img = document.createElement('img');
-    img.className = 'cinema-preview-img';
-    img.src = '../' + p.scene_png;
-    img.alt = p.title + ' — ' + p.scene;
-    img.loading = 'lazy';
-    preview.appendChild(img);
+
+    if (p.has_scene !== false && p.scene_png) {
+      var img = document.createElement('img');
+      img.className = 'cinema-preview-img';
+      img.src = '../' + p.scene_png;
+      img.alt = p.title + ' — ' + p.scene;
+      img.loading = 'lazy';
+      preview.appendChild(img);
+    } else {
+      // Color-only gradient preview for douban palettes
+      preview.className = 'cinema-preview cinema-preview-colors';
+      var gradientParts = p.palette.map(function(c) {
+        return c.hex + ' 0 ' + Math.round(c.ratio * 100) + '%';
+      });
+      preview.style.background = 'conic-gradient(from 0deg, ' + gradientParts.join(', ') + ')';
+      // Rank badge for douban entries
+      if (p.rank) {
+        var rankBadge = document.createElement('div');
+        rankBadge.className = 'cinema-rank-badge';
+        rankBadge.textContent = '#' + p.rank;
+        preview.appendChild(rankBadge);
+      }
+    }
 
     // Palette bar overlay
     var bar = document.createElement('div');
@@ -751,7 +771,15 @@
 
     var meta = document.createElement('div');
     meta.className = 'cinema-card-meta';
-    meta.textContent = p.director_cn + ' · ' + p.year + ' · ' + p.scheme;
+    var metaParts = [];
+    if (p.rank) metaParts.push('Top ' + p.rank);
+    if (p.rating) metaParts.push('★' + p.rating);
+    if (p.year) metaParts.push(p.year);
+    if (p.director_cn) metaParts.unshift(p.director_cn);
+    var schemeNames = {'monochromatic':'单色系','analogous':'邻近色','complementary':'互补色','split-complementary':'分裂互补'};
+    var schemeLabel = schemeNames[p.scheme || (p.analysis && p.analysis.scheme)] || p.scheme || '';
+    if (schemeLabel) metaParts.push(schemeLabel);
+    meta.textContent = metaParts.join(' · ');
     body.appendChild(meta);
 
     if (p.mood && p.mood.length > 0) {
@@ -770,6 +798,13 @@
     return card;
   }
 
+  function isLight(hex) {
+    var r = parseInt(hex.substr(1, 2), 16);
+    var g = parseInt(hex.substr(3, 2), 16);
+    var b = parseInt(hex.substr(5, 2), 16);
+    return (0.299 * r + 0.587 * g + 0.114 * b) > 150;
+  }
+
   function openCinemaModal(p) {
     var overlay = document.getElementById('modalOverlay');
     var modal = overlay.querySelector('.modal');
@@ -782,13 +817,36 @@
     // Check if cinema modal image already exists
     var modalLeft = overlay.querySelector('.modal-left');
     var cinImg = modalLeft.querySelector('.cinema-modal-left-img');
-    if (!cinImg) {
-      cinImg = document.createElement('img');
-      cinImg.className = 'cinema-modal-left-img';
-      modalLeft.appendChild(cinImg);
+    
+    if (p.has_scene !== false && p.scene_png) {
+      if (!cinImg) {
+        cinImg = document.createElement('img');
+        cinImg.className = 'cinema-modal-left-img';
+        modalLeft.appendChild(cinImg);
+      }
+      cinImg.src = '../' + p.scene_png;
+      cinImg.style.display = 'block';
+    } else {
+      // No scene image — show large color preview
+      if (cinImg) cinImg.style.display = 'none';
+      var colorPreview = modalLeft.querySelector('.cinema-modal-color-preview');
+      if (!colorPreview) {
+        colorPreview = document.createElement('div');
+        colorPreview.className = 'cinema-modal-color-preview';
+        modalLeft.appendChild(colorPreview);
+      }
+      colorPreview.innerHTML = '';
+      // Large stacked color bars
+      p.palette.forEach(function(c) {
+        var band = document.createElement('div');
+        band.style.cssText = 'width:100%;height:' + Math.round(c.ratio * 100) + '%;background:' + c.hex + ';display:flex;align-items:center;justify-content:flex-end;padding-right:12px;color:' + (isLight(c.hex) ? '#222' : '#fff') + ';font-size:13px;font-weight:600;';
+        band.textContent = c.hex;
+        colorPreview.appendChild(band);
+      });
+      colorPreview.style.display = 'flex';
+      colorPreview.style.flexDirection = 'column';
+      colorPreview.style.height = '100%';
     }
-    cinImg.src = '../' + p.scene_png;
-    cinImg.style.display = 'block';
 
     // Build info panel
     info.innerHTML = '';
@@ -803,10 +861,15 @@
     sceneEl.textContent = p.scene;
     info.appendChild(sceneEl);
 
+    var creditsParts = [];
+    if (p.rank) creditsParts.push('豆瓣 Top ' + p.rank);
+    if (p.rating) creditsParts.push('★' + p.rating);
+    if (p.year) creditsParts.push(p.year);
+    if (p.director_cn) creditsParts.push(p.director_cn);
+    if (p.cinematographer) creditsParts.push('摄影 ' + p.cinematographer);
     var credits = document.createElement('p');
     credits.className = 'cinema-modal-credits';
-    credits.textContent = p.director_cn + ' · ' + p.year +
-      (p.cinematographer ? ' · 摄影 ' + p.cinematographer : '');
+    credits.textContent = creditsParts.join(' · ');
     info.appendChild(credits);
 
     // Scene description from palette manifest
@@ -853,11 +916,18 @@
     var analysisSection = makeSection('Color Analysis');
     var analysis = document.createElement('div');
     analysis.className = 'cinema-analysis';
+    var schemeNames = {'monochromatic':'单色系','analogous':'邻近色','complementary':'互补色','split-complementary':'分裂互补'};
+    var tempNames = {'warm':'暖调','cool':'冷调','balanced':'冷暖平衡'};
+    var brightNames = {'dark':'暗调','medium':'中调','bright':'亮调'};
+    var analysisData = p.analysis || {};
     var lines = [
-      ['配色类型', p.scheme],
-      ['色温倾向', p.temperature === 'warm' ? '暖调' : p.temperature === 'cool' ? '冷调' : '冷暖平衡'],
-      ['情绪', (p.mood || []).join(' · ')]
+      ['配色类型', schemeNames[p.scheme || analysisData.scheme] || p.scheme || analysisData.scheme || '—'],
+      ['色温倾向', tempNames[analysisData.temperature] || '—'],
+      ['明度', brightNames[analysisData.brightness] || '—'],
     ];
+    if (p.mood && p.mood.length > 0) {
+      lines.push(['情绪', p.mood.join(' · ')]);
+    }
     lines.forEach(function(line) {
       var lineEl = document.createElement('div');
       lineEl.className = 'cinema-analysis-line';

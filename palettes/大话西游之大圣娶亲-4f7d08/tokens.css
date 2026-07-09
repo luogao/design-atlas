@@ -1,0 +1,12 @@
+/* Cinema Palette — 大话西游之大圣娶亲-4f7d08 */
+/* 大话西游之大圣娶亲 (A Chinese Odyssey Part Two, 1995) — 豆瓣 #21 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #EFECD8;  /* 24% */
+  --cinema-surface: #76483A;  /* 22% */
+  --cinema-accent: #AC815D;  /* 21% */
+  --cinema-text: #261919;  /* 20% */
+  --cinema-muted: #C2B2A0;  /* 11% */
+  /* scheme: analogous, temp: warm, brightness: medium */
+}

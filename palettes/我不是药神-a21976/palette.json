@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#20231B",
+      "ratio": 0.4074
+    },
+    {
+      "hex": "#4E5346",
+      "ratio": 0.2258
+    },
+    {
+      "hex": "#9A9E7B",
+      "ratio": 0.135
+    },
+    {
+      "hex": "#E3E9E0",
+      "ratio": 0.1227
+    },
+    {
+      "hex": "#616BE7",
+      "ratio": 0.1091
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "我不是药神",
+    "title_en": "Dying to Survive",
+    "year": 2018,
+    "rating": 9.0,
+    "rank": 33,
+    "douban_id": "26752088",
+    "source": "douban_top50"
+  }
+}

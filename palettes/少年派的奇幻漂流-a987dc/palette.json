@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0B2630",
+      "ratio": 0.2731
+    },
+    {
+      "hex": "#7B5D29",
+      "ratio": 0.2624
+    },
+    {
+      "hex": "#BEAB56",
+      "ratio": 0.2421
+    },
+    {
+      "hex": "#297E78",
+      "ratio": 0.1301
+    },
+    {
+      "hex": "#CDE0C5",
+      "ratio": 0.0922
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "少年派的奇幻漂流",
+    "title_en": "Life of Pi",
+    "year": 2012,
+    "rating": 9.1,
+    "rank": 45,
+    "douban_id": "1929463",
+    "source": "douban_top50"
+  }
+}

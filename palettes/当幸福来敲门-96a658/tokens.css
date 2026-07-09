@@ -1,0 +1,12 @@
+/* Cinema Palette — 当幸福来敲门-96a658 */
+/* 当幸福来敲门 (The Pursuit of Happyness, 2006) — 豆瓣 #27 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #171412;  /* 31% */
+  --cinema-surface: #433D37;  /* 22% */
+  --cinema-accent: #756C65;  /* 16% */
+  --cinema-text: #EAE9E8;  /* 15% */
+  --cinema-muted: #AFABA6;  /* 13% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

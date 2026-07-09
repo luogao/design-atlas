@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0C0B0C",
+      "ratio": 0.4707
+    },
+    {
+      "hex": "#34322F",
+      "ratio": 0.2162
+    },
+    {
+      "hex": "#645A47",
+      "ratio": 0.1812
+    },
+    {
+      "hex": "#878071",
+      "ratio": 0.0851
+    },
+    {
+      "hex": "#B7CDDF",
+      "ratio": 0.0468
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "dark"
+  },
+  "meta": {
+    "title_cn": "哈利·波特与魔法石",
+    "title_en": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "rating": 9.2,
+    "rank": 26,
+    "douban_id": "1295038",
+    "source": "douban_top50"
+  }
+}

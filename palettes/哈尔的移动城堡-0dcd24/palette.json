@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#242933",
+      "ratio": 0.3396
+    },
+    {
+      "hex": "#866D5A",
+      "ratio": 0.209
+    },
+    {
+      "hex": "#C7AC90",
+      "ratio": 0.1793
+    },
+    {
+      "hex": "#E1DED5",
+      "ratio": 0.171
+    },
+    {
+      "hex": "#2D8FBA",
+      "ratio": 0.1012
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "哈尔的移动城堡",
+    "title_en": "Howl's Moving Castle",
+    "year": 2004,
+    "rating": 9.1,
+    "rank": 37,
+    "douban_id": "1308807",
+    "source": "douban_top50"
+  }
+}

@@ -1,0 +1,12 @@
+/* Cinema Palette — 活着-a17f0b */
+/* 活着 (To Live, 1994) — 豆瓣 #29 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #180E0B;  /* 29% */
+  --cinema-surface: #64352A;  /* 20% */
+  --cinema-accent: #796E67;  /* 19% */
+  --cinema-text: #AFA194;  /* 17% */
+  --cinema-muted: #DFDAD5;  /* 13% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

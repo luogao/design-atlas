@@ -1,0 +1,12 @@
+/* Cinema Palette — 我不是药神-a21976 */
+/* 我不是药神 (Dying to Survive, 2018) — 豆瓣 #33 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #20231B;  /* 40% */
+  --cinema-surface: #4E5346;  /* 22% */
+  --cinema-accent: #9A9E7B;  /* 13% */
+  --cinema-text: #E3E9E0;  /* 12% */
+  --cinema-muted: #616BE7;  /* 10% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

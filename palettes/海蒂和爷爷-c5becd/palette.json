@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#2A2518",
+      "ratio": 0.2924
+    },
+    {
+      "hex": "#555333",
+      "ratio": 0.2817
+    },
+    {
+      "hex": "#8B7A62",
+      "ratio": 0.163
+    },
+    {
+      "hex": "#B2A89F",
+      "ratio": 0.1433
+    },
+    {
+      "hex": "#E4E5E4",
+      "ratio": 0.1196
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "海蒂和爷爷",
+    "title_en": "Heidi",
+    "year": 2015,
+    "rating": 9.3,
+    "rank": 39,
+    "douban_id": "25958717",
+    "source": "douban_top50"
+  }
+}

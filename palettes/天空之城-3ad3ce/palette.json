@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#4B9068",
+      "ratio": 0.2482
+    },
+    {
+      "hex": "#0A0F14",
+      "ratio": 0.2328
+    },
+    {
+      "hex": "#3F4D38",
+      "ratio": 0.2297
+    },
+    {
+      "hex": "#CAE0E2",
+      "ratio": 0.1824
+    },
+    {
+      "hex": "#CBA160",
+      "ratio": 0.107
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "天空之城",
+    "title_en": "Castle in the Sky",
+    "year": 1986,
+    "rating": 9.2,
+    "rank": 42,
+    "douban_id": "1291583",
+    "source": "douban_top50"
+  }
+}

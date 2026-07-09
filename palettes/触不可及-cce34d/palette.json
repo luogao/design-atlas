@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#17120E",
+      "ratio": 0.3728
+    },
+    {
+      "hex": "#9D8365",
+      "ratio": 0.1953
+    },
+    {
+      "hex": "#5E3827",
+      "ratio": 0.1818
+    },
+    {
+      "hex": "#C8B9A0",
+      "ratio": 0.149
+    },
+    {
+      "hex": "#F9FAF7",
+      "ratio": 0.1012
+    }
+  ],
+  "analysis": {
+    "scheme": "analogous",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "触不可及",
+    "title_en": "Intouchables",
+    "year": 2011,
+    "rating": 9.3,
+    "rank": 23,
+    "douban_id": "6786002",
+    "source": "douban_top50"
+  }
+}

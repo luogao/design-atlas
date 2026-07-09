@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#79624D",
+      "ratio": 0.3145
+    },
+    {
+      "hex": "#312621",
+      "ratio": 0.2318
+    },
+    {
+      "hex": "#A9999A",
+      "ratio": 0.2214
+    },
+    {
+      "hex": "#E0DEE1",
+      "ratio": 0.1364
+    },
+    {
+      "hex": "#9A2120",
+      "ratio": 0.0958
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "素媛",
+    "title_en": "Hope",
+    "year": 2013,
+    "rating": 9.3,
+    "rank": 40,
+    "douban_id": "21937452",
+    "source": "douban_top50"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#28201B",
+      "ratio": 0.3735
+    },
+    {
+      "hex": "#545768",
+      "ratio": 0.229
+    },
+    {
+      "hex": "#C8D0DA",
+      "ratio": 0.1503
+    },
+    {
+      "hex": "#67431F",
+      "ratio": 0.1428
+    },
+    {
+      "hex": "#9D8770",
+      "ratio": 0.1044
+    }
+  ],
+  "analysis": {
+    "scheme": "split-complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "指环王2：双塔奇兵",
+    "title_en": "The Two Towers",
+    "year": 2002,
+    "rating": 9.2,
+    "rank": 48,
+    "douban_id": "1291572",
+    "source": "douban_top50"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#22192E",
+      "ratio": 0.3774
+    },
+    {
+      "hex": "#5E5A91",
+      "ratio": 0.1804
+    },
+    {
+      "hex": "#CE7854",
+      "ratio": 0.1639
+    },
+    {
+      "hex": "#7C3C3D",
+      "ratio": 0.1621
+    },
+    {
+      "hex": "#B09ECB",
+      "ratio": 0.1163
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "寻梦环游记",
+    "title_en": "Coco",
+    "year": 2017,
+    "rating": 9.1,
+    "rank": 20,
+    "douban_id": "20495023",
+    "source": "douban_top50"
+  }
+}

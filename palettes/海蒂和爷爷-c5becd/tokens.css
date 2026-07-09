@@ -1,0 +1,12 @@
+/* Cinema Palette — 海蒂和爷爷-c5becd */
+/* 海蒂和爷爷 (Heidi, 2015) — 豆瓣 #39 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #2A2518;  /* 29% */
+  --cinema-surface: #555333;  /* 28% */
+  --cinema-accent: #8B7A62;  /* 16% */
+  --cinema-text: #B2A89F;  /* 14% */
+  --cinema-muted: #E4E5E4;  /* 11% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

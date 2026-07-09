@@ -1,0 +1,12 @@
+/* Cinema Palette — 疯狂动物城-b3742d */
+/* 疯狂动物城 (Zootopia, 2016) — 豆瓣 #14 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #4A4044;  /* 23% */
+  --cinema-surface: #1B1312;  /* 22% */
+  --cinema-accent: #E7B885;  /* 19% */
+  --cinema-text: #AA784F;  /* 18% */
+  --cinema-muted: #7B431C;  /* 15% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

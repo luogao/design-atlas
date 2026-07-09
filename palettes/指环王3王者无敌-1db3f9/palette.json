@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#281B19",
+      "ratio": 0.3427
+    },
+    {
+      "hex": "#4D5968",
+      "ratio": 0.2556
+    },
+    {
+      "hex": "#8C9B9E",
+      "ratio": 0.1786
+    },
+    {
+      "hex": "#9B6240",
+      "ratio": 0.1234
+    },
+    {
+      "hex": "#F3F5F4",
+      "ratio": 0.0997
+    }
+  ],
+  "analysis": {
+    "scheme": "split-complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "指环王3：王者无敌",
+    "title_en": "The Return of the King",
+    "year": 2003,
+    "rating": 9.3,
+    "rank": 32,
+    "douban_id": "1291552",
+    "source": "douban_top50"
+  }
+}

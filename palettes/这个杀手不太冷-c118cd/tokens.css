@@ -1,0 +1,12 @@
+/* Cinema Palette — 这个杀手不太冷-c118cd */
+/* 这个杀手不太冷 (Léon, 1994) — 豆瓣 #8 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0C0D07;  /* 32% */
+  --cinema-surface: #4C3E23;  /* 23% */
+  --cinema-accent: #E1DDC7;  /* 15% */
+  --cinema-text: #936D30;  /* 15% */
+  --cinema-muted: #BD9E6D;  /* 13% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

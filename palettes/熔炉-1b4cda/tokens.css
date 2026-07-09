@@ -1,0 +1,12 @@
+/* Cinema Palette — 熔炉-1b4cda */
+/* 熔炉 (Silenced, 2011) — 豆瓣 #22 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #1C1D15;  /* 36% */
+  --cinema-surface: #4D3F29;  /* 22% */
+  --cinema-accent: #B8ACA0;  /* 15% */
+  --cinema-text: #EAE9E7;  /* 13% */
+  --cinema-muted: #7E7065;  /* 11% */
+  /* scheme: analogous, temp: warm, brightness: medium */
+}

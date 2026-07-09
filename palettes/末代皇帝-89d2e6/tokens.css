@@ -1,0 +1,12 @@
+/* Cinema Palette — 末代皇帝-89d2e6 */
+/* 末代皇帝 (The Last Emperor, 1987) — 豆瓣 #25 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #140F0F;  /* 30% */
+  --cinema-surface: #703326;  /* 23% */
+  --cinema-accent: #B9773C;  /* 21% */
+  --cinema-text: #C8AD89;  /* 13% */
+  --cinema-muted: #EEEBD3;  /* 10% */
+  /* scheme: analogous, temp: warm, brightness: medium */
+}

@@ -1,0 +1,12 @@
+/* Cinema Palette — 怦然心动-e38552 */
+/* 怦然心动 (Flipped, 2010) — 豆瓣 #30 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #4C422D;  /* 25% */
+  --cinema-surface: #776A4B;  /* 23% */
+  --cinema-accent: #A3946F;  /* 21% */
+  --cinema-text: #1C1B12;  /* 21% */
+  --cinema-muted: #D1CAC0;  /* 8% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

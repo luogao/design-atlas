@@ -1,54 +1,8 @@
 [
   {
-    "name": "vinibiavatti1/TuiCss",
-    "url": "https://github.com/vinibiavatti1/TuiCss",
-    "stars": 1948,
-    "description": "Text-based user interface CSS library",
-    "topics": [
-      "ascii",
-      "css",
-      "curses",
-      "framework",
-      "framework-css",
-      "html5",
-      "layout",
-      "msdos",
-      "ncurses",
-      "terminal",
-      "text-based",
-      "tui",
-      "turbo-vision",
-      "window"
-    ],
-    "demo": ""
-  },
-  {
-    "name": "Gioni06/terminal.css",
-    "url": "https://github.com/Gioni06/terminal.css",
-    "stars": 1427,
-    "description": "Modern and minimalistic CSS framework for terminal enthusiasts",
-    "topics": [],
-    "demo": "https://terminalcss.xyz"
-  },
-  {
-    "name": "RonenNess/RPGUI",
-    "url": "https://github.com/RonenNess/RPGUI",
-    "stars": 946,
-    "description": "Lightweight framework for old-school RPG GUI in web!",
-    "topics": [
-      "css",
-      "game-development",
-      "gamedev",
-      "html",
-      "javascript",
-      "ui"
-    ],
-    "demo": "http://ronenness.github.io/RPGUI/"
-  },
-  {
     "name": "matt-auckland/retro-css",
     "url": "https://github.com/matt-auckland/retro-css",
-    "stars": 924,
+    "stars": 923,
     "description": "A list of retro-inspired CSS frameworks and design systems",
     "topics": [
       "css",

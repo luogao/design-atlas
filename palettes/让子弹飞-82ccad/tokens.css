@@ -1,0 +1,12 @@
+/* Cinema Palette — 让子弹飞-82ccad */
+/* 让子弹飞 (Let the Bullets Fly, 2010) — 豆瓣 #35 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #090705;  /* 44% */
+  --cinema-surface: #46371C;  /* 21% */
+  --cinema-accent: #886026;  /* 15% */
+  --cinema-text: #BB925B;  /* 9% */
+  --cinema-muted: #E7D6BA;  /* 8% */
+  /* scheme: monochromatic, temp: warm, brightness: dark */
+}

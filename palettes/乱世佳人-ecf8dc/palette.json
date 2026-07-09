@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0E0B0A",
+      "ratio": 0.396
+    },
+    {
+      "hex": "#CEBEAF",
+      "ratio": 0.1911
+    },
+    {
+      "hex": "#F1EDE7",
+      "ratio": 0.1592
+    },
+    {
+      "hex": "#9B8775",
+      "ratio": 0.13
+    },
+    {
+      "hex": "#544133",
+      "ratio": 0.1237
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "乱世佳人",
+    "title_en": "Gone with the Wind",
+    "year": 1939,
+    "rating": 9.3,
+    "rank": 34,
+    "douban_id": "1300267",
+    "source": "douban_top50"
+  }
+}

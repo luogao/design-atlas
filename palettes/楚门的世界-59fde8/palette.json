@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#7B9FBD",
+      "ratio": 0.2838
+    },
+    {
+      "hex": "#54524F",
+      "ratio": 0.2154
+    },
+    {
+      "hex": "#191C20",
+      "ratio": 0.2063
+    },
+    {
+      "hex": "#CEE0E9",
+      "ratio": 0.1534
+    },
+    {
+      "hex": "#AF844A",
+      "ratio": 0.1411
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "楚门的世界",
+    "title_en": "The Truman Show",
+    "year": 1998,
+    "rating": 9.4,
+    "rank": 10,
+    "douban_id": "1292064",
+    "source": "douban_top50"
+  }
+}

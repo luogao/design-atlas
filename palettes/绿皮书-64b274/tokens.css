@@ -1,0 +1,12 @@
+/* Cinema Palette — 绿皮书-64b274 */
+/* 绿皮书 (Green Book, 2018) — 豆瓣 #50 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #564434;  /* 26% */
+  --cinema-surface: #291E17;  /* 25% */
+  --cinema-accent: #766C61;  /* 20% */
+  --cinema-text: #989D98;  /* 16% */
+  --cinema-muted: #D7D9D9;  /* 11% */
+  /* scheme: monochromatic, temp: cool, brightness: medium */
+}

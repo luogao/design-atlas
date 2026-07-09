@@ -1,0 +1,12 @@
+/* Cinema Palette — 鬼子来了-dc522b */
+/* 鬼子来了 (Devils on the Doorstep, 2000) — 豆瓣 #43 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0E0D0C;  /* 28% */
+  --cinema-surface: #393633;  /* 24% */
+  --cinema-accent: #635F5A;  /* 22% */
+  --cinema-text: #9A948A;  /* 14% */
+  --cinema-muted: #D9D3C9;  /* 10% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

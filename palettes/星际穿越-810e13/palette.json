@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#14141B",
+      "ratio": 0.3192
+    },
+    {
+      "hex": "#494137",
+      "ratio": 0.2442
+    },
+    {
+      "hex": "#836E5F",
+      "ratio": 0.1701
+    },
+    {
+      "hex": "#EAE9E6",
+      "ratio": 0.1424
+    },
+    {
+      "hex": "#B8A89D",
+      "ratio": 0.124
+    }
+  ],
+  "analysis": {
+    "scheme": "split-complementary",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "星际穿越",
+    "title_en": "Interstellar",
+    "year": 2014,
+    "rating": 9.4,
+    "rank": 6,
+    "douban_id": "1889243",
+    "source": "douban_top50"
+  }
+}

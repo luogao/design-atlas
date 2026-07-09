@@ -1,0 +1,12 @@
+/* Cinema Palette — 三傻大闹宝莱坞-7be123 */
+/* 三傻大闹宝莱坞 (3 Idiots, 2009) — 豆瓣 #15 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #3D4747;  /* 28% */
+  --cinema-surface: #211C18;  /* 24% */
+  --cinema-accent: #7E7261;  /* 23% */
+  --cinema-text: #AEA69A;  /* 15% */
+  --cinema-muted: #EDE9E2;  /* 9% */
+  /* scheme: monochromatic, temp: cool, brightness: medium */
+}

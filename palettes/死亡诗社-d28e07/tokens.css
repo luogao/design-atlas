@@ -1,0 +1,12 @@
+/* Cinema Palette — 死亡诗社-d28e07 */
+/* 死亡诗社 (Dead Poets Society, 1989) — 豆瓣 #47 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0C0708;  /* 37% */
+  --cinema-surface: #756158;  /* 22% */
+  --cinema-accent: #42312D;  /* 18% */
+  --cinema-text: #AD9890;  /* 11% */
+  --cinema-muted: #E8E5E1;  /* 9% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

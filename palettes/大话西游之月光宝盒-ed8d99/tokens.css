@@ -1,0 +1,12 @@
+/* Cinema Palette — 大话西游之月光宝盒-ed8d99 */
+/* 大话西游之月光宝盒 (A Chinese Odyssey Part One, 1995) — 豆瓣 #49 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #211B1B;  /* 28% */
+  --cinema-surface: #F1E0D2;  /* 20% */
+  --cinema-accent: #C1A080;  /* 20% */
+  --cinema-text: #51413E;  /* 16% */
+  --cinema-muted: #A25242;  /* 13% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

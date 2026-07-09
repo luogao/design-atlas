@@ -1,0 +1,12 @@
+/* Cinema Palette — 霸王别姬-ac9a0b */
+/* 霸王别姬 (Farewell My Concubine, 1993) — 豆瓣 #2 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0D0A11;  /* 35% */
+  --cinema-surface: #B7817F;  /* 21% */
+  --cinema-accent: #683331;  /* 15% */
+  --cinema-text: #665D75;  /* 15% */
+  --cinema-muted: #DECBC2;  /* 12% */
+  /* scheme: split-complementary, temp: cool, brightness: medium */
+}

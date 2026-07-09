@@ -1,0 +1,12 @@
+/* Cinema Palette — 盗梦空间-f58c27 */
+/* 盗梦空间 (Inception, 2010) — 豆瓣 #9 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #BAA687;  /* 26% */
+  --cinema-surface: #0D0C17;  /* 21% */
+  --cinema-accent: #8A6F52;  /* 20% */
+  --cinema-text: #49382C;  /* 17% */
+  --cinema-muted: #E0D8D0;  /* 14% */
+  /* scheme: split-complementary, temp: balanced, brightness: medium */
+}

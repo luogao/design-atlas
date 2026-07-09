@@ -1,0 +1,12 @@
+/* Cinema Palette — 指环王2双塔奇兵-834ece */
+/* 指环王2：双塔奇兵 (The Two Towers, 2002) — 豆瓣 #48 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #28201B;  /* 37% */
+  --cinema-surface: #545768;  /* 22% */
+  --cinema-accent: #C8D0DA;  /* 15% */
+  --cinema-text: #67431F;  /* 14% */
+  --cinema-muted: #9D8770;  /* 10% */
+  /* scheme: split-complementary, temp: cool, brightness: medium */
+}

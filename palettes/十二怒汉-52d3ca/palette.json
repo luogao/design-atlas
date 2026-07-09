@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#1A1A1A",
+      "ratio": 0.3322
+    },
+    {
+      "hex": "#3F3F3F",
+      "ratio": 0.2172
+    },
+    {
+      "hex": "#DADADA",
+      "ratio": 0.1741
+    },
+    {
+      "hex": "#727272",
+      "ratio": 0.1437
+    },
+    {
+      "hex": "#AAAAAA",
+      "ratio": 0.1328
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "十二怒汉",
+    "title_en": "12 Angry Men",
+    "year": 1957,
+    "rating": 9.4,
+    "rank": 38,
+    "douban_id": "1293182",
+    "source": "douban_top50"
+  }
+}

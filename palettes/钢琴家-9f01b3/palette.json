@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#121919",
+      "ratio": 0.3511
+    },
+    {
+      "hex": "#505048",
+      "ratio": 0.2455
+    },
+    {
+      "hex": "#778FA2",
+      "ratio": 0.1475
+    },
+    {
+      "hex": "#A88F6F",
+      "ratio": 0.1305
+    },
+    {
+      "hex": "#D4D1D0",
+      "ratio": 0.1255
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "钢琴家",
+    "title_en": "The Pianist",
+    "year": 2002,
+    "rating": 9.3,
+    "rank": 46,
+    "douban_id": "1296736",
+    "source": "douban_top50"
+  }
+}

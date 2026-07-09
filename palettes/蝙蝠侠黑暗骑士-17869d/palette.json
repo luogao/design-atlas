@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0C1111",
+      "ratio": 0.3705
+    },
+    {
+      "hex": "#D2D6CB",
+      "ratio": 0.2194
+    },
+    {
+      "hex": "#354242",
+      "ratio": 0.1749
+    },
+    {
+      "hex": "#6B9AAB",
+      "ratio": 0.1378
+    },
+    {
+      "hex": "#98805F",
+      "ratio": 0.0974
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "蝙蝠侠：黑暗骑士",
+    "title_en": "The Dark Knight",
+    "year": 2008,
+    "rating": 9.2,
+    "rank": 31,
+    "douban_id": "1851857",
+    "source": "douban_top50"
+  }
+}

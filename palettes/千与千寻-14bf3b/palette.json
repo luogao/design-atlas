@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#9E9781",
+      "ratio": 0.2945
+    },
+    {
+      "hex": "#7A6A53",
+      "ratio": 0.2267
+    },
+    {
+      "hex": "#CFC8AF",
+      "ratio": 0.2089
+    },
+    {
+      "hex": "#403E36",
+      "ratio": 0.1961
+    },
+    {
+      "hex": "#095D81",
+      "ratio": 0.0738
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "千与千寻",
+    "title_en": "Spirited Away",
+    "year": 2001,
+    "rating": 9.4,
+    "rank": 5,
+    "douban_id": "1291561",
+    "source": "douban_top50"
+  }
+}

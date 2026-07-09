@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#19181C",
+      "ratio": 0.3025
+    },
+    {
+      "hex": "#63372D",
+      "ratio": 0.2073
+    },
+    {
+      "hex": "#183D60",
+      "ratio": 0.1906
+    },
+    {
+      "hex": "#97CAE0",
+      "ratio": 0.1657
+    },
+    {
+      "hex": "#AD8468",
+      "ratio": 0.1338
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "机器人总动员",
+    "title_en": "WALL·E",
+    "year": 2008,
+    "rating": 9.3,
+    "rank": 16,
+    "douban_id": "2131459",
+    "source": "douban_top50"
+  }
+}

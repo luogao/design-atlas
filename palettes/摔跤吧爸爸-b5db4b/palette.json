@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#623E24",
+      "ratio": 0.2734
+    },
+    {
+      "hex": "#976847",
+      "ratio": 0.2368
+    },
+    {
+      "hex": "#BE997A",
+      "ratio": 0.1959
+    },
+    {
+      "hex": "#21160C",
+      "ratio": 0.1907
+    },
+    {
+      "hex": "#E0DACB",
+      "ratio": 0.1032
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "摔跤吧！爸爸",
+    "title_en": "Dangal",
+    "year": 2016,
+    "rating": 9.0,
+    "rank": 44,
+    "douban_id": "26387939",
+    "source": "douban_top50"
+  }
+}

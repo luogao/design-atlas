@@ -1,0 +1,12 @@
+/* Cinema Palette — 星际穿越-810e13 */
+/* 星际穿越 (Interstellar, 2014) — 豆瓣 #6 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #14141B;  /* 31% */
+  --cinema-surface: #494137;  /* 24% */
+  --cinema-accent: #836E5F;  /* 17% */
+  --cinema-text: #EAE9E6;  /* 14% */
+  --cinema-muted: #B8A89D;  /* 12% */
+  /* scheme: split-complementary, temp: balanced, brightness: medium */
+}

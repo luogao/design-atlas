@@ -1,0 +1,12 @@
+/* Cinema Palette — 指环王3王者无敌-1db3f9 */
+/* 指环王3：王者无敌 (The Return of the King, 2003) — 豆瓣 #32 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #281B19;  /* 34% */
+  --cinema-surface: #4D5968;  /* 25% */
+  --cinema-accent: #8C9B9E;  /* 17% */
+  --cinema-text: #9B6240;  /* 12% */
+  --cinema-muted: #F3F5F4;  /* 9% */
+  /* scheme: split-complementary, temp: cool, brightness: medium */
+}

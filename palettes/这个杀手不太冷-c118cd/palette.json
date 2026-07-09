@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0C0D07",
+      "ratio": 0.3217
+    },
+    {
+      "hex": "#4C3E23",
+      "ratio": 0.2378
+    },
+    {
+      "hex": "#E1DDC7",
+      "ratio": 0.1535
+    },
+    {
+      "hex": "#936D30",
+      "ratio": 0.1535
+    },
+    {
+      "hex": "#BD9E6D",
+      "ratio": 0.1336
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "这个杀手不太冷",
+    "title_en": "Léon",
+    "year": 1994,
+    "rating": 9.4,
+    "rank": 8,
+    "douban_id": "1295644",
+    "source": "douban_top50"
+  }
+}

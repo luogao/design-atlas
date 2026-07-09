@@ -1,0 +1,12 @@
+/* Cinema Palette — 蝙蝠侠黑暗骑士-17869d */
+/* 蝙蝠侠：黑暗骑士 (The Dark Knight, 2008) — 豆瓣 #31 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0C1111;  /* 37% */
+  --cinema-surface: #D2D6CB;  /* 21% */
+  --cinema-accent: #354242;  /* 17% */
+  --cinema-text: #6B9AAB;  /* 13% */
+  --cinema-muted: #98805F;  /* 9% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

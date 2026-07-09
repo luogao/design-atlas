@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#463E3C",
+      "ratio": 0.2517
+    },
+    {
+      "hex": "#1D171A",
+      "ratio": 0.2393
+    },
+    {
+      "hex": "#EEF1F2",
+      "ratio": 0.1898
+    },
+    {
+      "hex": "#B2AFAB",
+      "ratio": 0.1831
+    },
+    {
+      "hex": "#7D7269",
+      "ratio": 0.1362
+    }
+  ],
+  "analysis": {
+    "scheme": "split-complementary",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "忠犬八公的故事",
+    "title_en": "Hachi: A Dog's Tale",
+    "year": 2009,
+    "rating": 9.4,
+    "rank": 12,
+    "douban_id": "3011091",
+    "source": "douban_top50"
+  }
+}

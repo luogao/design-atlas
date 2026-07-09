@@ -1,0 +1,12 @@
+/* Cinema Palette — 放牛班的春天-6ed46c */
+/* 放牛班的春天 (The Chorus, 2004) — 豆瓣 #17 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #161615;  /* 22% */
+  --cinema-surface: #A19481;  /* 20% */
+  --cinema-accent: #DACCB4;  /* 20% */
+  --cinema-text: #413B31;  /* 19% */
+  --cinema-muted: #766456;  /* 17% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

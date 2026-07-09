@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#564434",
+      "ratio": 0.2642
+    },
+    {
+      "hex": "#291E17",
+      "ratio": 0.2558
+    },
+    {
+      "hex": "#766C61",
+      "ratio": 0.2055
+    },
+    {
+      "hex": "#989D98",
+      "ratio": 0.1645
+    },
+    {
+      "hex": "#D7D9D9",
+      "ratio": 0.11
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "绿皮书",
+    "title_en": "Green Book",
+    "year": 2018,
+    "rating": 8.9,
+    "rank": 50,
+    "douban_id": "27060077",
+    "source": "douban_top50"
+  }
+}

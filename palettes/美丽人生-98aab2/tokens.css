@@ -1,0 +1,12 @@
+/* Cinema Palette — 美丽人生-98aab2 */
+/* 美丽人生 (Life Is Beautiful, 1997) — 豆瓣 #7 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #141917;  /* 26% */
+  --cinema-surface: #C9CCD8;  /* 25% */
+  --cinema-accent: #333832;  /* 22% */
+  --cinema-text: #6E5C4A;  /* 15% */
+  --cinema-muted: #989697;  /* 9% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

@@ -1,0 +1,12 @@
+/* Cinema Palette — 阿甘正传-5e7de6 */
+/* 阿甘正传 (Forrest Gump, 1994) — 豆瓣 #4 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #1D191B;  /* 35% */
+  --cinema-surface: #DBEBED;  /* 20% */
+  --cinema-accent: #7C7E8A;  /* 17% */
+  --cinema-text: #91281A;  /* 16% */
+  --cinema-muted: #DD863C;  /* 10% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

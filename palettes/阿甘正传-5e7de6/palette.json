@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#1D191B",
+      "ratio": 0.3531
+    },
+    {
+      "hex": "#DBEBED",
+      "ratio": 0.2071
+    },
+    {
+      "hex": "#7C7E8A",
+      "ratio": 0.1708
+    },
+    {
+      "hex": "#91281A",
+      "ratio": 0.1633
+    },
+    {
+      "hex": "#DD863C",
+      "ratio": 0.1057
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "阿甘正传",
+    "title_en": "Forrest Gump",
+    "year": 1994,
+    "rating": 9.5,
+    "rank": 4,
+    "douban_id": "1292720",
+    "source": "douban_top50"
+  }
+}

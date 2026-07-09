@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#111111",
+      "ratio": 0.3532
+    },
+    {
+      "hex": "#3D3D3D",
+      "ratio": 0.192
+    },
+    {
+      "hex": "#777777",
+      "ratio": 0.1566
+    },
+    {
+      "hex": "#ADADAD",
+      "ratio": 0.1497
+    },
+    {
+      "hex": "#DEDEDE",
+      "ratio": 0.1485
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "控方证人",
+    "title_en": "Witness for the Prosecution",
+    "year": 1957,
+    "rating": 9.6,
+    "rank": 19,
+    "douban_id": "1296141",
+    "source": "douban_top50"
+  }
+}

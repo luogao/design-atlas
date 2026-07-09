@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#171412",
+      "ratio": 0.3186
+    },
+    {
+      "hex": "#433D37",
+      "ratio": 0.2258
+    },
+    {
+      "hex": "#756C65",
+      "ratio": 0.1689
+    },
+    {
+      "hex": "#EAE9E8",
+      "ratio": 0.1549
+    },
+    {
+      "hex": "#AFABA6",
+      "ratio": 0.132
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "当幸福来敲门",
+    "title_en": "The Pursuit of Happyness",
+    "year": 2006,
+    "rating": 9.1,
+    "rank": 27,
+    "douban_id": "1849031",
+    "source": "douban_top50"
+  }
+}

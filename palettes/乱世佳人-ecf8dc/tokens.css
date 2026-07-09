@@ -1,0 +1,12 @@
+/* Cinema Palette — 乱世佳人-ecf8dc */
+/* 乱世佳人 (Gone with the Wind, 1939) — 豆瓣 #34 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0E0B0A;  /* 39% */
+  --cinema-surface: #CEBEAF;  /* 19% */
+  --cinema-accent: #F1EDE7;  /* 15% */
+  --cinema-text: #9B8775;  /* 13% */
+  --cinema-muted: #544133;  /* 12% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

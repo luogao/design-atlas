@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#101010",
+      "ratio": 0.323
+    },
+    {
+      "hex": "#353434",
+      "ratio": 0.2555
+    },
+    {
+      "hex": "#E5E5E5",
+      "ratio": 0.1514
+    },
+    {
+      "hex": "#717171",
+      "ratio": 0.1366
+    },
+    {
+      "hex": "#AEAEAE",
+      "ratio": 0.1334
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "辛德勒的名单",
+    "title_en": "Schindler's List",
+    "year": 1993,
+    "rating": 9.5,
+    "rank": 11,
+    "douban_id": "1295124",
+    "source": "douban_top50"
+  }
+}

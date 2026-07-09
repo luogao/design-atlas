@@ -1,0 +1,12 @@
+/* Cinema Palette — 寻梦环游记-925611 */
+/* 寻梦环游记 (Coco, 2017) — 豆瓣 #20 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #22192E;  /* 37% */
+  --cinema-surface: #5E5A91;  /* 18% */
+  --cinema-accent: #CE7854;  /* 16% */
+  --cinema-text: #7C3C3D;  /* 16% */
+  --cinema-muted: #B09ECB;  /* 11% */
+  /* scheme: monochromatic, temp: cool, brightness: medium */
+}

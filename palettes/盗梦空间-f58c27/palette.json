@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#BAA687",
+      "ratio": 0.2601
+    },
+    {
+      "hex": "#0D0C17",
+      "ratio": 0.2111
+    },
+    {
+      "hex": "#8A6F52",
+      "ratio": 0.2014
+    },
+    {
+      "hex": "#49382C",
+      "ratio": 0.1786
+    },
+    {
+      "hex": "#E0D8D0",
+      "ratio": 0.1488
+    }
+  ],
+  "analysis": {
+    "scheme": "split-complementary",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "盗梦空间",
+    "title_en": "Inception",
+    "year": 2010,
+    "rating": 9.4,
+    "rank": 9,
+    "douban_id": "3541415",
+    "source": "douban_top50"
+  }
+}

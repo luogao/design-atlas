@@ -1,0 +1,12 @@
+/* Cinema Palette — 肖申克的救赎-9d4a5b */
+/* 肖申克的救赎 (The Shawshank Redemption, 1994) — 豆瓣 #1 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #171514;  /* 34% */
+  --cinema-surface: #46403C;  /* 19% */
+  --cinema-accent: #75726B;  /* 18% */
+  --cinema-text: #CAD6DD;  /* 14% */
+  --cinema-muted: #A2A39C;  /* 13% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

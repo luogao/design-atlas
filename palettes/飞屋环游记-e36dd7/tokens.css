@@ -1,0 +1,12 @@
+/* Cinema Palette — 飞屋环游记-e36dd7 */
+/* 飞屋环游记 (Up, 2009) — 豆瓣 #36 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #70ADEF;  /* 22% */
+  --cinema-surface: #636944;  /* 21% */
+  --cinema-accent: #1C281C;  /* 20% */
+  --cinema-text: #989180;  /* 19% */
+  --cinema-muted: #D5D8D6;  /* 15% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

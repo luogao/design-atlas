@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0E0D0C",
+      "ratio": 0.2861
+    },
+    {
+      "hex": "#393633",
+      "ratio": 0.2468
+    },
+    {
+      "hex": "#635F5A",
+      "ratio": 0.2227
+    },
+    {
+      "hex": "#9A948A",
+      "ratio": 0.1425
+    },
+    {
+      "hex": "#D9D3C9",
+      "ratio": 0.1019
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "鬼子来了",
+    "title_en": "Devils on the Doorstep",
+    "year": 2000,
+    "rating": 9.3,
+    "rank": 43,
+    "douban_id": "1291858",
+    "source": "douban_top50"
+  }
+}

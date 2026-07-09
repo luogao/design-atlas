@@ -1,0 +1,12 @@
+/* Cinema Palette — 素媛-b3a8c8 */
+/* 素媛 (Hope, 2013) — 豆瓣 #40 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #79624D;  /* 31% */
+  --cinema-surface: #312621;  /* 23% */
+  --cinema-accent: #A9999A;  /* 22% */
+  --cinema-text: #E0DEE1;  /* 13% */
+  --cinema-muted: #9A2120;  /* 9% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

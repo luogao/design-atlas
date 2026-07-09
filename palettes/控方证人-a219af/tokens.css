@@ -1,0 +1,12 @@
+/* Cinema Palette — 控方证人-a219af */
+/* 控方证人 (Witness for the Prosecution, 1957) — 豆瓣 #19 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #111111;  /* 35% */
+  --cinema-surface: #3D3D3D;  /* 19% */
+  --cinema-accent: #777777;  /* 15% */
+  --cinema-text: #ADADAD;  /* 14% */
+  --cinema-muted: #DEDEDE;  /* 14% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#211D1C",
+      "ratio": 0.4666
+    },
+    {
+      "hex": "#785238",
+      "ratio": 0.1761
+    },
+    {
+      "hex": "#B09369",
+      "ratio": 0.1465
+    },
+    {
+      "hex": "#CFD6CD",
+      "ratio": 0.132
+    },
+    {
+      "hex": "#336D9B",
+      "ratio": 0.0788
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "泰坦尼克号",
+    "title_en": "Titanic",
+    "year": 1997,
+    "rating": 9.5,
+    "rank": 3,
+    "douban_id": "1292722",
+    "source": "douban_top50"
+  }
+}

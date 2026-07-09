@@ -1,0 +1,12 @@
+/* Cinema Palette — 少年派的奇幻漂流-a987dc */
+/* 少年派的奇幻漂流 (Life of Pi, 2012) — 豆瓣 #45 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0B2630;  /* 27% */
+  --cinema-surface: #7B5D29;  /* 26% */
+  --cinema-accent: #BEAB56;  /* 24% */
+  --cinema-text: #297E78;  /* 13% */
+  --cinema-muted: #CDE0C5;  /* 9% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

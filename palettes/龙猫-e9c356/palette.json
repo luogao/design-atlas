@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0F1615",
+      "ratio": 0.4021
+    },
+    {
+      "hex": "#525B3E",
+      "ratio": 0.2062
+    },
+    {
+      "hex": "#5B76AA",
+      "ratio": 0.1506
+    },
+    {
+      "hex": "#A69F5D",
+      "ratio": 0.13
+    },
+    {
+      "hex": "#C4DBE4",
+      "ratio": 0.1111
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "龙猫",
+    "title_en": "My Neighbor Totoro",
+    "year": 1988,
+    "rating": 9.2,
+    "rank": 28,
+    "douban_id": "1291560",
+    "source": "douban_top50"
+  }
+}

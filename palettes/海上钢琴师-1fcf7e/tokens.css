@@ -1,0 +1,12 @@
+/* Cinema Palette — 海上钢琴师-1fcf7e */
+/* 海上钢琴师 (The Legend of 1900, 1998) — 豆瓣 #13 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0C0B0C;  /* 47% */
+  --cinema-surface: #5A3227;  /* 17% */
+  --cinema-accent: #F4F6F2;  /* 13% */
+  --cinema-text: #AC7047;  /* 12% */
+  --cinema-muted: #DEB78A;  /* 10% */
+  /* scheme: analogous, temp: balanced, brightness: medium */
+}

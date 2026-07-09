@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#3D4747",
+      "ratio": 0.2802
+    },
+    {
+      "hex": "#211C18",
+      "ratio": 0.2436
+    },
+    {
+      "hex": "#7E7261",
+      "ratio": 0.2314
+    },
+    {
+      "hex": "#AEA69A",
+      "ratio": 0.1502
+    },
+    {
+      "hex": "#EDE9E2",
+      "ratio": 0.0945
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "三傻大闹宝莱坞",
+    "title_en": "3 Idiots",
+    "year": 2009,
+    "rating": 9.2,
+    "rank": 15,
+    "douban_id": "3793023",
+    "source": "douban_top50"
+  }
+}

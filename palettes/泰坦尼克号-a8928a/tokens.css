@@ -1,0 +1,12 @@
+/* Cinema Palette — 泰坦尼克号-a8928a */
+/* 泰坦尼克号 (Titanic, 1997) — 豆瓣 #3 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #211D1C;  /* 46% */
+  --cinema-surface: #785238;  /* 17% */
+  --cinema-accent: #B09369;  /* 14% */
+  --cinema-text: #CFD6CD;  /* 13% */
+  --cinema-muted: #336D9B;  /* 7% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

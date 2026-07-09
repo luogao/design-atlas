@@ -1,0 +1,12 @@
+/* Cinema Palette — 千与千寻-14bf3b */
+/* 千与千寻 (Spirited Away, 2001) — 豆瓣 #5 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #9E9781;  /* 29% */
+  --cinema-surface: #7A6A53;  /* 22% */
+  --cinema-accent: #CFC8AF;  /* 20% */
+  --cinema-text: #403E36;  /* 19% */
+  --cinema-muted: #095D81;  /* 7% */
+  /* scheme: complementary, temp: balanced, brightness: medium */
+}

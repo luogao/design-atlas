@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#171514",
+      "ratio": 0.3436
+    },
+    {
+      "hex": "#46403C",
+      "ratio": 0.1908
+    },
+    {
+      "hex": "#75726B",
+      "ratio": 0.1808
+    },
+    {
+      "hex": "#CAD6DD",
+      "ratio": 0.1474
+    },
+    {
+      "hex": "#A2A39C",
+      "ratio": 0.1373
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "肖申克的救赎",
+    "title_en": "The Shawshank Redemption",
+    "year": 1994,
+    "rating": 9.7,
+    "rank": 1,
+    "douban_id": "1292052",
+    "source": "douban_top50"
+  }
+}

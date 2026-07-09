@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0C0B0C",
+      "ratio": 0.4701
+    },
+    {
+      "hex": "#5A3227",
+      "ratio": 0.1705
+    },
+    {
+      "hex": "#F4F6F2",
+      "ratio": 0.1376
+    },
+    {
+      "hex": "#AC7047",
+      "ratio": 0.1214
+    },
+    {
+      "hex": "#DEB78A",
+      "ratio": 0.1005
+    }
+  ],
+  "analysis": {
+    "scheme": "analogous",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "海上钢琴师",
+    "title_en": "The Legend of 1900",
+    "year": 1998,
+    "rating": 9.3,
+    "rank": 13,
+    "douban_id": "1292001",
+    "source": "douban_top50"
+  }
+}

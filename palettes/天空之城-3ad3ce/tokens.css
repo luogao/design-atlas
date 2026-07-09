@@ -1,0 +1,12 @@
+/* Cinema Palette — 天空之城-3ad3ce */
+/* 天空之城 (Castle in the Sky, 1986) — 豆瓣 #42 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #4B9068;  /* 24% */
+  --cinema-surface: #0A0F14;  /* 23% */
+  --cinema-accent: #3F4D38;  /* 22% */
+  --cinema-text: #CAE0E2;  /* 18% */
+  --cinema-muted: #CBA160;  /* 10% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

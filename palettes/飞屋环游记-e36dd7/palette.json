@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#70ADEF",
+      "ratio": 0.2282
+    },
+    {
+      "hex": "#636944",
+      "ratio": 0.2198
+    },
+    {
+      "hex": "#1C281C",
+      "ratio": 0.2023
+    },
+    {
+      "hex": "#989180",
+      "ratio": 0.1908
+    },
+    {
+      "hex": "#D5D8D6",
+      "ratio": 0.1588
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "飞屋环游记",
+    "title_en": "Up",
+    "year": 2009,
+    "rating": 9.1,
+    "rank": 36,
+    "douban_id": "2129039",
+    "source": "douban_top50"
+  }
+}

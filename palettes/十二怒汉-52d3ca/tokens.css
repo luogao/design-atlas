@@ -1,0 +1,12 @@
+/* Cinema Palette — 十二怒汉-52d3ca */
+/* 十二怒汉 (12 Angry Men, 1957) — 豆瓣 #38 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #1A1A1A;  /* 33% */
+  --cinema-surface: #3F3F3F;  /* 21% */
+  --cinema-accent: #DADADA;  /* 17% */
+  --cinema-text: #727272;  /* 14% */
+  --cinema-muted: #AAAAAA;  /* 13% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

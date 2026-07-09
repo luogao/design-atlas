@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0C100D",
+      "ratio": 0.3859
+    },
+    {
+      "hex": "#243B46",
+      "ratio": 0.3205
+    },
+    {
+      "hex": "#EDF1F2",
+      "ratio": 0.1183
+    },
+    {
+      "hex": "#BEC6C9",
+      "ratio": 0.0993
+    },
+    {
+      "hex": "#8A7D55",
+      "ratio": 0.0761
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "无间道",
+    "title_en": "Infernal Affairs",
+    "year": 2002,
+    "rating": 9.3,
+    "rank": 18,
+    "douban_id": "1307914",
+    "source": "douban_top50"
+  }
+}

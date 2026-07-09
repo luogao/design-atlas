@@ -1,0 +1,12 @@
+/* Cinema Palette — 触不可及-cce34d */
+/* 触不可及 (Intouchables, 2011) — 豆瓣 #23 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #17120E;  /* 37% */
+  --cinema-surface: #9D8365;  /* 19% */
+  --cinema-accent: #5E3827;  /* 18% */
+  --cinema-text: #C8B9A0;  /* 14% */
+  --cinema-muted: #F9FAF7;  /* 10% */
+  /* scheme: analogous, temp: balanced, brightness: medium */
+}

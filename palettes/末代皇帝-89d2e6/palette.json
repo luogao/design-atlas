@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#140F0F",
+      "ratio": 0.309
+    },
+    {
+      "hex": "#703326",
+      "ratio": 0.2346
+    },
+    {
+      "hex": "#B9773C",
+      "ratio": 0.211
+    },
+    {
+      "hex": "#C8AD89",
+      "ratio": 0.1365
+    },
+    {
+      "hex": "#EEEBD3",
+      "ratio": 0.109
+    }
+  ],
+  "analysis": {
+    "scheme": "analogous",
+    "temperature": "warm",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "末代皇帝",
+    "title_en": "The Last Emperor",
+    "year": 1987,
+    "rating": 9.3,
+    "rank": 25,
+    "douban_id": "1293172",
+    "source": "douban_top50"
+  }
+}

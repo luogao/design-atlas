@@ -1,0 +1,12 @@
+/* Cinema Palette — 教父-d22975 */
+/* 教父 (The Godfather, 1972) — 豆瓣 #24 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0A0807;  /* 39% */
+  --cinema-surface: #4D3C34;  /* 23% */
+  --cinema-accent: #866E5D;  /* 20% */
+  --cinema-text: #C5A987;  /* 9% */
+  --cinema-muted: #EBE4D4;  /* 7% */
+  /* scheme: monochromatic, temp: warm, brightness: dark */
+}

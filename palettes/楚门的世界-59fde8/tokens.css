@@ -1,0 +1,12 @@
+/* Cinema Palette — 楚门的世界-59fde8 */
+/* 楚门的世界 (The Truman Show, 1998) — 豆瓣 #10 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #7B9FBD;  /* 28% */
+  --cinema-surface: #54524F;  /* 21% */
+  --cinema-accent: #191C20;  /* 20% */
+  --cinema-text: #CEE0E9;  /* 15% */
+  --cinema-muted: #AF844A;  /* 14% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

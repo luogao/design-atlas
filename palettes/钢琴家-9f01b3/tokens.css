@@ -1,0 +1,12 @@
+/* Cinema Palette — 钢琴家-9f01b3 */
+/* 钢琴家 (The Pianist, 2002) — 豆瓣 #46 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #121919;  /* 35% */
+  --cinema-surface: #505048;  /* 24% */
+  --cinema-accent: #778FA2;  /* 14% */
+  --cinema-text: #A88F6F;  /* 13% */
+  --cinema-muted: #D4D1D0;  /* 12% */
+  /* scheme: complementary, temp: cool, brightness: medium */
+}

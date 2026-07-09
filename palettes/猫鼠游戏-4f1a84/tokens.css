@@ -1,0 +1,12 @@
+/* Cinema Palette — 猫鼠游戏-4f1a84 */
+/* 猫鼠游戏 (Catch Me If You Can, 2002) — 豆瓣 #41 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #271914;  /* 27% */
+  --cinema-surface: #8A5A28;  /* 19% */
+  --cinema-accent: #585458;  /* 19% */
+  --cinema-text: #BB9F7A;  /* 18% */
+  --cinema-muted: #F3E7D2;  /* 15% */
+  /* scheme: monochromatic, temp: balanced, brightness: medium */
+}

@@ -1,116 +1,2412 @@
 {
-  "version": "1.1.0",
-  "updated": "2026-07-01",
-  "count": 3,
+  "version": "2.0.0",
+  "updated": "2026-07-09",
+  "description": "电影经典剧照配色方案 — 豆瓣 Top 50 + 精选系列",
+  "count": 53,
   "categories": [
     {
       "id": "monochromatic",
-      "name": "Monochromatic",
-      "name_cn": "单色系",
-      "description": "单一色相的明度梯度，克制而统一"
-    },
-    {
-      "id": "complementary",
-      "name": "Complementary",
-      "name_cn": "互补色",
-      "description": "色环对极的碰撞，最大张力"
-    },
-    {
-      "id": "split-complementary",
-      "name": "Split-Complementary",
-      "name_cn": "分裂互补",
-      "description": "主色 + 对极两侧，张力中有平衡"
+      "name": "单色系",
+      "count": 26
     },
     {
       "id": "analogous",
-      "name": "Analogous",
-      "name_cn": "类比色",
-      "description": "色环相邻色的和谐过渡"
+      "name": "邻近色",
+      "count": 5
+    },
+    {
+      "id": "complementary",
+      "name": "互补色",
+      "count": 16
+    },
+    {
+      "id": "split-complementary",
+      "name": "分裂互补",
+      "count": 6
     }
   ],
-  "mood_tags": [
-    "废弃", "寂静", "末日", "压迫", "荒芜",
-    "史诗", "集结", "信仰", "原始",
-    "暗涌", "多元", "张力"
-  ],
   "palettes": [
+    {
+      "id": "肖申克的救赎-9d4a5b",
+      "title": "肖申克的救赎",
+      "title_en": "The Shawshank Redemption",
+      "scene": "经典剧照合集",
+      "year": 1994,
+      "rank": 1,
+      "rating": 9.7,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#171514",
+          "name": "墨黑",
+          "ratio": 0.3436
+        },
+        {
+          "hex": "#46403C",
+          "name": "深灰",
+          "ratio": 0.1908
+        },
+        {
+          "hex": "#75726B",
+          "name": "深灰",
+          "ratio": 0.1808
+        },
+        {
+          "hex": "#CAD6DD",
+          "name": "浅蓝",
+          "ratio": 0.1474
+        },
+        {
+          "hex": "#A2A39C",
+          "name": "灰",
+          "ratio": 0.1373
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "霸王别姬-ac9a0b",
+      "title": "霸王别姬",
+      "title_en": "Farewell My Concubine",
+      "scene": "经典剧照合集",
+      "year": 1993,
+      "rank": 2,
+      "rating": 9.6,
+      "category": "split-complementary",
+      "palette": [
+        {
+          "hex": "#0D0A11",
+          "name": "墨蓝紫",
+          "ratio": 0.3505
+        },
+        {
+          "hex": "#B7817F",
+          "name": "红",
+          "ratio": 0.216
+        },
+        {
+          "hex": "#683331",
+          "name": "暗红",
+          "ratio": 0.1561
+        },
+        {
+          "hex": "#665D75",
+          "name": "暗蓝紫",
+          "ratio": 0.1529
+        },
+        {
+          "hex": "#DECBC2",
+          "name": "浅橙",
+          "ratio": 0.1246
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "split-complementary"
+    },
+    {
+      "id": "泰坦尼克号-a8928a",
+      "title": "泰坦尼克号",
+      "title_en": "Titanic",
+      "scene": "经典剧照合集",
+      "year": 1997,
+      "rank": 3,
+      "rating": 9.5,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#211D1C",
+          "name": "墨红",
+          "ratio": 0.4666
+        },
+        {
+          "hex": "#785238",
+          "name": "暗橙",
+          "ratio": 0.1761
+        },
+        {
+          "hex": "#B09369",
+          "name": "橙",
+          "ratio": 0.1465
+        },
+        {
+          "hex": "#CFD6CD",
+          "name": "浅绿",
+          "ratio": 0.132
+        },
+        {
+          "hex": "#336D9B",
+          "name": "暗蓝",
+          "ratio": 0.0788
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "阿甘正传-5e7de6",
+      "title": "阿甘正传",
+      "title_en": "Forrest Gump",
+      "scene": "经典剧照合集",
+      "year": 1994,
+      "rank": 4,
+      "rating": 9.5,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#1D191B",
+          "name": "墨黑",
+          "ratio": 0.3531
+        },
+        {
+          "hex": "#DBEBED",
+          "name": "白青",
+          "ratio": 0.2071
+        },
+        {
+          "hex": "#7C7E8A",
+          "name": "灰",
+          "ratio": 0.1708
+        },
+        {
+          "hex": "#91281A",
+          "name": "暗红",
+          "ratio": 0.1633
+        },
+        {
+          "hex": "#DD863C",
+          "name": "橙",
+          "ratio": 0.1057
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "千与千寻-14bf3b",
+      "title": "千与千寻",
+      "title_en": "Spirited Away",
+      "scene": "经典剧照合集",
+      "year": 2001,
+      "rank": 5,
+      "rating": 9.4,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#9E9781",
+          "name": "黄",
+          "ratio": 0.2945
+        },
+        {
+          "hex": "#7A6A53",
+          "name": "暗橙",
+          "ratio": 0.2267
+        },
+        {
+          "hex": "#CFC8AF",
+          "name": "浅黄",
+          "ratio": 0.2089
+        },
+        {
+          "hex": "#403E36",
+          "name": "深黄",
+          "ratio": 0.1961
+        },
+        {
+          "hex": "#095D81",
+          "name": "暗青",
+          "ratio": 0.0738
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "星际穿越-810e13",
+      "title": "星际穿越",
+      "title_en": "Interstellar",
+      "scene": "经典剧照合集",
+      "year": 2014,
+      "rank": 6,
+      "rating": 9.4,
+      "category": "split-complementary",
+      "palette": [
+        {
+          "hex": "#14141B",
+          "name": "墨蓝",
+          "ratio": 0.3192
+        },
+        {
+          "hex": "#494137",
+          "name": "暗橙",
+          "ratio": 0.2442
+        },
+        {
+          "hex": "#836E5F",
+          "name": "暗橙",
+          "ratio": 0.1701
+        },
+        {
+          "hex": "#EAE9E6",
+          "name": "白黄",
+          "ratio": 0.1424
+        },
+        {
+          "hex": "#B8A89D",
+          "name": "浅橙",
+          "ratio": 0.124
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "split-complementary"
+    },
+    {
+      "id": "美丽人生-98aab2",
+      "title": "美丽人生",
+      "title_en": "Life Is Beautiful",
+      "scene": "经典剧照合集",
+      "year": 1997,
+      "rank": 7,
+      "rating": 9.5,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#141917",
+          "name": "墨绿",
+          "ratio": 0.2664
+        },
+        {
+          "hex": "#C9CCD8",
+          "name": "浅蓝",
+          "ratio": 0.2545
+        },
+        {
+          "hex": "#333832",
+          "name": "深灰",
+          "ratio": 0.2224
+        },
+        {
+          "hex": "#6E5C4A",
+          "name": "暗橙",
+          "ratio": 0.1574
+        },
+        {
+          "hex": "#989697",
+          "name": "灰",
+          "ratio": 0.0992
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "这个杀手不太冷-c118cd",
+      "title": "这个杀手不太冷",
+      "title_en": "Léon",
+      "scene": "经典剧照合集",
+      "year": 1994,
+      "rank": 8,
+      "rating": 9.4,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#0C0D07",
+          "name": "墨黄",
+          "ratio": 0.3217
+        },
+        {
+          "hex": "#4C3E23",
+          "name": "深橙",
+          "ratio": 0.2378
+        },
+        {
+          "hex": "#E1DDC7",
+          "name": "浅黄",
+          "ratio": 0.1535
+        },
+        {
+          "hex": "#936D30",
+          "name": "暗橙",
+          "ratio": 0.1535
+        },
+        {
+          "hex": "#BD9E6D",
+          "name": "橙",
+          "ratio": 0.1336
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "盗梦空间-f58c27",
+      "title": "盗梦空间",
+      "title_en": "Inception",
+      "scene": "经典剧照合集",
+      "year": 2010,
+      "rank": 9,
+      "rating": 9.4,
+      "category": "split-complementary",
+      "palette": [
+        {
+          "hex": "#BAA687",
+          "name": "橙",
+          "ratio": 0.2601
+        },
+        {
+          "hex": "#0D0C17",
+          "name": "墨蓝",
+          "ratio": 0.2111
+        },
+        {
+          "hex": "#8A6F52",
+          "name": "暗橙",
+          "ratio": 0.2014
+        },
+        {
+          "hex": "#49382C",
+          "name": "深橙",
+          "ratio": 0.1786
+        },
+        {
+          "hex": "#E0D8D0",
+          "name": "浅橙",
+          "ratio": 0.1488
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "split-complementary"
+    },
+    {
+      "id": "楚门的世界-59fde8",
+      "title": "楚门的世界",
+      "title_en": "The Truman Show",
+      "scene": "经典剧照合集",
+      "year": 1998,
+      "rank": 10,
+      "rating": 9.4,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#7B9FBD",
+          "name": "蓝",
+          "ratio": 0.2838
+        },
+        {
+          "hex": "#54524F",
+          "name": "深灰",
+          "ratio": 0.2154
+        },
+        {
+          "hex": "#191C20",
+          "name": "墨蓝",
+          "ratio": 0.2063
+        },
+        {
+          "hex": "#CEE0E9",
+          "name": "白青",
+          "ratio": 0.1534
+        },
+        {
+          "hex": "#AF844A",
+          "name": "橙",
+          "ratio": 0.1411
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "辛德勒的名单-d32c44",
+      "title": "辛德勒的名单",
+      "title_en": "Schindler's List",
+      "scene": "经典剧照合集",
+      "year": 1993,
+      "rank": 11,
+      "rating": 9.5,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#101010",
+          "name": "墨黑",
+          "ratio": 0.323
+        },
+        {
+          "hex": "#353434",
+          "name": "深灰",
+          "ratio": 0.2555
+        },
+        {
+          "hex": "#E5E5E5",
+          "name": "浅灰",
+          "ratio": 0.1514
+        },
+        {
+          "hex": "#717171",
+          "name": "深灰",
+          "ratio": 0.1366
+        },
+        {
+          "hex": "#AEAEAE",
+          "name": "灰",
+          "ratio": 0.1334
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "忠犬八公的故事-b1dd4a",
+      "title": "忠犬八公的故事",
+      "title_en": "Hachi: A Dog's Tale",
+      "scene": "经典剧照合集",
+      "year": 2009,
+      "rank": 12,
+      "rating": 9.4,
+      "category": "split-complementary",
+      "palette": [
+        {
+          "hex": "#463E3C",
+          "name": "深灰",
+          "ratio": 0.2517
+        },
+        {
+          "hex": "#1D171A",
+          "name": "墨玫红",
+          "ratio": 0.2393
+        },
+        {
+          "hex": "#EEF1F2",
+          "name": "白青",
+          "ratio": 0.1898
+        },
+        {
+          "hex": "#B2AFAB",
+          "name": "灰",
+          "ratio": 0.1831
+        },
+        {
+          "hex": "#7D7269",
+          "name": "橙",
+          "ratio": 0.1362
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "split-complementary"
+    },
+    {
+      "id": "海上钢琴师-1fcf7e",
+      "title": "海上钢琴师",
+      "title_en": "The Legend of 1900",
+      "scene": "经典剧照合集",
+      "year": 1998,
+      "rank": 13,
+      "rating": 9.3,
+      "category": "analogous",
+      "palette": [
+        {
+          "hex": "#0C0B0C",
+          "name": "墨黑",
+          "ratio": 0.4701
+        },
+        {
+          "hex": "#5A3227",
+          "name": "暗红",
+          "ratio": 0.1705
+        },
+        {
+          "hex": "#F4F6F2",
+          "name": "白黄绿",
+          "ratio": 0.1376
+        },
+        {
+          "hex": "#AC7047",
+          "name": "橙",
+          "ratio": 0.1214
+        },
+        {
+          "hex": "#DEB78A",
+          "name": "浅橙",
+          "ratio": 0.1005
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "analogous"
+    },
+    {
+      "id": "疯狂动物城-b3742d",
+      "title": "疯狂动物城",
+      "title_en": "Zootopia",
+      "scene": "经典剧照合集",
+      "year": 2016,
+      "rank": 14,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#4A4044",
+          "name": "深灰",
+          "ratio": 0.2374
+        },
+        {
+          "hex": "#1B1312",
+          "name": "墨红",
+          "ratio": 0.2207
+        },
+        {
+          "hex": "#E7B885",
+          "name": "浅橙",
+          "ratio": 0.1979
+        },
+        {
+          "hex": "#AA784F",
+          "name": "橙",
+          "ratio": 0.186
+        },
+        {
+          "hex": "#7B431C",
+          "name": "暗橙",
+          "ratio": 0.158
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "三傻大闹宝莱坞-7be123",
+      "title": "三傻大闹宝莱坞",
+      "title_en": "3 Idiots",
+      "scene": "经典剧照合集",
+      "year": 2009,
+      "rank": 15,
+      "rating": 9.2,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#3D4747",
+          "name": "深灰",
+          "ratio": 0.2802
+        },
+        {
+          "hex": "#211C18",
+          "name": "墨橙",
+          "ratio": 0.2436
+        },
+        {
+          "hex": "#7E7261",
+          "name": "暗橙",
+          "ratio": 0.2314
+        },
+        {
+          "hex": "#AEA69A",
+          "name": "橙",
+          "ratio": 0.1502
+        },
+        {
+          "hex": "#EDE9E2",
+          "name": "白橙",
+          "ratio": 0.0945
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "机器人总动员-fd9e71",
+      "title": "机器人总动员",
+      "title_en": "WALL·E",
+      "scene": "经典剧照合集",
+      "year": 2008,
+      "rank": 16,
+      "rating": 9.3,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#19181C",
+          "name": "墨黑",
+          "ratio": 0.3025
+        },
+        {
+          "hex": "#63372D",
+          "name": "暗红",
+          "ratio": 0.2073
+        },
+        {
+          "hex": "#183D60",
+          "name": "深蓝",
+          "ratio": 0.1906
+        },
+        {
+          "hex": "#97CAE0",
+          "name": "浅青",
+          "ratio": 0.1657
+        },
+        {
+          "hex": "#AD8468",
+          "name": "橙",
+          "ratio": 0.1338
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "放牛班的春天-6ed46c",
+      "title": "放牛班的春天",
+      "title_en": "The Chorus",
+      "scene": "经典剧照合集",
+      "year": 2004,
+      "rank": 17,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#161615",
+          "name": "墨黑",
+          "ratio": 0.2216
+        },
+        {
+          "hex": "#A19481",
+          "name": "橙",
+          "ratio": 0.2059
+        },
+        {
+          "hex": "#DACCB4",
+          "name": "浅橙",
+          "ratio": 0.2022
+        },
+        {
+          "hex": "#413B31",
+          "name": "深橙",
+          "ratio": 0.1987
+        },
+        {
+          "hex": "#766456",
+          "name": "暗橙",
+          "ratio": 0.1717
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "无间道-5ee6f9",
+      "title": "无间道",
+      "title_en": "Infernal Affairs",
+      "scene": "经典剧照合集",
+      "year": 2002,
+      "rank": 18,
+      "rating": 9.3,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#0C100D",
+          "name": "墨绿",
+          "ratio": 0.3859
+        },
+        {
+          "hex": "#243B46",
+          "name": "深青",
+          "ratio": 0.3205
+        },
+        {
+          "hex": "#EDF1F2",
+          "name": "白青",
+          "ratio": 0.1183
+        },
+        {
+          "hex": "#BEC6C9",
+          "name": "浅青",
+          "ratio": 0.0993
+        },
+        {
+          "hex": "#8A7D55",
+          "name": "暗黄",
+          "ratio": 0.0761
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "控方证人-a219af",
+      "title": "控方证人",
+      "title_en": "Witness for the Prosecution",
+      "scene": "经典剧照合集",
+      "year": 1957,
+      "rank": 19,
+      "rating": 9.6,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#111111",
+          "name": "墨黑",
+          "ratio": 0.3532
+        },
+        {
+          "hex": "#3D3D3D",
+          "name": "深灰",
+          "ratio": 0.192
+        },
+        {
+          "hex": "#777777",
+          "name": "深灰",
+          "ratio": 0.1566
+        },
+        {
+          "hex": "#ADADAD",
+          "name": "灰",
+          "ratio": 0.1497
+        },
+        {
+          "hex": "#DEDEDE",
+          "name": "浅灰",
+          "ratio": 0.1485
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "寻梦环游记-925611",
+      "title": "寻梦环游记",
+      "title_en": "Coco",
+      "scene": "经典剧照合集",
+      "year": 2017,
+      "rank": 20,
+      "rating": 9.1,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#22192E",
+          "name": "深蓝紫",
+          "ratio": 0.3774
+        },
+        {
+          "hex": "#5E5A91",
+          "name": "蓝",
+          "ratio": 0.1804
+        },
+        {
+          "hex": "#CE7854",
+          "name": "橙",
+          "ratio": 0.1639
+        },
+        {
+          "hex": "#7C3C3D",
+          "name": "暗红",
+          "ratio": 0.1621
+        },
+        {
+          "hex": "#B09ECB",
+          "name": "浅蓝紫",
+          "ratio": 0.1163
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "大话西游之大圣娶亲-4f7d08",
+      "title": "大话西游之大圣娶亲",
+      "title_en": "A Chinese Odyssey Part Two",
+      "scene": "经典剧照合集",
+      "year": 1995,
+      "rank": 21,
+      "rating": 9.2,
+      "category": "analogous",
+      "palette": [
+        {
+          "hex": "#EFECD8",
+          "name": "白黄",
+          "ratio": 0.2402
+        },
+        {
+          "hex": "#76483A",
+          "name": "暗红",
+          "ratio": 0.2211
+        },
+        {
+          "hex": "#AC815D",
+          "name": "橙",
+          "ratio": 0.215
+        },
+        {
+          "hex": "#261919",
+          "name": "深红",
+          "ratio": 0.2085
+        },
+        {
+          "hex": "#C2B2A0",
+          "name": "浅橙",
+          "ratio": 0.1152
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "analogous"
+    },
+    {
+      "id": "熔炉-1b4cda",
+      "title": "熔炉",
+      "title_en": "Silenced",
+      "scene": "经典剧照合集",
+      "year": 2011,
+      "rank": 22,
+      "rating": 9.3,
+      "category": "analogous",
+      "palette": [
+        {
+          "hex": "#1C1D15",
+          "name": "墨黄",
+          "ratio": 0.367
+        },
+        {
+          "hex": "#4D3F29",
+          "name": "深橙",
+          "ratio": 0.2258
+        },
+        {
+          "hex": "#B8ACA0",
+          "name": "浅橙",
+          "ratio": 0.1569
+        },
+        {
+          "hex": "#EAE9E7",
+          "name": "浅灰",
+          "ratio": 0.1371
+        },
+        {
+          "hex": "#7E7065",
+          "name": "暗橙",
+          "ratio": 0.1133
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "analogous"
+    },
+    {
+      "id": "触不可及-cce34d",
+      "title": "触不可及",
+      "title_en": "Intouchables",
+      "scene": "经典剧照合集",
+      "year": 2011,
+      "rank": 23,
+      "rating": 9.3,
+      "category": "analogous",
+      "palette": [
+        {
+          "hex": "#17120E",
+          "name": "墨橙",
+          "ratio": 0.3728
+        },
+        {
+          "hex": "#9D8365",
+          "name": "橙",
+          "ratio": 0.1953
+        },
+        {
+          "hex": "#5E3827",
+          "name": "暗橙",
+          "ratio": 0.1818
+        },
+        {
+          "hex": "#C8B9A0",
+          "name": "浅橙",
+          "ratio": 0.149
+        },
+        {
+          "hex": "#F9FAF7",
+          "name": "白黄绿",
+          "ratio": 0.1012
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "analogous"
+    },
+    {
+      "id": "教父-d22975",
+      "title": "教父",
+      "title_en": "The Godfather",
+      "scene": "经典剧照合集",
+      "year": 1972,
+      "rank": 24,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#0A0807",
+          "name": "墨橙",
+          "ratio": 0.3986
+        },
+        {
+          "hex": "#4D3C34",
+          "name": "暗橙",
+          "ratio": 0.2355
+        },
+        {
+          "hex": "#866E5D",
+          "name": "暗橙",
+          "ratio": 0.2028
+        },
+        {
+          "hex": "#C5A987",
+          "name": "浅橙",
+          "ratio": 0.0913
+        },
+        {
+          "hex": "#EBE4D4",
+          "name": "白黄",
+          "ratio": 0.0718
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "dark"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "末代皇帝-89d2e6",
+      "title": "末代皇帝",
+      "title_en": "The Last Emperor",
+      "scene": "经典剧照合集",
+      "year": 1987,
+      "rank": 25,
+      "rating": 9.3,
+      "category": "analogous",
+      "palette": [
+        {
+          "hex": "#140F0F",
+          "name": "墨红",
+          "ratio": 0.309
+        },
+        {
+          "hex": "#703326",
+          "name": "暗红",
+          "ratio": 0.2346
+        },
+        {
+          "hex": "#B9773C",
+          "name": "橙",
+          "ratio": 0.211
+        },
+        {
+          "hex": "#C8AD89",
+          "name": "浅橙",
+          "ratio": 0.1365
+        },
+        {
+          "hex": "#EEEBD3",
+          "name": "白黄",
+          "ratio": 0.109
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "analogous"
+    },
+    {
+      "id": "哈利波特与魔法石-bb4f95",
+      "title": "哈利·波特与魔法石",
+      "title_en": "Harry Potter and the Sorcerer's Stone",
+      "scene": "经典剧照合集",
+      "year": 2001,
+      "rank": 26,
+      "rating": 9.2,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#0C0B0C",
+          "name": "墨黑",
+          "ratio": 0.4707
+        },
+        {
+          "hex": "#34322F",
+          "name": "深黑",
+          "ratio": 0.2162
+        },
+        {
+          "hex": "#645A47",
+          "name": "暗橙",
+          "ratio": 0.1812
+        },
+        {
+          "hex": "#878071",
+          "name": "黄",
+          "ratio": 0.0851
+        },
+        {
+          "hex": "#B7CDDF",
+          "name": "浅蓝",
+          "ratio": 0.0468
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "dark"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "当幸福来敲门-96a658",
+      "title": "当幸福来敲门",
+      "title_en": "The Pursuit of Happyness",
+      "scene": "经典剧照合集",
+      "year": 2006,
+      "rank": 27,
+      "rating": 9.1,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#171412",
+          "name": "墨橙",
+          "ratio": 0.3186
+        },
+        {
+          "hex": "#433D37",
+          "name": "深橙",
+          "ratio": 0.2258
+        },
+        {
+          "hex": "#756C65",
+          "name": "深灰",
+          "ratio": 0.1689
+        },
+        {
+          "hex": "#EAE9E8",
+          "name": "浅灰",
+          "ratio": 0.1549
+        },
+        {
+          "hex": "#AFABA6",
+          "name": "灰",
+          "ratio": 0.132
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "龙猫-e9c356",
+      "title": "龙猫",
+      "title_en": "My Neighbor Totoro",
+      "scene": "经典剧照合集",
+      "year": 1988,
+      "rank": 28,
+      "rating": 9.2,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#0F1615",
+          "name": "墨青",
+          "ratio": 0.4021
+        },
+        {
+          "hex": "#525B3E",
+          "name": "暗黄绿",
+          "ratio": 0.2062
+        },
+        {
+          "hex": "#5B76AA",
+          "name": "蓝",
+          "ratio": 0.1506
+        },
+        {
+          "hex": "#A69F5D",
+          "name": "黄",
+          "ratio": 0.13
+        },
+        {
+          "hex": "#C4DBE4",
+          "name": "浅青",
+          "ratio": 0.1111
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "活着-a17f0b",
+      "title": "活着",
+      "title_en": "To Live",
+      "scene": "经典剧照合集",
+      "year": 1994,
+      "rank": 29,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#180E0B",
+          "name": "墨红",
+          "ratio": 0.2938
+        },
+        {
+          "hex": "#64352A",
+          "name": "暗红",
+          "ratio": 0.2057
+        },
+        {
+          "hex": "#796E67",
+          "name": "暗橙",
+          "ratio": 0.1942
+        },
+        {
+          "hex": "#AFA194",
+          "name": "橙",
+          "ratio": 0.1721
+        },
+        {
+          "hex": "#DFDAD5",
+          "name": "白橙",
+          "ratio": 0.1341
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "怦然心动-e38552",
+      "title": "怦然心动",
+      "title_en": "Flipped",
+      "scene": "经典剧照合集",
+      "year": 2010,
+      "rank": 30,
+      "rating": 9.1,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#4C422D",
+          "name": "深黄",
+          "ratio": 0.2524
+        },
+        {
+          "hex": "#776A4B",
+          "name": "暗黄",
+          "ratio": 0.2303
+        },
+        {
+          "hex": "#A3946F",
+          "name": "黄",
+          "ratio": 0.2158
+        },
+        {
+          "hex": "#1C1B12",
+          "name": "墨黄",
+          "ratio": 0.2133
+        },
+        {
+          "hex": "#D1CAC0",
+          "name": "浅橙",
+          "ratio": 0.0883
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "蝙蝠侠黑暗骑士-17869d",
+      "title": "蝙蝠侠：黑暗骑士",
+      "title_en": "The Dark Knight",
+      "scene": "经典剧照合集",
+      "year": 2008,
+      "rank": 31,
+      "rating": 9.2,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#0C1111",
+          "name": "墨青",
+          "ratio": 0.3705
+        },
+        {
+          "hex": "#D2D6CB",
+          "name": "浅黄绿",
+          "ratio": 0.2194
+        },
+        {
+          "hex": "#354242",
+          "name": "深青",
+          "ratio": 0.1749
+        },
+        {
+          "hex": "#6B9AAB",
+          "name": "青",
+          "ratio": 0.1378
+        },
+        {
+          "hex": "#98805F",
+          "name": "橙",
+          "ratio": 0.0974
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "指环王3王者无敌-1db3f9",
+      "title": "指环王3：王者无敌",
+      "title_en": "The Return of the King",
+      "scene": "经典剧照合集",
+      "year": 2003,
+      "rank": 32,
+      "rating": 9.3,
+      "category": "split-complementary",
+      "palette": [
+        {
+          "hex": "#281B19",
+          "name": "深红",
+          "ratio": 0.3427
+        },
+        {
+          "hex": "#4D5968",
+          "name": "暗蓝",
+          "ratio": 0.2556
+        },
+        {
+          "hex": "#8C9B9E",
+          "name": "青",
+          "ratio": 0.1786
+        },
+        {
+          "hex": "#9B6240",
+          "name": "暗橙",
+          "ratio": 0.1234
+        },
+        {
+          "hex": "#F3F5F4",
+          "name": "白绿",
+          "ratio": 0.0997
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "split-complementary"
+    },
+    {
+      "id": "我不是药神-a21976",
+      "title": "我不是药神",
+      "title_en": "Dying to Survive",
+      "scene": "经典剧照合集",
+      "year": 2018,
+      "rank": 33,
+      "rating": 9.0,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#20231B",
+          "name": "深黄绿",
+          "ratio": 0.4074
+        },
+        {
+          "hex": "#4E5346",
+          "name": "暗黄绿",
+          "ratio": 0.2258
+        },
+        {
+          "hex": "#9A9E7B",
+          "name": "黄",
+          "ratio": 0.135
+        },
+        {
+          "hex": "#E3E9E0",
+          "name": "白绿",
+          "ratio": 0.1227
+        },
+        {
+          "hex": "#616BE7",
+          "name": "蓝",
+          "ratio": 0.1091
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "乱世佳人-ecf8dc",
+      "title": "乱世佳人",
+      "title_en": "Gone with the Wind",
+      "scene": "经典剧照合集",
+      "year": 1939,
+      "rank": 34,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#0E0B0A",
+          "name": "墨橙",
+          "ratio": 0.396
+        },
+        {
+          "hex": "#CEBEAF",
+          "name": "浅橙",
+          "ratio": 0.1911
+        },
+        {
+          "hex": "#F1EDE7",
+          "name": "白橙",
+          "ratio": 0.1592
+        },
+        {
+          "hex": "#9B8775",
+          "name": "橙",
+          "ratio": 0.13
+        },
+        {
+          "hex": "#544133",
+          "name": "暗橙",
+          "ratio": 0.1237
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "让子弹飞-82ccad",
+      "title": "让子弹飞",
+      "title_en": "Let the Bullets Fly",
+      "scene": "经典剧照合集",
+      "year": 2010,
+      "rank": 35,
+      "rating": 9.0,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#090705",
+          "name": "墨橙",
+          "ratio": 0.4436
+        },
+        {
+          "hex": "#46371C",
+          "name": "深橙",
+          "ratio": 0.2192
+        },
+        {
+          "hex": "#886026",
+          "name": "暗橙",
+          "ratio": 0.1514
+        },
+        {
+          "hex": "#BB925B",
+          "name": "橙",
+          "ratio": 0.0993
+        },
+        {
+          "hex": "#E7D6BA",
+          "name": "浅橙",
+          "ratio": 0.0865
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "dark"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "飞屋环游记-e36dd7",
+      "title": "飞屋环游记",
+      "title_en": "Up",
+      "scene": "经典剧照合集",
+      "year": 2009,
+      "rank": 36,
+      "rating": 9.1,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#70ADEF",
+          "name": "浅蓝",
+          "ratio": 0.2282
+        },
+        {
+          "hex": "#636944",
+          "name": "暗黄",
+          "ratio": 0.2198
+        },
+        {
+          "hex": "#1C281C",
+          "name": "深绿",
+          "ratio": 0.2023
+        },
+        {
+          "hex": "#989180",
+          "name": "黄",
+          "ratio": 0.1908
+        },
+        {
+          "hex": "#D5D8D6",
+          "name": "浅灰",
+          "ratio": 0.1588
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "哈尔的移动城堡-0dcd24",
+      "title": "哈尔的移动城堡",
+      "title_en": "Howl's Moving Castle",
+      "scene": "经典剧照合集",
+      "year": 2004,
+      "rank": 37,
+      "rating": 9.1,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#242933",
+          "name": "深蓝",
+          "ratio": 0.3396
+        },
+        {
+          "hex": "#866D5A",
+          "name": "暗橙",
+          "ratio": 0.209
+        },
+        {
+          "hex": "#C7AC90",
+          "name": "浅橙",
+          "ratio": 0.1793
+        },
+        {
+          "hex": "#E1DED5",
+          "name": "白黄",
+          "ratio": 0.171
+        },
+        {
+          "hex": "#2D8FBA",
+          "name": "青",
+          "ratio": 0.1012
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "十二怒汉-52d3ca",
+      "title": "十二怒汉",
+      "title_en": "12 Angry Men",
+      "scene": "经典剧照合集",
+      "year": 1957,
+      "rank": 38,
+      "rating": 9.4,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#1A1A1A",
+          "name": "墨黑",
+          "ratio": 0.3322
+        },
+        {
+          "hex": "#3F3F3F",
+          "name": "深灰",
+          "ratio": 0.2172
+        },
+        {
+          "hex": "#DADADA",
+          "name": "浅灰",
+          "ratio": 0.1741
+        },
+        {
+          "hex": "#727272",
+          "name": "深灰",
+          "ratio": 0.1437
+        },
+        {
+          "hex": "#AAAAAA",
+          "name": "灰",
+          "ratio": 0.1328
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "海蒂和爷爷-c5becd",
+      "title": "海蒂和爷爷",
+      "title_en": "Heidi",
+      "scene": "经典剧照合集",
+      "year": 2015,
+      "rank": 39,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#2A2518",
+          "name": "深黄",
+          "ratio": 0.2924
+        },
+        {
+          "hex": "#555333",
+          "name": "暗黄",
+          "ratio": 0.2817
+        },
+        {
+          "hex": "#8B7A62",
+          "name": "橙",
+          "ratio": 0.163
+        },
+        {
+          "hex": "#B2A89F",
+          "name": "浅橙",
+          "ratio": 0.1433
+        },
+        {
+          "hex": "#E4E5E4",
+          "name": "浅灰",
+          "ratio": 0.1196
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "素媛-b3a8c8",
+      "title": "素媛",
+      "title_en": "Hope",
+      "scene": "经典剧照合集",
+      "year": 2013,
+      "rank": 40,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#79624D",
+          "name": "暗橙",
+          "ratio": 0.3145
+        },
+        {
+          "hex": "#312621",
+          "name": "深橙",
+          "ratio": 0.2318
+        },
+        {
+          "hex": "#A9999A",
+          "name": "红",
+          "ratio": 0.2214
+        },
+        {
+          "hex": "#E0DEE1",
+          "name": "浅灰",
+          "ratio": 0.1364
+        },
+        {
+          "hex": "#9A2120",
+          "name": "暗红",
+          "ratio": 0.0958
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "猫鼠游戏-4f1a84",
+      "title": "猫鼠游戏",
+      "title_en": "Catch Me If You Can",
+      "scene": "经典剧照合集",
+      "year": 2002,
+      "rank": 41,
+      "rating": 9.1,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#271914",
+          "name": "墨橙",
+          "ratio": 0.2704
+        },
+        {
+          "hex": "#8A5A28",
+          "name": "暗橙",
+          "ratio": 0.1989
+        },
+        {
+          "hex": "#585458",
+          "name": "深灰",
+          "ratio": 0.1959
+        },
+        {
+          "hex": "#BB9F7A",
+          "name": "橙",
+          "ratio": 0.1824
+        },
+        {
+          "hex": "#F3E7D2",
+          "name": "白橙",
+          "ratio": 0.1524
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "天空之城-3ad3ce",
+      "title": "天空之城",
+      "title_en": "Castle in the Sky",
+      "scene": "经典剧照合集",
+      "year": 1986,
+      "rank": 42,
+      "rating": 9.2,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#4B9068",
+          "name": "暗绿",
+          "ratio": 0.2482
+        },
+        {
+          "hex": "#0A0F14",
+          "name": "墨蓝",
+          "ratio": 0.2328
+        },
+        {
+          "hex": "#3F4D38",
+          "name": "暗黄绿",
+          "ratio": 0.2297
+        },
+        {
+          "hex": "#CAE0E2",
+          "name": "浅青",
+          "ratio": 0.1824
+        },
+        {
+          "hex": "#CBA160",
+          "name": "橙",
+          "ratio": 0.107
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "鬼子来了-dc522b",
+      "title": "鬼子来了",
+      "title_en": "Devils on the Doorstep",
+      "scene": "经典剧照合集",
+      "year": 2000,
+      "rank": 43,
+      "rating": 9.3,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#0E0D0C",
+          "name": "墨黑",
+          "ratio": 0.2861
+        },
+        {
+          "hex": "#393633",
+          "name": "深灰",
+          "ratio": 0.2468
+        },
+        {
+          "hex": "#635F5A",
+          "name": "深灰",
+          "ratio": 0.2227
+        },
+        {
+          "hex": "#9A948A",
+          "name": "灰",
+          "ratio": 0.1425
+        },
+        {
+          "hex": "#D9D3C9",
+          "name": "浅橙",
+          "ratio": 0.1019
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "摔跤吧爸爸-b5db4b",
+      "title": "摔跤吧！爸爸",
+      "title_en": "Dangal",
+      "scene": "经典剧照合集",
+      "year": 2016,
+      "rank": 44,
+      "rating": 9.0,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#623E24",
+          "name": "暗橙",
+          "ratio": 0.2734
+        },
+        {
+          "hex": "#976847",
+          "name": "暗橙",
+          "ratio": 0.2368
+        },
+        {
+          "hex": "#BE997A",
+          "name": "橙",
+          "ratio": 0.1959
+        },
+        {
+          "hex": "#21160C",
+          "name": "墨橙",
+          "ratio": 0.1907
+        },
+        {
+          "hex": "#E0DACB",
+          "name": "浅黄",
+          "ratio": 0.1032
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "少年派的奇幻漂流-a987dc",
+      "title": "少年派的奇幻漂流",
+      "title_en": "Life of Pi",
+      "scene": "经典剧照合集",
+      "year": 2012,
+      "rank": 45,
+      "rating": 9.1,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#0B2630",
+          "name": "墨青",
+          "ratio": 0.2731
+        },
+        {
+          "hex": "#7B5D29",
+          "name": "暗橙",
+          "ratio": 0.2624
+        },
+        {
+          "hex": "#BEAB56",
+          "name": "黄",
+          "ratio": 0.2421
+        },
+        {
+          "hex": "#297E78",
+          "name": "暗青",
+          "ratio": 0.1301
+        },
+        {
+          "hex": "#CDE0C5",
+          "name": "浅绿",
+          "ratio": 0.0922
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "钢琴家-9f01b3",
+      "title": "钢琴家",
+      "title_en": "The Pianist",
+      "scene": "经典剧照合集",
+      "year": 2002,
+      "rank": 46,
+      "rating": 9.3,
+      "category": "complementary",
+      "palette": [
+        {
+          "hex": "#121919",
+          "name": "墨青",
+          "ratio": 0.3511
+        },
+        {
+          "hex": "#505048",
+          "name": "深灰",
+          "ratio": 0.2455
+        },
+        {
+          "hex": "#778FA2",
+          "name": "蓝",
+          "ratio": 0.1475
+        },
+        {
+          "hex": "#A88F6F",
+          "name": "橙",
+          "ratio": 0.1305
+        },
+        {
+          "hex": "#D4D1D0",
+          "name": "浅灰",
+          "ratio": 0.1255
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "complementary"
+    },
+    {
+      "id": "死亡诗社-d28e07",
+      "title": "死亡诗社",
+      "title_en": "Dead Poets Society",
+      "scene": "经典剧照合集",
+      "year": 1989,
+      "rank": 47,
+      "rating": 9.2,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#0C0708",
+          "name": "墨红",
+          "ratio": 0.3794
+        },
+        {
+          "hex": "#756158",
+          "name": "暗橙",
+          "ratio": 0.2208
+        },
+        {
+          "hex": "#42312D",
+          "name": "深红",
+          "ratio": 0.1846
+        },
+        {
+          "hex": "#AD9890",
+          "name": "橙",
+          "ratio": 0.1161
+        },
+        {
+          "hex": "#E8E5E1",
+          "name": "白橙",
+          "ratio": 0.099
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "指环王2双塔奇兵-834ece",
+      "title": "指环王2：双塔奇兵",
+      "title_en": "The Two Towers",
+      "scene": "经典剧照合集",
+      "year": 2002,
+      "rank": 48,
+      "rating": 9.2,
+      "category": "split-complementary",
+      "palette": [
+        {
+          "hex": "#28201B",
+          "name": "深橙",
+          "ratio": 0.3735
+        },
+        {
+          "hex": "#545768",
+          "name": "暗蓝",
+          "ratio": 0.229
+        },
+        {
+          "hex": "#C8D0DA",
+          "name": "浅蓝",
+          "ratio": 0.1503
+        },
+        {
+          "hex": "#67431F",
+          "name": "暗橙",
+          "ratio": 0.1428
+        },
+        {
+          "hex": "#9D8770",
+          "name": "橙",
+          "ratio": 0.1044
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "split-complementary"
+    },
+    {
+      "id": "大话西游之月光宝盒-ed8d99",
+      "title": "大话西游之月光宝盒",
+      "title_en": "A Chinese Odyssey Part One",
+      "scene": "经典剧照合集",
+      "year": 1995,
+      "rank": 49,
+      "rating": 9.0,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#211B1B",
+          "name": "墨红",
+          "ratio": 0.2817
+        },
+        {
+          "hex": "#F1E0D2",
+          "name": "白橙",
+          "ratio": 0.2053
+        },
+        {
+          "hex": "#C1A080",
+          "name": "橙",
+          "ratio": 0.2047
+        },
+        {
+          "hex": "#51413E",
+          "name": "暗红",
+          "ratio": 0.1698
+        },
+        {
+          "hex": "#A25242",
+          "name": "暗红",
+          "ratio": 0.1385
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
+    {
+      "id": "绿皮书-64b274",
+      "title": "绿皮书",
+      "title_en": "Green Book",
+      "scene": "经典剧照合集",
+      "year": 2018,
+      "rank": 50,
+      "rating": 8.9,
+      "category": "monochromatic",
+      "palette": [
+        {
+          "hex": "#564434",
+          "name": "暗橙",
+          "ratio": 0.2642
+        },
+        {
+          "hex": "#291E17",
+          "name": "深橙",
+          "ratio": 0.2558
+        },
+        {
+          "hex": "#766C61",
+          "name": "暗橙",
+          "ratio": 0.2055
+        },
+        {
+          "hex": "#989D98",
+          "name": "灰",
+          "ratio": 0.1645
+        },
+        {
+          "hex": "#D7D9D9",
+          "name": "浅灰",
+          "ratio": 0.11
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "cool",
+        "brightness": "medium"
+      },
+      "source": "douban_top50",
+      "has_scene": false,
+      "scheme": "monochromatic"
+    },
     {
       "id": "br2049-desolate-solar",
       "title": "Blade Runner 2049",
       "scene": "废弃太阳能场",
-      "director": "Denis Villeneuve",
-      "director_cn": "丹尼斯·维伦纽瓦",
-      "cinematographer": "Roger Deakins",
       "year": 2017,
+      "director": "Denis Villeneuve",
       "category": "monochromatic",
-      "mood": ["废弃", "末日", "荒芜"],
-      "scheme": "monochromatic",
-      "temperature": "cool",
-      "best_for": ["dashboard", "data-viz", "dark-tool"],
-      "one_liner": "80%深暗覆盖，青绿末日中的机械坟场",
-      "scene_desc_cn": "K 乘 Spinner 飞行器低空掠过圣地亚哥废弃的太阳能阵列。数以千计的抛物面反射镜整齐排列在灰绿色雾霾中，像一片死去的机械森林。",
       "palette": [
-        { "hex": "#0D1715", "name": "深渊黑", "ratio": 0.52 },
-        { "hex": "#182A2A", "name": "深松石", "ratio": 0.29 },
-        { "hex": "#2E4241", "name": "暗矿灰", "ratio": 0.10 },
-        { "hex": "#586D67", "name": "雾松绿", "ratio": 0.06 },
-        { "hex": "#798D85", "name": "灰绿光", "ratio": 0.03 }
+        {
+          "hex": "#0D1715",
+          "name": "墨青",
+          "ratio": 0.5222
+        },
+        {
+          "hex": "#182A2A",
+          "name": "深青",
+          "ratio": 0.2884
+        },
+        {
+          "hex": "#2E4241",
+          "name": "深青",
+          "ratio": 0.0971
+        },
+        {
+          "hex": "#586D67",
+          "name": "暗青",
+          "ratio": 0.0577
+        },
+        {
+          "hex": "#798D85",
+          "name": "绿",
+          "ratio": 0.0346
+        }
       ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "dark"
+      },
+      "source": "curated",
       "scene_png": "palettes/br2049-desolate-solar/scene.png",
-      "tokens": "palettes/br2049-desolate-solar/tokens.css",
-      "color_story": "palettes/br2049-desolate-solar/COLOR_STORY.md"
+      "has_scene": true,
+      "scheme": "monochromatic"
     },
     {
       "id": "dune2-arrakis-fire",
-      "title": "Dune: Part Two",
+      "title": "\"Dune: Part Two\"",
       "scene": "Arrakis 集会",
-      "director": "Denis Villeneuve",
-      "director_cn": "丹尼斯·维伦纽瓦",
-      "cinematographer": "Greig Fraser",
       "year": 2024,
+      "director": "Denis Villeneuve",
       "category": "monochromatic",
-      "mood": ["史诗", "集结", "原始", "荒凉中的秩序"],
-      "scheme": "monochromatic",
-      "temperature": "warm",
-      "best_for": ["landing-page", "portfolio", "game-ui"],
-      "one_liner": "沙漠星球的完整暖棕明度梯度",
-      "scene_desc_cn": "弗里曼人在厄拉科斯的岩壁峡谷中集结。成千上万的人汇聚在巨大的岩石阴影下，前方是领袖的剪影。暖色沙尘弥漫整个画面。",
       "palette": [
-        { "hex": "#81705B", "name": "沙岩棕", "ratio": 0.29 },
-        { "hex": "#5F4F3D", "name": "深赭石", "ratio": 0.25 },
-        { "hex": "#A5927A", "name": "浅沙土", "ratio": 0.21 },
-        { "hex": "#352D25", "name": "暗焦土", "ratio": 0.17 },
-        { "hex": "#CFBCA5", "name": "漂白沙", "ratio": 0.10 }
+        {
+          "hex": "#81705B",
+          "name": "暗橙",
+          "ratio": 0.286
+        },
+        {
+          "hex": "#5F4F3D",
+          "name": "暗橙",
+          "ratio": 0.2481
+        },
+        {
+          "hex": "#A5927A",
+          "name": "橙",
+          "ratio": 0.2046
+        },
+        {
+          "hex": "#352D25",
+          "name": "深橙",
+          "ratio": 0.1649
+        },
+        {
+          "hex": "#CFBCA5",
+          "name": "浅橙",
+          "ratio": 0.0964
+        }
       ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "mid"
+      },
+      "source": "curated",
       "scene_png": "palettes/dune2-arrakis-fire/scene.png",
-      "tokens": "palettes/dune2-arrakis-fire/tokens.css",
-      "color_story": "palettes/dune2-arrakis-fire/COLOR_STORY.md"
+      "has_scene": true,
+      "scheme": "monochromatic"
     },
     {
       "id": "spiderverse-neon-lottery",
-      "title": "Spider-Man: Into the Spider-Verse",
+      "title": "\"Spider-Man: Into the Spider-Verse\"",
       "scene": "多元宇宙汇聚",
-      "director": "Bob Persichetti",
-      "director_cn": "鲍勃·佩尔西凯蒂",
-      "cinematographer": "Sony Pictures Imageworks",
       "year": 2018,
-      "category": "split-complementary",
-      "mood": ["暗涌", "多元", "张力"],
-      "scheme": "split-complementary",
-      "temperature": "balanced",
-      "best_for": ["creative-agency", "game-ui", "dark-app", "art-portfolio"],
-      "one_liner": "暗紫底色藏红蓝分裂互补，力量在暗处发光",
-      "scene_desc_cn": "来自不同宇宙的蜘蛛侠们在暗紫色空间中汇聚。人群密集排列，面罩的白色眼罩在暗色背景中闪烁。蓝红色调交错出现。",
+      "director": "\"Bob Persichetti, Peter Ramsey, Rodney Rothman\"",
+      "category": "monochromatic",
       "palette": [
-        { "hex": "#1A1626", "name": "深紫黑", "ratio": 0.44 },
-        { "hex": "#372B41", "name": "暗紫", "ratio": 0.30 },
-        { "hex": "#6E3644", "name": "暗红梅", "ratio": 0.15 },
-        { "hex": "#526185", "name": "雾蓝", "ratio": 0.06 },
-        { "hex": "#B9757B", "name": "灰粉", "ratio": 0.06 }
+        {
+          "hex": "#1A1626",
+          "name": "墨蓝紫",
+          "ratio": 0.4362
+        },
+        {
+          "hex": "#372B41",
+          "name": "深蓝紫",
+          "ratio": 0.2953
+        },
+        {
+          "hex": "#6E3644",
+          "name": "暗红",
+          "ratio": 0.1513
+        },
+        {
+          "hex": "#526185",
+          "name": "暗蓝",
+          "ratio": 0.0614
+        },
+        {
+          "hex": "#B9757B",
+          "name": "红",
+          "ratio": 0.0559
+        }
       ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "mid"
+      },
+      "source": "curated",
       "scene_png": "palettes/spiderverse-neon-lottery/scene.png",
-      "tokens": "palettes/spiderverse-neon-lottery/tokens.css",
-      "color_story": "palettes/spiderverse-neon-lottery/COLOR_STORY.md"
+      "has_scene": true,
+      "scheme": "monochromatic"
     }
   ]
 }

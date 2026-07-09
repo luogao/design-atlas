@@ -1,0 +1,1381 @@
+{
+  "results": [
+    {
+      "rank": 8,
+      "title_cn": "这个杀手不太冷",
+      "slug": "这个杀手不太冷-c118cd",
+      "palette": [
+        {
+          "hex": "#0C0D07",
+          "ratio": 0.3217
+        },
+        {
+          "hex": "#4C3E23",
+          "ratio": 0.2378
+        },
+        {
+          "hex": "#E1DDC7",
+          "ratio": 0.1535
+        },
+        {
+          "hex": "#936D30",
+          "ratio": 0.1535
+        },
+        {
+          "hex": "#BD9E6D",
+          "ratio": 0.1336
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 9,
+      "title_cn": "盗梦空间",
+      "slug": "盗梦空间-f58c27",
+      "palette": [
+        {
+          "hex": "#BAA687",
+          "ratio": 0.2601
+        },
+        {
+          "hex": "#0D0C17",
+          "ratio": 0.2111
+        },
+        {
+          "hex": "#8A6F52",
+          "ratio": 0.2014
+        },
+        {
+          "hex": "#49382C",
+          "ratio": 0.1786
+        },
+        {
+          "hex": "#E0D8D0",
+          "ratio": 0.1488
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 10,
+      "title_cn": "楚门的世界",
+      "slug": "楚门的世界-59fde8",
+      "palette": [
+        {
+          "hex": "#7B9FBD",
+          "ratio": 0.2838
+        },
+        {
+          "hex": "#54524F",
+          "ratio": 0.2154
+        },
+        {
+          "hex": "#191C20",
+          "ratio": 0.2063
+        },
+        {
+          "hex": "#CEE0E9",
+          "ratio": 0.1534
+        },
+        {
+          "hex": "#AF844A",
+          "ratio": 0.1411
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 11,
+      "title_cn": "辛德勒的名单",
+      "slug": "辛德勒的名单-d32c44",
+      "palette": [
+        {
+          "hex": "#101010",
+          "ratio": 0.323
+        },
+        {
+          "hex": "#353434",
+          "ratio": 0.2555
+        },
+        {
+          "hex": "#E5E5E5",
+          "ratio": 0.1514
+        },
+        {
+          "hex": "#717171",
+          "ratio": 0.1366
+        },
+        {
+          "hex": "#AEAEAE",
+          "ratio": 0.1334
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 12,
+      "title_cn": "忠犬八公的故事",
+      "slug": "忠犬八公的故事-b1dd4a",
+      "palette": [
+        {
+          "hex": "#463E3C",
+          "ratio": 0.2517
+        },
+        {
+          "hex": "#1D171A",
+          "ratio": 0.2393
+        },
+        {
+          "hex": "#EEF1F2",
+          "ratio": 0.1898
+        },
+        {
+          "hex": "#B2AFAB",
+          "ratio": 0.1831
+        },
+        {
+          "hex": "#7D7269",
+          "ratio": 0.1362
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 13,
+      "title_cn": "海上钢琴师",
+      "slug": "海上钢琴师-1fcf7e",
+      "palette": [
+        {
+          "hex": "#0C0B0C",
+          "ratio": 0.4701
+        },
+        {
+          "hex": "#5A3227",
+          "ratio": 0.1705
+        },
+        {
+          "hex": "#F4F6F2",
+          "ratio": 0.1376
+        },
+        {
+          "hex": "#AC7047",
+          "ratio": 0.1214
+        },
+        {
+          "hex": "#DEB78A",
+          "ratio": 0.1005
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 14,
+      "title_cn": "疯狂动物城",
+      "slug": "疯狂动物城-b3742d",
+      "palette": [
+        {
+          "hex": "#4A4044",
+          "ratio": 0.2374
+        },
+        {
+          "hex": "#1B1312",
+          "ratio": 0.2207
+        },
+        {
+          "hex": "#E7B885",
+          "ratio": 0.1979
+        },
+        {
+          "hex": "#AA784F",
+          "ratio": 0.186
+        },
+        {
+          "hex": "#7B431C",
+          "ratio": 0.158
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 15,
+      "title_cn": "三傻大闹宝莱坞",
+      "slug": "三傻大闹宝莱坞-7be123",
+      "palette": [
+        {
+          "hex": "#3D4747",
+          "ratio": 0.2802
+        },
+        {
+          "hex": "#211C18",
+          "ratio": 0.2436
+        },
+        {
+          "hex": "#7E7261",
+          "ratio": 0.2314
+        },
+        {
+          "hex": "#AEA69A",
+          "ratio": 0.1502
+        },
+        {
+          "hex": "#EDE9E2",
+          "ratio": 0.0945
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 16,
+      "title_cn": "机器人总动员",
+      "slug": "机器人总动员-fd9e71",
+      "palette": [
+        {
+          "hex": "#19181C",
+          "ratio": 0.3025
+        },
+        {
+          "hex": "#63372D",
+          "ratio": 0.2073
+        },
+        {
+          "hex": "#183D60",
+          "ratio": 0.1906
+        },
+        {
+          "hex": "#97CAE0",
+          "ratio": 0.1657
+        },
+        {
+          "hex": "#AD8468",
+          "ratio": 0.1338
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 17,
+      "title_cn": "放牛班的春天",
+      "slug": "放牛班的春天-6ed46c",
+      "palette": [
+        {
+          "hex": "#161615",
+          "ratio": 0.2216
+        },
+        {
+          "hex": "#A19481",
+          "ratio": 0.2059
+        },
+        {
+          "hex": "#DACCB4",
+          "ratio": 0.2022
+        },
+        {
+          "hex": "#413B31",
+          "ratio": 0.1987
+        },
+        {
+          "hex": "#766456",
+          "ratio": 0.1717
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 18,
+      "title_cn": "无间道",
+      "slug": "无间道-5ee6f9",
+      "palette": [
+        {
+          "hex": "#0C100D",
+          "ratio": 0.3859
+        },
+        {
+          "hex": "#243B46",
+          "ratio": 0.3205
+        },
+        {
+          "hex": "#EDF1F2",
+          "ratio": 0.1183
+        },
+        {
+          "hex": "#BEC6C9",
+          "ratio": 0.0993
+        },
+        {
+          "hex": "#8A7D55",
+          "ratio": 0.0761
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 19,
+      "title_cn": "控方证人",
+      "slug": "控方证人-a219af",
+      "palette": [
+        {
+          "hex": "#111111",
+          "ratio": 0.3532
+        },
+        {
+          "hex": "#3D3D3D",
+          "ratio": 0.192
+        },
+        {
+          "hex": "#777777",
+          "ratio": 0.1566
+        },
+        {
+          "hex": "#ADADAD",
+          "ratio": 0.1497
+        },
+        {
+          "hex": "#DEDEDE",
+          "ratio": 0.1485
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 20,
+      "title_cn": "寻梦环游记",
+      "slug": "寻梦环游记-925611",
+      "palette": [
+        {
+          "hex": "#22192E",
+          "ratio": 0.3774
+        },
+        {
+          "hex": "#5E5A91",
+          "ratio": 0.1804
+        },
+        {
+          "hex": "#CE7854",
+          "ratio": 0.1639
+        },
+        {
+          "hex": "#7C3C3D",
+          "ratio": 0.1621
+        },
+        {
+          "hex": "#B09ECB",
+          "ratio": 0.1163
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 21,
+      "title_cn": "大话西游之大圣娶亲",
+      "slug": "大话西游之大圣娶亲-4f7d08",
+      "palette": [
+        {
+          "hex": "#EFECD8",
+          "ratio": 0.2402
+        },
+        {
+          "hex": "#76483A",
+          "ratio": 0.2211
+        },
+        {
+          "hex": "#AC815D",
+          "ratio": 0.215
+        },
+        {
+          "hex": "#261919",
+          "ratio": 0.2085
+        },
+        {
+          "hex": "#C2B2A0",
+          "ratio": 0.1152
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 22,
+      "title_cn": "熔炉",
+      "slug": "熔炉-1b4cda",
+      "palette": [
+        {
+          "hex": "#1C1D15",
+          "ratio": 0.367
+        },
+        {
+          "hex": "#4D3F29",
+          "ratio": 0.2258
+        },
+        {
+          "hex": "#B8ACA0",
+          "ratio": 0.1569
+        },
+        {
+          "hex": "#EAE9E7",
+          "ratio": 0.1371
+        },
+        {
+          "hex": "#7E7065",
+          "ratio": 0.1133
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 23,
+      "title_cn": "触不可及",
+      "slug": "触不可及-cce34d",
+      "palette": [
+        {
+          "hex": "#17120E",
+          "ratio": 0.3728
+        },
+        {
+          "hex": "#9D8365",
+          "ratio": 0.1953
+        },
+        {
+          "hex": "#5E3827",
+          "ratio": 0.1818
+        },
+        {
+          "hex": "#C8B9A0",
+          "ratio": 0.149
+        },
+        {
+          "hex": "#F9FAF7",
+          "ratio": 0.1012
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 24,
+      "title_cn": "教父",
+      "slug": "教父-d22975",
+      "palette": [
+        {
+          "hex": "#0A0807",
+          "ratio": 0.3986
+        },
+        {
+          "hex": "#4D3C34",
+          "ratio": 0.2355
+        },
+        {
+          "hex": "#866E5D",
+          "ratio": 0.2028
+        },
+        {
+          "hex": "#C5A987",
+          "ratio": 0.0913
+        },
+        {
+          "hex": "#EBE4D4",
+          "ratio": 0.0718
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "dark"
+      }
+    },
+    {
+      "rank": 25,
+      "title_cn": "末代皇帝",
+      "slug": "末代皇帝-89d2e6",
+      "palette": [
+        {
+          "hex": "#140F0F",
+          "ratio": 0.309
+        },
+        {
+          "hex": "#703326",
+          "ratio": 0.2346
+        },
+        {
+          "hex": "#B9773C",
+          "ratio": 0.211
+        },
+        {
+          "hex": "#C8AD89",
+          "ratio": 0.1365
+        },
+        {
+          "hex": "#EEEBD3",
+          "ratio": 0.109
+        }
+      ],
+      "analysis": {
+        "scheme": "analogous",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 26,
+      "title_cn": "哈利·波特与魔法石",
+      "slug": "哈利波特与魔法石-bb4f95",
+      "palette": [
+        {
+          "hex": "#0C0B0C",
+          "ratio": 0.4707
+        },
+        {
+          "hex": "#34322F",
+          "ratio": 0.2162
+        },
+        {
+          "hex": "#645A47",
+          "ratio": 0.1812
+        },
+        {
+          "hex": "#878071",
+          "ratio": 0.0851
+        },
+        {
+          "hex": "#B7CDDF",
+          "ratio": 0.0468
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "dark"
+      }
+    },
+    {
+      "rank": 27,
+      "title_cn": "当幸福来敲门",
+      "slug": "当幸福来敲门-96a658",
+      "palette": [
+        {
+          "hex": "#171412",
+          "ratio": 0.3186
+        },
+        {
+          "hex": "#433D37",
+          "ratio": 0.2258
+        },
+        {
+          "hex": "#756C65",
+          "ratio": 0.1689
+        },
+        {
+          "hex": "#EAE9E8",
+          "ratio": 0.1549
+        },
+        {
+          "hex": "#AFABA6",
+          "ratio": 0.132
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 28,
+      "title_cn": "龙猫",
+      "slug": "龙猫-e9c356",
+      "palette": [
+        {
+          "hex": "#0F1615",
+          "ratio": 0.4021
+        },
+        {
+          "hex": "#525B3E",
+          "ratio": 0.2062
+        },
+        {
+          "hex": "#5B76AA",
+          "ratio": 0.1506
+        },
+        {
+          "hex": "#A69F5D",
+          "ratio": 0.13
+        },
+        {
+          "hex": "#C4DBE4",
+          "ratio": 0.1111
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 29,
+      "title_cn": "活着",
+      "slug": "活着-a17f0b",
+      "palette": [
+        {
+          "hex": "#180E0B",
+          "ratio": 0.2938
+        },
+        {
+          "hex": "#64352A",
+          "ratio": 0.2057
+        },
+        {
+          "hex": "#796E67",
+          "ratio": 0.1942
+        },
+        {
+          "hex": "#AFA194",
+          "ratio": 0.1721
+        },
+        {
+          "hex": "#DFDAD5",
+          "ratio": 0.1341
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 30,
+      "title_cn": "怦然心动",
+      "slug": "怦然心动-e38552",
+      "palette": [
+        {
+          "hex": "#4C422D",
+          "ratio": 0.2524
+        },
+        {
+          "hex": "#776A4B",
+          "ratio": 0.2303
+        },
+        {
+          "hex": "#A3946F",
+          "ratio": 0.2158
+        },
+        {
+          "hex": "#1C1B12",
+          "ratio": 0.2133
+        },
+        {
+          "hex": "#D1CAC0",
+          "ratio": 0.0883
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 31,
+      "title_cn": "蝙蝠侠：黑暗骑士",
+      "slug": "蝙蝠侠黑暗骑士-17869d",
+      "palette": [
+        {
+          "hex": "#0C1111",
+          "ratio": 0.3705
+        },
+        {
+          "hex": "#D2D6CB",
+          "ratio": 0.2194
+        },
+        {
+          "hex": "#354242",
+          "ratio": 0.1749
+        },
+        {
+          "hex": "#6B9AAB",
+          "ratio": 0.1378
+        },
+        {
+          "hex": "#98805F",
+          "ratio": 0.0974
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 32,
+      "title_cn": "指环王3：王者无敌",
+      "slug": "指环王3王者无敌-1db3f9",
+      "palette": [
+        {
+          "hex": "#281B19",
+          "ratio": 0.3427
+        },
+        {
+          "hex": "#4D5968",
+          "ratio": 0.2556
+        },
+        {
+          "hex": "#8C9B9E",
+          "ratio": 0.1786
+        },
+        {
+          "hex": "#9B6240",
+          "ratio": 0.1234
+        },
+        {
+          "hex": "#F3F5F4",
+          "ratio": 0.0997
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 33,
+      "title_cn": "我不是药神",
+      "slug": "我不是药神-a21976",
+      "palette": [
+        {
+          "hex": "#20231B",
+          "ratio": 0.4074
+        },
+        {
+          "hex": "#4E5346",
+          "ratio": 0.2258
+        },
+        {
+          "hex": "#9A9E7B",
+          "ratio": 0.135
+        },
+        {
+          "hex": "#E3E9E0",
+          "ratio": 0.1227
+        },
+        {
+          "hex": "#616BE7",
+          "ratio": 0.1091
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 34,
+      "title_cn": "乱世佳人",
+      "slug": "乱世佳人-ecf8dc",
+      "palette": [
+        {
+          "hex": "#0E0B0A",
+          "ratio": 0.396
+        },
+        {
+          "hex": "#CEBEAF",
+          "ratio": 0.1911
+        },
+        {
+          "hex": "#F1EDE7",
+          "ratio": 0.1592
+        },
+        {
+          "hex": "#9B8775",
+          "ratio": 0.13
+        },
+        {
+          "hex": "#544133",
+          "ratio": 0.1237
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 35,
+      "title_cn": "让子弹飞",
+      "slug": "让子弹飞-82ccad",
+      "palette": [
+        {
+          "hex": "#090705",
+          "ratio": 0.4436
+        },
+        {
+          "hex": "#46371C",
+          "ratio": 0.2192
+        },
+        {
+          "hex": "#886026",
+          "ratio": 0.1514
+        },
+        {
+          "hex": "#BB925B",
+          "ratio": 0.0993
+        },
+        {
+          "hex": "#E7D6BA",
+          "ratio": 0.0865
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "dark"
+      }
+    },
+    {
+      "rank": 36,
+      "title_cn": "飞屋环游记",
+      "slug": "飞屋环游记-e36dd7",
+      "palette": [
+        {
+          "hex": "#70ADEF",
+          "ratio": 0.2282
+        },
+        {
+          "hex": "#636944",
+          "ratio": 0.2198
+        },
+        {
+          "hex": "#1C281C",
+          "ratio": 0.2023
+        },
+        {
+          "hex": "#989180",
+          "ratio": 0.1908
+        },
+        {
+          "hex": "#D5D8D6",
+          "ratio": 0.1588
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 37,
+      "title_cn": "哈尔的移动城堡",
+      "slug": "哈尔的移动城堡-0dcd24",
+      "palette": [
+        {
+          "hex": "#242933",
+          "ratio": 0.3396
+        },
+        {
+          "hex": "#866D5A",
+          "ratio": 0.209
+        },
+        {
+          "hex": "#C7AC90",
+          "ratio": 0.1793
+        },
+        {
+          "hex": "#E1DED5",
+          "ratio": 0.171
+        },
+        {
+          "hex": "#2D8FBA",
+          "ratio": 0.1012
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 38,
+      "title_cn": "十二怒汉",
+      "slug": "十二怒汉-52d3ca",
+      "palette": [
+        {
+          "hex": "#1A1A1A",
+          "ratio": 0.3322
+        },
+        {
+          "hex": "#3F3F3F",
+          "ratio": 0.2172
+        },
+        {
+          "hex": "#DADADA",
+          "ratio": 0.1741
+        },
+        {
+          "hex": "#727272",
+          "ratio": 0.1437
+        },
+        {
+          "hex": "#AAAAAA",
+          "ratio": 0.1328
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 39,
+      "title_cn": "海蒂和爷爷",
+      "slug": "海蒂和爷爷-c5becd",
+      "palette": [
+        {
+          "hex": "#2A2518",
+          "ratio": 0.2924
+        },
+        {
+          "hex": "#555333",
+          "ratio": 0.2817
+        },
+        {
+          "hex": "#8B7A62",
+          "ratio": 0.163
+        },
+        {
+          "hex": "#B2A89F",
+          "ratio": 0.1433
+        },
+        {
+          "hex": "#E4E5E4",
+          "ratio": 0.1196
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 40,
+      "title_cn": "素媛",
+      "slug": "素媛-b3a8c8",
+      "palette": [
+        {
+          "hex": "#79624D",
+          "ratio": 0.3145
+        },
+        {
+          "hex": "#312621",
+          "ratio": 0.2318
+        },
+        {
+          "hex": "#A9999A",
+          "ratio": 0.2214
+        },
+        {
+          "hex": "#E0DEE1",
+          "ratio": 0.1364
+        },
+        {
+          "hex": "#9A2120",
+          "ratio": 0.0958
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 41,
+      "title_cn": "猫鼠游戏",
+      "slug": "猫鼠游戏-4f1a84",
+      "palette": [
+        {
+          "hex": "#271914",
+          "ratio": 0.2704
+        },
+        {
+          "hex": "#8A5A28",
+          "ratio": 0.1989
+        },
+        {
+          "hex": "#585458",
+          "ratio": 0.1959
+        },
+        {
+          "hex": "#BB9F7A",
+          "ratio": 0.1824
+        },
+        {
+          "hex": "#F3E7D2",
+          "ratio": 0.1524
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 42,
+      "title_cn": "天空之城",
+      "slug": "天空之城-3ad3ce",
+      "palette": [
+        {
+          "hex": "#4B9068",
+          "ratio": 0.2482
+        },
+        {
+          "hex": "#0A0F14",
+          "ratio": 0.2328
+        },
+        {
+          "hex": "#3F4D38",
+          "ratio": 0.2297
+        },
+        {
+          "hex": "#CAE0E2",
+          "ratio": 0.1824
+        },
+        {
+          "hex": "#CBA160",
+          "ratio": 0.107
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 43,
+      "title_cn": "鬼子来了",
+      "slug": "鬼子来了-dc522b",
+      "palette": [
+        {
+          "hex": "#0E0D0C",
+          "ratio": 0.2861
+        },
+        {
+          "hex": "#393633",
+          "ratio": 0.2468
+        },
+        {
+          "hex": "#635F5A",
+          "ratio": 0.2227
+        },
+        {
+          "hex": "#9A948A",
+          "ratio": 0.1425
+        },
+        {
+          "hex": "#D9D3C9",
+          "ratio": 0.1019
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 44,
+      "title_cn": "摔跤吧！爸爸",
+      "slug": "摔跤吧爸爸-b5db4b",
+      "palette": [
+        {
+          "hex": "#623E24",
+          "ratio": 0.2734
+        },
+        {
+          "hex": "#976847",
+          "ratio": 0.2368
+        },
+        {
+          "hex": "#BE997A",
+          "ratio": 0.1959
+        },
+        {
+          "hex": "#21160C",
+          "ratio": 0.1907
+        },
+        {
+          "hex": "#E0DACB",
+          "ratio": 0.1032
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "balanced",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 45,
+      "title_cn": "少年派的奇幻漂流",
+      "slug": "少年派的奇幻漂流-a987dc",
+      "palette": [
+        {
+          "hex": "#0B2630",
+          "ratio": 0.2731
+        },
+        {
+          "hex": "#7B5D29",
+          "ratio": 0.2624
+        },
+        {
+          "hex": "#BEAB56",
+          "ratio": 0.2421
+        },
+        {
+          "hex": "#297E78",
+          "ratio": 0.1301
+        },
+        {
+          "hex": "#CDE0C5",
+          "ratio": 0.0922
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 46,
+      "title_cn": "钢琴家",
+      "slug": "钢琴家-9f01b3",
+      "palette": [
+        {
+          "hex": "#121919",
+          "ratio": 0.3511
+        },
+        {
+          "hex": "#505048",
+          "ratio": 0.2455
+        },
+        {
+          "hex": "#778FA2",
+          "ratio": 0.1475
+        },
+        {
+          "hex": "#A88F6F",
+          "ratio": 0.1305
+        },
+        {
+          "hex": "#D4D1D0",
+          "ratio": 0.1255
+        }
+      ],
+      "analysis": {
+        "scheme": "complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 47,
+      "title_cn": "死亡诗社",
+      "slug": "死亡诗社-d28e07",
+      "palette": [
+        {
+          "hex": "#0C0708",
+          "ratio": 0.3794
+        },
+        {
+          "hex": "#756158",
+          "ratio": 0.2208
+        },
+        {
+          "hex": "#42312D",
+          "ratio": 0.1846
+        },
+        {
+          "hex": "#AD9890",
+          "ratio": 0.1161
+        },
+        {
+          "hex": "#E8E5E1",
+          "ratio": 0.099
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 48,
+      "title_cn": "指环王2：双塔奇兵",
+      "slug": "指环王2双塔奇兵-834ece",
+      "palette": [
+        {
+          "hex": "#28201B",
+          "ratio": 0.3735
+        },
+        {
+          "hex": "#545768",
+          "ratio": 0.229
+        },
+        {
+          "hex": "#C8D0DA",
+          "ratio": 0.1503
+        },
+        {
+          "hex": "#67431F",
+          "ratio": 0.1428
+        },
+        {
+          "hex": "#9D8770",
+          "ratio": 0.1044
+        }
+      ],
+      "analysis": {
+        "scheme": "split-complementary",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 49,
+      "title_cn": "大话西游之月光宝盒",
+      "slug": "大话西游之月光宝盒-ed8d99",
+      "palette": [
+        {
+          "hex": "#211B1B",
+          "ratio": 0.2817
+        },
+        {
+          "hex": "#F1E0D2",
+          "ratio": 0.2053
+        },
+        {
+          "hex": "#C1A080",
+          "ratio": 0.2047
+        },
+        {
+          "hex": "#51413E",
+          "ratio": 0.1698
+        },
+        {
+          "hex": "#A25242",
+          "ratio": 0.1385
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "warm",
+        "brightness": "medium"
+      }
+    },
+    {
+      "rank": 50,
+      "title_cn": "绿皮书",
+      "slug": "绿皮书-64b274",
+      "palette": [
+        {
+          "hex": "#564434",
+          "ratio": 0.2642
+        },
+        {
+          "hex": "#291E17",
+          "ratio": 0.2558
+        },
+        {
+          "hex": "#766C61",
+          "ratio": 0.2055
+        },
+        {
+          "hex": "#989D98",
+          "ratio": 0.1645
+        },
+        {
+          "hex": "#D7D9D9",
+          "ratio": 0.11
+        }
+      ],
+      "analysis": {
+        "scheme": "monochromatic",
+        "temperature": "cool",
+        "brightness": "medium"
+      }
+    }
+  ],
+  "errors": []
+}

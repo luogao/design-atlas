@@ -1,0 +1,12 @@
+/* Cinema Palette — 辛德勒的名单-d32c44 */
+/* 辛德勒的名单 (Schindler's List, 1993) — 豆瓣 #11 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #101010;  /* 32% */
+  --cinema-surface: #353434;  /* 25% */
+  --cinema-accent: #E5E5E5;  /* 15% */
+  --cinema-text: #717171;  /* 13% */
+  --cinema-muted: #AEAEAE;  /* 13% */
+  /* scheme: monochromatic, temp: warm, brightness: medium */
+}

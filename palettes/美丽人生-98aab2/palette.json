@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#141917",
+      "ratio": 0.2664
+    },
+    {
+      "hex": "#C9CCD8",
+      "ratio": 0.2545
+    },
+    {
+      "hex": "#333832",
+      "ratio": 0.2224
+    },
+    {
+      "hex": "#6E5C4A",
+      "ratio": 0.1574
+    },
+    {
+      "hex": "#989697",
+      "ratio": 0.0992
+    }
+  ],
+  "analysis": {
+    "scheme": "complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "美丽人生",
+    "title_en": "Life Is Beautiful",
+    "year": 1997,
+    "rating": 9.5,
+    "rank": 7,
+    "douban_id": "1292063",
+    "source": "douban_top50"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#271914",
+      "ratio": 0.2704
+    },
+    {
+      "hex": "#8A5A28",
+      "ratio": 0.1989
+    },
+    {
+      "hex": "#585458",
+      "ratio": 0.1959
+    },
+    {
+      "hex": "#BB9F7A",
+      "ratio": 0.1824
+    },
+    {
+      "hex": "#F3E7D2",
+      "ratio": 0.1524
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "balanced",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "猫鼠游戏",
+    "title_en": "Catch Me If You Can",
+    "year": 2002,
+    "rating": 9.1,
+    "rank": 41,
+    "douban_id": "1305487",
+    "source": "douban_top50"
+  }
+}

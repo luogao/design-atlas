@@ -1,0 +1,12 @@
+/* Cinema Palette — 忠犬八公的故事-b1dd4a */
+/* 忠犬八公的故事 (Hachi: A Dog's Tale, 2009) — 豆瓣 #12 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #463E3C;  /* 25% */
+  --cinema-surface: #1D171A;  /* 23% */
+  --cinema-accent: #EEF1F2;  /* 18% */
+  --cinema-text: #B2AFAB;  /* 18% */
+  --cinema-muted: #7D7269;  /* 13% */
+  /* scheme: split-complementary, temp: balanced, brightness: medium */
+}

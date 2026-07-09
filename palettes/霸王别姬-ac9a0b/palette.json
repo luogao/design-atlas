@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#0D0A11",
+      "ratio": 0.3505
+    },
+    {
+      "hex": "#B7817F",
+      "ratio": 0.216
+    },
+    {
+      "hex": "#683331",
+      "ratio": 0.1561
+    },
+    {
+      "hex": "#665D75",
+      "ratio": 0.1529
+    },
+    {
+      "hex": "#DECBC2",
+      "ratio": 0.1246
+    }
+  ],
+  "analysis": {
+    "scheme": "split-complementary",
+    "temperature": "cool",
+    "brightness": "medium"
+  },
+  "meta": {
+    "title_cn": "霸王别姬",
+    "title_en": "Farewell My Concubine",
+    "year": 1993,
+    "rating": 9.6,
+    "rank": 2,
+    "douban_id": "1291546",
+    "source": "douban_top50"
+  }
+}

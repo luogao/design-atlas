@@ -1,0 +1,12 @@
+/* Cinema Palette — 哈利波特与魔法石-bb4f95 */
+/* 哈利·波特与魔法石 (Harry Potter and the Sorcerer's Stone, 2001) — 豆瓣 #26 */
+/* Auto-extracted from movie stills via k-means clustering */
+
+:root {
+  --cinema-bg: #0C0B0C;  /* 47% */
+  --cinema-surface: #34322F;  /* 21% */
+  --cinema-accent: #645A47;  /* 18% */
+  --cinema-text: #878071;  /* 8% */
+  --cinema-muted: #B7CDDF;  /* 4% */
+  /* scheme: complementary, temp: cool, brightness: dark */
+}

@@ -1,0 +1,38 @@
+{
+  "palette": [
+    {
+      "hex": "#090705",
+      "ratio": 0.4436
+    },
+    {
+      "hex": "#46371C",
+      "ratio": 0.2192
+    },
+    {
+      "hex": "#886026",
+      "ratio": 0.1514
+    },
+    {
+      "hex": "#BB925B",
+      "ratio": 0.0993
+    },
+    {
+      "hex": "#E7D6BA",
+      "ratio": 0.0865
+    }
+  ],
+  "analysis": {
+    "scheme": "monochromatic",
+    "temperature": "warm",
+    "brightness": "dark"
+  },
+  "meta": {
+    "title_cn": "让子弹飞",
+    "title_en": "Let the Bullets Fly",
+    "year": 2010,
+    "rating": 9.0,
+    "rank": 35,
+    "douban_id": "3742360",
+    "source": "douban_top50"
+  }
+}
