@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 67,
+  "count": 68,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2319,6 +2319,35 @@
       "preview": "systems/pico/preview.png",
       "one_liner": "pico — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "neumorphism",
+      "name": "neumorphism",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/adamgiebl/neumorphism",
+        "author": "adamgiebl",
+        "license": "MIT"
+      },
+      "palette": [
+        "var(--maindark)",
+        "var(--grey)",
+        "var(--lightgray)",
+        "var(--offwhite)",
+        "var(--dark)",
+        "var(--green)"
+      ],
+      "tokens": "systems/neumorphism/tokens.css",
+      "style_md": "systems/neumorphism/STYLE.md",
+      "demo_url": "https://neumorphism.io",
+      "preview": "systems/neumorphism/preview.png",
+      "one_liner": "neumorphism — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2484,6 +2513,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://picocss.com",
+      "count": 1
+    },
+    {
+      "id": "neumorphism",
+      "name": "neumorphism",
+      "repo": "https://github.com/adamgiebl/neumorphism",
+      "author": "adamgiebl",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://neumorphism.io",
       "count": 1
     }
   ]

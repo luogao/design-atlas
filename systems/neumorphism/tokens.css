@@ -1,0 +1,13 @@
+/* neumorphism — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  $blue: var(--blue);
+  $border-radius: var(--border-radius);
+  $dark: var(--dark);
+  $green: var(--green);
+  $grey: var(--grey);
+  $lightgray: var(--lightgray);
+  $maindark: var(--maindark);
+  $offwhite: var(--offwhite);
+  $red: var(--red);
+}
