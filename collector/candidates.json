@@ -1,17 +1,323 @@
 [
   {
-    "name": "matt-auckland/retro-css",
-    "url": "https://github.com/matt-auckland/retro-css",
-    "stars": 923,
-    "description": "A list of retro-inspired CSS frameworks and design systems",
+    "name": "picocss/pico",
+    "url": "https://github.com/picocss/pico",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 16723,
+    "description": "Minimal CSS Framework for semantic HTML",
     "topics": [
       "css",
-      "css-frameworks",
-      "design-systems",
-      "nes",
-      "retro",
-      "retro-css"
+      "css-framework",
+      "dark-mode",
+      "dark-theme",
+      "lightweight",
+      "minimal",
+      "minimalist",
+      "minimalistic",
+      "native-html",
+      "scss",
+      "scss-framework",
+      "semantic"
+    ],
+    "demo": "https://picocss.com"
+  },
+  {
+    "name": "adamgiebl/neumorphism",
+    "url": "https://github.com/adamgiebl/neumorphism",
+    "stars": 6125,
+    "description": "🎉 Generate CSS for your Neumorphism designs",
+    "topics": [
+      "neumorphic-design",
+      "neumorphic-ui",
+      "neumorphism",
+      "soft-ui"
+    ],
+    "demo": "https://neumorphism.io"
+  },
+  {
+    "name": "argyleink/open-props",
+    "url": "https://github.com/argyleink/open-props",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 5476,
+    "description": "CSS custom properties to help accelerate adaptive and consistent design.",
+    "topics": [
+      "css",
+      "css-colors",
+      "css-custom-media-queries",
+      "css-custom-properties",
+      "css-easing-functions",
+      "css-gradients",
+      "css-normalise",
+      "css-utilites"
+    ],
+    "demo": "https://open-props.style"
+  },
+  {
+    "name": "andybrewer/mvp",
+    "url": "https://github.com/andybrewer/mvp",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 5130,
+    "description": "MVP.css — Minimalist classless CSS stylesheet for HTML elements",
+    "topics": [
+      "classless",
+      "classless-css",
+      "css",
+      "cssframework",
+      "semantic-ui"
+    ],
+    "demo": "https://andybrewer.github.io/mvp/"
+  },
+  {
+    "name": "xz/new.css",
+    "url": "https://github.com/xz/new.css",
+    "stars": 4033,
+    "description": "A classless CSS framework to write modern websites using only HTML.",
+    "topics": [],
+    "demo": "https://newcss.net"
+  },
+  {
+    "name": "hankchizljaw/modern-css-reset",
+    "url": "https://github.com/hankchizljaw/modern-css-reset",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 2962,
+    "description": "A bare-bones CSS reset for modern web development.",
+    "topics": [],
+    "demo": "https://hankchizljaw.com/wrote/a-modern-css-reset/"
+  },
+  {
+    "name": "dohliam/dropin-minimal-css",
+    "url": "https://github.com/dohliam/dropin-minimal-css",
+    "stars": 1825,
+    "description": "Drop-in switcher for previewing minimal CSS frameworks",
+    "topics": [
+      "classless",
+      "classless-css",
+      "classless-theme",
+      "css",
+      "css-boilerplate",
+      "css-framework",
+      "css-switcher",
+      "html",
+      "minimal",
+      "minimal-css",
+      "minimal-framework",
+      "minimalist",
+      "ultralight"
+    ],
+    "demo": "https://dohliam.github.io/dropin-minimal-css"
+  },
+  {
+    "name": "jenil/chota",
+    "url": "https://github.com/jenil/chota",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 1548,
+    "description": "A micro (3kb) CSS framework",
+    "topics": [
+      "css",
+      "framework",
+      "front-end",
+      "minimal",
+      "web",
+      "website"
+    ],
+    "demo": "https://jenil.github.io/chota/"
+  },
+  {
+    "name": "Slicejack/bojler",
+    "url": "https://github.com/Slicejack/bojler",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 1052,
+    "description": "Bojler is an email framework",
+    "topics": [
+      "css",
+      "css-framework",
+      "email",
+      "email-template",
+      "framework",
+      "grid",
+      "html-email",
+      "reset",
+      "templates",
+      "typography",
+      "utilities"
+    ],
+    "demo": "https://bojler.slicejack.com"
+  },
+  {
+    "name": "ConciseCSS/concise.css",
+    "url": "https://github.com/ConciseCSS/concise.css",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 931,
+    "description": "A CSS framework that's lightweight and easy-to-use. Give up the bloat. Stop tripping over your classes. Be Concise.",
+    "topics": [
+      "css",
+      "design",
+      "framework",
+      "minimalist",
+      "postcss",
+      "sass"
+    ],
+    "demo": "http://concisecss.com"
+  },
+  {
+    "name": "themesberg/neumorphism-ui-bootstrap",
+    "url": "https://github.com/themesberg/neumorphism-ui-bootstrap",
+    "stars": 886,
+    "description": "Neumorphism inspired UI Kit: web components, sections and pages in neumorphic style built with Bootstrap CSS Framework",
+    "topics": [
+      "bootstrap",
+      "css",
+      "gulp",
+      "neomorphic",
+      "neomorphism",
+      "neumorphic",
+      "neumorphism",
+      "neumorphism-ui",
+      "sass",
+      "ui",
+      "ui-kit",
+      "uikit"
+    ],
+    "demo": "https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/"
+  },
+  {
+    "name": "qiz-li/lovelace-soft-ui",
+    "url": "https://github.com/qiz-li/lovelace-soft-ui",
+    "stars": 878,
+    "description": "💫 Neumorphic theme for Home Assistant Lovelace",
+    "topics": [
+      "css",
+      "home-assistant",
+      "lovelace",
+      "neumorphism",
+      "soft-ui"
     ],
     "demo": ""
+  },
+  {
+    "name": "DigitallyTailored/Classless.css",
+    "url": "https://github.com/DigitallyTailored/Classless.css",
+    "stars": 735,
+    "description": "A lightweight, classless CSS framework that makes simple websites look better without requiring any additional markup.",
+    "topics": [],
+    "demo": ""
+  },
+  {
+    "name": "louismerlin/concrete.css",
+    "url": "https://github.com/louismerlin/concrete.css",
+    "stars": 634,
+    "description": "A simple and to the point classless CSS framework",
+    "topics": [
+      "brutalist",
+      "classless",
+      "concrete",
+      "css",
+      "css-framework",
+      "framework",
+      "html",
+      "minimalist"
+    ],
+    "demo": "https://concrete.style"
+  },
+  {
+    "name": "harismuneer/Library-Management-System-JAVA",
+    "url": "https://github.com/harismuneer/Library-Management-System-JAVA",
+    "stars": 499,
+    "description": "📚 A Library Management System designed in Java while following the concepts of decoupled layers (entities) and minimal code in interface (GUI).",
+    "topics": [
+      "class-diagram",
+      "console-based",
+      "database-management",
+      "design-patterns",
+      "desktop-application",
+      "java",
+      "javadb",
+      "jdbc-database",
+      "library-database",
+      "library-management",
+      "library-management-system",
+      "library-system",
+      "netbeans-project",
+      "object-oriented-analasis-design",
+      "object-oriented-assignment",
+      "object-oriented-design",
+      "persistent-storage",
+      "singleton-pattern",
+      "staruml",
+      "text-based"
+    ],
+    "demo": "https://github.com/harismuneer"
+  },
+  {
+    "name": "miketromba/css.glass",
+    "url": "https://github.com/miketromba/css.glass",
+    "stars": 444,
+    "description": "The Glassmorphism CSS Generator (css.glass)",
+    "topics": [
+      "css",
+      "glassmorphism",
+      "glassmorphism-css",
+      "nuxt",
+      "vue",
+      "vuejs"
+    ],
+    "demo": "https://css.glass"
+  },
+  {
+    "name": "pinecreativelabs/Brutalist-Framework",
+    "url": "https://github.com/pinecreativelabs/Brutalist-Framework",
+    "stars": 437,
+    "description": "A framework for the brutalist web design trend. Build Brutality.",
+    "topics": [],
+    "demo": "https://www.brutalistframework.com"
+  },
+  {
+    "name": "themesberg/glass-ui",
+    "url": "https://github.com/themesberg/glass-ui",
+    "stars": 405,
+    "description": "CSS UI library based on the glassmorphism design specifications",
+    "topics": [
+      "css",
+      "css-library",
+      "glass",
+      "glass-ui",
+      "glassmorphism",
+      "glassmorphism-ui",
+      "html",
+      "javascript"
+    ],
+    "demo": "https://ui.glass"
+  },
+  {
+    "name": "jonathanharrell/hiq",
+    "url": "https://github.com/jonathanharrell/hiq",
+    "source": "troxler/awesome-css-frameworks",
+    "stars": 328,
+    "description": "A lightweight, progressive, high-IQ CSS framework.",
+    "topics": [
+      "css",
+      "custom-properties",
+      "postcss",
+      "responsive-typography"
+    ],
+    "demo": "https://jonathanharrell.github.io/hiq/"
+  },
+  {
+    "name": "Kimeiga/bahunya",
+    "url": "https://github.com/Kimeiga/bahunya",
+    "stars": 314,
+    "description": "10KB classless CSS framework with a navbar and dark styling",
+    "topics": [
+      "classless",
+      "classless-theme",
+      "css",
+      "css-framework",
+      "css3",
+      "framework",
+      "html",
+      "small",
+      "tiny"
+    ],
+    "demo": "https://hakanalpay.com/bahunya/"
   }
 ]

@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 66,
+  "count": 67,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2291,6 +2291,34 @@
       "preview": "systems/rpgui/preview.png",
       "one_liner": "RPGUI — 设计系统",
       "best_for": "CLI 工具文档页、开发者博客、终端风格展示页面"
+    },
+    {
+      "id": "pico",
+      "name": "pico",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/picocss/pico",
+        "author": "picocss",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/pico/tokens.css",
+      "style_md": "systems/pico/STYLE.md",
+      "demo_url": "https://picocss.com",
+      "preview": "systems/pico/preview.png",
+      "one_liner": "pico — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2445,6 +2473,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "http://ronenness.github.io/RPGUI/",
+      "count": 1
+    },
+    {
+      "id": "pico",
+      "name": "pico",
+      "repo": "https://github.com/picocss/pico",
+      "author": "picocss",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://picocss.com",
       "count": 1
     }
   ]

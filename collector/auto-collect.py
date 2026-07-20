@@ -60,27 +60,76 @@ def browser_close():
     subprocess.run(['opencli', 'browser', OPENCLI_SESSION, 'close'],
                    capture_output=True, timeout=5)
 
+def _parse_json_lenient(out):
+    """从 opencli eval 输出中提取 JSON，去掉 'Update available' / 'npm install' 等噪声行。"""
+    if not out:
+        return None
+    lines = [l for l in out.splitlines()
+             if l.strip() and 'Update available' not in l and 'npm install' not in l]
+    cleaned = '\n'.join(lines).strip()
+    if not cleaned:
+        return None
+    # 直接解析整段；失败则逐行尝试（取第一个合法 JSON 行）
+    try:
+        return json.loads(cleaned)
+    except Exception:
+        for l in lines:
+            l = l.strip()
+            if l.startswith('{') or l.startswith('['):
+                try:
+                    return json.loads(l)
+                except Exception:
+                    continue
+    return None
+
+def _resolve_github_token():
+    """获取 GitHub token 用于鉴权请求（60/hr → 5000/hr）。
+    优先级：GITHUB_TOKEN / GH_TOKEN 环境变量，其次 `gh auth token`。"""
+    tok = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
+    if tok:
+        return tok.strip()
+    try:
+        r = subprocess.run(['gh', 'auth', 'token'], capture_output=True, text=True, timeout=10)
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.strip()
+    except Exception:
+        pass
+    return ''
+
+_GITHUB_TOKEN = None  # lazy
+
+def _get_github_token():
+    global _GITHUB_TOKEN
+    if _GITHUB_TOKEN is None:
+        _GITHUB_TOKEN = _resolve_github_token()
+        if _GITHUB_TOKEN:
+            log("🔑 GitHub API: using authenticated requests (5000/hr)")
+        else:
+            log("⚠️  GitHub API: no token found, unauthenticated (60/hr) — may hit rate limit")
+    return _GITHUB_TOKEN
+
 def fetch_github_api(endpoint, retries=2):
-    """通过 opencli 浏览器 eval 调用 GitHub API（绕 Clash）
-    只提取关键字段，避免输出截断"""
+    """通过 opencli 浏览器 eval 调用 GitHub API（绕 Clash）。
+    若有 token 则带 Authorization 头（5000/hr），否则匿名（60/hr）。"""
+    tok = _get_github_token()
+    if tok:
+        headers_js = "{'Authorization':'token " + tok + "','Accept':'application/vnd.github+json'}"
+    else:
+        headers_js = "{}"
     for i in range(retries + 1):
         try:
-            js = f"""
-(async () => {{
-    var r = await fetch('https://api.github.com{endpoint}');
-    var j = await r.json();
-    return JSON.stringify(j);
-}})()
-"""
+            js = (
+                "(async () => {\n"
+                "    var r = await fetch('https://api.github.com" + endpoint + "', {headers: " + headers_js + "});\n"
+                "    var j = await r.json();\n"
+                "    return JSON.stringify(j);\n"
+                "})()"
+            )
             out = browser_eval(js)
-            # Attempt parse
-            try:
-                j = json.loads(out)
+            j = _parse_json_lenient(out)
+            if j is not None:
                 return j
-            except:
-                # Maybe got a status line, try again
-                pass
-        except Exception as e:
+        except Exception:
             if i < retries:
                 time.sleep(2)
     return None
@@ -175,33 +224,47 @@ def scrape_github_search():
     log(f"  Found {len(all_repos)} unique repos")
     return all_repos
 
-# ─── Source 2: awesome-niche-css README ───
+# ─── Source 2: awesome-css-frameworks (troxler) README via raw markdown ───
 
-def scrape_niche_css_list():
-    """通过 opencli 浏览器读取 awesome-niche-css README 内容"""
-    log("🔄 Reading awesome-niche-css README...")
-    result = subprocess.run(
-        ['opencli', 'browser', OPENCLI_SESSION, 'open',
-         'https://github.com/AMR2010M/awesome-niche-css'],
-        capture_output=True, text=True, timeout=15)
-    time.sleep(3)
-
-    # Extract README innerText
-    eval_out = subprocess.run(
-        ['opencli', 'browser', OPENCLI_SESSION, 'eval',
-         "document.querySelector('[data-testid=readme]')?.innerText "
-         "|| document.querySelector('.readme')?.innerText || 'NOT_FOUND'"],
-        capture_output=True, text=True, timeout=10)
-    content = eval_out.stdout or ''
-
-    # Parse GitHub URLs from content
-    urls = set()
-    for m in re.finditer(r'https://github\.com/[\w.-]+/[\w.-]+', content):
-        url = m.group().rstrip('/')
-        if '/topics/' not in url and '/topic/' not in url:
-            urls.add(url)
-    log(f"  Found {len(urls)} links")
-
+def scrape_awesome_css_list():
+    """从 troxler/awesome-css-frameworks 的 raw markdown 提取 GitHub 链接。
+    raw markdown 含完整 URL，免疫 GitHub 页面 DOM 变更（旧 selectors 已失效）。
+    旧源 AMR2010M/awesome-niche-css 的 README 无任何链接，已弃用。"""
+    log("🔄 Reading troxler/awesome-css-frameworks README (raw markdown)...")
+    # 1) 解析默认分支
+    meta = fetch_github_api("/repos/troxler/awesome-css-frameworks")
+    if not meta or 'default_branch' not in meta:
+        log("  ⚠ could not fetch repo meta")
+        return []
+    branch = meta.get('default_branch', 'master')
+    # 2) 拉 raw readme（尝试常见文件名）
+    body = ''
+    for fname in ('readme.md', 'README.md'):
+        js = (
+            f"(async()=>{{var r=await fetch("
+            f"'https://raw.githubusercontent.com/troxler/awesome-css-frameworks/{branch}/{fname}');"
+            f"if(!r.ok) return 'FAIL_'+r.status; return await r.text()}})()"
+        )
+        out = browser_eval(js)
+        out = '\n'.join(l for l in out.splitlines()
+                        if l.strip() and 'Update available' not in l and 'npm install' not in l).strip()
+        if out and not out.startswith('FAIL_'):
+            body = out
+            break
+    if not body:
+        log("  ⚠ could not fetch readme body")
+        return []
+    # 3) 提取唯一 GitHub repo URL
+    urls = []
+    seen = set()
+    for m in re.finditer(r'https?://github\.com/[\w.\-]+/[\w.\-]+', body):
+        url = m.group().rstrip('/').rstrip(').,;')
+        if '/topics/' in url or '/topic/' in url or '/awesome' in url.lower():
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        urls.append(url)
     repos = []
     for url in urls:
         parts = url.replace('https://github.com/', '').split('/')
@@ -209,9 +272,9 @@ def scrape_niche_css_list():
             repos.append({
                 'name': f"{parts[0]}/{parts[1]}",
                 'url': url,
-                'source': 'awesome-niche-css',
+                'source': 'troxler/awesome-css-frameworks',
             })
-    log(f"  → {len(repos)} repos")
+    log(f"  Found {len(repos)} repo links in readme")
     return repos
 
 # ─── Filtering ───
@@ -224,10 +287,12 @@ def is_visual_repo(repo_info):
     name = repo_info.get('name', '')
     text_lower = (desc + ' ' + topics + ' ' + name).lower()
 
-    # ❌ 硬排除：非设计类 repo
+    # ❌ 硬排除：非设计类 repo / 元列表（awesome-list 本身不是风格系统）
     hard_skip = [
         '反中共', '政治', 'propaganda', 'dictatorship',
         'github topic', 'awesome list', 'curated list',
+        'a list of', 'list of awesome', 'awesome-css',
+        'awesome niche', 'collection of',
         '动漫', 'discord', '.github community',
     ]
     if any(s in text_lower for s in hard_skip):
@@ -296,8 +361,8 @@ def main():
     log(f"Search total: {len(search_results)}, qualified new: {len(new_from_search)}")
     candidates.extend(new_from_search)
 
-    # Source 2: awesome-niche-css
-    niche = scrape_niche_css_list()
+    # Source 2: awesome-css-frameworks (troxler)
+    niche = scrape_awesome_css_list()
     new_niche = []
     existing_in_candidates = {c['url'] for c in candidates}
     for r in niche:
@@ -305,10 +370,22 @@ def main():
             continue
         if r['url'] in existing_in_candidates:
             continue
-        stars = get_stars(r['name'])
-        if stars >= MIN_STARS and is_visual_repo({'description': '', 'topics': [r['name']]}):
-            r['stars'] = stars
-            new_niche.append(r)
+        # 一次 API 调用拿到 stars + description + topics + homepage
+        data = fetch_github_api(f"/repos/{r['name']}")
+        if not data:
+            continue
+        info = {
+            'name': r['name'],
+            'url': r['url'],
+            'source': r.get('source', ''),
+            'stars': data.get('stargazers_count', 0),
+            'description': data.get('description', '') or '',
+            'topics': data.get('topics', []),
+            'demo': data.get('homepage', '') or '',
+        }
+        # 用真实 description+topics 判定视觉风格（旧代码传空 desc + 假 topic，导致几乎全被误杀）
+        if info['stars'] >= MIN_STARS and is_visual_repo(info):
+            new_niche.append(info)
     log(f"Niche new eligible: {len(new_niche)}")
     candidates.extend(new_niche)
 
