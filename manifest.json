@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 68,
+  "count": 69,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2348,6 +2348,34 @@
       "preview": "systems/neumorphism/preview.png",
       "one_liner": "neumorphism — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "open-props",
+      "name": "open-props",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/argyleink/open-props",
+        "author": "argyleink",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/open-props/tokens.css",
+      "style_md": "systems/open-props/STYLE.md",
+      "demo_url": "https://open-props.style",
+      "preview": "systems/open-props/preview.png",
+      "one_liner": "open-props — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2524,6 +2552,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://neumorphism.io",
+      "count": 1
+    },
+    {
+      "id": "open-props",
+      "name": "open-props",
+      "repo": "https://github.com/argyleink/open-props",
+      "author": "argyleink",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://open-props.style",
       "count": 1
     }
   ]
