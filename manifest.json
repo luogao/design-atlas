@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 71,
+  "count": 72,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2434,6 +2434,34 @@
       "preview": "systems/new-css/preview.png",
       "one_liner": "new.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "modern-css-reset",
+      "name": "modern-css-reset",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/hankchizljaw/modern-css-reset",
+        "author": "hankchizljaw",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/modern-css-reset/tokens.css",
+      "style_md": "systems/modern-css-reset/STYLE.md",
+      "demo_url": "https://hankchizljaw.com/wrote/a-modern-css-reset/",
+      "preview": "systems/modern-css-reset/preview.png",
+      "one_liner": "modern-css-reset — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2643,6 +2671,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://newcss.net",
+      "count": 1
+    },
+    {
+      "id": "modern-css-reset",
+      "name": "modern-css-reset",
+      "repo": "https://github.com/hankchizljaw/modern-css-reset",
+      "author": "hankchizljaw",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://hankchizljaw.com/wrote/a-modern-css-reset/",
       "count": 1
     }
   ]
