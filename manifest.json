@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 70,
+  "count": 71,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2405,6 +2405,35 @@
       "preview": "systems/mvp/preview.png",
       "one_liner": "mvp — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "new-css",
+      "name": "new.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/xz/new.css",
+        "author": "xz",
+        "license": "MIT"
+      },
+      "palette": [
+        "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+        "Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace",
+        "var(--nc-d-tx-1)",
+        "var(--nc-d-tx-2)",
+        "var(--nc-d-bg-1)",
+        "var(--nc-d-bg-2)"
+      ],
+      "tokens": "systems/new-css/tokens.css",
+      "style_md": "systems/new-css/STYLE.md",
+      "demo_url": "https://newcss.net",
+      "preview": "systems/new-css/preview.png",
+      "one_liner": "new.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2603,6 +2632,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://andybrewer.github.io/mvp/",
+      "count": 1
+    },
+    {
+      "id": "new-css",
+      "name": "new.css",
+      "repo": "https://github.com/xz/new.css",
+      "author": "xz",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://newcss.net",
       "count": 1
     }
   ]
