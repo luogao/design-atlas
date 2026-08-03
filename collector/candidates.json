@@ -1,62 +1,9 @@
 [
   {
-    "name": "picocss/pico",
-    "url": "https://github.com/picocss/pico",
-    "source": "troxler/awesome-css-frameworks",
-    "stars": 16723,
-    "description": "Minimal CSS Framework for semantic HTML",
-    "topics": [
-      "css",
-      "css-framework",
-      "dark-mode",
-      "dark-theme",
-      "lightweight",
-      "minimal",
-      "minimalist",
-      "minimalistic",
-      "native-html",
-      "scss",
-      "scss-framework",
-      "semantic"
-    ],
-    "demo": "https://picocss.com"
-  },
-  {
-    "name": "adamgiebl/neumorphism",
-    "url": "https://github.com/adamgiebl/neumorphism",
-    "stars": 6125,
-    "description": "🎉 Generate CSS for your Neumorphism designs",
-    "topics": [
-      "neumorphic-design",
-      "neumorphic-ui",
-      "neumorphism",
-      "soft-ui"
-    ],
-    "demo": "https://neumorphism.io"
-  },
-  {
-    "name": "argyleink/open-props",
-    "url": "https://github.com/argyleink/open-props",
-    "source": "troxler/awesome-css-frameworks",
-    "stars": 5476,
-    "description": "CSS custom properties to help accelerate adaptive and consistent design.",
-    "topics": [
-      "css",
-      "css-colors",
-      "css-custom-media-queries",
-      "css-custom-properties",
-      "css-easing-functions",
-      "css-gradients",
-      "css-normalise",
-      "css-utilites"
-    ],
-    "demo": "https://open-props.style"
-  },
-  {
     "name": "andybrewer/mvp",
     "url": "https://github.com/andybrewer/mvp",
     "source": "troxler/awesome-css-frameworks",
-    "stars": 5130,
+    "stars": 5129,
     "description": "MVP.css — Minimalist classless CSS stylesheet for HTML elements",
     "topics": [
       "classless",
@@ -70,7 +17,7 @@
   {
     "name": "xz/new.css",
     "url": "https://github.com/xz/new.css",
-    "stars": 4033,
+    "stars": 4037,
     "description": "A classless CSS framework to write modern websites using only HTML.",
     "topics": [],
     "demo": "https://newcss.net"
@@ -110,7 +57,7 @@
     "name": "jenil/chota",
     "url": "https://github.com/jenil/chota",
     "source": "troxler/awesome-css-frameworks",
-    "stars": 1548,
+    "stars": 1552,
     "description": "A micro (3kb) CSS framework",
     "topics": [
       "css",
@@ -162,7 +109,7 @@
   {
     "name": "themesberg/neumorphism-ui-bootstrap",
     "url": "https://github.com/themesberg/neumorphism-ui-bootstrap",
-    "stars": 886,
+    "stars": 887,
     "description": "Neumorphism inspired UI Kit: web components, sections and pages in neumorphic style built with Bootstrap CSS Framework",
     "topics": [
       "bootstrap",
@@ -183,7 +130,7 @@
   {
     "name": "qiz-li/lovelace-soft-ui",
     "url": "https://github.com/qiz-li/lovelace-soft-ui",
-    "stars": 878,
+    "stars": 884,
     "description": "💫 Neumorphic theme for Home Assistant Lovelace",
     "topics": [
       "css",
@@ -197,7 +144,7 @@
   {
     "name": "DigitallyTailored/Classless.css",
     "url": "https://github.com/DigitallyTailored/Classless.css",
-    "stars": 735,
+    "stars": 737,
     "description": "A lightweight, classless CSS framework that makes simple websites look better without requiring any additional markup.",
     "topics": [],
     "demo": ""
@@ -222,7 +169,7 @@
   {
     "name": "harismuneer/Library-Management-System-JAVA",
     "url": "https://github.com/harismuneer/Library-Management-System-JAVA",
-    "stars": 499,
+    "stars": 502,
     "description": "📚 A Library Management System designed in Java while following the concepts of decoupled layers (entities) and minimal code in interface (GUI).",
     "topics": [
       "class-diagram",
@@ -251,7 +198,7 @@
   {
     "name": "miketromba/css.glass",
     "url": "https://github.com/miketromba/css.glass",
-    "stars": 444,
+    "stars": 446,
     "description": "The Glassmorphism CSS Generator (css.glass)",
     "topics": [
       "css",
@@ -274,7 +221,7 @@
   {
     "name": "themesberg/glass-ui",
     "url": "https://github.com/themesberg/glass-ui",
-    "stars": 405,
+    "stars": 407,
     "description": "CSS UI library based on the glassmorphism design specifications",
     "topics": [
       "css",
@@ -305,7 +252,7 @@
   {
     "name": "Kimeiga/bahunya",
     "url": "https://github.com/Kimeiga/bahunya",
-    "stars": 314,
+    "stars": 313,
     "description": "10KB classless CSS framework with a navbar and dark styling",
     "topics": [
       "classless",
@@ -319,5 +266,25 @@
       "tiny"
     ],
     "demo": "https://hakanalpay.com/bahunya/"
+  },
+  {
+    "name": "anyblades/blades",
+    "url": "https://github.com/anyblades/blades",
+    "stars": 307,
+    "description": "Fully compatible and actively maintained successor to Pico CSS.  Includes Float labels, Breakout layout and other modern helpers. Simply switch `pico.css` to `blades.css`, or use `blades.standalone.css` with other frameworks 🥷✨",
+    "topics": [
+      "blades-css",
+      "classless",
+      "css",
+      "float-label",
+      "html",
+      "jinja",
+      "liquid",
+      "nunjucks",
+      "pico-css",
+      "picocss",
+      "twig"
+    ],
+    "demo": "https://blades.ninja"
   }
 ]
