@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 72,
+  "count": 73,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2462,6 +2462,34 @@
       "preview": "systems/modern-css-reset/preview.png",
       "one_liner": "modern-css-reset — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "dropin-minimal-css",
+      "name": "dropin-minimal-css",
+      "category": "art",
+      "tags": [
+        "bold",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/dohliam/dropin-minimal-css",
+        "author": "dohliam",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/dropin-minimal-css/tokens.css",
+      "style_md": "systems/dropin-minimal-css/STYLE.md",
+      "demo_url": "https://dohliam.github.io/dropin-minimal-css",
+      "preview": "systems/dropin-minimal-css/preview.png",
+      "one_liner": "dropin-minimal-css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2682,6 +2710,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://hankchizljaw.com/wrote/a-modern-css-reset/",
+      "count": 1
+    },
+    {
+      "id": "dropin-minimal-css",
+      "name": "dropin-minimal-css",
+      "repo": "https://github.com/dohliam/dropin-minimal-css",
+      "author": "dohliam",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://dohliam.github.io/dropin-minimal-css",
       "count": 1
     }
   ]

@@ -1,37 +1,5 @@
 [
   {
-    "name": "andybrewer/mvp",
-    "url": "https://github.com/andybrewer/mvp",
-    "source": "troxler/awesome-css-frameworks",
-    "stars": 5129,
-    "description": "MVP.css — Minimalist classless CSS stylesheet for HTML elements",
-    "topics": [
-      "classless",
-      "classless-css",
-      "css",
-      "cssframework",
-      "semantic-ui"
-    ],
-    "demo": "https://andybrewer.github.io/mvp/"
-  },
-  {
-    "name": "xz/new.css",
-    "url": "https://github.com/xz/new.css",
-    "stars": 4037,
-    "description": "A classless CSS framework to write modern websites using only HTML.",
-    "topics": [],
-    "demo": "https://newcss.net"
-  },
-  {
-    "name": "hankchizljaw/modern-css-reset",
-    "url": "https://github.com/hankchizljaw/modern-css-reset",
-    "source": "troxler/awesome-css-frameworks",
-    "stars": 2962,
-    "description": "A bare-bones CSS reset for modern web development.",
-    "topics": [],
-    "demo": "https://hankchizljaw.com/wrote/a-modern-css-reset/"
-  },
-  {
     "name": "dohliam/dropin-minimal-css",
     "url": "https://github.com/dohliam/dropin-minimal-css",
     "stars": 1825,
@@ -57,7 +25,7 @@
     "name": "jenil/chota",
     "url": "https://github.com/jenil/chota",
     "source": "troxler/awesome-css-frameworks",
-    "stars": 1552,
+    "stars": 1551,
     "description": "A micro (3kb) CSS framework",
     "topics": [
       "css",
@@ -169,7 +137,7 @@
   {
     "name": "harismuneer/Library-Management-System-JAVA",
     "url": "https://github.com/harismuneer/Library-Management-System-JAVA",
-    "stars": 502,
+    "stars": 501,
     "description": "📚 A Library Management System designed in Java while following the concepts of decoupled layers (entities) and minimal code in interface (GUI).",
     "topics": [
       "class-diagram",
@@ -198,7 +166,7 @@
   {
     "name": "miketromba/css.glass",
     "url": "https://github.com/miketromba/css.glass",
-    "stars": 446,
+    "stars": 447,
     "description": "The Glassmorphism CSS Generator (css.glass)",
     "topics": [
       "css",
@@ -221,7 +189,7 @@
   {
     "name": "themesberg/glass-ui",
     "url": "https://github.com/themesberg/glass-ui",
-    "stars": 407,
+    "stars": 408,
     "description": "CSS UI library based on the glassmorphism design specifications",
     "topics": [
       "css",
@@ -270,7 +238,7 @@
   {
     "name": "anyblades/blades",
     "url": "https://github.com/anyblades/blades",
-    "stars": 307,
+    "stars": 312,
     "description": "Fully compatible and actively maintained successor to Pico CSS.  Includes Float labels, Breakout layout and other modern helpers. Simply switch `pico.css` to `blades.css`, or use `blades.standalone.css` with other frameworks 🥷✨",
     "topics": [
       "blades-css",
