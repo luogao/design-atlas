@@ -1,0 +1,17 @@
+/* chota — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --bg-color: #fff;
+  --bg-secondary-color: #f3f3f6;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-grey: #747681;
+  --color-lightGrey: #d2d6dd;
+  --color-primary: #14854f;
+  --color-success: #28bd14;
+  --font-color: #333;
+  --font-family-sans: -apple-system,"BlinkMacSystemFont","Avenir","Avenir Next","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  --font-size: 1.6rem;
+  --grid-gutter: 2rem;
+  --grid-maxWidth: 120rem;
+}

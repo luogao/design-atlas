@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 73,
+  "count": 74,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2490,6 +2490,35 @@
       "preview": "systems/dropin-minimal-css/preview.png",
       "one_liner": "dropin-minimal-css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "chota",
+      "name": "chota",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/jenil/chota",
+        "author": "jenil",
+        "license": "MIT"
+      },
+      "palette": [
+        "#fff",
+        "#f3f3f6",
+        "#14854f",
+        "#d2d6dd",
+        "#747681",
+        "#3f4144"
+      ],
+      "tokens": "systems/chota/tokens.css",
+      "style_md": "systems/chota/STYLE.md",
+      "demo_url": "https://jenil.github.io/chota/",
+      "preview": "systems/chota/preview.png",
+      "one_liner": "chota — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2721,6 +2750,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://dohliam.github.io/dropin-minimal-css",
+      "count": 1
+    },
+    {
+      "id": "chota",
+      "name": "chota",
+      "repo": "https://github.com/jenil/chota",
+      "author": "jenil",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://jenil.github.io/chota/",
       "count": 1
     }
   ]
