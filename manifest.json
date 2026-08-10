@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 74,
+  "count": 75,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2519,6 +2519,35 @@
       "preview": "systems/chota/preview.png",
       "one_liner": "chota — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "bojler",
+      "name": "bojler",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/Slicejack/bojler",
+        "author": "Slicejack",
+        "license": "MIT"
+      },
+      "palette": [
+        "#ffffff",
+        "#000000",
+        "#f1f1f1",
+        "#2b7fff",
+        "40px",
+        "20px"
+      ],
+      "tokens": "systems/bojler/tokens.css",
+      "style_md": "systems/bojler/STYLE.md",
+      "demo_url": "https://bojler.slicejack.com",
+      "preview": "systems/bojler/preview.png",
+      "one_liner": "bojler — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2761,6 +2790,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://jenil.github.io/chota/",
+      "count": 1
+    },
+    {
+      "id": "bojler",
+      "name": "bojler",
+      "repo": "https://github.com/Slicejack/bojler",
+      "author": "Slicejack",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://bojler.slicejack.com",
       "count": 1
     }
   ]
