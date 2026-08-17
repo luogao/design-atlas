@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 75,
+  "count": 76,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2548,6 +2548,34 @@
       "preview": "systems/bojler/preview.png",
       "one_liner": "bojler — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "concise-css",
+      "name": "concise.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/ConciseCSS/concise.css",
+        "author": "ConciseCSS",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/concise-css/tokens.css",
+      "style_md": "systems/concise-css/STYLE.md",
+      "demo_url": "http://concisecss.com",
+      "preview": "systems/concise-css/preview.png",
+      "one_liner": "concise.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2801,6 +2829,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://bojler.slicejack.com",
+      "count": 1
+    },
+    {
+      "id": "concise-css",
+      "name": "concise.css",
+      "repo": "https://github.com/ConciseCSS/concise.css",
+      "author": "ConciseCSS",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "http://concisecss.com",
       "count": 1
     }
   ]
