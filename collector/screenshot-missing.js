@@ -32,8 +32,14 @@ const targets = manifest.systems.filter(s => {
 
     try {
       console.log(`  → ${s.id}: ${url}`);
-      await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
-      await page.waitForTimeout(800); // 等 web font
+      try {
+        await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+      } catch (e) {
+        // networkidle 超时（长连接/分析 beacon 持续发包），退回 load 事件后截图
+        console.log(`    ↳ networkidle 超时，退回 load…`);
+        await page.goto(url, { waitUntil: 'load', timeout: 45000 });
+      }
+      await page.waitForTimeout(1500); // 等 web font / 渲染
       await page.screenshot({ path: outPath, fullPage: false });
       const sz = fs.statSync(outPath).size;
       console.log(`  ✓ ${s.id} → preview.png (${(sz/1024).toFixed(0)} KB)`);

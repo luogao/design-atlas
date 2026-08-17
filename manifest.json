@@ -2572,7 +2572,7 @@
       ],
       "tokens": "systems/concise-css/tokens.css",
       "style_md": "systems/concise-css/STYLE.md",
-      "demo_url": "http://concisecss.com",
+      "demo_url": "https://concisecss.com",
       "preview": "systems/concise-css/preview.png",
       "one_liner": "concise.css — 设计系统",
       "best_for": "多种场景"
