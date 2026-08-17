@@ -1,0 +1,15 @@
+/* neumorphism-ui-bootstrap — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  $b: blue($color);
+  $color: theme-color($color-name);
+  $color-base: if($level > 0, $black, $white);
+  $first-value: nth($values, 1);
+  $g: green($color);
+  $index: str-index($string, $search);
+  $level: abs($level);
+  $prev-key: null;
+  $prev-num: null;
+  $r: red($color);
+  $values: map-values($map);
+}

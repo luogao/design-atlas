@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 76,
+  "count": 77,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2576,6 +2576,35 @@
       "preview": "systems/concise-css/preview.png",
       "one_liner": "concise.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "neumorphism-ui-bootstrap",
+      "name": "neumorphism-ui-bootstrap",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/themesberg/neumorphism-ui-bootstrap",
+        "author": "themesberg",
+        "license": "MIT"
+      },
+      "palette": [
+        "null",
+        "null",
+        "map-values($map)",
+        "nth($values, 1)",
+        "str-index($string, $search)",
+        "red($color)"
+      ],
+      "tokens": "systems/neumorphism-ui-bootstrap/tokens.css",
+      "style_md": "systems/neumorphism-ui-bootstrap/STYLE.md",
+      "demo_url": "https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/",
+      "preview": "systems/neumorphism-ui-bootstrap/preview.png",
+      "one_liner": "neumorphism-ui-bootstrap — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2840,6 +2869,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "http://concisecss.com",
+      "count": 1
+    },
+    {
+      "id": "neumorphism-ui-bootstrap",
+      "name": "neumorphism-ui-bootstrap",
+      "repo": "https://github.com/themesberg/neumorphism-ui-bootstrap",
+      "author": "themesberg",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/",
       "count": 1
     }
   ]
