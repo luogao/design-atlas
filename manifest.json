@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 77,
+  "count": 78,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2605,6 +2605,35 @@
       "preview": "systems/neumorphism-ui-bootstrap/preview.png",
       "one_liner": "neumorphism-ui-bootstrap — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "classless-css",
+      "name": "Classless.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/DigitallyTailored/Classless.css",
+        "author": "DigitallyTailored",
+        "license": "MIT"
+      },
+      "palette": [
+        "#364153",
+        "#202732",
+        "#364153",
+        "#64748b",
+        "#94a3b8",
+        "#10b981"
+      ],
+      "tokens": "systems/classless-css/tokens.css",
+      "style_md": "systems/classless-css/STYLE.md",
+      "demo_url": "https://DigitallyTailored.github.io/Classless.css/",
+      "preview": "systems/classless-css/preview.png",
+      "one_liner": "Classless.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2880,6 +2909,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/",
+      "count": 1
+    },
+    {
+      "id": "classless-css",
+      "name": "Classless.css",
+      "repo": "https://github.com/DigitallyTailored/Classless.css",
+      "author": "DigitallyTailored",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://DigitallyTailored.github.io/Classless.css/",
       "count": 1
     }
   ]
