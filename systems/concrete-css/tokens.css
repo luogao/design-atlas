@@ -1,0 +1,10 @@
+/* concrete.css — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --bg: #111;
+  --fg: #fff;
+  --font: Helvetica, Arial, sans-serif;
+  --font-h: Helvetica, Arial, sans-serif;
+  --main-width: 640px;
+  --radius: 0px;
+}

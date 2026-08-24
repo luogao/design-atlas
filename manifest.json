@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 78,
+  "count": 79,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2634,6 +2634,35 @@
       "preview": "systems/classless-css/preview.png",
       "one_liner": "Classless.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "concrete-css",
+      "name": "concrete.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/louismerlin/concrete.css",
+        "author": "louismerlin",
+        "license": "MIT"
+      },
+      "palette": [
+        "#fff",
+        "#111",
+        "Helvetica, Arial, sans-serif",
+        "Helvetica, Arial, sans-serif",
+        "640px",
+        "0px"
+      ],
+      "tokens": "systems/concrete-css/tokens.css",
+      "style_md": "systems/concrete-css/STYLE.md",
+      "demo_url": "https://concrete.style",
+      "preview": "systems/concrete-css/preview.png",
+      "one_liner": "concrete.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2920,6 +2949,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://DigitallyTailored.github.io/Classless.css/",
+      "count": 1
+    },
+    {
+      "id": "concrete-css",
+      "name": "concrete.css",
+      "repo": "https://github.com/louismerlin/concrete.css",
+      "author": "louismerlin",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://concrete.style",
       "count": 1
     }
   ]
