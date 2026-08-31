@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 79,
+  "count": 80,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2663,6 +2663,34 @@
       "preview": "systems/concrete-css/preview.png",
       "one_liner": "concrete.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "css-glass",
+      "name": "css.glass",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/miketromba/css.glass",
+        "author": "miketromba",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/css-glass/tokens.css",
+      "style_md": "systems/css-glass/STYLE.md",
+      "demo_url": "https://css.glass",
+      "preview": "systems/css-glass/preview.png",
+      "one_liner": "css.glass — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2960,6 +2988,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://concrete.style",
+      "count": 1
+    },
+    {
+      "id": "css-glass",
+      "name": "css.glass",
+      "repo": "https://github.com/miketromba/css.glass",
+      "author": "miketromba",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://css.glass",
       "count": 1
     }
   ]

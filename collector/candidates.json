@@ -2,7 +2,7 @@
   {
     "name": "qiz-li/lovelace-soft-ui",
     "url": "https://github.com/qiz-li/lovelace-soft-ui",
-    "stars": 884,
+    "stars": 887,
     "description": "💫 Neumorphic theme for Home Assistant Lovelace",
     "topics": [
       "css",
@@ -12,31 +12,6 @@
       "soft-ui"
     ],
     "demo": ""
-  },
-  {
-    "name": "DigitallyTailored/Classless.css",
-    "url": "https://github.com/DigitallyTailored/Classless.css",
-    "stars": 737,
-    "description": "A lightweight, classless CSS framework that makes simple websites look better without requiring any additional markup.",
-    "topics": [],
-    "demo": ""
-  },
-  {
-    "name": "louismerlin/concrete.css",
-    "url": "https://github.com/louismerlin/concrete.css",
-    "stars": 633,
-    "description": "A simple and to the point classless CSS framework",
-    "topics": [
-      "brutalist",
-      "classless",
-      "concrete",
-      "css",
-      "css-framework",
-      "framework",
-      "html",
-      "minimalist"
-    ],
-    "demo": "https://concrete.style"
   },
   {
     "name": "harismuneer/Library-Management-System-JAVA",
@@ -70,7 +45,7 @@
   {
     "name": "miketromba/css.glass",
     "url": "https://github.com/miketromba/css.glass",
-    "stars": 452,
+    "stars": 453,
     "description": "The Glassmorphism CSS Generator (css.glass)",
     "topics": [
       "css",
@@ -124,8 +99,8 @@
   {
     "name": "anyblades/blades",
     "url": "https://github.com/anyblades/blades",
-    "stars": 315,
-    "description": "Fully compatible and actively maintained successor to Pico CSS.  Includes Float labels, Breakout layout and other modern helpers. Simply switch `pico.css` to `blades.css`, or use `blades.standalone.css` with other frameworks 🥷✨",
+    "stars": 317,
+    "description": "Fully compatible and actively maintained successor to Pico CSS.  Introduces float labels, breakout container and other modern, opt-out helpers. Simply switch `pico.css` to `blades.css` OR use `blades.standalone.css` with other frameworks 🥷✨",
     "topics": [
       "blades-css",
       "classless",
