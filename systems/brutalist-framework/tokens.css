@@ -1,0 +1,10 @@
+/* Brutalist-Framework — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --_g: var(--_s) conic-gradient(at 40% 40%,#0000 75%,var(--c1) 0);
+  --_p: var(--_s) conic-gradient(at 20% 20%,#0000 75%,var(--c2) 0);
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --c1: var(--color1);
+  --c2: var(--color2);
+  --s: 100px;
+}

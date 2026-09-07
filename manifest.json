@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 80,
+  "count": 81,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2691,6 +2691,35 @@
       "preview": "systems/css-glass/preview.png",
       "one_liner": "css.glass — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "brutalist-framework",
+      "name": "Brutalist-Framework",
+      "category": "design-movements",
+      "tags": [
+        "bold",
+        "high-contrast"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/pinecreativelabs/Brutalist-Framework",
+        "author": "pinecreativelabs",
+        "license": "MIT"
+      },
+      "palette": [
+        "100px",
+        "var(--color1)",
+        "var(--color2)",
+        "calc(2*var(--s)) calc(2*var(--s))",
+        "var(--_s) conic-gradient(at 40% 40%,#0000 75%,var(--c1) 0)",
+        "var(--_s) conic-gradient(at 20% 20%,#0000 75%,var(--c2) 0)"
+      ],
+      "tokens": "systems/brutalist-framework/tokens.css",
+      "style_md": "systems/brutalist-framework/STYLE.md",
+      "demo_url": "https://www.brutalistframework.com",
+      "preview": "systems/brutalist-framework/preview.png",
+      "one_liner": "Brutalist-Framework — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -2999,6 +3028,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://css.glass",
+      "count": 1
+    },
+    {
+      "id": "brutalist-framework",
+      "name": "Brutalist-Framework",
+      "repo": "https://github.com/pinecreativelabs/Brutalist-Framework",
+      "author": "pinecreativelabs",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://www.brutalistframework.com",
       "count": 1
     }
   ]

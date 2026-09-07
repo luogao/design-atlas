@@ -43,21 +43,6 @@
     "demo": "https://github.com/harismuneer"
   },
   {
-    "name": "miketromba/css.glass",
-    "url": "https://github.com/miketromba/css.glass",
-    "stars": 453,
-    "description": "The Glassmorphism CSS Generator (css.glass)",
-    "topics": [
-      "css",
-      "glassmorphism",
-      "glassmorphism-css",
-      "nuxt",
-      "vue",
-      "vuejs"
-    ],
-    "demo": "https://css.glass"
-  },
-  {
     "name": "pinecreativelabs/Brutalist-Framework",
     "url": "https://github.com/pinecreativelabs/Brutalist-Framework",
     "stars": 437,
@@ -99,7 +84,7 @@
   {
     "name": "anyblades/blades",
     "url": "https://github.com/anyblades/blades",
-    "stars": 317,
+    "stars": 321,
     "description": "Fully compatible and actively maintained successor to Pico CSS.  Introduces float labels, breakout container and other modern, opt-out helpers. Simply switch `pico.css` to `blades.css` OR use `blades.standalone.css` with other frameworks 🥷✨",
     "topics": [
       "blades-css",
