@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 81,
+  "count": 82,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2720,6 +2720,35 @@
       "preview": "systems/brutalist-framework/preview.png",
       "one_liner": "Brutalist-Framework — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "glass-ui",
+      "name": "glass-ui",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/themesberg/glass-ui",
+        "author": "themesberg",
+        "license": "MIT"
+      },
+      "palette": [
+        "0.625rem",
+        "oklch(1 0 0)",
+        "oklch(0.145 0 0)",
+        "oklch(1 0 0)",
+        "oklch(0.145 0 0)",
+        "oklch(1 0 0)"
+      ],
+      "tokens": "systems/glass-ui/tokens.css",
+      "style_md": "systems/glass-ui/STYLE.md",
+      "demo_url": "https://ui.glass",
+      "preview": "systems/glass-ui/preview.png",
+      "one_liner": "glass-ui — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3039,6 +3068,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://www.brutalistframework.com",
+      "count": 1
+    },
+    {
+      "id": "glass-ui",
+      "name": "glass-ui",
+      "repo": "https://github.com/themesberg/glass-ui",
+      "author": "themesberg",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://ui.glass",
       "count": 1
     }
   ]

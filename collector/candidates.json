@@ -2,7 +2,7 @@
   {
     "name": "qiz-li/lovelace-soft-ui",
     "url": "https://github.com/qiz-li/lovelace-soft-ui",
-    "stars": 887,
+    "stars": 888,
     "description": "💫 Neumorphic theme for Home Assistant Lovelace",
     "topics": [
       "css",
@@ -43,14 +43,6 @@
     "demo": "https://github.com/harismuneer"
   },
   {
-    "name": "pinecreativelabs/Brutalist-Framework",
-    "url": "https://github.com/pinecreativelabs/Brutalist-Framework",
-    "stars": 437,
-    "description": "A framework for the brutalist web design trend. Build Brutality.",
-    "topics": [],
-    "demo": "https://www.brutalistframework.com"
-  },
-  {
     "name": "themesberg/glass-ui",
     "url": "https://github.com/themesberg/glass-ui",
     "stars": 407,
@@ -84,7 +76,7 @@
   {
     "name": "anyblades/blades",
     "url": "https://github.com/anyblades/blades",
-    "stars": 321,
+    "stars": 324,
     "description": "Fully compatible and actively maintained successor to Pico CSS.  Introduces float labels, breakout container and other modern, opt-out helpers. Simply switch `pico.css` to `blades.css` OR use `blades.standalone.css` with other frameworks 🥷✨",
     "topics": [
       "blades-css",
