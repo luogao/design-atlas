@@ -1,0 +1,10 @@
+/* hiq — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  $mobile: 719px;
+  $mobileNarrow: 419px;
+  $mobileNarrowUp: 420px;
+  $mobileUp: 720px;
+  $narrow: 959px;
+  $narrowUp: 960px;
+}

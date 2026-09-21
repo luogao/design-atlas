@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 82,
+  "count": 83,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2749,6 +2749,35 @@
       "preview": "systems/glass-ui/preview.png",
       "one_liner": "glass-ui — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "hiq",
+      "name": "hiq",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/jonathanharrell/hiq",
+        "author": "jonathanharrell",
+        "license": "MIT"
+      },
+      "palette": [
+        "419px",
+        "420px",
+        "719px",
+        "720px",
+        "959px",
+        "960px"
+      ],
+      "tokens": "systems/hiq/tokens.css",
+      "style_md": "systems/hiq/STYLE.md",
+      "demo_url": "https://jonathanharrell.github.io/hiq/",
+      "preview": "systems/hiq/preview.png",
+      "one_liner": "hiq — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3079,6 +3108,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://ui.glass",
+      "count": 1
+    },
+    {
+      "id": "hiq",
+      "name": "hiq",
+      "repo": "https://github.com/jonathanharrell/hiq",
+      "author": "jonathanharrell",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://jonathanharrell.github.io/hiq/",
       "count": 1
     }
   ]

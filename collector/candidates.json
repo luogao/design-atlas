@@ -2,7 +2,7 @@
   {
     "name": "qiz-li/lovelace-soft-ui",
     "url": "https://github.com/qiz-li/lovelace-soft-ui",
-    "stars": 888,
+    "stars": 891,
     "description": "💫 Neumorphic theme for Home Assistant Lovelace",
     "topics": [
       "css",
@@ -43,23 +43,6 @@
     "demo": "https://github.com/harismuneer"
   },
   {
-    "name": "themesberg/glass-ui",
-    "url": "https://github.com/themesberg/glass-ui",
-    "stars": 407,
-    "description": "CSS UI library based on the glassmorphism design specifications",
-    "topics": [
-      "css",
-      "css-library",
-      "glass",
-      "glass-ui",
-      "glassmorphism",
-      "glassmorphism-ui",
-      "html",
-      "javascript"
-    ],
-    "demo": "https://ui.glass"
-  },
-  {
     "name": "jonathanharrell/hiq",
     "url": "https://github.com/jonathanharrell/hiq",
     "source": "troxler/awesome-css-frameworks",
@@ -76,7 +59,7 @@
   {
     "name": "anyblades/blades",
     "url": "https://github.com/anyblades/blades",
-    "stars": 324,
+    "stars": 325,
     "description": "Fully compatible and actively maintained successor to Pico CSS.  Introduces float labels, breakout container and other modern, opt-out helpers. Simply switch `pico.css` to `blades.css` OR use `blades.standalone.css` with other frameworks 🥷✨",
     "topics": [
       "blades-css",
@@ -91,7 +74,7 @@
       "picocss",
       "twig"
     ],
-    "demo": "https://blades.ninja"
+    "demo": "https://blades.dev"
   },
   {
     "name": "Kimeiga/bahunya",
