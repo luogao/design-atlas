@@ -16,7 +16,7 @@
   {
     "name": "harismuneer/Library-Management-System-JAVA",
     "url": "https://github.com/harismuneer/Library-Management-System-JAVA",
-    "stars": 501,
+    "stars": 503,
     "description": "📚 A Library Management System designed in Java while following the concepts of decoupled layers (entities) and minimal code in interface (GUI).",
     "topics": [
       "class-diagram",
@@ -43,23 +43,9 @@
     "demo": "https://github.com/harismuneer"
   },
   {
-    "name": "jonathanharrell/hiq",
-    "url": "https://github.com/jonathanharrell/hiq",
-    "source": "troxler/awesome-css-frameworks",
-    "stars": 328,
-    "description": "A lightweight, progressive, high-IQ CSS framework.",
-    "topics": [
-      "css",
-      "custom-properties",
-      "postcss",
-      "responsive-typography"
-    ],
-    "demo": "https://jonathanharrell.github.io/hiq/"
-  },
-  {
     "name": "anyblades/blades",
     "url": "https://github.com/anyblades/blades",
-    "stars": 325,
+    "stars": 330,
     "description": "Fully compatible and actively maintained successor to Pico CSS.  Introduces float labels, breakout container and other modern, opt-out helpers. Simply switch `pico.css` to `blades.css` OR use `blades.standalone.css` with other frameworks 🥷✨",
     "topics": [
       "blades-css",

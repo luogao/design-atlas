@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 83,
+  "count": 84,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2778,6 +2778,34 @@
       "preview": "systems/hiq/preview.png",
       "one_liner": "hiq — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "blades",
+      "name": "blades",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/anyblades/blades",
+        "author": "anyblades",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/blades/tokens.css",
+      "style_md": "systems/blades/STYLE.md",
+      "demo_url": "https://blades.dev",
+      "preview": "systems/blades/preview.png",
+      "one_liner": "blades — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3119,6 +3147,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://jonathanharrell.github.io/hiq/",
+      "count": 1
+    },
+    {
+      "id": "blades",
+      "name": "blades",
+      "repo": "https://github.com/anyblades/blades",
+      "author": "anyblades",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://blades.dev",
       "count": 1
     }
   ]
