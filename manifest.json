@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 84,
+  "count": 85,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2806,6 +2806,35 @@
       "preview": "systems/blades/preview.png",
       "one_liner": "blades — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "bahunya",
+      "name": "bahunya",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/Kimeiga/bahunya",
+        "author": "Kimeiga",
+        "license": "MIT"
+      },
+      "palette": [
+        "#0f1012",
+        "#17181c",
+        "#202126",
+        "#24262b",
+        "#1b1c20",
+        "#25262b"
+      ],
+      "tokens": "systems/bahunya/tokens.css",
+      "style_md": "systems/bahunya/STYLE.md",
+      "demo_url": "https://hakanalpay.com/bahunya/",
+      "preview": "systems/bahunya/preview.png",
+      "one_liner": "bahunya — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3158,6 +3187,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://blades.dev",
+      "count": 1
+    },
+    {
+      "id": "bahunya",
+      "name": "bahunya",
+      "repo": "https://github.com/Kimeiga/bahunya",
+      "author": "Kimeiga",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://hakanalpay.com/bahunya/",
       "count": 1
     }
   ]

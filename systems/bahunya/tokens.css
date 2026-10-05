@@ -1,0 +1,47 @@
+/* bahunya — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --accent-contrast: #111214;
+  --background: #17181c;
+  --background-alt: #24262b;
+  --background-body: #0f1012;
+  --background-bright: #202126;
+  --border: #292a2f;
+  --border-bright: #55565e;
+  --border-muted: #34353b;
+  --button-hover: #2b2c31;
+  --content-width: 46rem;
+  --control-height: 2.75rem;
+  --focus: #e3bc5e;
+  --focus-background: rgba(227, 188, 94, 0.18);
+  --form-placeholder: #7d7e85;
+  --links: #e3bc5e;
+  --mark-text: #111214;
+  --monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  --nav-background: rgba(0, 0, 0, 0.72);
+  --nav-dropdown: rgba(20, 20, 22, 0.96);
+  --radius: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-pill: 999px;
+  --radius-sm: 0.5rem;
+  --sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji",
+    sans-serif;
+  --selection: #5b4a24;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+  --space-1: 0.25rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --surface-hover: #25262b;
+  --surface-raised: #1b1c20;
+  --text-bright: #f4f4f5;
+  --text-main: #c7c7cc;
+  --text-muted: #8e8e93;
+}

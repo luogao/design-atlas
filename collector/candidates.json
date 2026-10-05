@@ -43,26 +43,6 @@
     "demo": "https://github.com/harismuneer"
   },
   {
-    "name": "anyblades/blades",
-    "url": "https://github.com/anyblades/blades",
-    "stars": 330,
-    "description": "Fully compatible and actively maintained successor to Pico CSS.  Introduces float labels, breakout container and other modern, opt-out helpers. Simply switch `pico.css` to `blades.css` OR use `blades.standalone.css` with other frameworks 🥷✨",
-    "topics": [
-      "blades-css",
-      "classless",
-      "css",
-      "float-label",
-      "html",
-      "jinja",
-      "liquid",
-      "nunjucks",
-      "pico-css",
-      "picocss",
-      "twig"
-    ],
-    "demo": "https://blades.dev"
-  },
-  {
     "name": "Kimeiga/bahunya",
     "url": "https://github.com/Kimeiga/bahunya",
     "stars": 312,
