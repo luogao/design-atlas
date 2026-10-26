@@ -1,4 +1,14 @@
 /* milligram — Design Tokens */
 /* Auto-extracted by Design Atlas Ingestion Agent */
 :root {
+  --border-radius: .4rem;
+  --box-shadow: none;
+  --font-family-primary: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-size-base: 1.6rem;
+  --palette-1: #9b4dca;
+  --palette-2: #606c76;
+  --palette-3: #f4f5f6;
+  --palette-4: #d1d1d1;
+  --palette-5: #ffffff;
+  --palette-6: #e1e1e1;
 }

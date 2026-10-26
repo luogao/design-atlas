@@ -258,19 +258,68 @@ def extract_scss_vars(scss_text):
     return tokens
 
 
+def derive_palette_from_css(css_text):
+    """Fallback when a framework has no CSS/SCSS variables:
+    derive a usable palette + type tokens from literal values in the stylesheet.
+    Many older classless frameworks (milligram, wing) hardcode everything."""
+    tokens = {}
+
+    # 1) Colour literals, ranked by frequency (skip pure #fff/#000 noise tails)
+    from collections import Counter
+    colors = Counter()
+    for m in re.finditer(r'#(?:[0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b', css_text):
+        c = m.group().lower()
+        if len(c) == 4:  # #abc -> #aabbcc
+            c = '#' + ''.join(ch * 2 for ch in c[1:])
+        colors[c] += 1
+    for m in re.finditer(r'rgba?\([^)]+\)', css_text):
+        colors[m.group()] += 1
+    for i, (c, _n) in enumerate(colors.most_common(12), 1):
+        tokens[f'--palette-{i}'] = c
+
+    # 2) Type: most common font-family stack + base size
+    fam = Counter()
+    for m in re.finditer(r'font-family\s*:\s*([^;}]+)', css_text):
+        v = m.group(1).strip()
+        if v and '{' not in v and '$' not in v:
+            fam[v] += 1
+    if fam:
+        tokens['--font-family-primary'] = fam.most_common(1)[0][0]
+    sizes = Counter()
+    for m in re.finditer(r'font-size\s*:\s*([0-9.]+(?:rem|em|px|%))', css_text):
+        sizes[m.group(1)] += 1
+    if sizes:
+        tokens['--font-size-base'] = sizes.most_common(1)[0][0]
+
+    # 3) Radius / spacing signals
+    rad = Counter(re.findall(r'border-radius\s*:\s*([^;}]+)', css_text))
+    if rad:
+        tokens['--border-radius'] = rad.most_common(1)[0][0].strip()
+    sw = Counter(re.findall(r'box-shadow\s*:\s*([^;}]+)', css_text))
+    if sw:
+        tokens['--box-shadow'] = sw.most_common(1)[0][0].strip()
+
+    return tokens
+
+
 def extract_tokens_unified(css_text):
-    """Extract tokens from any CSS/SCSS input — handles CSS vars + SCSS vars."""
+    """Extract tokens from any CSS/SCSS input — handles CSS vars + SCSS vars.
+    Falls back to deriving a palette from literal values if neither exists."""
     tokens = extract_root_css_vars(css_text)
     scss = extract_scss_vars(css_text)
     tokens.update(scss)
+    if not tokens:
+        tokens = derive_palette_from_css(css_text)
     return tokens
 
 
 def generate_tokens_css(tokens, name='Design System'):
-    """Convert extracted tokens to tokens.css file."""
+    """Convert extracted tokens to tokens.css file.
+    SCSS `$name` vars are emitted as `--name` so the file is valid CSS."""
     lines = [f'/* {name} — Design Tokens */', '/* Auto-extracted by Design Atlas Ingestion Agent */', ':root {']
     for k in sorted(tokens.keys()):
-        lines.append(f'  {k}: {tokens[k]};')
+        prop = '--' + k[1:] if k.startswith('$') else k
+        lines.append(f'  {prop}: {tokens[k]};')
     lines.append('}')
     return '\n'.join(lines) + '\n'
 

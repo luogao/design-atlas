@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
-  "updated": "2026-06-21",
+  "updated": "2026-10-26",
   "count": 88,
   "categories": [
     {
@@ -2841,8 +2841,11 @@
       "name": "milligram",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "minimal",
+        "typography",
+        "single-accent",
+        "light",
+        "sans-serif"
       ],
       "source": {
         "type": "theme-css",
@@ -2851,26 +2854,31 @@
         "license": "MIT"
       },
       "palette": [
-        "#333",
-        "#666",
-        "#999",
-        "#ccc",
-        "#fff"
+        "#9b4dca",
+        "#606c76",
+        "#d1d1d1",
+        "#f4f5f6",
+        "#ffffff",
+        "#e1e1e1"
       ],
       "tokens": "systems/milligram/tokens.css",
       "style_md": "systems/milligram/STYLE.md",
       "demo_url": "https://milligram.io",
       "preview": "systems/milligram/preview.png",
-      "one_liner": "milligram — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "极简 CSS 框架 — 单紫色强调 + 宽松留白，2KB 的「排版优先」范本",
+      "best_for": "营销落地页、产品文档、快速原型",
+      "year": 2015
     },
     {
       "id": "mini-css",
       "name": "mini.css",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "minimal",
+        "component-library",
+        "flat",
+        "responsive",
+        "sass"
       ],
       "source": {
         "type": "component-lib",
@@ -2880,26 +2888,30 @@
       },
       "palette": [
         "#0277bd",
-        "#fafafa",
-        "0.95em",
-        "1em",
-        "'inline-block'",
-        "true"
+        "#01579b",
+        "#212121",
+        "#f8f8f8",
+        "#e2e2e2",
+        "#f57c00"
       ],
       "tokens": "systems/mini-css/tokens.css",
       "style_md": "systems/mini-css/STYLE.md",
       "demo_url": "https://chalarangelo.github.io/mini.css",
       "preview": "systems/mini-css/preview.png",
-      "one_liner": "mini.css — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "轻量扁平组件库 — Sass + Flexbox，语义 HTML 直接出界面，自带多套配色风味",
+      "best_for": "后台管理界面、文档站、内部产品",
+      "year": 2016
     },
     {
       "id": "wing",
       "name": "wing",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "minimal",
+        "classless",
+        "system-font",
+        "light",
+        "utility"
       ],
       "source": {
         "type": "theme-css",
@@ -2908,18 +2920,21 @@
         "license": "MIT"
       },
       "palette": [
-        "#333",
-        "#666",
-        "#999",
-        "#ccc",
-        "#fff"
+        "#0062ff",
+        "#111111",
+        "#a7a7a7",
+        "#f5f5f5",
+        "#ff1500",
+        "#ffbf00",
+        "#00b30f"
       ],
       "tokens": "systems/wing/tokens.css",
       "style_md": "systems/wing/STYLE.md",
       "demo_url": "https://kbrsh.github.io/wing",
       "preview": "systems/wing/preview.png",
-      "one_liner": "wing — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "2KB 极简样式底座 — 系统字体栈 + 一个蓝色链接，几乎不用记 class",
+      "best_for": "技术博客、极简产品页、内部工具",
+      "year": 2016
     }
   ],
   "sources": [
