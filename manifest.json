@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 87,
+  "count": 88,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2892,6 +2892,34 @@
       "preview": "systems/mini-css/preview.png",
       "one_liner": "mini.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "wing",
+      "name": "wing",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/kbrsh/wing",
+        "author": "kbrsh",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/wing/tokens.css",
+      "style_md": "systems/wing/STYLE.md",
+      "demo_url": "https://kbrsh.github.io/wing",
+      "preview": "systems/wing/preview.png",
+      "one_liner": "wing — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3277,6 +3305,17 @@
       "license": "MIT",
       "description": "component-lib — 1 styles",
       "url": "https://chalarangelo.github.io/mini.css",
+      "count": 1
+    },
+    {
+      "id": "wing",
+      "name": "wing",
+      "repo": "https://github.com/kbrsh/wing",
+      "author": "kbrsh",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://kbrsh.github.io/wing",
       "count": 1
     }
   ]
