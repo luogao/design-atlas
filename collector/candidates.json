@@ -1,63 +1,147 @@
 [
   {
-    "name": "qiz-li/lovelace-soft-ui",
-    "url": "https://github.com/qiz-li/lovelace-soft-ui",
-    "stars": 891,
-    "description": "💫 Neumorphic theme for Home Assistant Lovelace",
+    "name": "milligram/milligram",
+    "url": "https://github.com/milligram/milligram",
+    "source": "dbohdan/classless-css",
+    "stars": 10216,
+    "description": "A minimalist CSS framework.",
+    "topics": [
+      "amp",
+      "css",
+      "css-framework",
+      "design",
+      "flexbox",
+      "framework",
+      "hacktoberfest",
+      "html",
+      "milligram",
+      "minimalist"
+    ],
+    "demo": "https://milligram.io"
+  },
+  {
+    "name": "chalarangelo/mini.css",
+    "url": "https://github.com/Chalarangelo/mini.css",
+    "source": "dbohdan/classless-css",
+    "stars": 2948,
+    "description": "A minimal, responsive, style-agnostic CSS framework!",
     "topics": [
       "css",
-      "home-assistant",
-      "lovelace",
-      "neumorphism",
-      "soft-ui"
+      "css-framework",
+      "framework",
+      "front-end",
+      "frontend",
+      "mini",
+      "responsive",
+      "sass",
+      "sass-framework",
+      "web-development"
+    ],
+    "demo": "https://chalarangelo.github.io/mini.css"
+  },
+  {
+    "name": "kbrsh/wing",
+    "url": "https://github.com/kbrsh/wing",
+    "source": "dbohdan/classless-css",
+    "stars": 1991,
+    "description": ":gem: A beautiful CSS framework designed for minimalists.",
+    "topics": [],
+    "demo": "https://kbrsh.github.io/wing"
+  },
+  {
+    "name": "lowlighter/matcha",
+    "url": "https://github.com/lowlighter/matcha",
+    "stars": 1943,
+    "description": "🍵 Drop-in semantic styling library in pure CSS. Highly customizable and perfect for simple websites and prototyping web apps!",
+    "topics": [
+      "classless",
+      "classless-css",
+      "css",
+      "css-framework",
+      "design",
+      "minimalist",
+      "semantic-web",
+      "simple",
+      "theme",
+      "web"
+    ],
+    "demo": "https://matcha.mizu.sh"
+  },
+  {
+    "name": "mblode/marx",
+    "url": "https://github.com/mblode/marx",
+    "source": "dbohdan/classless-css",
+    "stars": 1710,
+    "description": "The classless CSS reset (perfect for Communists).",
+    "topics": [
+      "classless-css",
+      "css",
+      "css-framework",
+      "css-reset",
+      "dark-mode",
+      "html",
+      "npm-package"
+    ],
+    "demo": "https://blode.co/marx"
+  },
+  {
+    "name": "wintermute-cell/magick.css",
+    "url": "https://github.com/wintermute-cell/magick.css",
+    "source": "dbohdan/classless-css",
+    "stars": 1040,
+    "description": "magically playful, yet simple styling. all in one file.",
+    "topics": [
+      "brutalism",
+      "classless",
+      "classless-css",
+      "css",
+      "css-framework",
+      "latex",
+      "magic",
+      "old-school",
+      "ttrpg",
+      "webdesign",
+      "wizard"
+    ],
+    "demo": "https://css.winterveil.net"
+  },
+  {
+    "name": "susam/spcss",
+    "url": "https://github.com/susam/spcss",
+    "source": "dbohdan/classless-css",
+    "stars": 970,
+    "description": "A simple, minimal, classless stylesheet for simple HTML pages",
+    "topics": [
+      "boilerplate",
+      "css",
+      "dark-color-theme",
+      "minimalist",
+      "stylesheet"
     ],
     "demo": ""
   },
   {
-    "name": "harismuneer/Library-Management-System-JAVA",
-    "url": "https://github.com/harismuneer/Library-Management-System-JAVA",
-    "stars": 503,
-    "description": "📚 A Library Management System designed in Java while following the concepts of decoupled layers (entities) and minimal code in interface (GUI).",
-    "topics": [
-      "class-diagram",
-      "console-based",
-      "database-management",
-      "design-patterns",
-      "desktop-application",
-      "java",
-      "javadb",
-      "jdbc-database",
-      "library-database",
-      "library-management",
-      "library-management-system",
-      "library-system",
-      "netbeans-project",
-      "object-oriented-analasis-design",
-      "object-oriented-assignment",
-      "object-oriented-design",
-      "persistent-storage",
-      "singleton-pattern",
-      "staruml",
-      "text-based"
-    ],
-    "demo": "https://github.com/harismuneer"
-  },
-  {
-    "name": "Kimeiga/bahunya",
-    "url": "https://github.com/Kimeiga/bahunya",
-    "stars": 312,
-    "description": "10KB classless CSS framework with a navbar and dark styling",
+    "name": "vladocar/basic.css",
+    "url": "https://github.com/vladocar/Basic.css",
+    "source": "dbohdan/classless-css",
+    "stars": 686,
+    "description": "Basic.css - Classless CSS Starter File",
     "topics": [
       "classless",
-      "classless-theme",
+      "classless-css",
+      "classless-css-framework",
       "css",
-      "css-framework",
-      "css3",
-      "framework",
-      "html",
-      "small",
-      "tiny"
+      "css-framework"
     ],
-    "demo": "https://hakanalpay.com/bahunya/"
+    "demo": "https://vladocar.github.io/Basic.css/"
+  },
+  {
+    "name": "programble/writ",
+    "url": "https://github.com/programble/writ",
+    "source": "dbohdan/classless-css",
+    "stars": 466,
+    "description": "Opinionated, classless styles for semantic HTML",
+    "topics": [],
+    "demo": "https://writ.cmcenroe.me"
   }
 ]

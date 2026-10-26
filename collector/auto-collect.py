@@ -28,15 +28,37 @@ def load_manifest():
     with open(MANIFEST_PATH) as f:
         return json.load(f)
 
+def _repo_key(u):
+    """Normalize a repo URL/name for dedupe: owner/repo, lowercase, no .git."""
+    u = (u or '').strip().lower().rstrip('/')
+    u = u.replace('https://github.com/', '').replace('http://github.com/', '')
+    u = u.replace('https://www.github.com/', '')
+    if u.endswith('.git'):
+        u = u[:-4]
+    return u
+
+
 def get_existing_repos(manifest):
     repos = set()
     for s in manifest['systems']:
         repo = s.get('source', {}).get('repo', '') or ''
-        repos.add(repo.rstrip('/'))
+        if repo:
+            repos.add(_repo_key(repo))
+        for key in ('demo_url', 'id'):
+            v = s.get(key) or ''
+            if v:
+                repos.add(_repo_key(v))
+                repos.add(v.strip().lower().rstrip('/'))
     for src in manifest.get('sources', []):
         repo = src.get('repo', '') or ''
         if repo:
-            repos.add(repo.rstrip('/'))
+            repos.add(_repo_key(repo))
+    # system dir slugs — catches repos already ingested under a renamed/ext-* id
+    sysdir = BASE_DIR / 'systems'
+    if sysdir.is_dir():
+        for d in sysdir.iterdir():
+            if d.is_dir() and len(d.name) > 4:
+                repos.add(d.name.lower())
     return repos
 
 # ─── OpenCLI Browser Helpers ───
@@ -209,6 +231,23 @@ def scrape_github_search():
         "design system css retro",
         "design token css theme",
         "retro design tokens",
+        # 补充：classless / 语义化 / 单文件样式（2026-10 扩展，命中率最高）
+        "classless css theme",
+        "semantic css stylesheet theme",
+        "css micro framework classless",
+        "styled html no classes",
+        "css stylesheet for markdown html",
+        "css base stylesheet opinionated",
+        "drop-in css stylesheet simple websites",
+        # 补充：复古 OS / 终端界面复刻
+        "recreation of os ui in css",
+        "css retro computer ui",
+        "windows 3.1 css theme",
+        "crt monitor css theme",
+        # 补充：印刷/艺术
+        "riso print css style",
+        "css zine stylesheet",
+        "pixel art css library",
     ]
     all_repos = []
     seen_urls = set()
@@ -227,54 +266,57 @@ def scrape_github_search():
 # ─── Source 2: awesome-css-frameworks (troxler) README via raw markdown ───
 
 def scrape_awesome_css_list():
-    """从 troxler/awesome-css-frameworks 的 raw markdown 提取 GitHub 链接。
+    """从精选清单的 raw markdown 提取 GitHub 链接。
     raw markdown 含完整 URL，免疫 GitHub 页面 DOM 变更（旧 selectors 已失效）。
-    旧源 AMR2010M/awesome-niche-css 的 README 无任何链接，已弃用。"""
-    log("🔄 Reading troxler/awesome-css-frameworks README (raw markdown)...")
-    # 1) 解析默认分支
-    meta = fetch_github_api("/repos/troxler/awesome-css-frameworks")
-    if not meta or 'default_branch' not in meta:
-        log("  ⚠ could not fetch repo meta")
-        return []
-    branch = meta.get('default_branch', 'master')
-    # 2) 拉 raw readme（尝试常见文件名）
-    body = ''
-    for fname in ('readme.md', 'README.md'):
-        js = (
-            f"(async()=>{{var r=await fetch("
-            f"'https://raw.githubusercontent.com/troxler/awesome-css-frameworks/{branch}/{fname}');"
-            f"if(!r.ok) return 'FAIL_'+r.status; return await r.text()}})()"
-        )
-        out = browser_eval(js)
-        out = '\n'.join(l for l in out.splitlines()
-                        if l.strip() and 'Update available' not in l and 'npm install' not in l).strip()
-        if out and not out.startswith('FAIL_'):
-            body = out
-            break
-    if not body:
-        log("  ⚠ could not fetch readme body")
-        return []
-    # 3) 提取唯一 GitHub repo URL
-    urls = []
-    seen = set()
-    for m in re.finditer(r'https?://github\.com/[\w.\-]+/[\w.\-]+', body):
-        url = m.group().rstrip('/').rstrip(').,;')
-        if '/topics/' in url or '/topic/' in url or '/awesome' in url.lower():
-            continue
-        if url in seen:
-            continue
-        seen.add(url)
-        urls.append(url)
+    旧源 AMR2010M/awesome-niche-css 的 README 无任何链接，已弃用。
+    2026-10: 新增 dbohdan/classless-css（repos 多、更新勤，命中率高）。"""
+    CURATED_LISTS = [
+        'troxler/awesome-css-frameworks',
+        'dbohdan/classless-css',
+    ]
     repos = []
-    for url in urls:
-        parts = url.replace('https://github.com/', '').split('/')
-        if len(parts) >= 2:
-            repos.append({
-                'name': f"{parts[0]}/{parts[1]}",
-                'url': url,
-                'source': 'troxler/awesome-css-frameworks',
-            })
-    log(f"  Found {len(repos)} repo links in readme")
+    seen = set()
+    for lst in CURATED_LISTS:
+        log(f"🔄 Reading {lst} README (raw markdown)...")
+        meta = fetch_github_api(f"/repos/{lst}")
+        if not meta or 'default_branch' not in meta:
+            log(f"  ⚠ could not fetch repo meta ({lst})")
+            continue
+        branch = meta.get('default_branch', 'master')
+        body = ''
+        for fname in ('readme.md', 'README.md', 'README.markdown'):
+            js = (
+                f"(async()=>{{var r=await fetch("
+                f"'https://raw.githubusercontent.com/{lst}/{branch}/{fname}');"
+                f"if(!r.ok) return 'FAIL_'+r.status; return await r.text()}})()"
+            )
+            out = browser_eval(js)
+            out = '\n'.join(l for l in out.splitlines()
+                            if l.strip() and 'Update available' not in l and 'npm install' not in l).strip()
+            if out and not out.startswith('FAIL_'):
+                body = out
+                break
+        if not body:
+            log(f"  ⚠ could not fetch readme body ({lst})")
+            continue
+        count_before = len(repos)
+        for m in re.finditer(r'https?://github\.com/[\w.\-]+/[\w.\-]+', body):
+            url = m.group().rstrip('/').rstrip(').,;')
+            if '/topics/' in url or '/topic/' in url or '/awesome' in url.lower():
+                continue
+            key = _repo_key(url)
+            if key in seen or key == _repo_key(lst):
+                continue
+            seen.add(key)
+            parts = key.split('/')
+            if len(parts) >= 2:
+                repos.append({
+                    'name': f"{parts[0]}/{parts[1]}",
+                    'url': url,
+                    'source': lst,
+                })
+        log(f"  Found {len(repos) - count_before} new repo links ({lst})")
+    log(f"  Curated lists total: {len(repos)} repo links")
     return repos
 
 # ─── Filtering ───
@@ -294,6 +336,9 @@ def is_visual_repo(repo_info):
         'a list of', 'list of awesome', 'awesome-css',
         'awesome niche', 'collection of',
         '动漫', 'discord', '.github community',
+        # 非 CSS 框架：Home Assistant 主题 / 桌面应用 / 元清单
+        'home assistant', 'lovelace', 'ha theme',
+        'management system', 'library management', 'desktop app',
     ]
     if any(s in text_lower for s in hard_skip):
         return False
@@ -345,6 +390,17 @@ def main():
 
     manifest = load_manifest()
     existing_repos = get_existing_repos(manifest)
+
+    def already_in_atlas(url_or_name):
+        """URL / owner-repo / 目录 slug 任一命中即视为已收录"""
+        k = _repo_key(url_or_name)
+        if k in existing_repos:
+            return True
+        leaf = k.split('/')[-1]
+        return (leaf in existing_repos
+                or leaf.replace('.', '-') in existing_repos
+                or leaf.replace('.', '') in existing_repos)
+
     log(f"Already in atlas: {len(existing_repos)} sources")
 
     # Open browser session
@@ -355,7 +411,7 @@ def main():
     # Source 1: GitHub Search
     search_results = scrape_github_search()
     new_from_search = [r for r in search_results
-                       if r['url'].rstrip('/') not in existing_repos
+                       if not already_in_atlas(r['url'])
                        and r['stars'] >= MIN_STARS
                        and is_visual_repo(r)]
     log(f"Search total: {len(search_results)}, qualified new: {len(new_from_search)}")
@@ -366,7 +422,7 @@ def main():
     new_niche = []
     existing_in_candidates = {c['url'] for c in candidates}
     for r in niche:
-        if r['url'].rstrip('/') in existing_repos:
+        if already_in_atlas(r['url']):
             continue
         if r['url'] in existing_in_candidates:
             continue
@@ -438,8 +494,14 @@ def main():
 
     if ingested > 0:
         log(f"\n↗️  Pushing...")
-        subprocess.run(['git', 'push'], cwd=str(BASE_DIR), capture_output=True)
-        log("✅ Cloudflare Pages deployed")
+        push = subprocess.run(['git', 'push'], cwd=str(BASE_DIR),
+                              capture_output=True, text=True)
+        if push.returncode == 0:
+            log("✅ git push OK → Cloudflare Pages deploy triggered")
+        else:
+            log(f"⚠️  git push exit {push.returncode}: "
+                f"{((push.stderr or '') + (push.stdout or '')).strip()[:200]}")
+            log("   SSH may be Clash-proxied — verify remote HEAD via GitHub API")
 
     log(f"\n{'='*50}")
     log(f"📊 {ingested}/{len(candidates)} ingested")

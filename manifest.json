@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 85,
+  "count": 86,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2835,6 +2835,34 @@
       "preview": "systems/bahunya/preview.png",
       "one_liner": "bahunya — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "milligram",
+      "name": "milligram",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/milligram/milligram",
+        "author": "milligram",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333",
+        "#666",
+        "#999",
+        "#ccc",
+        "#fff"
+      ],
+      "tokens": "systems/milligram/tokens.css",
+      "style_md": "systems/milligram/STYLE.md",
+      "demo_url": "https://milligram.io",
+      "preview": "systems/milligram/preview.png",
+      "one_liner": "milligram — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3198,6 +3226,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://hakanalpay.com/bahunya/",
+      "count": 1
+    },
+    {
+      "id": "milligram",
+      "name": "milligram",
+      "repo": "https://github.com/milligram/milligram",
+      "author": "milligram",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://milligram.io",
       "count": 1
     }
   ]
