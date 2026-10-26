@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 86,
+  "count": 87,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2863,6 +2863,35 @@
       "preview": "systems/milligram/preview.png",
       "one_liner": "milligram — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "mini-css",
+      "name": "mini.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/Chalarangelo/mini.css",
+        "author": "Chalarangelo",
+        "license": "MIT"
+      },
+      "palette": [
+        "#0277bd",
+        "#fafafa",
+        "0.95em",
+        "1em",
+        "'inline-block'",
+        "true"
+      ],
+      "tokens": "systems/mini-css/tokens.css",
+      "style_md": "systems/mini-css/STYLE.md",
+      "demo_url": "https://chalarangelo.github.io/mini.css",
+      "preview": "systems/mini-css/preview.png",
+      "one_liner": "mini.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3237,6 +3266,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://milligram.io",
+      "count": 1
+    },
+    {
+      "id": "mini-css",
+      "name": "mini.css",
+      "repo": "https://github.com/Chalarangelo/mini.css",
+      "author": "Chalarangelo",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://chalarangelo.github.io/mini.css",
       "count": 1
     }
   ]
