@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>mini.css — Default flavor</title>
+<link rel="stylesheet" href="mini-default.css">
+<style>
+  body { padding: 2rem; }
+  .demo-head { display:flex; align-items:baseline; gap:.75rem; margin-bottom:1rem; }
+  .demo-head h1 { margin:0; font-size:2.4rem; letter-spacing:-.02em; }
+  .demo-head small { color:#777; font-size:1rem; }
+  .grid-demo { display:grid; grid-template-columns:1.2fr 1fr; gap:1.5rem; align-items:start; }
+  .swatches { display:flex; gap:.4rem; margin:.5rem 0 1rem; }
+  .swatches span { width:34px; height:34px; display:block; border:1px solid #00000014; }
+  .tag { display:inline-block; font-size:.75rem; padding:.15rem .5rem; border:1px solid #0277bd; color:#0277bd; border-radius:.125rem; margin-right:.3rem; }
+  h2 { font-size:1.35rem; font-weight:500; margin-top:1rem; }
+</style>
+</head>
+<body>
+<div class="demo-head">
+  <h1>mini.css</h1>
+  <small>A minimal, responsive, style-agnostic CSS framework — under 7KB gzipped</small>
+</div>
+
+<div class="swatches">
+  <span style="background:#0277bd"></span><span style="background:#01579b"></span>
+  <span style="background:#212121"></span><span style="background:#f8f8f8"></span>
+  <span style="background:#e2e2e2"></span><span style="background:#aaa"></span>
+  <span style="background:#f57c00"></span>
+</div>
+
+<span class="tag">Sass</span><span class="tag">Flexbox</span><span class="tag">Responsive</span><span class="tag">Flavor: Default</span>
+
+<div class="grid-demo">
+  <div>
+    <h2>Typography &amp; components</h2>
+    <p>The framework styles semantic HTML out of the box — headings, paragraphs, blockquotes and code need no classes.</p>
+    <blockquote>Responsiveness, ease of use and customization are the main features of the framework.</blockquote>
+    <p><button>Primary button</button> <button disabled>Disabled</button></p>
+    <table>
+      <thead><tr><th>Component</th><th>Class</th><th>State</th></tr></thead>
+      <tbody>
+        <tr><td>Card</td><td><code>.card</code></td><td>stable</td></tr>
+        <tr><td>Modal</td><td><code>.modal</code></td><td>stable</td></tr>
+        <tr><td>Toast</td><td><code>.toast</code></td><td>stable</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h2>Form</h2>
+    <form>
+      <label for="n">Project name</label>
+      <input id="n" type="text" placeholder="atlas-entry">
+      <label for="f">Flavor</label>
+      <select id="f"><option>Default</option><option>Dark</option><option>Nord</option></select>
+      <label for="m">Notes</label>
+      <textarea id="m" rows="3" placeholder="Notes…"></textarea>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
