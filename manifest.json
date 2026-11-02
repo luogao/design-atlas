@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
-  "updated": "2026-06-21",
+  "updated": "2026-11-02",
   "count": 91,
   "categories": [
     {
@@ -2941,8 +2941,11 @@
       "name": "matcha",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "classless",
+        "semantic",
+        "modular",
+        "minimal",
+        "dark-mode"
       ],
       "source": {
         "type": "theme-css",
@@ -2951,26 +2954,34 @@
         "license": "MIT"
       },
       "palette": [
-        "#00ebe5",
-        "#e80d48",
-        "rgba(100, 0, 0, 0.2)",
-        "85%",
-        "var(--bd-radius)"
+        "#0969da",
+        "#4493f8",
+        "#1f2328",
+        "#656d76",
+        "#ddf4ff",
+        "#e6edf3",
+        "#010409",
+        "#8250df",
+        "#d1242f"
       ],
       "tokens": "systems/matcha/tokens.css",
       "style_md": "systems/matcha/STYLE.md",
       "demo_url": "https://matcha.mizu.sh",
       "preview": "systems/matcha/preview.png",
-      "one_liner": "matcha — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "语义化 drop-in 样式库 — 裸 HTML 直接出界面，GitHub Primer 鉴色 + 明暗双主题，可按 mod 拆分只引需要的部分",
+      "best_for": "技术文档、Markdown 内容站、静态原型、需要明暗切换的页面",
+      "year": 2024
     },
     {
       "id": "marx",
-      "name": "marx",
+      "name": "Marx",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "classless",
+        "minimal",
+        "reset",
+        "oklch",
+        "dark-mode"
       ],
       "source": {
         "type": "theme-css",
@@ -2979,28 +2990,36 @@
         "license": "MIT"
       },
       "palette": [
-        "var(--marx-font-body)",
-        "1em",
-        "var(--marx-radius)",
-        "none"
+        "#165dfc",
+        "#1447e6",
+        "#f6f7f8",
+        "#1c1f24",
+        "#e7000b",
+        "#139948",
+        "#d78d00",
+        "#f4ce23"
       ],
       "tokens": "systems/marx/tokens.css",
       "style_md": "systems/marx/STYLE.md",
       "demo_url": "https://blode.co/marx",
       "preview": "systems/marx/preview.png",
-      "one_liner": "marx — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "零 class 的极简重置 — 全选择器零特异性，你的 CSS 永远覆盖；oklch 令牌 + light-dark() 免 JS 自动暗色",
+      "best_for": "小项目、个人主页、README 级落地页、已有 CSS 时的样式底座",
+      "year": 2015
     },
     {
       "id": "magick-css",
       "name": "magick.css",
-      "category": "web-eras",
+      "category": "design-movements",
       "tags": [
-        "warm",
-        "duotone"
+        "classless",
+        "single-file",
+        "serif",
+        "playful",
+        "monochrome"
       ],
       "source": {
-        "type": "component-lib",
+        "type": "theme-css",
         "repo": "https://github.com/wintermute-cell/magick.css",
         "author": "wintermute-cell",
         "license": "MIT"
@@ -3008,16 +3027,16 @@
       "palette": [
         "#fefefe",
         "#0e0e0e",
-        "#1a1a1a",
-        "#fefefe",
-        "#fefefe9a"
+        "#fbfbfb",
+        "#00004d"
       ],
       "tokens": "systems/magick-css/tokens.css",
       "style_md": "systems/magick-css/STYLE.md",
       "demo_url": "https://css.winterveil.net",
       "preview": "systems/magick-css/preview.png",
-      "one_liner": "magick.css — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "单文件「魔法书」风 — 纯黑白 + 古籍衬线排版，旁注浮到页边，裸 HTML 读起来像手稿",
+      "best_for": "长文阅读页、TTRPG 设定集、个人手记、教程文档",
+      "year": 2024
     }
   ],
   "sources": [
@@ -3423,7 +3442,7 @@
       "author": "lowlighter",
       "type": "theme-css",
       "license": "MIT",
-      "description": "theme-css — 1 styles",
+      "description": "语义化 drop-in 样式库（1942 ⭐）— 裸 HTML 自动成型，GitHub Primer 蓝调配色，明暗双主题，mods 可按元素拆分引入。",
       "url": "https://matcha.mizu.sh",
       "count": 1
     },
@@ -3434,7 +3453,7 @@
       "author": "mblode",
       "type": "theme-css",
       "license": "MIT",
-      "description": "theme-css — 1 styles",
+      "description": "零 class 极简重置（1710 ⭐）— 全选择器 :where() 零特异性，oklch 令牌 + light-dark() 自动暗色，不用一行 JS。",
       "url": "https://blode.co/marx",
       "count": 1
     },
@@ -3443,9 +3462,9 @@
       "name": "magick.css",
       "repo": "https://github.com/wintermute-cell/magick.css",
       "author": "wintermute-cell",
-      "type": "component-lib",
+      "type": "theme-css",
       "license": "MIT",
-      "description": "component-lib — 1 styles",
+      "description": "单文件魔法书风 CSS（1041 ⭐，20KB）— 纯黑白古籍衬线排版，旁注浮页边、计数器自动编号，prefers-color-scheme 自动暗色。",
       "url": "https://css.winterveil.net",
       "count": 1
     }

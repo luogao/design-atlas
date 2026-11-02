@@ -1,9 +1,16 @@
 /* magick.css — Design Tokens */
-/* Auto-extracted by Design Atlas Ingestion Agent */
+/* Curated by Design Atlas collector (source: magick.css v1.0.5, :root light theme) */
 :root {
-  --bg: #0e0e0e;
-  --fg: #fefefe;
-  --form-bg: #1a1a1a;
-  --form-fg: #fefefe;
-  --form-fg-placeholder: #fefefe9a;
+  --font-family-primary: "Averia Serif Libre", serif;
+  --font-family-display: "Averia Libre", cursive;
+  --font-family-serif: "Spectral", serif;
+  --font-family-hand: "Caveat", cursive;
+  --font-family-mono: "Courier Prime", monospace;
+  --font-size-base: 1.8rem;
+  --line-height-base: 2.2rem;
+  --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  --palette-1: #fefefe;
+  --palette-2: #0e0e0e;
+  --palette-3: #fbfbfb;
+  --palette-4: #00004d;
 }
