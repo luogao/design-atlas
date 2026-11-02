@@ -1,0 +1,8 @@
+/* marx — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --border-radius: var(--marx-radius);
+  --box-shadow: none;
+  --font-family-primary: var(--marx-font-body);
+  --font-size-base: 1em;
+}

@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 89,
+  "count": 90,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2963,6 +2963,33 @@
       "preview": "systems/matcha/preview.png",
       "one_liner": "matcha — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "marx",
+      "name": "marx",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/mblode/marx",
+        "author": "mblode",
+        "license": "MIT"
+      },
+      "palette": [
+        "var(--marx-font-body)",
+        "1em",
+        "var(--marx-radius)",
+        "none"
+      ],
+      "tokens": "systems/marx/tokens.css",
+      "style_md": "systems/marx/STYLE.md",
+      "demo_url": "https://blode.co/marx",
+      "preview": "systems/marx/preview.png",
+      "one_liner": "marx — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3370,6 +3397,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://matcha.mizu.sh",
+      "count": 1
+    },
+    {
+      "id": "marx",
+      "name": "marx",
+      "repo": "https://github.com/mblode/marx",
+      "author": "mblode",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://blode.co/marx",
       "count": 1
     }
   ]
