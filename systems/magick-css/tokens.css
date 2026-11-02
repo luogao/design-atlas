@@ -1,0 +1,9 @@
+/* magick.css — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --bg: #0e0e0e;
+  --fg: #fefefe;
+  --form-bg: #1a1a1a;
+  --form-fg: #fefefe;
+  --form-fg-placeholder: #fefefe9a;
+}

@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 90,
+  "count": 91,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2990,6 +2990,34 @@
       "preview": "systems/marx/preview.png",
       "one_liner": "marx — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "magick-css",
+      "name": "magick.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "component-lib",
+        "repo": "https://github.com/wintermute-cell/magick.css",
+        "author": "wintermute-cell",
+        "license": "MIT"
+      },
+      "palette": [
+        "#fefefe",
+        "#0e0e0e",
+        "#1a1a1a",
+        "#fefefe",
+        "#fefefe9a"
+      ],
+      "tokens": "systems/magick-css/tokens.css",
+      "style_md": "systems/magick-css/STYLE.md",
+      "demo_url": "https://css.winterveil.net",
+      "preview": "systems/magick-css/preview.png",
+      "one_liner": "magick.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3408,6 +3436,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://blode.co/marx",
+      "count": 1
+    },
+    {
+      "id": "magick-css",
+      "name": "magick.css",
+      "repo": "https://github.com/wintermute-cell/magick.css",
+      "author": "wintermute-cell",
+      "type": "component-lib",
+      "license": "MIT",
+      "description": "component-lib — 1 styles",
+      "url": "https://css.winterveil.net",
       "count": 1
     }
   ]
