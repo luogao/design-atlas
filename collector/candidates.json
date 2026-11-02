@@ -1,57 +1,8 @@
 [
   {
-    "name": "milligram/milligram",
-    "url": "https://github.com/milligram/milligram",
-    "source": "dbohdan/classless-css",
-    "stars": 10216,
-    "description": "A minimalist CSS framework.",
-    "topics": [
-      "amp",
-      "css",
-      "css-framework",
-      "design",
-      "flexbox",
-      "framework",
-      "hacktoberfest",
-      "html",
-      "milligram",
-      "minimalist"
-    ],
-    "demo": "https://milligram.io"
-  },
-  {
-    "name": "chalarangelo/mini.css",
-    "url": "https://github.com/Chalarangelo/mini.css",
-    "source": "dbohdan/classless-css",
-    "stars": 2948,
-    "description": "A minimal, responsive, style-agnostic CSS framework!",
-    "topics": [
-      "css",
-      "css-framework",
-      "framework",
-      "front-end",
-      "frontend",
-      "mini",
-      "responsive",
-      "sass",
-      "sass-framework",
-      "web-development"
-    ],
-    "demo": "https://chalarangelo.github.io/mini.css"
-  },
-  {
-    "name": "kbrsh/wing",
-    "url": "https://github.com/kbrsh/wing",
-    "source": "dbohdan/classless-css",
-    "stars": 1991,
-    "description": ":gem: A beautiful CSS framework designed for minimalists.",
-    "topics": [],
-    "demo": "https://kbrsh.github.io/wing"
-  },
-  {
     "name": "lowlighter/matcha",
     "url": "https://github.com/lowlighter/matcha",
-    "stars": 1943,
+    "stars": 1942,
     "description": "🍵 Drop-in semantic styling library in pure CSS. Highly customizable and perfect for simple websites and prototyping web apps!",
     "topics": [
       "classless",
@@ -88,7 +39,7 @@
     "name": "wintermute-cell/magick.css",
     "url": "https://github.com/wintermute-cell/magick.css",
     "source": "dbohdan/classless-css",
-    "stars": 1040,
+    "stars": 1041,
     "description": "magically playful, yet simple styling. all in one file.",
     "topics": [
       "brutalism",
@@ -124,7 +75,7 @@
     "name": "vladocar/basic.css",
     "url": "https://github.com/vladocar/Basic.css",
     "source": "dbohdan/classless-css",
-    "stars": 686,
+    "stars": 685,
     "description": "Basic.css - Classless CSS Starter File",
     "topics": [
       "classless",

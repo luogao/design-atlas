@@ -1,0 +1,9 @@
+/* matcha — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --border-radius: var(--bd-radius);
+  --font-size-base: 85%;
+  --palette-1: #00ebe5;
+  --palette-2: #e80d48;
+  --palette-3: rgba(100, 0, 0, 0.2);
+}

@@ -1,8 +1,8 @@
 {
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
-  "updated": "2026-10-26",
-  "count": 88,
+  "updated": "2026-06-21",
+  "count": 89,
   "categories": [
     {
       "id": "os-interfaces",
@@ -2935,6 +2935,34 @@
       "one_liner": "2KB 极简样式底座 — 系统字体栈 + 一个蓝色链接，几乎不用记 class",
       "best_for": "技术博客、极简产品页、内部工具",
       "year": 2016
+    },
+    {
+      "id": "matcha",
+      "name": "matcha",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/lowlighter/matcha",
+        "author": "lowlighter",
+        "license": "MIT"
+      },
+      "palette": [
+        "#00ebe5",
+        "#e80d48",
+        "rgba(100, 0, 0, 0.2)",
+        "85%",
+        "var(--bd-radius)"
+      ],
+      "tokens": "systems/matcha/tokens.css",
+      "style_md": "systems/matcha/STYLE.md",
+      "demo_url": "https://matcha.mizu.sh",
+      "preview": "systems/matcha/preview.png",
+      "one_liner": "matcha — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3331,6 +3359,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://kbrsh.github.io/wing",
+      "count": 1
+    },
+    {
+      "id": "matcha",
+      "name": "matcha",
+      "repo": "https://github.com/lowlighter/matcha",
+      "author": "lowlighter",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://matcha.mizu.sh",
       "count": 1
     }
   ]
