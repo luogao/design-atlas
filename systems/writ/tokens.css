@@ -1,0 +1,15 @@
+/* writ — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --border-radius: 2px;
+  --font-family-primary: Palatino,Georgia,Lucida Bright,Book Antiqua,serif;
+  --font-size-base: 16px;
+  --palette-1: rgba(0,0,0,.05);
+  --palette-2: #111111;
+  --palette-3: #222222;
+  --palette-4: #0000ee;
+  --palette-5: #6600bb;
+  --palette-6: #ffee00;
+  --palette-7: #dbdbdb;
+  --palette-8: rgba(0,0,0,.1);
+}

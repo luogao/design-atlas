@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 93,
+  "count": 94,
   "categories": [
     {
       "id": "os-interfaces",
@@ -3095,6 +3095,35 @@
       "preview": "systems/basic-css/preview.png",
       "one_liner": "Basic.css — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "writ",
+      "name": "writ",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/programble/writ",
+        "author": "programble",
+        "license": "MIT"
+      },
+      "palette": [
+        "rgba(0,0,0,.05)",
+        "#111111",
+        "#222222",
+        "#0000ee",
+        "#6600bb",
+        "#ffee00"
+      ],
+      "tokens": "systems/writ/tokens.css",
+      "style_md": "systems/writ/STYLE.md",
+      "demo_url": "https://writ.cmcenroe.me",
+      "preview": "systems/writ/preview.png",
+      "one_liner": "writ — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3546,6 +3575,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://vladocar.github.io/Basic.css/",
+      "count": 1
+    },
+    {
+      "id": "writ",
+      "name": "writ",
+      "repo": "https://github.com/programble/writ",
+      "author": "programble",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://writ.cmcenroe.me",
       "count": 1
     }
   ]
