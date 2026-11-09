@@ -2,7 +2,7 @@
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
   "updated": "2026-06-21",
-  "count": 92,
+  "count": 93,
   "categories": [
     {
       "id": "os-interfaces",
@@ -3066,6 +3066,35 @@
       "preview": "systems/spcss/preview.png",
       "one_liner": "spcss — 设计系统",
       "best_for": "多种场景"
+    },
+    {
+      "id": "basic-css",
+      "name": "Basic.css",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/vladocar/Basic.css",
+        "author": "vladocar",
+        "license": "MIT"
+      },
+      "palette": [
+        "1em/1.6 system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif",
+        "SFMono-Regular,Consolas,'Liberation Mono',Menlo,Courier,'Courier New',monospace",
+        "#0074d9",
+        "#333",
+        "#1e1f20",
+        "#000"
+      ],
+      "tokens": "systems/basic-css/tokens.css",
+      "style_md": "systems/basic-css/STYLE.md",
+      "demo_url": "https://vladocar.github.io/Basic.css/",
+      "preview": "systems/basic-css/preview.png",
+      "one_liner": "Basic.css — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3506,6 +3535,17 @@
       "license": "MIT",
       "description": "theme-css — 1 styles",
       "url": "https://susam.github.io/spcss/",
+      "count": 1
+    },
+    {
+      "id": "basic-css",
+      "name": "Basic.css",
+      "repo": "https://github.com/vladocar/Basic.css",
+      "author": "vladocar",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://vladocar.github.io/Basic.css/",
       "count": 1
     }
   ]
