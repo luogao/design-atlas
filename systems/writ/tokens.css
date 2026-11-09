@@ -1,15 +1,18 @@
 /* writ — Design Tokens */
-/* Auto-extracted by Design Atlas Ingestion Agent */
+/* Curated by Design Atlas collector (source: writ.css v1.0.4) */
 :root {
-  --border-radius: 2px;
-  --font-family-primary: Palatino,Georgia,Lucida Bright,Book Antiqua,serif;
+  --font-family-primary: Palatino, Georgia, "Lucida Bright", "Book Antiqua", serif;
+  --font-family-mono: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   --font-size-base: 16px;
-  --palette-1: rgba(0,0,0,.05);
-  --palette-2: #111111;
-  --palette-3: #222222;
+  --line-height: 1.5rem;
+  --measure: 78ch;
+  --border-radius: 2px;
+  --palette-1: #ffffff;
+  --palette-2: #222222;
+  --palette-3: #111111;
   --palette-4: #0000ee;
   --palette-5: #6600bb;
   --palette-6: #ffee00;
-  --palette-7: #dbdbdb;
-  --palette-8: rgba(0,0,0,.1);
+  --palette-7: #f2f2f2;
+  --palette-8: #dbdbdb;
 }

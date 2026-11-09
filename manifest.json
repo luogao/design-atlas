@@ -3043,8 +3043,12 @@
       "name": "spcss",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "classless",
+        "minimal",
+        "sans",
+        "monochrome",
+        "single-file",
+        "dark-mode"
       ],
       "source": {
         "type": "theme-css",
@@ -3055,25 +3059,33 @@
       "palette": [
         "#333333",
         "#0000ee",
-        "#551188",
         "#0033ff",
+        "#551188",
         "#ee0000",
-        "#005500"
+        "#005500",
+        "#773300",
+        "#eeeeee",
+        "#111111"
       ],
       "tokens": "systems/spcss/tokens.css",
       "style_md": "systems/spcss/STYLE.md",
       "demo_url": "https://susam.github.io/spcss/",
       "preview": "systems/spcss/preview.png",
-      "one_liner": "spcss — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "1KB 级极小 classless 样式表 — 40em 阅读宽度 + Helvetica 正文 + 经典 Web 蓝链接，裸 HTML 直接能读，自带暗色",
+      "best_for": "README 页、个人笔记、脚本输出报告、极小的静态站点",
+      "year": 2020
     },
     {
       "id": "basic-css",
       "name": "Basic.css",
       "category": "web-eras",
       "tags": [
-        "warm",
-        "duotone"
+        "classless",
+        "minimal",
+        "sans",
+        "grid",
+        "responsive",
+        "dark-mode"
       ],
       "source": {
         "type": "theme-css",
@@ -3082,48 +3094,55 @@
         "license": "MIT"
       },
       "palette": [
-        "1em/1.6 system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif",
-        "SFMono-Regular,Consolas,'Liberation Mono',Menlo,Courier,'Courier New',monospace",
         "#0074d9",
-        "#333",
-        "#1e1f20",
-        "#000"
+        "#000000",
+        "#eeeeee",
+        "#ffffff",
+        "#333333",
+        "#1e1f20"
       ],
       "tokens": "systems/basic-css/tokens.css",
       "style_md": "systems/basic-css/STYLE.md",
       "demo_url": "https://vladocar.github.io/Basic.css/",
       "preview": "systems/basic-css/preview.png",
-      "one_liner": "Basic.css — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "8 个变量的 classless 起步文件 — system-ui 正文 + 8px 圆角 + 单一蓝强调 #0074d9，靠 section 嵌套就能搭出 flex 网格",
+      "best_for": "快速原型、卡片式介绍页、不写 class 的小站点",
+      "year": 2020
     },
     {
       "id": "writ",
       "name": "writ",
-      "category": "web-eras",
+      "category": "print-craft",
       "tags": [
-        "warm",
-        "duotone"
+        "classless",
+        "serif",
+        "minimal",
+        "print",
+        "bookish",
+        "semantic"
       ],
       "source": {
         "type": "theme-css",
         "repo": "https://github.com/programble/writ",
         "author": "programble",
-        "license": "MIT"
+        "license": "ISC"
       },
       "palette": [
-        "rgba(0,0,0,.05)",
-        "#111111",
+        "#ffffff",
         "#222222",
         "#0000ee",
         "#6600bb",
-        "#ffee00"
+        "#ffee00",
+        "#f2f2f2",
+        "#dbdbdb"
       ],
       "tokens": "systems/writ/tokens.css",
       "style_md": "systems/writ/STYLE.md",
       "demo_url": "https://writ.cmcenroe.me",
       "preview": "systems/writ/preview.png",
-      "one_liner": "writ — 设计系统",
-      "best_for": "多种场景"
+      "one_liner": "2015 年的「印刷书页」classless 样式 — Palatino 衬线 + 1.5rem 垂直节奏 + ch 单位测宽，旁注浮到页边，读起来像排过版的纸书",
+      "best_for": "长文、散文、书籍式文档、个人日志",
+      "year": 2015
     }
   ],
   "sources": [
@@ -3562,7 +3581,7 @@
       "author": "susam",
       "type": "theme-css",
       "license": "MIT",
-      "description": "theme-css — 1 styles",
+      "description": "susam 的极小 classless 样式表：单文件 1.7KB、40em 居中单栏、经典 Web 四态链接色，自带 prefers-color-scheme 暗色，无 JS 无 Web Font",
       "url": "https://susam.github.io/spcss/",
       "count": 1
     },
@@ -3573,7 +3592,7 @@
       "author": "vladocar",
       "type": "theme-css",
       "license": "MIT",
-      "description": "theme-css — 1 styles",
+      "description": "Vladocar 的 classless 起步文件：只有 8 个自定义变量（品牌蓝 + 8px 圆角/间距 + 两套字体栈），section 嵌套即 flex 栅格，暗色靠变量翻转",
       "url": "https://vladocar.github.io/Basic.css/",
       "count": 1
     },
@@ -3583,8 +3602,8 @@
       "repo": "https://github.com/programble/writ",
       "author": "programble",
       "type": "theme-css",
-      "license": "MIT",
-      "description": "theme-css — 1 styles",
+      "license": "ISC",
+      "description": "Curtis McEnroe 的文本优先样式表：Palatino 正文、minor-third 字阶、78ch 测宽、aside/figure 浮页边做旁注，3KB 无 JS",
       "url": "https://writ.cmcenroe.me",
       "count": 1
     }

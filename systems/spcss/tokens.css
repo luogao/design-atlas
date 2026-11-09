@@ -1,17 +1,21 @@
 /* spcss — Design Tokens */
-/* Auto-extracted by Design Atlas Ingestion Agent */
+/* Curated by Design Atlas collector (source: sp.css, main branch) */
 :root {
-  --font-family-primary: monospace, monospace;
+  --font-family-primary: helvetica, arial, sans-serif;
+  --font-family-mono: monospace, monospace;
+  --font-size-base: 16px;
+  --line-height: 1.5;
+  --measure: 40em;
   --palette-1: #333333;
-  --palette-10: #999999;
-  --palette-11: #111111;
-  --palette-12: #bbbbbb;
   --palette-2: #0000ee;
-  --palette-3: #551188;
-  --palette-4: #0033ff;
+  --palette-3: #0033ff;
+  --palette-4: #551188;
   --palette-5: #ee0000;
   --palette-6: #005500;
   --palette-7: #773300;
   --palette-8: #eeeeee;
   --palette-9: #cccccc;
+  --palette-10: #999999;
+  --palette-11: #111111;
+  --palette-12: #bbbbbb;
 }
