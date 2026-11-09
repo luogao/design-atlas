@@ -1,66 +1,9 @@
 [
   {
-    "name": "lowlighter/matcha",
-    "url": "https://github.com/lowlighter/matcha",
-    "stars": 1942,
-    "description": "🍵 Drop-in semantic styling library in pure CSS. Highly customizable and perfect for simple websites and prototyping web apps!",
-    "topics": [
-      "classless",
-      "classless-css",
-      "css",
-      "css-framework",
-      "design",
-      "minimalist",
-      "semantic-web",
-      "simple",
-      "theme",
-      "web"
-    ],
-    "demo": "https://matcha.mizu.sh"
-  },
-  {
-    "name": "mblode/marx",
-    "url": "https://github.com/mblode/marx",
-    "source": "dbohdan/classless-css",
-    "stars": 1710,
-    "description": "The classless CSS reset (perfect for Communists).",
-    "topics": [
-      "classless-css",
-      "css",
-      "css-framework",
-      "css-reset",
-      "dark-mode",
-      "html",
-      "npm-package"
-    ],
-    "demo": "https://blode.co/marx"
-  },
-  {
-    "name": "wintermute-cell/magick.css",
-    "url": "https://github.com/wintermute-cell/magick.css",
-    "source": "dbohdan/classless-css",
-    "stars": 1041,
-    "description": "magically playful, yet simple styling. all in one file.",
-    "topics": [
-      "brutalism",
-      "classless",
-      "classless-css",
-      "css",
-      "css-framework",
-      "latex",
-      "magic",
-      "old-school",
-      "ttrpg",
-      "webdesign",
-      "wizard"
-    ],
-    "demo": "https://css.winterveil.net"
-  },
-  {
     "name": "susam/spcss",
     "url": "https://github.com/susam/spcss",
     "source": "dbohdan/classless-css",
-    "stars": 970,
+    "stars": 969,
     "description": "A simple, minimal, classless stylesheet for simple HTML pages",
     "topics": [
       "boilerplate",

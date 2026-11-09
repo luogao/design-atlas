@@ -1,0 +1,17 @@
+/* spcss — Design Tokens */
+/* Auto-extracted by Design Atlas Ingestion Agent */
+:root {
+  --font-family-primary: monospace, monospace;
+  --palette-1: #333333;
+  --palette-10: #999999;
+  --palette-11: #111111;
+  --palette-12: #bbbbbb;
+  --palette-2: #0000ee;
+  --palette-3: #551188;
+  --palette-4: #0033ff;
+  --palette-5: #ee0000;
+  --palette-6: #005500;
+  --palette-7: #773300;
+  --palette-8: #eeeeee;
+  --palette-9: #cccccc;
+}

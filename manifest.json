@@ -1,8 +1,8 @@
 {
   "$schema": "./manifest.schema.json",
   "version": "1.0.0",
-  "updated": "2026-11-02",
-  "count": 91,
+  "updated": "2026-06-21",
+  "count": 92,
   "categories": [
     {
       "id": "os-interfaces",
@@ -3037,6 +3037,35 @@
       "one_liner": "单文件「魔法书」风 — 纯黑白 + 古籍衬线排版，旁注浮到页边，裸 HTML 读起来像手稿",
       "best_for": "长文阅读页、TTRPG 设定集、个人手记、教程文档",
       "year": 2024
+    },
+    {
+      "id": "spcss",
+      "name": "spcss",
+      "category": "web-eras",
+      "tags": [
+        "warm",
+        "duotone"
+      ],
+      "source": {
+        "type": "theme-css",
+        "repo": "https://github.com/susam/spcss",
+        "author": "susam",
+        "license": "MIT"
+      },
+      "palette": [
+        "#333333",
+        "#0000ee",
+        "#551188",
+        "#0033ff",
+        "#ee0000",
+        "#005500"
+      ],
+      "tokens": "systems/spcss/tokens.css",
+      "style_md": "systems/spcss/STYLE.md",
+      "demo_url": "https://susam.github.io/spcss/",
+      "preview": "systems/spcss/preview.png",
+      "one_liner": "spcss — 设计系统",
+      "best_for": "多种场景"
     }
   ],
   "sources": [
@@ -3466,6 +3495,17 @@
       "license": "MIT",
       "description": "单文件魔法书风 CSS（1041 ⭐，20KB）— 纯黑白古籍衬线排版，旁注浮页边、计数器自动编号，prefers-color-scheme 自动暗色。",
       "url": "https://css.winterveil.net",
+      "count": 1
+    },
+    {
+      "id": "spcss",
+      "name": "spcss",
+      "repo": "https://github.com/susam/spcss",
+      "author": "susam",
+      "type": "theme-css",
+      "license": "MIT",
+      "description": "theme-css — 1 styles",
+      "url": "https://susam.github.io/spcss/",
       "count": 1
     }
   ]
